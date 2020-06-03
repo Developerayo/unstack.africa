@@ -249,17 +249,17 @@ const HomePage = (props) => (
                   </p>
                   <ul className="block-social">
                   <li>
-                      <a href="https://github.com/developerayo">
+                      <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo">
+                      <a href="https://twitter.com/developerayo" target="_blank">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide">
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -281,17 +281,17 @@ const HomePage = (props) => (
                   </p>
                   <ul className="block-social ">
                   <li>
-                      <a href="https://github.com/developerayo">
+                      <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo">
+                      <a href="https://twitter.com/developerayo" target="_blank">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide">
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -313,17 +313,17 @@ const HomePage = (props) => (
                   </p>
                   <ul className="block-social ">
                   <li>
-                      <a href="https://github.com/developerayo">
+                      <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo">
+                      <a href="https://twitter.com/developerayo" target="_blank">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide">
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -345,17 +345,17 @@ const HomePage = (props) => (
                   </p>
                   <ul className="block-social ">
                   <li>
-                      <a href="https://github.com/developerayo">
+                      <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo">
+                      <a href="https://twitter.com/developerayo" target="_blank">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide">
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
