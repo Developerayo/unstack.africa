@@ -1,8 +1,8 @@
 // removed for now, enable this by calling <Preloader />
 
-import React from "react";
+import React from "react"
 
-const Preloader = props => (
+const Preloader = (props) => (
   <div className="loader">
     <div className="loader-inner">
       <svg
@@ -24,5 +24,5 @@ const Preloader = props => (
       </svg>
     </div>
   </div>
-);
-export default Preloader;
+)
+export default Preloader

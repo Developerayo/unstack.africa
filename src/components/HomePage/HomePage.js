@@ -1,32 +1,32 @@
-import React, { Fragment } from "react";
-import Header from "../common/Header";
-import Footer from "../common/Footer";
+import React, { Fragment } from "react"
+import Header from "../common/Header"
+import Footer from "../common/Footer"
 // import Preloader from "../common/Preloader";
-import hero from "../../assets/img/hero.png";
-import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG";
-import img3 from "../../assets/img/3.jpg";
-import img4 from "../../assets/img/4.jpg";
-import img5 from "../../assets/img/5.jpg";
-import ztp from "../../assets/img/ztp.jpg";
-import unstacklocate from "../../assets/img/unstack-locate.svg";
-import event1 from "../../assets/img/event1.jpg";
-import event2 from "../../assets/img/event2.JPG";
-import event3 from "../../assets/img/event3.JPG";
-import event4 from "../../assets/img/event4.JPG";
-import event5 from "../../assets/img/event5.JPG";
-import event6 from "../../assets/img/event6.JPG";
-import event7 from "../../assets/img/event7.JPG";
-import cloudinary from "../../assets/img/cloudinary_sponsor.png";
-import codesandbox from "../../assets/img/codesandbox_sponsor.png";
-import egghead from "../../assets/img/egghead_sponsor.jpg";
-import andela from "../../assets/img/andela_sponsor.jpg";
-import amp from "../../assets/img/amp_sponsor.png";
-import fleek from "../../assets/img/fleek_sponsor.png";
-import vanhack from "../../assets/img/vanhack_sponsor.png";
-import gatsby from "../../assets/img/gatsby_sponsor.png";
-import paystack from "../../assets/img/paystack_sponsor.png";
-import thinkster from "../../assets/img/thinkster_sponsor.png";
-import hashnode from "../../assets/img/hashnode_sponsor.svg";
+import hero from "../../assets/img/hero.png"
+import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
+import img3 from "../../assets/img/3.jpg"
+import img4 from "../../assets/img/4.jpg"
+import img5 from "../../assets/img/5.jpg"
+import ztp from "../../assets/img/ztp.jpg"
+import unstacklocate from "../../assets/img/unstack-locate.svg"
+import event1 from "../../assets/img/event1.jpg"
+import event2 from "../../assets/img/event2.JPG"
+import event3 from "../../assets/img/event3.JPG"
+import event4 from "../../assets/img/event4.JPG"
+import event5 from "../../assets/img/event5.JPG"
+import event6 from "../../assets/img/event6.JPG"
+import event7 from "../../assets/img/event7.JPG"
+import cloudinary from "../../assets/img/cloudinary_sponsor.png"
+import codesandbox from "../../assets/img/codesandbox_sponsor.png"
+import egghead from "../../assets/img/egghead_sponsor.jpg"
+import andela from "../../assets/img/andela_sponsor.jpg"
+import amp from "../../assets/img/amp_sponsor.png"
+import fleek from "../../assets/img/fleek_sponsor.png"
+import vanhack from "../../assets/img/vanhack_sponsor.png"
+import gatsby from "../../assets/img/gatsby_sponsor.png"
+import paystack from "../../assets/img/paystack_sponsor.png"
+import thinkster from "../../assets/img/thinkster_sponsor.png"
+import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
 const HomePage = (props) => (
   <Fragment>
@@ -59,16 +59,23 @@ const HomePage = (props) => (
               <div className="col-sm-12 text-center">
                 <h1 className="large mb-10">unStack Africa</h1>
                 <h4 className="mb-10">
-                  open-source based conference/meetups for every engineer/designer & technical
-                  talents <br /> focused on hands-on workshops and world-class talks from around the world.
+                  open-source based conference/meetups for every
+                  engineer/designer & technical talents <br /> focused on
+                  hands-on workshops and world-class talks from around the
+                  world.
                 </h4>
 
                 <p className="uppercase ">
-                  10th to 11th July 2020 - Lagos, Nigeria. Open-source Virtual Summit{" "}
+                  10th to 11th July 2020 - Lagos, Nigeria. Open-source Virtual
+                  Summit{" "}
                 </p>
                 <br />
                 <br />
-                <a href="#register" className="but scroll" style={{borderRadius: "5px"}}>
+                <a
+                  href="#register"
+                  className="but scroll"
+                  style={{ borderRadius: "5px" }}
+                >
                   {" "}
                   Register
                 </a>
@@ -84,11 +91,12 @@ const HomePage = (props) => (
             <div className="col-sm-8 col-sm-offset-2 mb-100 text-center">
               <h1 className="title">Open Source Virtual Summit</h1>
               <p className="title-lead mt-20">
-                The open-source virtual summit is tailored towards empowering <b>Developers</b> &{" "}
-                <b>Designers</b> while they contribute to open-source softwares. This is a unique
-                opportunity to solve major issues that the author of the project dosent have time to
-                solve and help is needed, so you as a Developer or Designer would be paid for
-                selected issues you pick up and fix.
+                The open-source virtual summit is tailored towards empowering{" "}
+                <b>Developers</b> & <b>Designers</b> while they contribute to
+                open-source softwares. This is a unique opportunity to solve
+                major issues that the author of the project dosent have time to
+                solve and help is needed, so you as a Developer or Designer
+                would be paid for selected issues you pick up and fix.
               </p>
             </div>
           </div>
@@ -97,7 +105,59 @@ const HomePage = (props) => (
           <div className="row">
             <div className="col-md-3 col-sm-3">
               <div className="block-info-1">
-              <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"  width="512" height="512" style={{width: "50"}}><g><path d="m144 249h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m144 313h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m144 377h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m272 249h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m272 313h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m272 377h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m400 249h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m400 313h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m400 377h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#fff"/><path d="m467 65h-36v-25c0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-130v-25c0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-130v-25c0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-36c-24.813 0-45 20.187-45 45v332c0 24.813 20.187 45 45 45h422c24.813 0 45-20.187 45-45 0-9.682 0-323.575 0-332 0-24.813-20.187-45-45-45zm-437 45c0-8.271 6.729-15 15-15h36v25c0 8.284 6.716 15 15 15s15-6.716 15-15v-25h130v25c0 8.284 6.716 15 15 15s15-6.716 15-15v-25h130v25c0 8.284 6.716 15 15 15s15-6.716 15-15v-25h36c8.271 0 15 6.729 15 15v59h-452zm437 347h-422c-8.271 0-15-6.729-15-15v-243h452v243c0 8.271-6.729 15-15 15z" fill="#fff"/></g></svg>
+                <svg
+                  id="Capa_1"
+                  enable-background="new 0 0 512 512"
+                  height="512"
+                  viewBox="0 0 512 512"
+                  width="512"
+                  width="512"
+                  height="512"
+                  style={{ width: "50" }}
+                >
+                  <g>
+                    <path
+                      d="m144 249h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m144 313h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m144 377h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m272 249h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m272 313h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m272 377h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m400 249h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m400 313h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m400 377h-32c-8.284 0-15 6.716-15 15s6.716 15 15 15h32c8.284 0 15-6.716 15-15s-6.716-15-15-15z"
+                      fill="#fff"
+                    />
+                    <path
+                      d="m467 65h-36v-25c0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-130v-25c0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-130v-25c0-8.284-6.716-15-15-15s-15 6.716-15 15v25h-36c-24.813 0-45 20.187-45 45v332c0 24.813 20.187 45 45 45h422c24.813 0 45-20.187 45-45 0-9.682 0-323.575 0-332 0-24.813-20.187-45-45-45zm-437 45c0-8.271 6.729-15 15-15h36v25c0 8.284 6.716 15 15 15s15-6.716 15-15v-25h130v25c0 8.284 6.716 15 15 15s15-6.716 15-15v-25h130v25c0 8.284 6.716 15 15 15s15-6.716 15-15v-25h36c8.271 0 15 6.729 15 15v59h-452zm437 347h-422c-8.271 0-15-6.729-15-15v-243h452v243c0 8.271-6.729 15-15 15z"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
                 <p>
                   <strong>DATE</strong>
                   <span>10th July 2020</span>
@@ -106,12 +166,22 @@ const HomePage = (props) => (
             </div>
             <div className="col-md-3 col-sm-3">
               <div className="block-info-1">
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-	 viewBox="0 0 511.998 511.998" width="512" height="512" style={{width: "50"}}>
-<g transform="translate(0 -1)">
-	<g>
-		<g>
-			<path d="M167.974,351.473c21.086,29.73,42.138,56.32,56.09,73.446c2.031,2.492,3.934,4.804,5.777,7.031h-42.103
+                <svg
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 511.998 511.998"
+                  width="512"
+                  height="512"
+                  style={{ width: "50" }}
+                >
+                  <g transform="translate(0 -1)">
+                    <g>
+                      <g>
+                        <path
+                          d="M167.974,351.473c21.086,29.73,42.138,56.32,56.09,73.446c2.031,2.492,3.934,4.804,5.777,7.031h-42.103
 				c-4.713,0-8.533,3.82-8.533,8.533s3.82,8.533,8.533,8.533H324.27c4.713,0,8.533-3.82,8.533-8.533s-3.82-8.533-8.533-8.533
 				h-42.103c1.843-2.227,3.746-4.54,5.786-7.031c13.943-17.067,34.987-43.716,56.081-73.446
 				c20.929-28.905,39.767-59.267,56.371-90.854c17.425-34.219,26.266-62.626,26.266-84.437
@@ -123,63 +193,68 @@ const HomePage = (props) => (
 				c-16.213-31.787-24.405-57.591-24.405-76.689c-0.005-61.809,36.959-117.627,93.867-141.747
 				c38.238-16.034,81.314-16.034,119.552,0c2.808,1.19,6.037,0.793,8.472-1.044c2.435-1.836,3.705-4.832,3.332-7.859
 				c-0.373-3.027-2.332-5.625-5.14-6.815c-86.898-36.652-187.056,4.062-223.735,90.948c-8.895,21.046-13.457,43.669-13.414,66.517
-				c0,21.811,8.841,50.219,26.266,84.48C128.208,292.234,147.047,322.582,167.974,351.473z" fill="#fff"/>
-			<path d="M256.003,99.151c4.713,0,8.533-3.82,8.533-8.533s-3.82-8.533-8.533-8.533c-40.71-0.001-75.752,28.757-83.695,68.685
+				c0,21.811,8.841,50.219,26.266,84.48C128.208,292.234,147.047,322.582,167.974,351.473z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M256.003,99.151c4.713,0,8.533-3.82,8.533-8.533s-3.82-8.533-8.533-8.533c-40.71-0.001-75.752,28.757-83.695,68.685
 				c-7.943,39.928,13.426,79.906,51.037,95.486c37.611,15.58,80.99,2.421,103.608-31.428
 				c22.618-33.849,18.175-78.962-10.611-107.749c-2.143-2.218-5.315-3.108-8.299-2.327c-2.983,0.781-5.313,3.111-6.094,6.094
 				c-0.781,2.984,0.109,6.156,2.327,8.299c23.03,23.029,26.585,59.118,8.492,86.198c-18.093,27.08-52.796,37.608-82.885,25.146
-				c-30.089-12.462-47.185-44.444-40.833-76.387S223.435,99.152,256.003,99.151z" fill="#fff"/>
-			<path d="M508.786,470.957l-52.48-93.867c-4.745-8.34-13.624-13.466-23.219-13.406H372.27c-4.713,0-8.533,3.82-8.533,8.533
+				c-30.089-12.462-47.185-44.444-40.833-76.387S223.435,99.152,256.003,99.151z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M508.786,470.957l-52.48-93.867c-4.745-8.34-13.624-13.466-23.219-13.406H372.27c-4.713,0-8.533,3.82-8.533,8.533
 				s3.82,8.533,8.533,8.533h60.817c3.416-0.066,6.603,1.715,8.337,4.659l52.463,93.867c1.429,2.442,1.399,5.471-0.077,7.885
 				c-1.743,2.88-4.895,4.605-8.26,4.523H26.457c-3.362,0.08-6.51-1.646-8.252-4.523c-1.476-2.414-1.505-5.443-0.077-7.885
 				l52.463-93.867c1.731-2.943,4.915-4.724,8.328-4.659h60.817c4.713,0,8.533-3.82,8.533-8.533s-3.82-8.533-8.533-8.533H78.92
 				c-9.6-0.063-18.486,5.063-23.236,13.406L3.212,470.957c-4.375,7.728-4.274,17.208,0.265,24.841
 				c4.782,8.128,13.551,13.071,22.98,12.954H485.55c9.426,0.114,18.192-4.828,22.972-12.954
-				C513.061,488.164,513.162,478.685,508.786,470.957z" fill="#fff"/>
-			<path d="M418.137,406.351h-34.133c-1.685,0.003-3.332,0.501-4.736,1.434l-25.6,17.067c-3.921,2.616-4.979,7.915-2.364,11.836
+				C513.061,488.164,513.162,478.685,508.786,470.957z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M418.137,406.351h-34.133c-1.685,0.003-3.332,0.501-4.736,1.434l-25.6,17.067c-3.921,2.616-4.979,7.915-2.364,11.836
 				c2.616,3.921,7.915,4.979,11.836,2.364l23.424-15.633h31.573c4.713,0,8.533-3.821,8.533-8.533
-				C426.67,410.171,422.85,406.351,418.137,406.351z" fill="#fff"/>
-			<path d="M366.937,466.084c0,4.713,3.82,8.533,8.533,8.533h68.267c4.713,0,8.533-3.82,8.533-8.533s-3.82-8.533-8.533-8.533H375.47
-				C370.757,457.551,366.937,461.371,366.937,466.084z" fill="#fff"/>
-			<path d="M153.603,440.484c3.762,0.005,7.083-2.455,8.176-6.055c1.093-3.6-0.301-7.491-3.431-9.578l-25.6-17.067
+				C426.67,410.171,422.85,406.351,418.137,406.351z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M366.937,466.084c0,4.713,3.82,8.533,8.533,8.533h68.267c4.713,0,8.533-3.82,8.533-8.533s-3.82-8.533-8.533-8.533H375.47
+				C370.757,457.551,366.937,461.371,366.937,466.084z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M153.603,440.484c3.762,0.005,7.083-2.455,8.176-6.055c1.093-3.6-0.301-7.491-3.431-9.578l-25.6-17.067
 				c-1.406-0.934-3.057-1.433-4.745-1.434H93.87c-4.713,0-8.533,3.821-8.533,8.533c0,4.713,3.821,8.533,8.533,8.533h31.573
-				l23.45,15.633C150.288,439.981,151.927,440.48,153.603,440.484z" fill="#fff"/>
-			<path d="M68.27,457.551c-4.713,0-8.533,3.82-8.533,8.533s3.82,8.533,8.533,8.533h68.267c4.713,0,8.533-3.82,8.533-8.533
-				s-3.82-8.533-8.533-8.533H68.27z" fill="#fff"/>
-		</g>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg>
+				l23.45,15.633C150.288,439.981,151.927,440.48,153.603,440.484z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M68.27,457.551c-4.713,0-8.533,3.82-8.533,8.533s3.82,8.533,8.533,8.533h68.267c4.713,0,8.533-3.82,8.533-8.533
+				s-3.82-8.533-8.533-8.533H68.27z"
+                          fill="#fff"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
 
                 <p>
                   <strong>LOCATION</strong>
@@ -189,23 +264,45 @@ const HomePage = (props) => (
             </div>
             <div className="col-md-3 col-sm-3">
               <div className="block-info-1">
-              <svg id="speaker" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" style={{width: "50"}}>
-  <g id="Group_2" data-name="Group 2">
-    <g id="Group_1" data-name="Group 1">
-      <path id="Path_1" data-name="Path 1" d="M407.273,0C345.205,0,302.8,35.793,265.379,67.375c-31.162,26.275-58.042,48.989-90.833,48.989h-128C14.569,116.364,0,176.687,0,232.727S14.569,349.091,46.545,349.091h128c32.791,0,59.671,22.714,90.833,48.989,37.423,31.581,79.826,67.375,141.894,67.375C476.02,465.455,512,348.369,512,232.727S476.02,0,407.273,0Zm0,418.909c-19.759,0-58.182-65.722-58.182-186.182S387.514,46.545,407.273,46.545s58.182,65.722,58.182,186.182S427.031,418.909,407.273,418.909Z" fill="#fff"/>
-    </g>
-  </g>
-  <g id="Group_4" data-name="Group 4">
-    <g id="Group_3" data-name="Group 3">
-      <path id="Path_2" data-name="Path 2" d="M389.958,165.376a11.63,11.63,0,0,0-14.522,10.008,535.792,535.792,0,0,0-3.072,57.344,529.206,529.206,0,0,0,3.1,57.321,11.605,11.605,0,0,0,11.566,10.38,11.511,11.511,0,0,0,2.932-.372,69.528,69.528,0,0,0,0-134.681Z" fill="#fff"/>
-    </g>
-  </g>
-  <g id="Group_6" data-name="Group 6">
-    <g id="Group_5" data-name="Group 5">
-      <path id="Path_3" data-name="Path 3" d="M217.321,430.545A15.366,15.366,0,0,1,202.706,420l-13.1-39.261c-1.4-4.189-6.447-7.4-10.822-8.029a33.205,33.205,0,0,0-4.236-.349h-79.8a11.646,11.646,0,0,0-11.194,14.824l26.019,91.043A46.757,46.757,0,0,0,154.321,512h63A38.735,38.735,0,0,0,256,473.321v-4.1A38.736,38.736,0,0,0,217.321,430.545Z" fill="#fff"/>
-    </g>
-  </g>
-</svg>
+                <svg
+                  id="speaker"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512"
+                  height="512"
+                  viewBox="0 0 512 512"
+                  style={{ width: "50" }}
+                >
+                  <g id="Group_2" data-name="Group 2">
+                    <g id="Group_1" data-name="Group 1">
+                      <path
+                        id="Path_1"
+                        data-name="Path 1"
+                        d="M407.273,0C345.205,0,302.8,35.793,265.379,67.375c-31.162,26.275-58.042,48.989-90.833,48.989h-128C14.569,116.364,0,176.687,0,232.727S14.569,349.091,46.545,349.091h128c32.791,0,59.671,22.714,90.833,48.989,37.423,31.581,79.826,67.375,141.894,67.375C476.02,465.455,512,348.369,512,232.727S476.02,0,407.273,0Zm0,418.909c-19.759,0-58.182-65.722-58.182-186.182S387.514,46.545,407.273,46.545s58.182,65.722,58.182,186.182S427.031,418.909,407.273,418.909Z"
+                        fill="#fff"
+                      />
+                    </g>
+                  </g>
+                  <g id="Group_4" data-name="Group 4">
+                    <g id="Group_3" data-name="Group 3">
+                      <path
+                        id="Path_2"
+                        data-name="Path 2"
+                        d="M389.958,165.376a11.63,11.63,0,0,0-14.522,10.008,535.792,535.792,0,0,0-3.072,57.344,529.206,529.206,0,0,0,3.1,57.321,11.605,11.605,0,0,0,11.566,10.38,11.511,11.511,0,0,0,2.932-.372,69.528,69.528,0,0,0,0-134.681Z"
+                        fill="#fff"
+                      />
+                    </g>
+                  </g>
+                  <g id="Group_6" data-name="Group 6">
+                    <g id="Group_5" data-name="Group 5">
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M217.321,430.545A15.366,15.366,0,0,1,202.706,420l-13.1-39.261c-1.4-4.189-6.447-7.4-10.822-8.029a33.205,33.205,0,0,0-4.236-.349h-79.8a11.646,11.646,0,0,0-11.194,14.824l26.019,91.043A46.757,46.757,0,0,0,154.321,512h63A38.735,38.735,0,0,0,256,473.321v-4.1A38.736,38.736,0,0,0,217.321,430.545Z"
+                        fill="#fff"
+                      />
+                    </g>
+                  </g>
+                </svg>
 
                 <p>
                   <strong>SPEAKERS</strong>
@@ -215,7 +312,11 @@ const HomePage = (props) => (
             </div>
             <div className="col-md-3 col-sm-3 text-right">
               <div className="block-info-1">
-                <a href="#tickets" className="scroll but" style={{borderRadius: "5px"}}>
+                <a
+                  href="#tickets"
+                  className="scroll but"
+                  style={{ borderRadius: "5px" }}
+                >
                   {" "}
                   Register
                 </a>
@@ -248,18 +349,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -280,18 +387,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -312,18 +425,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -344,18 +463,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -376,18 +501,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -408,18 +539,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -440,18 +577,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -472,18 +615,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -504,18 +653,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -536,18 +691,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -568,18 +729,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -600,18 +767,24 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a href="https://github.com/developerayo" target="_blank">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/developerayo" target="_blank">
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                      >
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                      >
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -620,8 +793,6 @@ const HomePage = (props) => (
               </div>
             </div>
           </div>
-
-          
         </div>
       </section>
       <section id="schedule" className="schedule pt-120 pb-120">
@@ -648,11 +819,39 @@ const HomePage = (props) => (
             <div className="col-sm-4 ">
               <ul className="block-tabs">
                 <li className="active">
-                <svg id="Layer_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" width="512" style={{width: "30"}}><g>&nbsp;&nbsp;&nbsp;&nbsp; <path d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z" fill="#fff"/></g></svg>
+                  <svg
+                    id="Layer_1"
+                    enable-background="new 0 0 512 512"
+                    viewBox="0 0 512 512"
+                    width="512"
+                    style={{ width: "30" }}
+                  >
+                    <g>
+                      &nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <path
+                        d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
+                        fill="#fff"
+                      />
+                    </g>
+                  </svg>
                   <strong>Day 1</strong> <span>- 23 july 2017</span>
                 </li>
                 <li className="">
-                <svg id="Layer_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" width="512" style={{width: "30"}}><g>&nbsp;&nbsp;&nbsp;&nbsp; <path d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z" fill="#fff"/></g></svg>
+                  <svg
+                    id="Layer_1"
+                    enable-background="new 0 0 512 512"
+                    viewBox="0 0 512 512"
+                    width="512"
+                    style={{ width: "30" }}
+                  >
+                    <g>
+                      &nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                      <path
+                        d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
+                        fill="#fff"
+                      />
+                    </g>
+                  </svg>
                   <strong>Day 2</strong> <span>- 24 july 2017</span>
                 </li>
                 {/* <li className="">
@@ -669,7 +868,21 @@ const HomePage = (props) => (
               <ul className="block-tab">
                 <li className="active ">
                   <div className="block-date">
-                  <svg id="Layer_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" width="512" style={{width: "30"}}><g>&nbsp;&nbsp;&nbsp;&nbsp; <path d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z" fill="#fff"/></g></svg>
+                    <svg
+                      id="Layer_1"
+                      enable-background="new 0 0 512 512"
+                      viewBox="0 0 512 512"
+                      width="512"
+                      style={{ width: "30" }}
+                    >
+                      <g>
+                        &nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                        <path
+                          d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
+                          fill="#fff"
+                        />
+                      </g>
+                    </svg>
                     <strong>Day 1</strong> <span>- 10 july 2020</span>
                   </div>
                   <div className="block-detail">
@@ -681,8 +894,13 @@ const HomePage = (props) => (
                       </p> */}
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
-                        <a href="#wrapper" style={{ color: "white", fontWeight: "bold" }}>
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
+                        <a
+                          href="#wrapper"
+                          style={{ color: "white", fontWeight: "bold" }}
+                        >
                           ZOOM :)
                         </a>
                       </span>
@@ -693,14 +911,17 @@ const HomePage = (props) => (
                     <span className="topic">First Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
@@ -716,14 +937,17 @@ const HomePage = (props) => (
                     <span className="topic">Second Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
@@ -739,12 +963,15 @@ const HomePage = (props) => (
                     <span className="topic">Time to Contribute</span>
                     <div className="block-text">
                       <p>
-                        This session is all about contributions where everyone contributes all they
-                        have worked on in a single hour and comes back to the call in 1 hour.
+                        This session is all about contributions where everyone
+                        contributes all they have worked on in a single hour and
+                        comes back to the call in 1 hour.
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
@@ -760,12 +987,14 @@ const HomePage = (props) => (
                     <span className="topic">Time to Showcase your PR</span>
                     <div className="block-text">
                       <p>
-                        PRs would be showcased directly on the website and you would talk in 5
-                        minutes how you fixed that issue.
+                        PRs would be showcased directly on the website and you
+                        would talk in 5 minutes how you fixed that issue.
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Moderator</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Moderator
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
@@ -781,14 +1010,17 @@ const HomePage = (props) => (
                     <span className="topic">Third Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
@@ -804,14 +1036,17 @@ const HomePage = (props) => (
                     <span className="topic">Forth Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
@@ -824,7 +1059,9 @@ const HomePage = (props) => (
                   </div>
                   <div className="block-detail">
                     <span className="time">2:40 - 3:00</span>
-                    <span className="topic">Networking & Questions to all Speakers</span>
+                    <span className="topic">
+                      Networking & Questions to all Speakers
+                    </span>
                   </div>
                   <div className="block-detail">
                     <span className="time">3:00</span>
@@ -836,7 +1073,21 @@ const HomePage = (props) => (
 
                 <li>
                   <div className="block-date">
-                  <svg id="Layer_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" width="512" style={{width: "30"}}><g>&nbsp;&nbsp;&nbsp;&nbsp; <path d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z" fill="#fff"/></g></svg>
+                    <svg
+                      id="Layer_1"
+                      enable-background="new 0 0 512 512"
+                      viewBox="0 0 512 512"
+                      width="512"
+                      style={{ width: "30" }}
+                    >
+                      <g>
+                        &nbsp;&nbsp;&nbsp;&nbsp;{" "}
+                        <path
+                          d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
+                          fill="#fff"
+                        />
+                      </g>
+                    </svg>
                     <strong>Day 2</strong> <span>- 11 july 2020</span>
                   </div>
                   <div className="block-detail">
@@ -848,8 +1099,13 @@ const HomePage = (props) => (
                       </p> */}
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
-                        <a href="#wrapper" style={{ color: "white", fontWeight: "bold" }}>
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
+                        <a
+                          href="#wrapper"
+                          style={{ color: "white", fontWeight: "bold" }}
+                        >
                           ZOOM :)
                         </a>
                       </span>
@@ -860,14 +1116,17 @@ const HomePage = (props) => (
                     <span className="topic">First Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
@@ -883,14 +1142,17 @@ const HomePage = (props) => (
                     <span className="topic">Second Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
@@ -906,12 +1168,15 @@ const HomePage = (props) => (
                     <span className="topic">Time to Contribute</span>
                     <div className="block-text">
                       <p>
-                        This session is all about contributions where everyone contributes all they
-                        have worked on in a single hour and comes back to the call in 1 hour.
+                        This session is all about contributions where everyone
+                        contributes all they have worked on in a single hour and
+                        comes back to the call in 1 hour.
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
@@ -927,12 +1192,14 @@ const HomePage = (props) => (
                     <span className="topic">Time to Showcase your PR</span>
                     <div className="block-text">
                       <p>
-                        PRs would be showcased directly on the website and you would talk in 5
-                        minutes how you fixed that issue.
+                        PRs would be showcased directly on the website and you
+                        would talk in 5 minutes how you fixed that issue.
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Moderator</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Moderator
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
@@ -948,14 +1215,17 @@ const HomePage = (props) => (
                     <span className="topic">Third Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
@@ -971,14 +1241,17 @@ const HomePage = (props) => (
                     <span className="topic">Forth Speaker Topic Here</span>
                     <div className="block-text">
                       <p>
-                        Hello, I am a human who landed in space to say hi to the aliens who love
-                        here, when I got here I figured there wasnt any aliens here and i ran out of
-                        fuel in my rocket, now i'm stuck in space, help, Hahaha, thanks for coming
-                        to my ted talk - Developerayo
+                        Hello, I am a human who landed in space to say hi to the
+                        aliens who love here, when I got here I figured there
+                        wasnt any aliens here and i ran out of fuel in my
+                        rocket, now i'm stuck in space, help, Hahaha, thanks for
+                        coming to my ted talk - Developerayo
                       </p>
                       <span className="speaker">
                         {" "}
-                        <strong style={{ color: "grey" }}>Speaker</strong> :{" "}
+                        <strong style={{ color: "grey" }}>
+                          Speaker
+                        </strong> :{" "}
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
@@ -991,7 +1264,9 @@ const HomePage = (props) => (
                   </div>
                   <div className="block-detail">
                     <span className="time">2:40 - 3:00</span>
-                    <span className="topic">Networking & Questions to all Speakers</span>
+                    <span className="topic">
+                      Networking & Questions to all Speakers
+                    </span>
                   </div>
                   <div className="block-detail">
                     <span className="time">3:00</span>
@@ -1014,7 +1289,8 @@ const HomePage = (props) => (
             <div className="col-sm-12  text-center  front-p">
               <h1 className="title">Time left until the summit start </h1>
               <p className="title-lead mt-10 mb-20">
-                10th July 2020, 10:00 AM (GMT +1) - Open-Source Virtual Summit Lagos, Nigeria{" "}
+                10th July 2020, 10:00 AM (GMT +1) - Open-Source Virtual Summit
+                Lagos, Nigeria{" "}
               </p>
             </div>
           </div>
@@ -1035,15 +1311,15 @@ const HomePage = (props) => (
             <div className="col-sm-4 ">
               <h3 className="sub-title-0  mb-20">
                 <span>
-                  You can either register for a free ticket and join us for the open-source virtual
-                  summit :)
+                  You can either register for a free ticket and join us for the
+                  open-source virtual summit :)
                 </span>
                 <br />
                 <br />
                 <br />
                 <span>
-                  You can also donate any amount to the unStack bounty program so we can accomodate
-                  more open source contributors :)
+                  You can also donate any amount to the unStack bounty program
+                  so we can accomodate more open source contributors :)
                 </span>
               </h3>
             </div>
@@ -1059,10 +1335,17 @@ const HomePage = (props) => (
                         <span className="block-type">Unlimited tickets</span>
                       </li>
                       <li>Thank you tweet :)</li>
-                      <li>A chnace to support more open-source contributors in Nigeria</li>
+                      <li>
+                        A chnace to support more open-source contributors in
+                        Nigeria
+                      </li>
                       <li>Logo on the website</li>
                       <li>
-                        <a href="#wrapper" className="but mt-30" style={{borderRadius: "5px"}}>
+                        <a
+                          href="#wrapper"
+                          className="but mt-30"
+                          style={{ borderRadius: "5px" }}
+                        >
                           {" "}
                           Give
                         </a>
@@ -1084,7 +1367,11 @@ const HomePage = (props) => (
                       <li>Access to Keynote's</li>
                       <li>Ability to Contribute if interested</li>
                       <li>
-                        <a href="#wrapper" className="but mt-30" style={{borderRadius: "5px"}}>
+                        <a
+                          href="#wrapper"
+                          className="but mt-30"
+                          style={{ borderRadius: "5px" }}
+                        >
                           {" "}
                           Register
                         </a>
@@ -1105,7 +1392,8 @@ const HomePage = (props) => (
             <div className="col-sm-8 col-sm-offset-2 mb-50 text-center ">
               <h1 className="title">Proud Sponsors</h1>
               <p className="title-lead mt-10 mb-20">
-                Our event is possible from generous support from these great companies!
+                Our event is possible from generous support from these great
+                companies!
               </p>
             </div>
           </div>
@@ -1205,7 +1493,8 @@ const HomePage = (props) => (
             <div className="col-sm-8 col-sm-offset-2 mb-50 text-center ">
               <h1 className="title">Supporters</h1>
               <p className="title-lead mt-10 mb-20">
-                Our event is possible from generous donations from these great people!
+                Our event is possible from generous donations from these great
+                people!
               </p>
             </div>
           </div>
@@ -1215,16 +1504,24 @@ const HomePage = (props) => (
           <div className="row">
             <div className="col-sm-12  col-sm-push-2 text-center">
               <div className="col-md-2 col-sm-2 ">
-                <div className="block-sponsor">{/* <img src={logo3} alt="" /> */}</div>
+                <div className="block-sponsor">
+                  {/* <img src={logo3} alt="" /> */}
+                </div>
               </div>
               <div className="col-md-2 col-sm-2">
-                <div className="block-sponsor">{/* <img src={logo1} alt="" /> */}</div>
+                <div className="block-sponsor">
+                  {/* <img src={logo1} alt="" /> */}
+                </div>
               </div>
               <div className="col-md-2 col-sm-2">
-                <div className="block-sponsor">{/* <img src={logo4} alt="" /> */}</div>
+                <div className="block-sponsor">
+                  {/* <img src={logo4} alt="" /> */}
+                </div>
               </div>
               <div className="col-md-2 col-sm-2">
-                <div className="block-sponsor">{/* <img src={logo2} alt="" /> */}</div>
+                <div className="block-sponsor">
+                  {/* <img src={logo2} alt="" /> */}
+                </div>
               </div>
             </div>
           </div>
@@ -1274,7 +1571,10 @@ const HomePage = (props) => (
                   </a>{" "}
                   <br />
                   Email :{" "}
-                  <a href="mailto:unstackdev@gmail.com" style={{ color: "white" }}>
+                  <a
+                    href="mailto:unstackdev@gmail.com"
+                    style={{ color: "white" }}
+                  >
                     unstackdev@gmail.com
                   </a>
                 </p>
@@ -1298,17 +1598,20 @@ const HomePage = (props) => (
               <div className="block-faq mb-50">
                 <h4 className="mb-10">What unStack?</h4>
                 <p>
-                  unStack is an open-source based conference/meetups for every engineer/designer &
-                  technical talents focused on hands-on workshops and world-class talks from around
-                  the world, we currently have a community in 7 african countries since our launch
-                  in 2019 and our most rencent one which is outised africa is "unStack-Dubai"
+                  unStack is an open-source based conference/meetups for every
+                  engineer/designer & technical talents focused on hands-on
+                  workshops and world-class talks from around the world, we
+                  currently have a community in 7 african countries since our
+                  launch in 2019 and our most rencent one which is outised
+                  africa is "unStack-Dubai"
                 </p>
               </div>
               <div className="block-faq mb-50">
                 <h4 className="mb-10">What kind of events do unStack have?</h4>
                 <p>
-                  unStack dosen't just host conferences, we also host small meetup's across all our
-                  communitires in Nairobi, Ghana, dubai and so on.
+                  unStack dosen't just host conferences, we also host small
+                  meetup's across all our communitires in Nairobi, Ghana, dubai
+                  and so on.
                 </p>
               </div>
             </div>
@@ -1318,9 +1621,14 @@ const HomePage = (props) => (
         <div className="container">
           <div className="row">
             <div className="col-sm-8 col-sm-offset-2  text-center mt-50">
-              <h2 className="sub-title-1">Didn’t find what your are looking for ?</h2>
+              <h2 className="sub-title-1">
+                Didn’t find what your are looking for ?
+              </h2>
               <p>
-                <a href="mailto:unstackdev@gmail.com" style={{ color: "white" }}>
+                <a
+                  href="mailto:unstackdev@gmail.com"
+                  style={{ color: "white" }}
+                >
                   unstackdev@gmail.com
                 </a>
               </p>
@@ -1473,5 +1781,5 @@ const HomePage = (props) => (
       <Footer />
     </div>
   </Fragment>
-);
-export default HomePage;
+)
+export default HomePage

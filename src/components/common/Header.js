@@ -1,5 +1,5 @@
-import React from "react";
-import logo from "../../assets/img/logo.png";
+import React from "react"
+import logo from "../../assets/img/logo.png"
 
 const Header = (props) => (
   <header className="header">
@@ -13,7 +13,11 @@ const Header = (props) => (
         <div className="col-md-10 text-right">
           <nav className="main-nav">
             <div className="toggle-mobile-but">
-              <a href="#hello" onClick={(ev) => ev.preventDefault()} className="mobile-but">
+              <a
+                href="#hello"
+                onClick={(ev) => ev.preventDefault()}
+                className="mobile-but"
+              >
                 <div className="lines"></div>
               </a>
             </div>
@@ -29,7 +33,11 @@ const Header = (props) => (
                 </a>
               </li>
               <li>
-                <a className="scroll" href="https://unstack.africa/communities" target="_blank">
+                <a
+                  className="scroll"
+                  href="https://unstack.africa/communities"
+                  target="_blank"
+                >
                   Communities
                 </a>
               </li>
@@ -44,7 +52,11 @@ const Header = (props) => (
                 </a>
               </li>
               <li>
-                <a className="scroll" href="https://blog.unstack.africa" target="_blank">
+                <a
+                  className="scroll"
+                  href="https://blog.unstack.africa"
+                  target="_blank"
+                >
                   Blog
                 </a>
               </li>
@@ -59,5 +71,5 @@ const Header = (props) => (
       </div>
     </div>
   </header>
-);
-export default Header;
+)
+export default Header
