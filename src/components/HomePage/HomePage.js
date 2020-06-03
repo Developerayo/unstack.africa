@@ -248,13 +248,18 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social">
+                  <li>
+                      <a href="https://github.com/developerayo">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://twitter.com/developerayo">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://linkedin.com/in/shodipo-ayomide">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -275,13 +280,18 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://twitter.com/developerayo">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://linkedin.com/in/shodipo-ayomide">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -302,13 +312,18 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://twitter.com/developerayo">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://linkedin.com/in/shodipo-ayomide">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
@@ -329,13 +344,18 @@ const HomePage = (props) => (
                     <span>Engineer </span>
                   </p>
                   <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://twitter.com/developerayo">
                         <i className="icon-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#wrapper">
+                      <a href="https://linkedin.com/in/shodipo-ayomide">
                         <i className="icon-linkedin"></i>
                       </a>
                     </li>
