@@ -3,7 +3,7 @@ import Header from "../common/Header";
 import Footer from "../common/Footer";
 // import Preloader from "../common/Preloader";
 import hero from "../../assets/img/hero.png";
-import img2 from "../../assets/img/2.jpg";
+import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG";
 import img3 from "../../assets/img/3.jpg";
 import img4 from "../../assets/img/4.jpg";
 import img5 from "../../assets/img/5.jpg";
@@ -60,7 +60,7 @@ const HomePage = (props) => (
                 <h1 className="large mb-10">unStack Africa</h1>
                 <h4 className="mb-10">
                   open-source based conference/meetups for every engineer/designer & technical
-                  talents focused on hands-on workshops and world-class talks from around the world.
+                  talents <br /> focused on hands-on workshops and world-class talks from around the world.
                 </h4>
 
                 <p className="uppercase ">
@@ -240,7 +240,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={img2} alt="" />
+                  <img src={shodipoayomide} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -267,7 +267,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={img3} alt="" />
+                  <img src={shodipoayomide} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -294,7 +294,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={img4} alt="" />
+                  <img src={shodipoayomide} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -321,7 +321,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={img5} alt="" />
+                  <img src={shodipoayomide} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
