@@ -364,6 +364,264 @@ const HomePage = (props) => (
               </div>
             </div>
           </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a href="https://github.com/developerayo" target="_blank">
+                        <i className="icon-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/developerayo" target="_blank">
+                        <i className="icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://linkedin.com/in/shodipo-ayomide" target="_blank">
+                        <i className="icon-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
         </div>
       </section>
       <section id="schedule" className="schedule pt-120 pb-120">
