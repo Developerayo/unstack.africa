@@ -1280,15 +1280,15 @@ const HomePage = (props) => (
       </section>
 
       <section className="counter pt-120 pb-120 overlay parallax">
-        <div className="background-img">
-          <img src={ztp} alt="" />
-        </div>
+        <div className="timeleft-bg-image"></div>
 
         <div className="container">
           <div className="row">
             <div className="col-sm-12  text-center  front-p">
-              <h1 className="title">Time left until the summit start </h1>
-              <p className="title-lead mt-10 mb-20">
+              <h1 className="time-left-h1">
+                Time left until the summit start{" "}
+              </h1>
+              <p className="time-left-p">
                 10th July 2020, 10:00 AM (GMT +1) - Open-Source Virtual Summit
                 Lagos, Nigeria{" "}
               </p>
@@ -1403,25 +1403,42 @@ const HomePage = (props) => (
           <div className="row">
             <div className="col-sm-12  col-sm-push-2 text-center">
               <div className="col-md-2 col-sm-2 ">
-                <a href="https://cloudinary.com" target="_blank">
-                  <img src={cloudinary} alt="" />
+                <a
+                  href="https://cloudinary.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="sponsor-image" src={cloudinary} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://codesandbox.io" target="_blank">
-                  <img src={codesandbox} alt="" />
+                <a
+                  href="https://codesandbox.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={codesandbox} alt="" className="sponsor-image" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank">
-                  <img src={egghead} alt="" />
+                <a
+                  href="https://egghead.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={egghead} alt="" className="sponsor-image" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://fleek.co" target="_blank">
-                  <img src={fleek} alt="" />
+                <a
+                  href="https://fleek.co"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={fleek} alt="" className="sponsor-image" />
                 </a>
               </div>
+              {/* <br />
               <br />
               <br />
               <br />
@@ -1432,53 +1449,80 @@ const HomePage = (props) => (
               <br />
               <br />
               <br />
-              <br />
-              <br />
+              <br /> */}
               <div className="col-md-2 col-sm-2">
-                <a href="https://andela.com" target="_blank">
-                  <img src={andela} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://amp.dev" target="_blank">
-                  <img src={amp} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://vanhack.com" target="_blank">
-                  <img src={vanhack} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://gatsby.com" target="_blank">
-                  <img src={gatsby} alt="" />
-                </a>
-              </div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <div className="col-md-2 col-sm-2">
-                <a href="https://paystack.com" target="_blank">
-                  <img src={paystack} alt="" />
+                <a
+                  href="https://andela.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={andela} alt="" className="sponsor-image" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://thinkster.io" target="_blank">
-                  <img src={thinkster} alt="" />
+                <a
+                  href="https://amp.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={amp} alt="" className="sponsor-image" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://hashnode.com" target="_blank">
-                  <img src={hashnode} alt="" />
+                <a
+                  href="https://vanhack.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={vanhack} alt="" className="sponsor-image" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a
+                  href="https://gatsby.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={gatsby} alt="" className="sponsor-image" />
+                </a>
+              </div>
+              {/* <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br /> */}
+              <div className="col-md-2 col-sm-2">
+                <a
+                  href="https://paystack.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={paystack} alt="" className="sponsor-image" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a
+                  href="https://thinkster.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={thinkster} alt="" className="sponsor-image" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a
+                  href="https://hashnode.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={hashnode} alt="" className="sponsor-image" />
                 </a>
               </div>
             </div>

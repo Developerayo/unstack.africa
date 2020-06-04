@@ -25,21 +25,43 @@ section.single-hero {
   width: 100%;
   height: 100%;
 }
-.background-img {
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: #353031;
-  background-image: none;
-  background-origin: padding-box;
-  background-position: 50% 50% !important;
-  background-repeat: repeat;
-  background-size: cover !important;
-  height: 100%;
-  left: 0;
+
+/* Time left until summit section */
+
+.timeleft-bg-image {
+  /* background-clip: border-box; */
+  background-image: linear-gradient(
+      rgba(63, 70, 133, 0.688) 90.13%,
+      rgba(66, 65, 65, 0.688) 90.13%
+    ),
+    url(../img/ztp.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
   position: absolute;
-  top: 0;
   width: 100%;
-  z-index: 0;
+}
+
+.time-left-h1 {
+  color: #fff;
+  font-family: "Bitter", serif;
+  font-size: 50px;
+  margin: 180px 0px 30px;
+}
+
+.time-left-p {
+  color: #ffffff;
+  margin: 25px 0px 240px;
+  font-size: 20px;
+}
+
+.background-img {
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 section.hero .inner-hero {
@@ -480,6 +502,7 @@ h1.large {
   width: 100%;
   height: 100%;
 }
+
 .location h1.title {
   color: #fff;
 }
@@ -500,6 +523,13 @@ h1.large {
   position: relative;
   padding: 0 3px;
 }
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .block-gallery {
+    display: flex;
+  }
+}
+
 .block-gallery li:last-child {
   margin-right: 0;
 }
@@ -982,6 +1012,35 @@ h1.large {
     margin-top: 5px;
   }
 }
+
+.sponsor-image {
+  width: 141px;
+  height: 88px;
+  margin: 30px;
+}
+
+.col-sm-push-2 {
+  left: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .time-left-h1 {
+    margin-top: 270px;
+    font-size: 32px;
+  }
+  .col-sm-push-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+  }
+
+  .sponsor-image {
+    width: 137px;
+    height: auto;
+    margin: 30px;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   input,
   textarea {
