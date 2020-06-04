@@ -1284,7 +1284,10 @@ const HomePage = (props) => (
 
         <div className="container">
           <div className="row">
-            <div className="col-sm-12  text-center  front-p">
+            <div
+              className="col-sm-12  text-center  front-p"
+              style={{ marginTop: "193px" }}
+            >
               <h1 className="time-left-h1">
                 Time left until the summit start{" "}
               </h1>
@@ -1386,7 +1389,7 @@ const HomePage = (props) => (
       </section>
 
       {/* <!--Sponsors--> */}
-      <section className="sponser pt-100 pb-100">
+      <section className="sponser pb-100">
         <div className="container">
           <div className="row">
             <div className="col-sm-8 col-sm-offset-2 mb-50 text-center ">
@@ -1401,8 +1404,8 @@ const HomePage = (props) => (
 
         <div className="container">
           <div className="row">
-            <div className="col-sm-12  col-sm-push-2 text-center">
-              <div className="col-md-2 col-sm-2 ">
+            <div className="col-sm-12 sponsor-imagBox-wrapper">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://cloudinary.com"
                   target="_blank"
@@ -1411,7 +1414,7 @@ const HomePage = (props) => (
                   <img className="sponsor-image" src={cloudinary} alt="" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://codesandbox.io"
                   target="_blank"
@@ -1420,7 +1423,7 @@ const HomePage = (props) => (
                   <img src={codesandbox} alt="" className="sponsor-image" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://egghead.io"
                   target="_blank"
@@ -1429,7 +1432,7 @@ const HomePage = (props) => (
                   <img src={egghead} alt="" className="sponsor-image" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://fleek.co"
                   target="_blank"
@@ -1450,7 +1453,7 @@ const HomePage = (props) => (
               <br />
               <br />
               <br /> */}
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://andela.com"
                   target="_blank"
@@ -1459,7 +1462,7 @@ const HomePage = (props) => (
                   <img src={andela} alt="" className="sponsor-image" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://amp.dev"
                   target="_blank"
@@ -1468,7 +1471,7 @@ const HomePage = (props) => (
                   <img src={amp} alt="" className="sponsor-image" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://vanhack.com"
                   target="_blank"
@@ -1477,7 +1480,7 @@ const HomePage = (props) => (
                   <img src={vanhack} alt="" className="sponsor-image" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://gatsby.com"
                   target="_blank"
@@ -1498,7 +1501,7 @@ const HomePage = (props) => (
               <br />
               <br />
               <br /> */}
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://paystack.com"
                   target="_blank"
@@ -1507,7 +1510,7 @@ const HomePage = (props) => (
                   <img src={paystack} alt="" className="sponsor-image" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://thinkster.io"
                   target="_blank"
@@ -1516,13 +1519,18 @@ const HomePage = (props) => (
                   <img src={thinkster} alt="" className="sponsor-image" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
+              <div className="sponsor-imageBox">
                 <a
                   href="https://hashnode.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={hashnode} alt="" className="sponsor-image" />
+                  <img
+                    src={hashnode}
+                    alt=""
+                    className="sponsor-image"
+                    style={{ color: "white" }}
+                  />
                 </a>
               </div>
             </div>
@@ -1758,67 +1766,56 @@ const HomePage = (props) => (
           </div>
         </div>
 
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 ">
-              <ul className="block-gallery">
-                <li className="col-sm-2 ">
-                  <a href="img/12.jpg" className="venobox">
-                    <div className="block-img">
-                      <div className="background-img">
-                        <img alt="" src={event1} style={{ display: "none" }} />
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li className="col-sm-2 ">
-                  <a href="img/13.jpg" className="venobox">
-                    <div className="block-img">
-                      <div className="background-img">
-                        <img alt="" src={event2} style={{ display: "none" }} />
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li className="active col-sm-2 ">
-                  <a href="img/14.jpg" className="venobox">
-                    <div className="block-img">
-                      <div className="background-img">
-                        <img alt="" src={event3} style={{ display: "none" }} />
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li className="col-sm-2 ">
-                  <a href="img/15.jpg" className="venobox">
-                    <div className="block-img">
-                      <div className="background-img">
-                        <img alt="" src={event4} style={{ display: "none" }} />
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li className="col-sm-2 ">
-                  <a href="img/16.jpg" className="venobox">
-                    <div className="block-img">
-                      <div className="background-img">
-                        <img alt="" src={event7} style={{ display: "none" }} />
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li className="col-sm-2 ">
-                  <a href="img/17.jpg" className="venobox">
-                    <div className="block-img">
-                      <div className="background-img">
-                        <img alt="" src={event6} style={{ display: "none" }} />
-                      </div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
+        <div className="gallery-container">
+          {/* <a href="img/12.jpg" className="venobox"> */}
+          <div className="gallery-imageWrapper">
+            <img alt="" src={event1} className="image" />
+            <div className="gallery-image overlay-image">
+              <div className="gallery-imageTest">unstack</div>
             </div>
           </div>
+          {/* </a> */}
+          {/* <a href="img/13.jpg" className="venobox"> */}
+          <div className="gallery-imageWrapper">
+            <img alt="" src={event2} className="image" />
+            <div className="gallery-image overlay-image">
+              <div className="gallery-imageTest">unstack</div>
+            </div>
+          </div>
+          {/* </a> */}
+          {/* <a href="img/14.jpg" className="venobox"> */}
+          <div className="gallery-imageWrapper">
+            <img alt="" src={event3} className="image" />
+            <div className="gallery-image overlay-image">
+              <div className="gallery-imageTest">unstack</div>
+            </div>
+          </div>
+          {/* </a> */}
+
+          {/* <a href="img/15.jpg" className="venobox"> */}
+          <div className="gallery-imageWrapper">
+            <img alt="" src={event4} className="image" />
+            <div className="gallery-image overlay-image">
+              <div className="gallery-imageTest">unstack</div>
+            </div>
+          </div>
+          {/* </a> */}
+          {/* <a href="img/16.jpg" className="venobox"> */}
+          <div className="gallery-imageWrapper">
+            <img alt="" src={event7} className="image" />
+            <div className="gallery-image overlay-image">
+              <div className="gallery-imageTest">unstack</div>
+            </div>
+          </div>
+          {/* </a> */}
+          {/* <a href="img/17.jpg" className="venobox"> */}
+          <div className="gallery-imageWrapper">
+            <img alt="" src={event6} className="image" />
+            <div className="gallery-image overlay-image">
+              <div className="gallery-imageTest">unstack</div>
+            </div>
+          </div>
+          {/* </a> */}
         </div>
       </section>
 
