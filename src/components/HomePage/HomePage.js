@@ -1407,17 +1407,17 @@ const HomePage = (props) => (
               </div>
               <div className="col-md-2 col-sm-2">
                 <a href="https://codesandbox.io" target="_blank">
-                  <img src={codesandbox} alt="" />
+                  <img src={hashnode} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
                 <a href="https://egghead.io" target="_blank">
-                  <img src={egghead} alt="" />
+                  <img src={thinkster} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
                 <a href="https://fleek.co" target="_blank">
-                  <img src={fleek} alt="" />
+                  <img src={paystack} alt="" />
                 </a>
               </div>
               <br />
@@ -1434,17 +1434,17 @@ const HomePage = (props) => (
               <br />
               <div className="col-md-2 col-sm-2">
                 <a href="https://andela.com" target="_blank">
-                  <img src={andela} alt="" />
+                  <img src={fleek} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
                 <a href="https://amp.dev" target="_blank">
-                  <img src={amp} alt="" />
+                  <img src={egghead} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
                 <a href="https://vanhack.com" target="_blank">
-                  <img src={vanhack} alt="" />
+                  <img src={codesandbox} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
@@ -1466,17 +1466,17 @@ const HomePage = (props) => (
               <br />
               <div className="col-md-2 col-sm-2">
                 <a href="https://paystack.com" target="_blank">
-                  <img src={paystack} alt="" />
+                  <img src={andela} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
                 <a href="https://thinkster.io" target="_blank">
-                  <img src={thinkster} alt="" />
+                  <img src={amp} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
                 <a href="https://hashnode.com" target="_blank">
-                  <img src={hashnode} alt="" />
+                  <img src={vanhack} alt="" />
                 </a>
               </div>
             </div>
