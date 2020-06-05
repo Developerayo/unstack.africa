@@ -760,6 +760,60 @@ h1.large {
   content: none;
 }
 
+.wrap {
+  overflow: hidden;
+  margin: 10px;
+}
+.box {
+  float: left;
+  position: relative;
+  width: 20%;
+  padding-bottom: 15%;
+}
+.boxInner {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 1px;
+  bottom: -1px;
+  overflow: hidden;
+}
+.boxInner img {
+  width: 100%;
+}
+body.no-touch .boxInner:hover .titleBox,
+body.touch .boxInner.touchFocus .titleBox {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+  /* Smartphone view: 1 tile */
+  .box {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 481px) {
+  /* Tablet view: 2 tiles */
+  .box {
+    width: 50%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (max-width: 1050px) and (min-width: 651px) {
+  /* Small desktop / ipad view: 3 tiles */
+  .box {
+    width: 33.3%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (max-width: 1290px) and (min-width: 1051px) {
+  /* Medium desktop: 4 tiles */
+  .box {
+    width: 25%;
+    padding-bottom: 15%;
+  }
+}
+
 /*Media queries*/
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
