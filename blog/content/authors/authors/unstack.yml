@@ -1,0 +1,8 @@
+name: unStack Africa
+bio: |
+  open-source based conference/meetups for every engineer/designer & technical talents focused on hands-on workshops and world-class talks from around the world
+avatar: ./avatars/unstack.png
+social:
+   - url: https://twitter.com/unstackafrica
+   - url: https://github.com/unstackofficial
+featured: true
