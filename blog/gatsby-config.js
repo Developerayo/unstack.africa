@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Senior Developer Advocate`,
-    name: `Shodipo Ayomide`,
-    siteUrl: `https://shodipoayomide.com`,
-    description: `Senior Developer Advocate from Lagos, Nigeria Media Developer Expert at Cloudinary and Technical Instructor at egghead.io`,
+    title: `unStack Africa - Blog`,
+    name: `unStack Africa - Blog`,
+    siteUrl: `https://unstack.africa`,
+    description: `Open-source Based Conference/meetups For Every Engineer/designer & Technical Talents Focused On Hands-on Workshops And World-class Talks From Around The World 🌍`,
     hero: {
       heading: ``,
       maxWidth: 700,
@@ -11,23 +11,11 @@ module.exports = {
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/developerayo_`,
+        url: `https://twitter.com/unstackafrica`,
       },
       {
         name: `github`,
-        url: `https://github.com/developerayo`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/developerayo`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/in/shodipo-ayomide`,
-      },
-      {
-        name: `devto`,
-        url: `https://dev.to/developerayo`,
+        url: `https://github.com/unstackofficial`,
       },
     ],
   },
@@ -55,11 +43,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Shodipo Ayomide`,
-        short_name: `Developerayo`,
+        name: `unStack Africa`,
+        short_name: `unStack`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#fff`,
+        background_color: `#04113B`,
+        theme_color: `#04113B`,
         display: `standalone`,
         icon: `src/assets/favicon.png`,
       },
@@ -67,7 +55,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-125265218-1",
+        trackingId: "",
       },
     },
     {

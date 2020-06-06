@@ -25,10 +25,10 @@ export default {
         primary: "#fff",
         secondary: "#fff",
         accent: "lightgrey",
-        background: "#0D2538",
+        background: "#04113B",
         hover: "rgba(255, 255, 255, 0.07)",
         gradient:
-          "linear-gradient(180deg, #0D2538 0%, rgba(66, 81, 98, 0.36) 100%)",
+          "linear-gradient(180deg, #04113B 0%, #04113B 100%)",
         articleText: "#fff",
         track: "white",
         progress: "green",
