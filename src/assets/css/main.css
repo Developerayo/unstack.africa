@@ -785,6 +785,35 @@ body.no-touch .boxInner:hover .titleBox,
 body.touch .boxInner.touchFocus .titleBox {
   margin-bottom: 0;
 }
+
+/* The New CSS styles for new changes */
+
+.timeLeft-bg {
+  background-image: linear-gradient(
+      rgba(63, 70, 133, 0.688) 100.13%,
+      rgba(66, 65, 65, 0.688) 100.13%
+    ),
+    url(../img/ztp.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.time-left-h1 {
+  color: #fff;
+  font-family: "Bitter", serif;
+  font-size: 50px;
+  margin: 180px 0px 30px;
+}
+
+.time-left-p {
+  color: #ffffff;
+  margin: 25px 0px 240px;
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 480px) {
   /* Smartphone view: 1 tile */
   .box {

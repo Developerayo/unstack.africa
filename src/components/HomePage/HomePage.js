@@ -26,7 +26,7 @@ import paystack from "../../assets/img/paystack_sponsor.png"
 import thinkster from "../../assets/img/thinkster_sponsor.png"
 import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
-const HomePage = (props) => (
+const HomePage = props => (
   <Fragment>
     {/* remove preloader init fo now */}
     {/* <Preloader />  */}
@@ -1278,15 +1278,18 @@ const HomePage = (props) => (
       </section>
 
       <section className="counter pt-120 pb-120 overlay parallax">
-        <div className="background-img">
-          <img src={ztp} alt="" />
-        </div>
+        <div className="timeLeft-bg"></div>
 
         <div className="container">
           <div className="row">
-            <div className="col-sm-12  text-center  front-p">
-              <h1 className="title">Time left until the summit start </h1>
-              <p className="title-lead mt-10 mb-20">
+            <div
+              className="col-sm-12  text-center  front-p"
+              style={{ marginTop: "193px" }}
+            >
+              <h1 className="time-left-h1">
+                Time left until the summit start{" "}
+              </h1>
+              <p className="time-left-p">
                 10th July 2020, 10:00 AM (GMT +1) - Open-Source Virtual Summit
                 Lagos, Nigeria{" "}
               </p>
@@ -1397,19 +1400,23 @@ const HomePage = (props) => (
           </div>
         </div>
 
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12  col-sm-push-2 text-center">
+        <div className="container" style={{ backgroundColor: "#D3D1DF" }}>
+          <div className="row" style={{ marginTop: "45px" }}>
+            <div
+              className="col-sm-12  col-sm-push-2 text-center"
+              style={{ margin: "0 auto" }}
+            >
               <div className="col-md-2 col-sm-2 ">
                 <a href="https://cloudinary.com" target="_blank">
                   <img src={cloudinary} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://codesandbox.io" target="_blank">
-                  <img src={hashnode} alt="" />
+                <a href="https://amp.dev" target="_blank">
+                  <img src={egghead} alt="" />
                 </a>
               </div>
+
               <div className="col-md-2 col-sm-2">
                 <a href="https://egghead.io" target="_blank">
                   <img src={thinkster} alt="" />
@@ -1428,42 +1435,11 @@ const HomePage = (props) => (
               <br />
               <br />
               <br />
-              <br />
-              <br />
-              <br />
-              <br />
               <div className="col-md-2 col-sm-2">
                 <a href="https://andela.com" target="_blank">
                   <img src={fleek} alt="" />
                 </a>
               </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://amp.dev" target="_blank">
-                  <img src={egghead} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://vanhack.com" target="_blank">
-                  <img src={codesandbox} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://gatsby.com" target="_blank">
-                  <img src={gatsby} alt="" />
-                </a>
-              </div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
               <div className="col-md-2 col-sm-2">
                 <a href="https://paystack.com" target="_blank">
                   <img src={andela} alt="" />
@@ -1472,6 +1448,29 @@ const HomePage = (props) => (
               <div className="col-md-2 col-sm-2">
                 <a href="https://thinkster.io" target="_blank">
                   <img src={amp} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2" style={{ paddingTop: "20px" }}>
+                <a href="https://codesandbox.io" target="_blank">
+                  <img src={hashnode} alt="" />
+                </a>
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <div className="col-md-2 col-sm-2">
+                <a href="https://gatsby.com" target="_blank">
+                  <img src={gatsby} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a href="https://vanhack.com" target="_blank">
+                  <img src={codesandbox} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
