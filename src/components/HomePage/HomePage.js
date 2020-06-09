@@ -26,7 +26,7 @@ import paystack from "../../assets/img/paystack_sponsor.png"
 import thinkster from "../../assets/img/thinkster_sponsor.png"
 import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
-const HomePage = (props) => (
+const HomePage = props => (
   <Fragment>
     {/* remove preloader init fo now */}
     {/* <Preloader />  */}
@@ -1278,15 +1278,15 @@ const HomePage = (props) => (
       </section>
 
       <section className="counter pt-120 pb-120 overlay parallax">
-        <div className="background-img">
-          <img src={ztp} alt="" />
-        </div>
+        <div className="timeLeft-bg"></div>
 
-        <div className="container">
+        <div className="container" style={{ marginTop: "180px" }}>
           <div className="row">
             <div className="col-sm-12  text-center  front-p">
-              <h1 className="title">Time left until the summit start </h1>
-              <p className="title-lead mt-10 mb-20">
+              <h1 className="time-left-h1">
+                Time left until the summit start{" "}
+              </h1>
+              <p className="time-left-p">
                 10th July 2020, 10:00 AM (GMT +1) - Open-Source Virtual Summit
                 Lagos, Nigeria{" "}
               </p>
