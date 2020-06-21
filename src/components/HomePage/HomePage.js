@@ -1395,11 +1395,63 @@ const HomePage = props => (
               </p>
             </div>
           </div>
-        </div>
-
-        <div className="container">
+      
           <div className="row">
             <div className="sponsor-block">
+                <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
+                  <img src={cloudinary} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a href="https://codesandbox.io" target="_blank" rel="noopener noreferrer">
+                  <img src={hashnode} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
+                  <img src={thinkster} alt="" />
+                </a>
+              </div>
+          </div>
+
+          <div className="row">
+            <div className="sponsor-block">
+                <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
+                  <img src={cloudinary} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a href="https://codesandbox.io" target="_blank" rel="noopener noreferrer">
+                  <img src={hashnode} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
+                  <img src={thinkster} alt="" />
+                </a>
+              </div>
+          </div>
+
+          <div className="row">
+            <div className="sponsor-block">
+                <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
+                  <img src={cloudinary} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a href="https://codesandbox.io" target="_blank" rel="noopener noreferrer">
+                  <img src={hashnode} alt="" />
+                </a>
+              </div>
+              <div className="col-md-2 col-sm-2">
+                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
+                  <img src={thinkster} alt="" />
+                </a>
+              </div>
+          </div>
+      
+        </div>
+            {/* <div className="sponsor-block">
                 <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
                   <img src={cloudinary} alt="" />
                 </a>
@@ -1453,9 +1505,7 @@ const HomePage = props => (
                 <a href="https://hashnode.com" target="_blank" rel="noopener noreferrer">
                   <img src={vanhack} alt="" />
                 </a>
-              </div>
-            </div>
-          </div>
+              </div> */}
       </section>
       {/* <!--sponser end--> */}
 
