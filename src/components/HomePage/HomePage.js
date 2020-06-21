@@ -1400,7 +1400,6 @@ const HomePage = props => (
         <div className="container">
           <div className="row">
             <div className="sponsor-block">
-              <div className="col-md-2 col-sm-2 ">
                 <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
                   <img src={cloudinary} alt="" />
                 </a>
@@ -1420,68 +1419,43 @@ const HomePage = props => (
                   <img src={paystack} alt="" />
                 </a>
               </div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
               <div className="col-md-2 col-sm-2">
-                <a href="https://andela.com" target="_blank">
+                <a href="https://andela.com" target="_blank" rel="noopener noreferrer">
                   <img src={fleek} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://amp.dev" target="_blank">
+                <a href="https://amp.dev" target="_blank" rel="noopener noreferrer"> 
                   <img src={egghead} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://vanhack.com" target="_blank">
+                <a href="https://vanhack.com" target="_blank" rel="noopener noreferrer">
                   <img src={codesandbox} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://gatsby.com" target="_blank">
+                <a href="https://gatsby.com" target="_blank" rel="noopener noreferrer">
                   <img src={gatsby} alt="" />
                 </a>
               </div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
               <div className="col-md-2 col-sm-2">
-                <a href="https://paystack.com" target="_blank">
+                <a href="https://paystack.com" target="_blank" rel="noopener noreferrer">
                   <img src={andela} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://thinkster.io" target="_blank">
+                <a href="https://thinkster.io" target="_blank" rel="noopener noreferrer">
                   <img src={amp} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://hashnode.com" target="_blank">
+                <a href="https://hashnode.com" target="_blank" rel="noopener noreferrer">
                   <img src={vanhack} alt="" />
                 </a>
               </div>
             </div>
           </div>
-        </div>
       </section>
       {/* <!--sponser end--> */}
 
