@@ -1399,24 +1399,24 @@ const HomePage = props => (
 
         <div className="container">
           <div className="row">
-            <div className="col-sm-12  col-sm-push-2 text-center">
+            <div className="sponsor-block">
               <div className="col-md-2 col-sm-2 ">
-                <a href="https://cloudinary.com" target="_blank">
+                <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
                   <img src={cloudinary} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://codesandbox.io" target="_blank">
+                <a href="https://codesandbox.io" target="_blank" rel="noopener noreferrer">
                   <img src={hashnode} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank">
+                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
                   <img src={thinkster} alt="" />
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://fleek.co" target="_blank">
+                <a href="https://fleek.co" target="_blank" rel="noopener noreferrer">
                   <img src={paystack} alt="" />
                 </a>
               </div>
