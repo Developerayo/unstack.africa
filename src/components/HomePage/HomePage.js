@@ -1745,62 +1745,62 @@ const HomePage = props => (
         <div className="wrap">
           <div className="box">
             <div className="boxInner">
-              <img src={event1} />
+              <img src={event1} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event2} />
+              <img src={event2} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event3} />
+              <img src={event3} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event4} />
+              <img src={event4} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event5} />
+              <img src={event5} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event6} />
+              <img src={event6} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event7} />
+              <img src={event7} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} />
+              <img src={replace} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} />
+              <img src={replace} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} />
+              <img src={replace} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} />
+              <img src={replace} alt="gallery"/>
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} />
+              <img src={replace} alt="gallery"/>
             </div>
           </div>
         </div>
