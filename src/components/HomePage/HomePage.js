@@ -25,6 +25,7 @@ import gatsby from "../../assets/img/gatsby.png"
 import paystack from "../../assets/img/paystack_sponsor.png"
 import thinkster from "../../assets/img/thinkster_sponsor.png"
 import hashnode from "../../assets/img/hashnode_sponsor.svg"
+import '../../../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 const HomePage = props => (
   <Fragment>
@@ -347,7 +348,7 @@ const HomePage = props => (
                   <ul className="block-social">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer" >
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -355,7 +356,7 @@ const HomePage = props => (
                         href="https://twitter.com/developerayo"
                         target="_blank" rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -363,7 +364,7 @@ const HomePage = props => (
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank" rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                       <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -385,7 +386,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -394,7 +395,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -403,7 +404,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -425,7 +426,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -434,7 +435,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -443,7 +444,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -465,7 +466,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -474,7 +475,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -483,7 +484,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -505,7 +506,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -514,7 +515,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -523,7 +524,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -545,7 +546,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -554,7 +555,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -563,7 +564,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -585,7 +586,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -594,7 +595,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -603,7 +604,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -625,23 +626,25 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://twitter.com/developerayo"
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -663,7 +666,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -672,7 +675,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -681,7 +684,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -703,7 +706,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -712,7 +715,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -721,7 +724,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -743,7 +746,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -752,15 +755,16 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
-                        target="_blank" rel="noopener noreferrer"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -782,7 +786,7 @@ const HomePage = props => (
                   <ul className="block-social ">
                     <li>
                       <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                        <i className="icon-github"></i>
+                      <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -791,7 +795,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-twitter"></i>
+                        <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
@@ -800,7 +804,7 @@ const HomePage = props => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="icon-linkedin"></i>
+                        <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -808,7 +812,7 @@ const HomePage = props => (
               </div>
             </div>
           </div>
-        </div>
+          </div>
       </section>
       <section id="schedule" className="schedule pt-120 pb-120">
         <div className="container">
@@ -849,7 +853,7 @@ const HomePage = props => (
                       />
                     </g>
                   </svg>
-                  <strong>Day 1</strong> <span>- 23 july 2017</span>
+                  <strong>Day 1</strong> <span>- 23 july 2020</span>
                 </li>
                 <li className="">
                   <svg
@@ -867,7 +871,7 @@ const HomePage = props => (
                       />
                     </g>
                   </svg>
-                  <strong>Day 2</strong> <span>- 24 july 2017</span>
+                  <strong>Day 2</strong> <span>- 24 july 2020</span>
                 </li>
                 {/* <li className="">
                   <i className="et-line-calendar"></i>
