@@ -4,7 +4,7 @@ import Footer from "../common/Footer"
 // import Preloader from "../common/Preloader";
 import hero from "../../assets/img/hero.png"
 import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
-import ztp from "../../assets/img/ztp.jpg"
+// import ztp from "../../assets/img/ztp.jpg"
 import unstacklocate from "../../assets/img/unstack-locate.svg"
 import event1 from "../../assets/img/event1.jpg"
 import event2 from "../../assets/img/event2.JPG"
@@ -110,8 +110,6 @@ const HomePage = props => (
                   height="512"
                   viewBox="0 0 512 512"
                   width="512"
-                  width="512"
-                  height="512"
                   style={{ width: "50" }}
                 >
                   <g>
@@ -349,14 +347,14 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer" >
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://twitter.com/developerayo"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -364,7 +362,7 @@ const HomePage = props => (
                     <li>
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -387,7 +385,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -395,6 +393,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -403,6 +402,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -425,7 +425,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -433,6 +433,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -441,6 +442,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -463,7 +465,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -471,6 +473,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -479,6 +482,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -501,7 +505,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -509,6 +513,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -517,6 +522,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -539,7 +545,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -547,6 +553,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -555,6 +562,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -577,7 +585,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -585,6 +593,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -593,6 +602,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -615,14 +625,14 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
                     <li>
                       <a
                         href="https://twitter.com/developerayo"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -630,7 +640,7 @@ const HomePage = props => (
                     <li>
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -653,7 +663,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -661,6 +671,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -669,6 +680,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -691,7 +703,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -699,6 +711,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -707,6 +720,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -729,7 +743,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -737,6 +751,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -744,7 +759,7 @@ const HomePage = props => (
                     <li>
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -767,7 +782,7 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank">
+                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
                         <i className="icon-github"></i>
                       </a>
                     </li>
@@ -775,6 +790,7 @@ const HomePage = props => (
                       <a
                         href="https://twitter.com/developerayo"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-twitter"></i>
                       </a>
@@ -783,6 +799,7 @@ const HomePage = props => (
                       <a
                         href="https://linkedin.com/in/shodipo-ayomide"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <i className="icon-linkedin"></i>
                       </a>
@@ -924,6 +941,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Shodipo Ayomide
@@ -950,6 +968,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Shodipo Ayomide
@@ -974,6 +993,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Shodipo Ayomide
@@ -997,6 +1017,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Adora
@@ -1023,6 +1044,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Adora
@@ -1049,6 +1071,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Adora
@@ -1129,6 +1152,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Shodipo Ayomide
@@ -1155,6 +1179,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Shodipo Ayomide
@@ -1179,6 +1204,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/developerayo"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Shodipo Ayomide
@@ -1202,6 +1228,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Adora
@@ -1228,6 +1255,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Adora
@@ -1254,6 +1282,7 @@ const HomePage = props => (
                         <a
                           href="https://twitter.com/adora"
                           target="_blank"
+                          rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
                           Adora
@@ -1467,8 +1496,8 @@ const HomePage = props => (
                 </a>
               </div>
               <div className="col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
-                  <img src={thinkster} alt="" className="move-right"/>
+                <a href="https://vanhack.com" target="_blank" rel="noopener noreferrer">
+                  <img src={vanhack} alt="" className="move-right"/>
                 </a>
               </div>
               </div>
@@ -1623,6 +1652,7 @@ const HomePage = props => (
                   <a
                     href="https://twitter.com/unstackafrica"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "white" }}
                   >
                     Twitter
@@ -1631,7 +1661,7 @@ const HomePage = props => (
                   <i className="icon-slack"></i>
                   <a
                     href="https://join.slack.com/t/unstackdev/shared_invite/zt-9bowaas5-jhDbuts0FEJVKOaNz~1C4g"
-                    target="_blank"
+                    target="_blank" rel="noopener noreferrer"
                     style={{ color: "white" }}
                   >
                     Slack
@@ -1745,7 +1775,7 @@ const HomePage = props => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} />
+              <img src={event7} />
             </div>
           </div>
           <div className="box">
@@ -1774,7 +1804,6 @@ const HomePage = props => (
             </div>
           </div>
         </div>
-        ;
       </section>
 
       <Footer />

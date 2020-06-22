@@ -65,12 +65,13 @@ const Footer = (props) => (
                 <a
                   href="https://web.facebook.com/groups/unstackafrica/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/unstackafrica" target="_blank">
+                <a href="https://twitter.com/unstackafrica" target="_blank" rel="noopener noreferrer">
                   <i className="icon-twitter"></i>
                 </a>
               </li>
@@ -78,12 +79,13 @@ const Footer = (props) => (
                 <a
                   href="https://www.youtube.com/channel/UCt_RhSqO7_lTAdeXBt4X2pg"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-youtube"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/unstackofficial" target="_blank">
+                <a href="https://github.com/unstackofficial" target="_blank" rel="noopener noreferrer">
                   <i className="icon-github"></i>
                 </a>
               </li>

@@ -37,6 +37,7 @@ const Header = (props) => (
                   className="scroll"
                   href="https://unstack.africa/communities"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Communities
                 </a>
@@ -56,6 +57,7 @@ const Header = (props) => (
                   className="scroll"
                   href="https://blog.unstack.africa"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Blog
                 </a>
