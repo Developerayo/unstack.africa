@@ -1301,3 +1301,43 @@ body.touch .boxInner.touchFocus .titleBox {
 
 }
 /*End media queries*/
+
+
+@media only screen and (max-width: 480px) {
+  /* Smartphone view: 1 tile */
+  .platinum-header > h2 {
+    font-size: 1.5em !important;
+  }
+  .platinum-header svg {
+    width: 10px !important;
+  }
+  div.platinum {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .platinum div {
+    width: 60% !important;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 481px) {
+  /* Tablet view: 2 tiles */
+  .box {
+    width: 50%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (max-width: 1050px) and (min-width: 651px) {
+  /* Small desktop / ipad view: 3 tiles */
+  .box {
+    width: 33.3%;
+    padding-bottom: 15%;
+  }
+}
+@media only screen and (max-width: 1290px) and (min-width: 1051px) {
+  /* Medium desktop: 4 tiles */
+  .box {
+    width: 25%;
+    padding-bottom: 15%;
+  }
+}
