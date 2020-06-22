@@ -1,2 +1,0 @@
-script:
-  - CI=false npm run build
