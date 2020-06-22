@@ -12,7 +12,7 @@ import event3 from "../../assets/img/event3.JPG"
 import event4 from "../../assets/img/event4.JPG"
 import event5 from "../../assets/img/event5.JPG"
 import event6 from "../../assets/img/event6.JPG"
-import event7 from "../../assets/img/event7.JPG"
+// import event7 from "../../assets/img/event7.JPG"
 import replace from "../../assets/img/event1.jpg"
 import cloudinary from "../../assets/img/cloudinary_sponsor.png"
 import codesandbox from "../../assets/img/csb.png"
@@ -1775,7 +1775,7 @@ const HomePage = props => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event7} alt="gallery"/>
+              <img src={replace} alt="gallery"/>
             </div>
           </div>
           <div className="box">
