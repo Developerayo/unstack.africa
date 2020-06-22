@@ -25,7 +25,6 @@ import gatsby from "../../assets/img/gatsby.png"
 import paystack from "../../assets/img/paystack_sponsor.png"
 import thinkster from "../../assets/img/thinkster_sponsor.png"
 import hashnode from "../../assets/img/hashnode_sponsor.svg"
-import '../../../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 const HomePage = props => (
   <Fragment>

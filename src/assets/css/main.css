@@ -1168,12 +1168,6 @@ body.touch .boxInner.touchFocus .titleBox {
   .top-footer .block-social {
     margin-bottom: 20px;
   }
-  .insta-Feed li:after,
-  .insta-Feed li a:after,
-  .insta-Feed li:before,
-  .insta-Feed li a:before {
-    content: none;
-  }
 }
 @media only screen and (max-width: 479px) {
   input,
