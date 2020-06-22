@@ -1,5 +1,2 @@
 script:
-  - npm install -g codecov
-  - npm test && codecov
   - CI=false npm run build
-  - npm run docs
