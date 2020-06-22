@@ -1291,6 +1291,10 @@ body.touch .boxInner.touchFocus .titleBox {
   }
 }
 
+.move-right {
+  margin-left: 17px;
+}
+
 .sponsor-block {
 
 
