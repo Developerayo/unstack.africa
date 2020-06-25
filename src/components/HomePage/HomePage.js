@@ -1,33 +1,31 @@
 import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
-// import Preloader from "../common/Preloader";
-import hero from "../../assets/img/hero.png"
-import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
-// import ztp from "../../assets/img/ztp.jpg"
-import unstacklocate from "../../assets/img/unstack-locate.svg"
-import event1 from "../../assets/img/event1.jpg"
-import event2 from "../../assets/img/event2.JPG"
-import event3 from "../../assets/img/event3.JPG"
-import event4 from "../../assets/img/event4.JPG"
-import event5 from "../../assets/img/event5.JPG"
-import event6 from "../../assets/img/event6.JPG"
-// import event7 from "../../assets/img/event7.JPG"
-import replace from "../../assets/img/event1.jpg"
-import cloudinary from "../../assets/img/cloudinary_sponsor.png"
-import codesandbox from "../../assets/img/csb.png"
-import egghead from "../../assets/img/egghead.jpg"
-import andela from "../../assets/img/andela_sponsor.jpg"
-import amp from "../../assets/img/amp.png"
-import fleek from "../../assets/img/fleek.png"
-import vanhack from "../../assets/img/vanhack_sponsor.png"
-import gatsby from "../../assets/img/gatsby.png"
-import paystack from "../../assets/img/paystack_sponsor.png"
-import thinkster from "../../assets/img/thinkster_sponsor.png"
-import hashnode from "../../assets/img/hashnode_sponsor.svg"
-import '../../../node_modules/font-awesome/css/font-awesome.min.css'; 
+import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
-const HomePage = props => (
+const hero = "/images/hero.png"
+const shodipoayomide = "/images/speakers/shodipoayomide.JPG"
+const unstacklocate = "/images/unstack-locate.svg"
+const event1 = "/images/event1.jpg"
+const event2 = "/images/event2.JPG"
+const event3 = "/images/event3.JPG"
+const event4 = "/images/event4.JPG"
+const event5 = "/images/event5.JPG"
+const event6 = "/images/event6.JPG"
+const replace = "/images/event1.jpg"
+const cloudinary = "/images/cloudinary_sponsor.png"
+const codesandbox = "/images/csb.png"
+const egghead = "/images/egghead.jpg"
+const andela = "/images/andela_sponsor.jpg"
+const amp = "/images/amp.png"
+const fleek = "/images/fleek.png"
+const vanhack = "/images/vanhack_sponsor.png"
+const gatsby = "/images/gatsby.png"
+const paystack = "/images/paystack_sponsor.png"
+const thinkster = "/images/thinkster_sponsor.png"
+const hashnode = "/images/hashnode_sponsor.svg"
+
+const HomePage = (props) => (
   <Fragment>
     {/* remove preloader init fo now */}
     {/* <Preloader />  */}
@@ -106,7 +104,7 @@ const HomePage = props => (
               <div className="block-info-1">
                 <svg
                   id="Capa_1"
-                  enable-background="new 0 0 512 512"
+                  enableBackground="new 0 0 512 512"
                   height="512"
                   viewBox="0 0 512 512"
                   width="512"
@@ -347,46 +345,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer" >
-                      <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
                       <a
-                        href="https://twitter.com/developerayo"
-                        target="_blank" rel="noopener noreferrer"
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://linkedin.com/in/shodipo-ayomide"
-                        target="_blank" rel="noopener noreferrer"
-                      >
-                       <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img src={shodipoayomide} alt="" />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Shodipo Ayomide</strong>
-                    <span>Engineer </span>
-                  </p>
-                  <ul className="block-social ">
-                    <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -425,8 +389,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -465,8 +433,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -505,8 +477,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -545,8 +521,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -585,8 +565,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -625,8 +609,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -665,8 +653,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -705,8 +697,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -745,8 +741,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -785,8 +785,12 @@ const HomePage = props => (
                   </p>
                   <ul className="block-social ">
                     <li>
-                      <a href="https://github.com/developerayo" target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-github"></i>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
@@ -812,7 +816,51 @@ const HomePage = props => (
               </div>
             </div>
           </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
       </section>
       <section id="schedule" className="schedule pt-120 pb-120">
         <div className="container">
@@ -840,7 +888,7 @@ const HomePage = props => (
                 <li className="active">
                   <svg
                     id="Layer_1"
-                    enable-background="new 0 0 512 512"
+                    enableBackground="new 0 0 512 512"
                     viewBox="0 0 512 512"
                     width="512"
                     style={{ width: "30" }}
@@ -853,12 +901,13 @@ const HomePage = props => (
                       />
                     </g>
                   </svg>
-                  <strong>Day 1</strong> <span>- 23 july 2020</span>
+                  <strong class="ml-3 ">Day 1</strong>{" "}
+                  <span>- 23 july 2020</span>
                 </li>
                 <li className="">
                   <svg
                     id="Layer_1"
-                    enable-background="new 0 0 512 512"
+                    enableBackground="new 0 0 512 512"
                     viewBox="0 0 512 512"
                     width="512"
                     style={{ width: "30" }}
@@ -871,7 +920,8 @@ const HomePage = props => (
                       />
                     </g>
                   </svg>
-                  <strong>Day 2</strong> <span>- 24 july 2020</span>
+                  <strong class="ml-3 ">Day 2</strong>{" "}
+                  <span>- 24 july 2020</span>
                 </li>
                 {/* <li className="">
                   <i className="et-line-calendar"></i>
@@ -889,7 +939,7 @@ const HomePage = props => (
                   <div className="block-date">
                     <svg
                       id="Layer_1"
-                      enable-background="new 0 0 512 512"
+                      enableBackground="new 0 0 512 512"
                       viewBox="0 0 512 512"
                       width="512"
                       style={{ width: "30" }}
@@ -902,7 +952,8 @@ const HomePage = props => (
                         />
                       </g>
                     </svg>
-                    <strong>Day 1</strong> <span>- 10 july 2020</span>
+                    <strong class="ml-3 ">Day 1</strong>{" "}
+                    <span>- 10 july 2020</span>
                   </div>
                   <div className="block-detail">
                     <span className="time">10:00 - 10:30</span>
@@ -1100,7 +1151,7 @@ const HomePage = props => (
                   <div className="block-date">
                     <svg
                       id="Layer_1"
-                      enable-background="new 0 0 512 512"
+                      enableBackground="new 0 0 512 512"
                       viewBox="0 0 512 512"
                       width="512"
                       style={{ width: "30" }}
@@ -1113,7 +1164,8 @@ const HomePage = props => (
                         />
                       </g>
                     </svg>
-                    <strong>Day 2</strong> <span>- 11 july 2020</span>
+                    <strong class="ml-3 ">Day 2</strong>{" "}
+                    <span>- 11 july 2020</span>
                   </div>
                   <div className="block-detail">
                     <span className="time">10:00 - 10:30</span>
@@ -1428,161 +1480,273 @@ const HomePage = props => (
               </p>
             </div>
           </div>
-      <div className="platinum-header" style={{display: "flex"}}>
-      <svg style={{color: "#e49205"}} xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="grip-lines-vertical" className="svg-inline--fa fa-grip-lines-vertical fa-w-8" width="20px" role="img" viewBox="0 0 256 512"><path fill="currentColor" d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"/></svg>
-         <h2 style={{alignSelf: "center", marginLeft: "10px", fontSize: "2em", fontFamily: "sans-serif"}}>Platinum</h2>
-      </div>
-
-          
-          <div className="row mt-50 mb-50 platinum">
-            <div className="sponsor-block col-md-4 col-sm-2 mx-5">
-                <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
-                  <img src={cloudinary} alt="" className="move-right"/>
-                </a>
-              </div>
-             
-              </div>
-        
-
-              <div style={{display: "flex"}}>
-      <svg style={{color: "#e49205"}} xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="grip-lines-vertical" className="svg-inline--fa fa-grip-lines-vertical fa-w-8" width="20px" role="img" viewBox="0 0 256 512"><path fill="currentColor" d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"/></svg>
-         <h2 style={{alignSelf: "center", marginLeft: "10px", fontSize: "2em", fontFamily: "sans-serif"}}>Silver</h2>
-      </div>
-          <div className="row mt-50 mb-50">
-            <div className="sponsor-block col-md-2 col-sm-2">
-                <a href="https://codesandbox.com" target="_blank" rel="noopener noreferrer">
-                <img src={fleek} alt="" className="move-right" style={{width: "150px"}}/>
-                </a>
-              </div>
-              <div className="sponsor-block col-md-3 col-sm-2">
-                <a href="https://fleek.co" target="_blank" rel="noopener noreferrer">
-                  <img src={codesandbox} alt="" className="move-right" style={{width: "200px"}}/>
-                </a>
-              </div>
-              <div className="col-md-3 col-sm-2">
-                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
-                  <img src={amp} alt="" className="move-right" style={{width: "130px"}}/>
-                </a>
-              </div>
+          <div className="sponsors-header" style={{ display: "flex" }}>
+            <svg
+              style={{ color: "#e49205" }}
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="grip-lines-vertical"
+              className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
+              width="20px"
+              role="img"
+              viewBox="0 0 256 512"
+            >
+              <path
+                fill="currentColor"
+                d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
+              />
+            </svg>
+            <h2
+              style={{
+                alignSelf: "center",
+                marginLeft: "10px",
+                fontSize: "2em",
+                fontFamily: "sans-serif",
+              }}
+            >
+              Platinum
+            </h2>
           </div>
 
-          <div style={{display: "flex"}}>
-      <svg style={{color: "#e49205"}} xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="grip-lines-vertical" className="svg-inline--fa fa-grip-lines-vertical fa-w-8" width="20px" role="img" viewBox="0 0 256 512"><path fill="currentColor" d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"/></svg>
-         <h2 style={{alignSelf: "center", marginLeft: "10px", fontSize: "2em", fontFamily: "sans-serif"}}>Bronze</h2>
-      </div>
+          <div className="row mt-50 mb-50 sponsors">
+            <div className="sponsor-blk col-md-4 col-sm-4">
+              <a
+                href="https://cloudinary.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={cloudinary} alt="" className="move-right" />
+              </a>
+            </div>
+          </div>
 
-          
-          <div className="row mt-50 mb-20">
-            <div className="sponsor-block col-md-2 col-sm-2">
-                <a href="https://paystack.co" target="_blank" rel="noopener noreferrer">
-                  <img src={paystack} alt="" className="move-right"/>
-                </a>
-              </div>
-              <div className="sponsor-block col-md-2 col-sm-2">
-                <a href="https://hashnode.com" target="_blank" rel="noopener noreferrer">
-                  <img src={hashnode} alt="" className="move-right"/>
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://gatsby.com" target="_blank" rel="noopener noreferrer">
-                  <img src={gatsby} alt="" className="move-right" style={{width: "125px"}}/>
-                </a>
-              </div>
-              <div className="sponsor-block col-md-2 col-sm-2">
-                <a href="https://andela.com" target="_blank" rel="noopener noreferrer">
-                  <img src={andela} alt="" className="move-right" style={{width: "110px"}}/>
-                </a>
-              </div>
-              <div className="sponsor-block col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
-                  <img src={egghead} alt="" className="move-right" style={{width: "110px"}}/>
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://vanhack.com" target="_blank" rel="noopener noreferrer">
-                  <img src={vanhack} alt="" className="move-right"/>
-                </a>
-              </div>
-              </div>
+          <div className="sponsors-header" style={{ display: "flex" }}>
+            <svg
+              style={{ color: "#e49205" }}
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="grip-lines-vertical"
+              className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
+              width="20px"
+              role="img"
+              viewBox="0 0 256 512"
+            >
+              <path
+                fill="currentColor"
+                d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
+              />
+            </svg>
+            <h2
+              style={{
+                alignSelf: "center",
+                marginLeft: "10px",
+                fontSize: "2em",
+                fontFamily: "sans-serif",
+              }}
+            >
+              Silver
+            </h2>
+          </div>
+          <div className="sponsors row mt-50 mb-50">
+            <div className="sponsor-blk col-xs-1 col-sm-2 mt-2">
+              <a
+                href="https://codesandbox.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={fleek}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "150px" }}
+                />
+              </a>
+            </div>
+            <div className="sponsor-blk col-xs-1 col-sm-2 mt-2">
+              <a
+                href="https://fleek.co"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={codesandbox}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "200px" }}
+                />
+              </a>
+            </div>
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://egghead.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={amp}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "130px" }}
+                />
+              </a>
+            </div>
+          </div>
+
+          <div className="sponsors-header" style={{ display: "flex" }}>
+            <svg
+              style={{ color: "#e49205" }}
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="grip-lines-vertical"
+              className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
+              width="20px"
+              role="img"
+              viewBox="0 0 256 512"
+            >
+              <path
+                fill="currentColor"
+                d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
+              />
+            </svg>
+            <h2
+              style={{
+                alignSelf: "center",
+                marginLeft: "10px",
+                fontSize: "2em",
+                fontFamily: "sans-serif",
+              }}
+            >
+              Bronze
+            </h2>
+          </div>
+
+          <div className="sponsors row mt-5 mb-2">
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://paystack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={paystack} alt="" className="move-right" />
+              </a>
+            </div>
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://hashnode.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={hashnode} alt="" className="move-right" />
+              </a>
+            </div>
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://gatsby.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={gatsby}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "125px" }}
+                />
+              </a>
+            </div>
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://andela.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={andela}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "110px" }}
+                />
+              </a>
+            </div>
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://egghead.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={egghead}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "110px" }}
+                />
+              </a>
+            </div>
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://vanhack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={vanhack}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "80px" }}
+                />
+              </a>
+            </div>
+          </div>
           <div className="row">
-              <div className="col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
-                  <img src={thinkster} alt="" className="move-right"/>
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
-                  <img src={thinkster} alt="" className="move-right"/>
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
-                  <img src={thinkster} alt="" className="move-right"/>
-                </a>
-              </div>
-              </div>
-      
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://egghead.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={thinkster}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "120px" }}
+                />
+              </a>
+            </div>
+            {/* <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://egghead.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={thinkster}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "120px" }}
+                />
+              </a>
+            </div>
+            <div className="sponsor-blk col-sm-2 mt-2">
+              <a
+                href="https://egghead.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={thinkster}
+                  alt=""
+                  className="move-right"
+                  style={{ width: "120px" }}
+                />
+              </a>
+            </div> */}
+          </div>
         </div>
-            {/* <div className="sponsor-block">
-                <a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">
-                  <img src={cloudinary} alt="" />
-                </a>
-              </div>
-                <div className="col-md-2 col-sm-2">
-                <a href="https://paystack.com" target="_blank" rel="noopener noreferrer">
-                  <img src={paystack} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://codesandbox.io" target="_blank" rel="noopener noreferrer">
-                  <img src={hashnode} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://egghead.io" target="_blank" rel="noopener noreferrer">
-                  <img src={thinkster} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://codesandbox.io" target="_blank" rel="noopener noreferrer">
-                  <img src={hashnode} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://andela.com" target="_blank" rel="noopener noreferrer">
-                  <img src={fleek} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://amp.dev" target="_blank" rel="noopener noreferrer"> 
-                  <img src={egghead} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://vanhack.com" target="_blank" rel="noopener noreferrer">
-                  <img src={codesandbox} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://gatsby.com" target="_blank" rel="noopener noreferrer">
-                  <img src={gatsby} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://paystack.com" target="_blank" rel="noopener noreferrer">
-                  <img src={andela} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://thinkster.io" target="_blank" rel="noopener noreferrer">
-                  <img src={amp} alt="" />
-                </a>
-              </div>
-              <div className="col-md-2 col-sm-2">
-                <a href="https://hashnode.com" target="_blank" rel="noopener noreferrer">
-                  <img src={vanhack} alt="" />
-                </a>
-              </div> */}
       </section>
       {/* <!--sponser end--> */}
 
@@ -1664,7 +1828,8 @@ const HomePage = props => (
                   <i className="icon-slack"></i>
                   <a
                     href="https://join.slack.com/t/unstackdev/shared_invite/zt-9bowaas5-jhDbuts0FEJVKOaNz~1C4g"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ color: "white" }}
                   >
                     Slack
@@ -1753,57 +1918,57 @@ const HomePage = props => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event2} alt="gallery"/>
+              <img src={event2} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event3} alt="gallery"/>
+              <img src={event3} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event4} alt="gallery"/>
+              <img src={event4} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event5} alt="gallery"/>
+              <img src={event5} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={event6} alt="gallery"/>
+              <img src={event6} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery"/>
+              <img src={replace} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery"/>
+              <img src={replace} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery"/>
+              <img src={replace} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery"/>
+              <img src={replace} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery"/>
+              <img src={replace} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery"/>
+              <img src={replace} alt="gallery" />
             </div>
           </div>
         </div>
