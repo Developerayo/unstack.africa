@@ -3,27 +3,27 @@ import Header from "../common/Header"
 import Footer from "../common/Footer"
 import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
-const hero = "/images/hero.png"
-const shodipoayomide = "/images/speakers/shodipoayomide.JPG"
-const unstacklocate = "/images/unstack-locate.svg"
-const event1 = "/images/event1.jpg"
-const event2 = "/images/event2.JPG"
-const event3 = "/images/event3.JPG"
-const event4 = "/images/event4.JPG"
-const event5 = "/images/event5.JPG"
-const event6 = "/images/event6.JPG"
-const replace = "/images/event1.jpg"
-const cloudinary = "/images/cloudinary_sponsor.png"
-const codesandbox = "/images/csb.png"
-const egghead = "/images/egghead.jpg"
-const andela = "/images/andela_sponsor.jpg"
-const amp = "/images/amp.png"
-const fleek = "/images/fleek.png"
-const vanhack = "/images/vanhack_sponsor.png"
-const gatsby = "/images/gatsby.png"
-const paystack = "/images/paystack_sponsor.png"
-const thinkster = "/images/thinkster_sponsor.png"
-const hashnode = "/images/hashnode_sponsor.svg"
+import hero from "../../assets/img/hero.png"
+import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
+import unstacklocate from "../../assets/img/unstack-locate.svg"
+import event1 from "../../assets/img/event1.jpg"
+import event2 from "../../assets/img/event2.JPG"
+import event3 from "../../assets/img/event3.JPG"
+import event4 from "../../assets/img/event4.JPG"
+import event5 from "../../assets/img/event5.JPG"
+import event6 from "../../assets/img/event6.JPG"
+import replace from "../../assets/img/event1.jpg"
+import cloudinary from "../../assets/img/cloudinary_sponsor.png"
+import codesandbox from "../../assets/img/csb.png"
+import egghead from "../../assets/img/egghead.jpg"
+import andela from "../../assets/img/andela_sponsor.jpg"
+import amp from "../../assets/img/amp.png"
+import fleek from "../../assets/img/fleek.png"
+import vanhack from "../../assets/img/vanhack_sponsor.png"
+import gatsby from "../../assets/img/gatsby.png"
+import paystack from "../../assets/img/paystack_sponsor.png"
+import thinkster from "../../assets/img/thinkster_sponsor.png"
+import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
 const HomePage = (props) => (
   <Fragment>
@@ -901,7 +901,7 @@ const HomePage = (props) => (
                       />
                     </g>
                   </svg>
-                  <strong class="ml-3 ">Day 1</strong>{" "}
+                  <strong className="ml-3 ">Day 1</strong>{" "}
                   <span>- 23 july 2020</span>
                 </li>
                 <li className="">
@@ -920,7 +920,7 @@ const HomePage = (props) => (
                       />
                     </g>
                   </svg>
-                  <strong class="ml-3 ">Day 2</strong>{" "}
+                  <strong className="ml-3 ">Day 2</strong>{" "}
                   <span>- 24 july 2020</span>
                 </li>
                 {/* <li className="">
@@ -952,7 +952,7 @@ const HomePage = (props) => (
                         />
                       </g>
                     </svg>
-                    <strong class="ml-3 ">Day 1</strong>{" "}
+                    <strong className="ml-3 ">Day 1</strong>{" "}
                     <span>- 10 july 2020</span>
                   </div>
                   <div className="block-detail">
@@ -1164,7 +1164,7 @@ const HomePage = (props) => (
                         />
                       </g>
                     </svg>
-                    <strong class="ml-3 ">Day 2</strong>{" "}
+                    <strong className="ml-3 ">Day 2</strong>{" "}
                     <span>- 11 july 2020</span>
                   </div>
                   <div className="block-detail">

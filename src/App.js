@@ -1,8 +1,8 @@
 import React, { Fragment, useEffect } from "react"
 // import Instafeed from "instafeed.js";
-// import "./assets/css/bootstrap.css"
-// import "./assets/css/main.css"
-// import "./assets/css/base.css"
+import "./assets/css/bootstrap.css"
+import "./assets/css/main.css"
+import "./assets/css/base.css"
 // import "./assets/css/flexslider.css";
 import HomePage from "./components/HomePage/HomePage"
 
