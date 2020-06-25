@@ -39,6 +39,7 @@ const Footer = (props) => (
         </div>
       </div>
     </section>
+    {/* <br />
     <br />
     <br />
     <br />
@@ -48,31 +49,34 @@ const Footer = (props) => (
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <section className="top-footer pb-120">
+    <br /> */}
+    <section className="top-footer pb-70 mt-70 text-center">
       <div className="container ">
         <div className="row">
-          <div className="col-sm-4 col-sm-offset-2">
+          <div className="w-50 mx-auto">
             <h2 className="sub-title-3 mb-30">About unStack</h2>
             <p className="">
               unStack is an open-source based conference/meetups for every
               engineer/designer & technical talents focused on hands-on
               workshops and world-class talks from around the world.
             </p>
-            <ul className="block-social mt-20">
+            <ul className="block-social mt-10 text-white">
               <li>
                 <a
                   href="https://web.facebook.com/groups/unstackafrica/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="icon-facebook"></i>
+                  <i className="fa fa-2x fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/unstackafrica" target="_blank" rel="noopener noreferrer">
-                  <i className="icon-twitter"></i>
+                <a
+                  href="https://twitter.com/unstackafrica"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-2x fa-twitter"></i>
                 </a>
               </li>
               <li>
@@ -81,12 +85,16 @@ const Footer = (props) => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="icon-youtube"></i>
+                  <i className="fa fa-2x fa-youtube"></i>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/unstackofficial" target="_blank" rel="noopener noreferrer">
-                  <i className="icon-github"></i>
+                <a
+                  href="https://github.com/unstackofficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-2x fa-github"></i>
                 </a>
               </li>
             </ul>
@@ -97,7 +105,7 @@ const Footer = (props) => (
     <div className="bottom-footer bg-black pt-50 pb-50">
       <div className="container ">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mx-auto text-center">
             <p> &copy; 2019 - 2020 unStack Africa.</p>
           </div>
         </div>

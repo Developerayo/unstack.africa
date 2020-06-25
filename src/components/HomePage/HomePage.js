@@ -42,24 +42,23 @@ const HomePage = (props) => (
             </li>
           </ul>
         </div>
+        {/* <br />
         <br />
         <br />
         <br />
         <br />
-        <br />
-        <br />
+        <br /> */}
         <Header />
 
         <div className="inner-hero fade-out">
           <div className="container hero-content">
             <div className="row">
-              <div className="col-sm-12 text-center">
+              <div className="col-md-9 mx-auto text-center">
                 <h1 className="large mb-10">unStack Africa</h1>
                 <h4 className="mb-10">
                   open-source based conference/meetups for every
-                  engineer/designer & technical talents <br /> focused on
-                  hands-on workshops and world-class talks from around the
-                  world.
+                  engineer/designer & technical talents focused on hands-on
+                  workshops and world-class talks from around the world.
                 </h4>
 
                 <p className="uppercase ">
@@ -82,10 +81,11 @@ const HomePage = (props) => (
         </div>
       </section>
 
-      <section id="about" className="about pt-120 pb-120 brd-bottom">
+      <section id="about" className="about pt-100 pb-100 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-100 text-center">
+            <div className="col-sm-12 mb-100 text-center">
+              {/* <div className="col-sm-8 col-sm-offset-2 mb-100 text-center"> */}
               <h1 className="title">Open Source Virtual Summit</h1>
               <p className="title-lead mt-20">
                 The open-source virtual summit is tailored towards empowering{" "}
@@ -100,7 +100,7 @@ const HomePage = (props) => (
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-sm-3">
+            <div className="col-md-3 col-sm-12 mb-5">
               <div className="block-info-1">
                 <svg
                   id="Capa_1"
@@ -159,7 +159,7 @@ const HomePage = (props) => (
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-3">
+            <div className="col-md-3 col-sm-12 mb-5">
               <div className="block-info-1">
                 <svg
                   version="1.1"
@@ -257,7 +257,7 @@ const HomePage = (props) => (
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-3">
+            <div className="col-md-3 col-sm-12 mb-5">
               <div className="block-info-1">
                 <svg
                   id="speaker"
@@ -305,7 +305,7 @@ const HomePage = (props) => (
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-3 text-right">
+            <div className="col-md-3 col-sm-12 mb-5">
               <div className="block-info-1">
                 <a
                   href="#tickets"
@@ -322,7 +322,7 @@ const HomePage = (props) => (
       </section>
 
       {/* <!--Speakers section--> */}
-      <section id="speakers" className="speakers pt-120 brd-bottom">
+      <section id="speakers" className="speakers pt-60 brd-bottom">
         <div className="container">
           <div className="row">
             <div className="col-sm-8 col-sm-offset-2 mb-100 text-center">
@@ -862,7 +862,7 @@ const HomePage = (props) => (
           </div>
         </div>
       </section>
-      <section id="schedule" className="schedule pt-120 pb-120">
+      <section id="schedule" className="schedule pt-60 pb-40">
         <div className="container">
           <div className="row">
             <div className="col-sm-8 col-sm-offset-2 mb-100 text-center">
@@ -1362,10 +1362,10 @@ const HomePage = (props) => (
         </div>
       </section>
 
-      <section className="counter pt-120 pb-120 overlay parallax">
+      <section className="counter pt-50 pb-120 overlay parallax">
         <div className="timeLeft-bg"></div>
 
-        <div className="container" style={{ marginTop: "180px" }}>
+        <div className="container" style={{ marginTop: "30px" }}>
           <div className="row">
             <div className="col-sm-12  text-center  front-p">
               <h1 className="time-left-h1">
@@ -1380,7 +1380,7 @@ const HomePage = (props) => (
         </div>
       </section>
 
-      <section id="tickets" className="tickets pt-120 pb-120">
+      <section id="tickets" className="tickets pt-60 pb-120">
         <div className="container">
           <div className="row">
             <div className="col-sm-8 col-sm-offset-2 mb-130 text-center">
@@ -1902,11 +1902,11 @@ const HomePage = (props) => (
         </div>
       </section>
 
-      <section id="gallery" className="gallery pt-120">
+      <section id="gallery" className="gallery pt-100">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-130 ">
-              <h1 className="title mt-10"> Feel The Vibes </h1>
+            <div className="col-sm-8 col-sm-offset-2 mb-100 ">
+              <h1 className="title mt-10 text-center"> Feel The Vibes </h1>
             </div>
           </div>
         </div>
