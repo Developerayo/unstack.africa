@@ -49,7 +49,6 @@ const HomePage = (props) => (
         <br />
         <br /> */}
         <Header />
-	
 
         <div className="inner-hero fade-out">
           <div className="container hero-content">
