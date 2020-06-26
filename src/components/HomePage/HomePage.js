@@ -850,7 +850,7 @@ const HomePage = (props) => (
       <section id="schedule" className="schedule pt-60 pb-40">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-100 text-center">
+            <div className="col-sm-12 mb-100 text-center">
               <h1 className="title"> Schedule</h1>
             </div>
           </div>
@@ -1368,7 +1368,7 @@ const HomePage = (props) => (
       <section id="tickets" className="tickets pt-60 pb-120">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-130 text-center">
+            <div className="col-sm-12 mb-70 text-center">
               <h1 className="title">Register</h1>
             </div>
           </div>
@@ -1376,7 +1376,7 @@ const HomePage = (props) => (
 
         <div className="container">
           <div className="row vertical-align tickets">
-            <div className="col-sm-4 ">
+            <div className="col-sm-12">
               <h3 className="sub-title-0  mb-20">
                 <span>
                   You can either register for a free ticket and join us for the
@@ -1391,7 +1391,7 @@ const HomePage = (props) => (
                 </span>
               </h3>
             </div>
-            <div className="col-sm-8 ">
+            <div className="col-sm-12 ">
               <div className="col-sm-6">
                 <ul className="block-tickets overlap">
                   <li>
@@ -1454,7 +1454,7 @@ const HomePage = (props) => (
       </section>
 
       {/* <!--Sponsors--> */}
-      <section className="sponser pt-100 pb-100">
+      <section className="sponser pt-100 pb-50">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 mb-50 text-center ">
@@ -1705,10 +1705,10 @@ const HomePage = (props) => (
       </section>
       {/* <!--sponser end--> */}
 
-      <section className="sponser pt-100 pb-100">
+      <section className="sponser pt-50 pb-100">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-50 text-center ">
+            <div className="col-sm-12 mb-50 text-center ">
               <h1 className="title">Supporters</h1>
               <p className="title-lead mt-10 mb-20">
                 Our event is possible from generous donations from these great
@@ -1806,7 +1806,7 @@ const HomePage = (props) => (
       <section id="faq" className="faq pt-120 pb-120 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-100 text-center ">
+            <div className="col-sm-12 mb-100 text-center ">
               <h1 className="title">Frequently asked questions </h1>
             </div>
           </div>
@@ -1814,7 +1814,7 @@ const HomePage = (props) => (
 
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2  ">
+            <div className="col-sm-8 mx-auto">
               <div className="block-faq mb-50">
                 <h4 className="mb-10">What is unStack?</h4>
                 <p>
@@ -1840,7 +1840,7 @@ const HomePage = (props) => (
 
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2  text-center mt-50">
+            <div className="col-sm-12 text-center mt-50">
               <h2 className="sub-title-1">
                 Didn’t find what your are looking for ?
               </h2>
@@ -1861,7 +1861,7 @@ const HomePage = (props) => (
       <section id="gallery" className="gallery pt-100">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-100 ">
+            <div className="col-sm-12 mb-100 ">
               <h1 className="title mt-10 text-center"> Feel The Vibes </h1>
             </div>
           </div>
