@@ -100,7 +100,7 @@ const HomePage = (props) => (
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-sm-12 mb-5">
+            <div className="col-md-3 col-sm-12 mt-20 mb-20">
               <div className="block-info-1">
                 <svg
                   id="Capa_1"
@@ -159,7 +159,7 @@ const HomePage = (props) => (
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-12 mb-5">
+            <div className="col-md-3 col-sm-12 mt-20 mb-20">
               <div className="block-info-1">
                 <svg
                   version="1.1"
@@ -234,21 +234,6 @@ const HomePage = (props) => (
                       </g>
                     </g>
                   </g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
-                  <g></g>
                 </svg>
 
                 <p>
@@ -257,7 +242,7 @@ const HomePage = (props) => (
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-12 mb-5">
+            <div className="col-md-3 col-sm-12 mt-20 mb-20">
               <div className="block-info-1">
                 <svg
                   id="speaker"
@@ -305,7 +290,7 @@ const HomePage = (props) => (
                 </p>
               </div>
             </div>
-            <div className="col-md-3 col-sm-12 mb-5">
+            <div className="col-md-3 col-sm-12 mt-20 mb-20">
               <div className="block-info-1">
                 <a
                   href="#tickets"
@@ -325,13 +310,13 @@ const HomePage = (props) => (
       <section id="speakers" className="speakers pt-60 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-100 text-center">
+            <div className="col-sm-12 mb-100 text-center">
               <h1 className="title">Speakers</h1>
             </div>
           </div>
         </div>
 
-        <div className="block-content">
+        <div className="block-content row">
           <div className="col-sm-3 pd-0">
             <div className="block-speaker">
               <div className="block-img overlay soft">
@@ -1419,10 +1404,10 @@ const HomePage = (props) => (
                       </li>
                       <li>Thank you tweet :)</li>
                       <li>
-                        A chnace to support more open-source contributors in
+                        A chance to support more open-source contributors in
                         Nigeria
                       </li>
-                      <li>Logo on the website</li>
+                      <li>Log on the website</li>
                       <li>
                         <a
                           href="#wrapper"
@@ -1472,7 +1457,7 @@ const HomePage = (props) => (
       <section className="sponser pt-100 pb-100">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-sm-offset-2 mb-50 text-center ">
+            <div className="col-sm-12 mb-50 text-center ">
               <h1 className="title">Proud Sponsors</h1>
               <p className="title-lead mt-10 mb-20">
                 Our event is possible from generous support from these great
@@ -1510,7 +1495,7 @@ const HomePage = (props) => (
             </h2>
           </div>
 
-          <div className="row mt-50 mb-50 sponsors">
+          <div className="row mt-30 mb-30 sponsors">
             <div className="sponsor-blk col-md-4 col-sm-4">
               <a
                 href="https://cloudinary.com"
@@ -1551,7 +1536,7 @@ const HomePage = (props) => (
               Silver
             </h2>
           </div>
-          <div className="sponsors row mt-50 mb-50">
+          <div className="sponsors row mt-30 mb-30">
             <div className="sponsor-blk col-xs-1 col-sm-2 mt-2">
               <a
                 href="https://codesandbox.com"
@@ -1626,7 +1611,7 @@ const HomePage = (props) => (
             </h2>
           </div>
 
-          <div className="sponsors row mt-5 mb-2">
+          <div className="sponsors row mt-30">
             <div className="sponsor-blk col-sm-2 mt-2">
               <a
                 href="https://paystack.com"
@@ -1701,11 +1686,9 @@ const HomePage = (props) => (
                 />
               </a>
             </div>
-          </div>
-          <div className="row">
             <div className="sponsor-blk col-sm-2 mt-2">
               <a
-                href="https://egghead.io"
+                href="https://thinkster.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1717,34 +1700,6 @@ const HomePage = (props) => (
                 />
               </a>
             </div>
-            {/* <div className="sponsor-blk col-sm-2 mt-2">
-              <a
-                href="https://egghead.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={thinkster}
-                  alt=""
-                  className="move-right"
-                  style={{ width: "120px" }}
-                />
-              </a>
-            </div>
-            <div className="sponsor-blk col-sm-2 mt-2">
-              <a
-                href="https://egghead.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={thinkster}
-                  alt=""
-                  className="move-right"
-                  style={{ width: "120px" }}
-                />
-              </a>
-            </div> */}
           </div>
         </div>
       </section>
@@ -1861,7 +1816,7 @@ const HomePage = (props) => (
           <div className="row">
             <div className="col-sm-8 col-sm-offset-2  ">
               <div className="block-faq mb-50">
-                <h4 className="mb-10">What unStack?</h4>
+                <h4 className="mb-10">What is unStack?</h4>
                 <p>
                   unStack is an open-source based conference/meetups for every
                   engineer/designer & technical talents focused on hands-on
@@ -1875,7 +1830,7 @@ const HomePage = (props) => (
                 <h4 className="mb-10">What kind of events do unStack have?</h4>
                 <p>
                   unStack dosen't just host conferences, we also host small
-                  meetup's across all our communitires in Nairobi, Ghana, dubai
+                  meetups across all our communitires in Nairobi, Ghana, dubai
                   and so on.
                 </p>
               </div>
@@ -1890,6 +1845,7 @@ const HomePage = (props) => (
                 Didn’t find what your are looking for ?
               </h2>
               <p>
+                <b>Send a mail to:</b>&nbsp;
                 <a
                   href="mailto:unstackdev@gmail.com"
                   style={{ color: "white" }}
