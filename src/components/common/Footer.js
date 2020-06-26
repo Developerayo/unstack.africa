@@ -67,7 +67,7 @@ const Footer = (props) => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-2x fa-facebook"></i>
+                  <i className="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
@@ -76,7 +76,7 @@ const Footer = (props) => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-2x fa-twitter"></i>
+                  <i className="fa fa-twitter"></i>
                 </a>
               </li>
               <li>
@@ -85,7 +85,7 @@ const Footer = (props) => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-2x fa-youtube"></i>
+                  <i className="fa fa-youtube"></i>
                 </a>
               </li>
               <li>
@@ -94,7 +94,7 @@ const Footer = (props) => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-2x fa-github"></i>
+                  <i className="fa fa-github"></i>
                 </a>
               </li>
             </ul>

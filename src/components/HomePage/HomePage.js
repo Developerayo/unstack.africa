@@ -1376,7 +1376,7 @@ const HomePage = (props) => (
 
         <div className="container">
           <div className="row vertical-align tickets">
-            <div className="col-sm-12">
+            <div className="col-md-4">
               <h3 className="sub-title-0  mb-20">
                 <span>
                   You can either register for a free ticket and join us for the
@@ -1391,7 +1391,7 @@ const HomePage = (props) => (
                 </span>
               </h3>
             </div>
-            <div className="col-sm-12 ">
+            <div className="col-md-8">
               <div className="col-sm-6">
                 <ul className="block-tickets overlap">
                   <li>
