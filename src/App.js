@@ -26,17 +26,7 @@ function App() {
       animationSpeed: 1000,
     })
 
-    // Mobile menu list
-    var mobileBtn = window.jQuery(".mobile-but")
-    var nav = window.jQuery(".main-nav ul")
-    // var navHeight = nav.height();
 
-    window.jQuery(mobileBtn).on("click", function () {
-      window.jQuery(".toggle-mobile-but").toggleClass("active")
-      nav.slideToggle()
-      window.jQuery(".main-nav li a").addClass("mobile")
-      return false
-    })
 
     window.jQuery(window).resize(function () {
       var w = window.jQuery(window).width()
