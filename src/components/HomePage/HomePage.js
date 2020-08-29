@@ -675,7 +675,7 @@ const HomePage = (props) => (
                     <span>- 10 july 2020</span>
                   </div>
                   <div className="block-detail">
-                    <span className="time">10:00 - 10:30</span>
+                    <span className="time">10:00 - 10:10</span>
                     <span className="topic">Attendees OnBoarding</span>
                     <div className="block-text">
                       {/* <p>
@@ -696,8 +696,8 @@ const HomePage = (props) => (
                     </div>
                   </div>
                   <div className="block-detail">
-                    <span className="time">10:30 - 11:00</span>
-                    <span className="topic">First Speaker Topic Here</span>
+                    <span className="time">10:10 - 11:20</span>
+                    <span className="topic">Overview</span>
                     <div className="block-text">
                       <p>
                         Hello, I am a human who landed in space to say hi to the
@@ -717,7 +717,7 @@ const HomePage = (props) => (
                           rel="noopener noreferrer"
                           style={{ color: "white", fontWeight: "bold" }}
                         >
-                          Shodipo Ayomide
+                          Adora Nwodo
                         </a>{" "}
                       </span>
                     </div>
@@ -1480,7 +1480,7 @@ const HomePage = (props) => (
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fa fa-github"></i>
+                        <i className="fa fa-dribbble"></i>
                       </a>
                     </li>
                     <li>
