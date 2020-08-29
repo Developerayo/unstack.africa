@@ -32,7 +32,7 @@ const Header = (props) => (
                   Event
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="scroll"
                   href="https://unstack.africa/communities"
@@ -41,7 +41,7 @@ const Header = (props) => (
                 >
                   Communities
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a className="scroll" href="#speakers">
                   Speakers
