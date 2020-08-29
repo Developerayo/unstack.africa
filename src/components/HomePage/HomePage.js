@@ -62,8 +62,7 @@ const HomePage = (props) => (
                 </h4>
 
                 <p className="uppercase ">
-                  10th to 11th July 2020 - Lagos, Nigeria. Open-source Virtual
-                  Summit{" "}
+                  19th September 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
                 </p>
                 <br />
                 <br />
@@ -86,14 +85,9 @@ const HomePage = (props) => (
           <div className="row">
             <div className="col-sm-12 mb-100 text-center">
               {/* <div className="col-sm-8 col-sm-offset-2 mb-100 text-center"> */}
-              <h1 className="title">Open Source Virtual Summit</h1>
+              <h1 className="title">Virtual React Meetup</h1>
               <p className="title-lead mt-20">
-                The open-source virtual summit is tailored towards empowering{" "}
-                <b>Developers</b> & <b>Designers</b> while they contribute to
-                open-source softwares. This is a unique opportunity to solve
-                major issues that the author of the project dosent have time to
-                solve and help is needed, so you as a Developer or Designer
-                would be paid for selected issues you pick up and fix.
+                The Virtual React Meetup hosted by unStack is focused towards empowering more developers throughout Africa in React, featuring world class speakers coming onboard to share their insight on things React.
               </p>
             </div>
           </div>
@@ -155,7 +149,7 @@ const HomePage = (props) => (
                 </svg>
                 <p>
                   <strong>DATE</strong>
-                  <span>10th July 2020</span>
+                  <span>19th September 2020</span>
                 </p>
               </div>
             </div>
@@ -238,7 +232,7 @@ const HomePage = (props) => (
 
                 <p>
                   <strong>LOCATION</strong>
-                  <span>Zoom Webinar (Register to get an invitation link)</span>
+                  <span>Zoom</span>
                 </p>
               </div>
             </div>
@@ -321,17 +315,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={shodipoayomide} alt="" />
+                  <img src="https://pbs.twimg.com/profile_images/1292888896938729473/tDmJ1K6m_400x400.jpg" alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
-                    <strong>Shodipo Ayomide</strong>
-                    <span>Engineer </span>
+                    <strong>Cassidy Williams</strong>
+                    <span>Principal Developer Experience Engineer, Netlify </span>
                   </p>
                   <ul className="block-social">
                     <li>
                       <a
-                        href="https://github.com/developerayo"
+                        href="https://github.com/cassidoo"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -340,7 +334,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/developerayo"
+                        href="https://twitter.com/cassidoo"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -349,7 +343,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://linkedin.com/in/shodipo-ayomide"
+                        href="https://www.linkedin.com/in/cassidoo"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -365,17 +359,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={shodipoayomide} alt="" />
+                  <img src="https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q.jpg" alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
-                    <strong>Shodipo Ayomide</strong>
-                    <span>Engineer </span>
+                    <strong>Kent C. Dodds</strong>
+                    <span>Technical Trainer</span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/developerayo"
+                        href="https://github.com/kentcdodds/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -384,7 +378,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/developerayo"
+                        href="https://twitter.com/kentcdodds/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -393,7 +387,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://linkedin.com/in/shodipo-ayomide"
+                        href="https://www.linkedin.com/in/kentcdodds"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -409,17 +403,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={shodipoayomide} alt="" />
+                  <img src="https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/2jqu4t6TSlKDcqRFP6zT" alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
-                    <strong>Shodipo Ayomide</strong>
-                    <span>Engineer </span>
+                    <strong>Max Stoiber</strong>
+                    <span>Staff Software Engineer, Gatsby</span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/developerayo"
+                        href="https://github.com/mxstbr"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -428,7 +422,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/developerayo"
+                        href="https://twitter.com/mxstbr"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -437,7 +431,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://linkedin.com/in/shodipo-ayomide"
+                        href="https://www.linkedin.com/in/mxstbr/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -453,17 +447,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={shodipoayomide} alt="" />
+                  <img src="https://pbs.twimg.com/profile_images/1105185322084847623/EPx48HPQ_400x400.jpg" alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
-                    <strong>Shodipo Ayomide</strong>
-                    <span>Engineer </span>
+                    <strong>Christian Nwamba</strong>
+                    <span>Senior Cloud Developer Advocate, Microsoft </span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/developerayo"
+                        href="https://github.com/christiannwamba"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -472,7 +466,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/developerayo"
+                        href="https://twitter.com/codebeast"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -481,7 +475,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://linkedin.com/in/shodipo-ayomide"
+                        href="https://www.linkedin.com/in/christian-nwamba-032b04b2/?originalSubdomain=ng"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
