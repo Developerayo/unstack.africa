@@ -537,17 +537,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress" alt="" />
+                  <img src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4" alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
-                    <strong>Nenne Adaora Nwodo</strong>
-                    <span>Co-Founder unStack Africa & Software Engineer, Microsoft </span>
+                    <strong>Kingdom Orjiewuru </strong>
+                    <span>Co-Founder unStack Africa & Software Engineer, Aula </span>
                   </p>
                   <ul className="block-social">
                     <li>
                       <a
-                        href="https://github.com/AdoraNwodo"
+                        href="https://github.com/kingisaac95"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -556,7 +556,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/AdoraNwodo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        href="https://twitter.com/kingisaac95?lang=en"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -565,7 +565,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://ng.linkedin.com/in/adoranwodo"
+                        href="https://ng.linkedin.com/in/kingdomorjiewuru"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1099,93 +1099,547 @@ const HomePage = (props) => (
         </div>
       </section>
 
-      <section id="tickets" className="tickets pt-60 pb-120">
+      {/* <!--Speakers section--> */}
+      <section id="speakers" className="speakers pt-60 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 mb-70 text-center">
-              <h1 className="title">Register</h1>
+            <div className="col-sm-12 mb-100 text-center">
+              <h1 className="title">The Team</h1>
             </div>
           </div>
         </div>
 
-        <div className="container">
-          <div className="row vertical-align tickets">
-            <div className="col-md-4">
-              <h3 className="sub-title-0  mb-20">
-                <span>
-                  You can either register for a free ticket and join us for the
-                  open-source virtual summit :)
-                </span>
-                <br />
-                <br />
-                <br />
-                <span>
-                  You can also donate any amount to the unStack bounty program
-                  so we can accomodate more open source contributors :)
-                </span>
-              </h3>
-            </div>
-            <div className="col-md-8">
-              <div className="col-sm-6">
-                <ul className="block-tickets overlap">
+        <div className="block-content row">
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                <img src={shodipoayomide} alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                  <strong>Shodipo Ayomide</strong>
+                    <span>Founder, unStack Africa & Senior Developer Advocate </span>
+                  </p>
+                  <ul className="block-social">
                   <li>
-                    <ul className="block-ticket ">
-                      <li className="block-price">
-                        <span className="price">
-                          <span className="cur"></span>Give
-                        </span>
-                        <span className="block-type">Unlimited tickets</span>
-                      </li>
-                      <li>Thank you tweet :)</li>
-                      <li>
-                        A chance to support more open-source contributors in
-                        Nigeria
-                      </li>
-                      <li>Log on the website</li>
-                      <li>
-                        <a
-                          href="#wrapper"
-                          className="but mt-30"
-                          style={{ borderRadius: "5px" }}
-                        >
-                          {" "}
-                          Give
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-sm-6">
-                <ul className="block-tickets">
-                  <li>
-                    <ul className="block-ticket active">
-                      <li className="block-price">
-                        <span className="price">
-                          <span className="cur"></span>Free
-                        </span>
-                        <span className="block-type">Free Ticket</span>
-                      </li>
-                      <li>Access to Keynote's</li>
-                      <li>Ability to Contribute if interested</li>
-                      <li>
-                        <a
-                          href="#wrapper"
-                          className="but mt-30"
-                          style={{ borderRadius: "5px" }}
-                        >
-                          {" "}
-                          Register
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                      <a
+                        href="https://github.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/developerayo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://linkedin.com/in/shodipo-ayomide"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Adora Nwodo</strong>
+                    <span>Co-Founder, Software Engineer, Microsoft</span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/AdoraNwodo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/AdoraNwodo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/adoranwodo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                <img src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                  <strong>Kingdom Orjiewuru </strong>
+                    <span>Co-Founder unStack Africa & Software Engineer, Aula </span>
+                  </p>
+                  <ul className="block-social ">
+                  <li>
+                      <a
+                        href="https://github.com/kingisaac95"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/kingisaac95?lang=en"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/kingdomorjiewuru"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Emmanuel Odianosen</strong>
+                    <span>Co-Founder & Blockchain Software Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/iam_odiaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://miro.medium.com/fit/c/210/210/2*FjRi6nGxz5ILWZ4_R2wobQ.jpeg" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Marvin Ogah</strong>
+                    <span>Co-Founder & lead Designer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://dribbble.com/dudesoamazing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-dribbble"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/marvinographer"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/marvinogah"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://kofo.dev/images/avatar.jpg" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Kofo Okeshola</strong>
+                    <span>Lead Go Organizer, Systems Engineer, Brankas</span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/kofoworola"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/yoruba_dev?lang=en"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/kofo-okesola-ab3774128"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Emmanuel Odianosen</strong>
+                    <span>Co-Founder & Blockchain Software Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/iam_odiaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Ademola Adebuyi</strong>
+                    <span>Co-Founder & Blockchain Software Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/iam_odiaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Shodipo Michael</strong>
+                    <span>Co-Founder & Blockchain Software Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/iam_odiaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Olumide Okedusi</strong>
+                    <span>Co-Founder & Blockchain Software Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/iam_odiaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Chiamaka Okenwa</strong>
+                    <span>Co-Founder & Blockchain Software Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/iam_odiaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Ayomide Oso</strong>
+                    <span>Co-Founder & Blockchain Software Engineer </span>
+                  </p>
+                  <ul className="block-social ">
+                    <li>
+                      <a
+                        href="https://github.com/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/iam_odiaa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://ng.linkedin.com/in/emmaodia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </section>
 
       {/* <!--Sponsors--> */}
       <section className="sponser pt-100 pb-50">
