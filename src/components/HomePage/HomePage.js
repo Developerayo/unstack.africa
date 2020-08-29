@@ -62,7 +62,7 @@ const HomePage = (props) => (
                 </h4>
 
                 <p className="uppercase ">
-                  19th September 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
+                  26th September 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
                 </p>
                 <br />
                 <br />
@@ -149,7 +149,7 @@ const HomePage = (props) => (
                 </svg>
                 <p>
                   <strong>DATE</strong>
-                  <span>19th September 2020</span>
+                  <span>26th September 2020</span>
                 </p>
               </div>
             </div>
@@ -537,17 +537,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src={shodipoayomide} alt="" />
+                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress" alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
-                    <strong>Shodipo Ayomide</strong>
-                    <span>Engineer </span>
+                    <strong>Nenne Adaora Nwodo</strong>
+                    <span>Co-Founder unStack Africa & Software Engineer, Microsoft </span>
                   </p>
-                  <ul className="block-social ">
+                  <ul className="block-social">
                     <li>
                       <a
-                        href="https://github.com/developerayo"
+                        href="https://github.com/AdoraNwodo"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -556,7 +556,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/developerayo"
+                        href="https://twitter.com/AdoraNwodo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -565,7 +565,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://linkedin.com/in/shodipo-ayomide"
+                        href="https://ng.linkedin.com/in/adoranwodo"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -578,7 +578,7 @@ const HomePage = (props) => (
             </div>
           </div>
 
-          
+
         </div>
       </section>
       <section id="schedule" className="schedule pt-60 pb-40">
