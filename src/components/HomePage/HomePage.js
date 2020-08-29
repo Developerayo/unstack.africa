@@ -594,7 +594,7 @@ const HomePage = (props) => (
           <div className="row">
             <div className="col-sm-12">
               <h3 className="sub-title-0  mb-25">
-                <span className="gradient-text">General Track</span>
+                <span className="gradient-text">Main Stage</span>
               </h3>
             </div>
           </div>
@@ -622,8 +622,8 @@ const HomePage = (props) => (
                   </svg>
                   <strong className="ml-3 ">Day 1</strong>{" "}
                   <span>- 23 july 2020</span>
-                </li>
-                <li className="">
+                {/*</li>
+                 <li className="">
                   <svg
                     id="Layer_1"
                     enableBackground="new 0 0 512 512"
@@ -640,7 +640,7 @@ const HomePage = (props) => (
                     </g>
                   </svg>
                   <strong className="ml-3 ">Day 2</strong>{" "}
-                  <span>- 24 july 2020</span>
+                  <span>- 24 july 2020</span> */}
                 </li>
                 {/* <li className="">
                   <i className="et-line-calendar"></i>
