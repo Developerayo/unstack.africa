@@ -6,7 +6,7 @@ const Footer = (props) => (
       <div className="container">
         <div className="row">
           <div className="col-sm-12  mb-30">
-            <h5 className="">
+            {/* <h5 className="">
               Subscribe for conference email and <br /> weekly emails from us
               every Monday
             </h5>
@@ -31,11 +31,11 @@ const Footer = (props) => (
                         </span>
                       </div>
                     </form>
-                  </div>
+                  </div> 
                 </div>
               </div>
-            </div>
-          </div>
+            </div>*/}
+          </div> 
         </div>
       </div>
     </section>
