@@ -5,6 +5,14 @@ import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
 import hero from "../../assets/img/hero.png"
 import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
+import ooade from "../../assets/img/unstack-img/ooade.jpeg"
+import olumide from "../../assets/img/unstack-img/lumie.jpg"
+import amaka from "../../assets/img/unstack-img/chiamaka.jpg"
+import ayomide from "../../assets/img/unstack-img/ayomide.jpg"
+import mike from "../../assets/img/unstack-img/mike.jpeg"
+import princess from "../../assets/img/unstack-img/princess.jpeg"
+
+
 import unstacklocate from "../../assets/img/unstack-locate.svg"
 import event1 from "../../assets/img/event1.jpg"
 import event2 from "../../assets/img/event2.JPG"
@@ -62,6 +70,7 @@ const HomePage = (props) => (
                 </h4>
 
                 <p className="uppercase ">
+
                   3rd October 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
                 </p>
                 <br />
@@ -83,11 +92,14 @@ const HomePage = (props) => (
       <section id="about" className="about pt-100 pb-100 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 mb-100 text-center">
-              {/* <div className="col-sm-8 col-sm-offset-2 mb-100 text-center"> */}
+            <div className="col-sm-12 mb-50 text-center">
+              {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
               <h1 className="title">Virtual React Meetup</h1>
               <p className="title-lead mt-20">
-                The Virtual React Meetup hosted by unStack is focused towards empowering more developers throughout Africa in React, featuring world class speakers coming onboard to share their insight on things React.
+                The Virtual React Meetup hosted by unStack is focused towards
+                empowering more developers throughout Africa in React, featuring
+                world class speakers coming onboard to share their insight on
+                things React.
               </p>
             </div>
           </div>
@@ -304,7 +316,7 @@ const HomePage = (props) => (
       <section id="speakers" className="speakers pt-60 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 mb-100 text-center">
+            <div className="col-sm-12 mb-50 text-center">
               <h1 className="title">Speakers</h1>
             </div>
           </div>
@@ -315,12 +327,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://pbs.twimg.com/profile_images/1292888896938729473/tDmJ1K6m_400x400.jpg" alt="" />
+                  <img
+                    src="https://pbs.twimg.com/profile_images/1292888896938729473/tDmJ1K6m_400x400.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
                     <strong>Cassidy Williams</strong>
-                    <span>Principal Developer Experience Engineer, Netlify </span>
+                    <span>
+                      Principal Developer Experience Engineer, Netlify{" "}
+                    </span>
                   </p>
                   <ul className="block-social">
                     <li>
@@ -359,7 +376,10 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q.jpg" alt="" />
+                  <img
+                    src="https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -403,7 +423,10 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/2jqu4t6TSlKDcqRFP6zT" alt="" />
+                  <img
+                    src="https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/2jqu4t6TSlKDcqRFP6zT"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -447,7 +470,10 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://pbs.twimg.com/profile_images/1105185322084847623/EPx48HPQ_400x400.jpg" alt="" />
+                  <img
+                    src="https://pbs.twimg.com/profile_images/1105185322084847623/EPx48HPQ_400x400.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -496,7 +522,9 @@ const HomePage = (props) => (
                 <div className="block-info-2">
                   <p>
                     <strong>Shodipo Ayomide</strong>
-                    <span>Founder, unStack Africa & Senior Developer Advocate </span>
+                    <span>
+                      Founder, unStack Africa & Senior Developer Advocate{" "}
+                    </span>
                   </p>
                   <ul className="block-social ">
                     <li>
@@ -531,18 +559,22 @@ const HomePage = (props) => (
               </div>
             </div>
           </div>
-  
 
           <div className="col-sm-3 pd-0">
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4" alt="" />
+                  <img
+                    src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
                     <strong>Kingdom Orjiewuru </strong>
-                    <span>Co-Founder unStack Africa & Software Engineer, Aula </span>
+                    <span>
+                      Co-Founder unStack Africa & Software Engineer, Aula{" "}
+                    </span>
                   </p>
                   <ul className="block-social">
                     <li>
@@ -577,14 +609,12 @@ const HomePage = (props) => (
               </div>
             </div>
           </div>
-
-
         </div>
       </section>
       <section id="schedule" className="schedule pt-60 pb-40">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 mb-100 text-center">
+            <div className="col-sm-12 mb-50 text-center">
               <h1 className="title"> Schedule</h1>
             </div>
           </div>
@@ -622,7 +652,7 @@ const HomePage = (props) => (
                   </svg>
                   <strong className="ml-3 ">Day 1</strong>{" "}
                   <span>- 23 july 2020</span>
-                {/*</li>
+                  {/*</li>
                  <li className="">
                   <svg
                     id="Layer_1"
@@ -1103,7 +1133,7 @@ const HomePage = (props) => (
       <section id="speakers" className="speakers pt-60 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 mb-100 text-center">
+            <div className="col-sm-12 mb-50 text-center">
               <h1 className="title">The Team</h1>
             </div>
           </div>
@@ -1114,15 +1144,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                <img src={shodipoayomide} alt="" />
+                  <img src={shodipoayomide} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
-                  <strong>Shodipo Ayomide</strong>
-                    <span>Founder, unStack Africa & Senior Developer Advocate </span>
+                    <strong>Shodipo Ayomide</strong>
+                    <span>
+                      Founder, unStack Africa & Senior Developer Advocate{" "}
+                    </span>
                   </p>
                   <ul className="block-social">
-                  <li>
+                    <li>
                       <a
                         href="https://github.com/developerayo"
                         target="_blank"
@@ -1158,7 +1190,10 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress" alt="" />
+                  <img
+                    src="https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1202,15 +1237,20 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                <img src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4" alt="" />
+                  <img
+                    src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
-                  <strong>Kingdom Orjiewuru </strong>
-                    <span>Co-Founder unStack Africa & Software Engineer, Aula </span>
+                    <strong>Kingdom Orjiewuru </strong>
+                    <span>
+                      Co-Founder unStack Africa & Software Engineer, Aula{" "}
+                    </span>
                   </p>
                   <ul className="block-social ">
-                  <li>
+                    <li>
                       <a
                         href="https://github.com/kingisaac95"
                         target="_blank"
@@ -1246,7 +1286,10 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                  <img
+                    src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1290,7 +1333,10 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://miro.medium.com/fit/c/210/210/2*FjRi6nGxz5ILWZ4_R2wobQ.jpeg" alt="" />
+                  <img
+                    src="https://miro.medium.com/fit/c/210/210/2*FjRi6nGxz5ILWZ4_R2wobQ.jpeg"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1378,17 +1424,22 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                  <img
+                    src={princess}
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
-                    <strong>Emmanuel Odianosen</strong>
-                    <span>Co-Founder & Blockchain Software Engineer </span>
+                    <strong>Princess Oluebube</strong>
+                    <span>
+                      Co-Lead React Organizer & Software Engineer, Powertofly
+                    </span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/emmaodia"
+                        href="https://github.com/Princesso"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1397,7 +1448,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/iam_odiaa"
+                        href="https://twitter.com/PrincesOluebube"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1406,7 +1457,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://ng.linkedin.com/in/emmaodia"
+                        href="https://ng.linkedin.com/in/egbunaoluebubeprincess"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1422,17 +1473,19 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                  <img src={ooade} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
                     <strong>Ademola Adebuyi</strong>
-                    <span>Co-Founder & Blockchain Software Engineer </span>
+                    <span>
+                      Co-Lead React Organizer & Software Engineer, Paystack{" "}
+                    </span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/emmaodia"
+                        href="https://github.com/ooade"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1441,7 +1494,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/iam_odiaa"
+                        href="https://twitter.com/_ooade"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1450,7 +1503,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://ng.linkedin.com/in/emmaodia"
+                        href="https://ng.linkedin.com/in/ooade"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1466,17 +1519,17 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                  <img src={mike} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
                     <strong>Shodipo Michael</strong>
-                    <span>Co-Founder & Blockchain Software Engineer </span>
+                    <span>Co-Lead Design & Product Designer</span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/emmaodia"
+                        href="https://dribbble.com/designspree"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1485,7 +1538,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/iam_odiaa"
+                        href="https://twitter.com/design_spree"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1494,7 +1547,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://ng.linkedin.com/in/emmaodia"
+                        href="https://ng.linkedin.com/in/michael-shodipo"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1510,17 +1563,20 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                  <img
+                    src={olumide}
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
                     <strong>Olumide Okedusi</strong>
-                    <span>Co-Founder & Blockchain Software Engineer </span>
+                    <span>Community Manger & Software Engineer, Sidmach </span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/emmaodia"
+                        href="https://github.com/lumie31"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1529,7 +1585,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/iam_odiaa"
+                        href="https://twitter.com/lumie31"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1538,7 +1594,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://ng.linkedin.com/in/emmaodia"
+                        href="https://ng.linkedin.com/in/olumideokedusi"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1554,17 +1610,23 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                  <img
+                    src={amaka}
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
                     <strong>Chiamaka Okenwa</strong>
-                    <span>Co-Founder & Blockchain Software Engineer </span>
+                    <span>
+                      Community Manager & Software Developer, 3Line Card
+                      Management Limited{" "}
+                    </span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/emmaodia"
+                        href="https://github.com/#"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1573,7 +1635,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/iam_odiaa"
+                        href="https://twitter.com/amakachii_"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1582,7 +1644,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://ng.linkedin.com/in/emmaodia"
+                        href="https://ng.linkedin.com/in/chiamakaokenwa"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1598,17 +1660,22 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I" alt="" />
+                  <img
+                    src={ayomide}
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
                     <strong>Ayomide Oso</strong>
-                    <span>Co-Founder & Blockchain Software Engineer </span>
+                    <span>
+                      Community Manager & Front-end Developer, ELTA Solutions{" "}
+                    </span>
                   </p>
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/emmaodia"
+                        href="https://github.com/#"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1617,7 +1684,8 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/iam_odiaa"
+                        href="https://twitter.com/susanspecs
+"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1626,7 +1694,7 @@ const HomePage = (props) => (
                     </li>
                     <li>
                       <a
-                        href="https://ng.linkedin.com/in/emmaodia"
+                        href="https://ng.linkedin.com/in/ayomide-oso-385a29167"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1638,8 +1706,8 @@ const HomePage = (props) => (
               </div>
             </div>
           </div>
-          </div>
-          </section>
+        </div>
+      </section>
 
       {/* <!--Sponsors--> */}
       <section className="sponser pt-100 pb-50">
@@ -1994,7 +2062,7 @@ const HomePage = (props) => (
       <section id="faq" className="faq pt-120 pb-120 brd-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 mb-100 text-center ">
+            <div className="col-sm-12 mb-50 text-center ">
               <h1 className="title">Frequently asked questions </h1>
             </div>
           </div>
@@ -2049,7 +2117,7 @@ const HomePage = (props) => (
       <section id="gallery" className="gallery pt-100">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 mb-100 ">
+            <div className="col-sm-12 mb-50 ">
               <h1 className="title mt-10 text-center"> Feel The Vibes </h1>
             </div>
           </div>
