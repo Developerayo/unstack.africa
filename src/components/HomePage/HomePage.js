@@ -62,7 +62,7 @@ const HomePage = (props) => (
                 </h4>
 
                 <p className="uppercase ">
-                  26th September 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
+                  3rd October 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
                 </p>
                 <br />
                 <br />
@@ -149,7 +149,7 @@ const HomePage = (props) => (
                 </svg>
                 <p>
                   <strong>DATE</strong>
-                  <span>26th September 2020</span>
+                  <span>3rd October 2020</span>
                 </p>
               </div>
             </div>
