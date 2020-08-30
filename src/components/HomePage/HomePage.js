@@ -5,6 +5,14 @@ import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
 import hero from "../../assets/img/hero.png"
 import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
+import ooade from "../../assets/img/unstack-img/ooade.jpeg"
+import olumide from "../../assets/img/unstack-img/lumie.jpg"
+import amaka from "../../assets/img/unstack-img/chiamaka.jpg"
+import ayomide from "../../assets/img/unstack-img/ayomide.jpg"
+import mike from "../../assets/img/unstack-img/mike.jpeg"
+import princess from "../../assets/img/unstack-img/princess.jpeg"
+
+
 import unstacklocate from "../../assets/img/unstack-locate.svg"
 import event1 from "../../assets/img/event1.jpg"
 import event2 from "../../assets/img/event2.JPG"
@@ -1416,7 +1424,7 @@ const HomePage = (props) => (
               <div className="block-img overlay soft">
                 <div className="background-img">
                   <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
+                    src={princess}
                     alt=""
                   />
                 </div>
@@ -1464,10 +1472,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
-                    alt=""
-                  />
+                  <img src={ooade} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1513,10 +1518,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
-                    alt=""
-                  />
+                  <img src={mike} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1526,7 +1528,7 @@ const HomePage = (props) => (
                   <ul className="block-social ">
                     <li>
                       <a
-                        href="https://github.com/CodeMania123"
+                        href="https://dribbble.com/designspree"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -1561,7 +1563,7 @@ const HomePage = (props) => (
               <div className="block-img overlay soft">
                 <div className="background-img">
                   <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
+                    src={olumide}
                     alt=""
                   />
                 </div>
@@ -1608,7 +1610,7 @@ const HomePage = (props) => (
               <div className="block-img overlay soft">
                 <div className="background-img">
                   <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
+                    src={amaka}
                     alt=""
                   />
                 </div>
@@ -1658,7 +1660,7 @@ const HomePage = (props) => (
               <div className="block-img overlay soft">
                 <div className="background-img">
                   <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
+                    src={ayomide}
                     alt=""
                   />
                 </div>
