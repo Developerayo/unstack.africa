@@ -700,8 +700,8 @@ const HomePage = (props) => (
                     </g>
                   </svg>
                   <strong className="ml-3 ">Day 1</strong>{" "}
-                  <span>- 23 july 2020</span>
-                  {/*</li>
+                  <span>- 2nd October 2020</span>
+                  </li>
                  <li className="">
                   <svg
                     id="Layer_1"
@@ -719,7 +719,7 @@ const HomePage = (props) => (
                     </g>
                   </svg>
                   <strong className="ml-3 ">Day 2</strong>{" "}
-                  <span>- 24 july 2020</span> */}
+                  <span>- 3rd October 2020</span>
                 </li>
                 {/* <li className="">
                   <i className="et-line-calendar"></i>
@@ -751,7 +751,7 @@ const HomePage = (props) => (
                       </g>
                     </svg>
                     <strong className="ml-3 ">Day 1</strong>{" "}
-                    <span>- 10 july 2020</span>
+                    <span>- 2nd October 2020</span>
                   </div>
                   <div className="block-detail">
                     <span className="time">10:00 - 10:10</span>
@@ -963,7 +963,7 @@ const HomePage = (props) => (
                       </g>
                     </svg>
                     <strong className="ml-3 ">Day 2</strong>{" "}
-                    <span>- 11 july 2020</span>
+                    <span>- 3rd October 2020</span>
                   </div>
                   <div className="block-detail">
                     <span className="time">10:00 - 10:30</span>
