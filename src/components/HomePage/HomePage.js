@@ -71,7 +71,7 @@ const HomePage = (props) => (
 
                 <p className="uppercase ">
 
-                  3rd October 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
+                  2nd - 3rd October 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
                 </p>
                 <br />
                 <br />
@@ -161,7 +161,7 @@ const HomePage = (props) => (
                 </svg>
                 <p>
                   <strong>DATE</strong>
-                  <span>3rd October 2020</span>
+                  <span>2nd - 3rd October 2020</span>
                 </p>
               </div>
             </div>
@@ -323,7 +323,56 @@ const HomePage = (props) => (
         </div>
 
         <div className="block-content row">
-          <div className="col-sm-3 pd-0">
+            <div className="col-sm-3 pd-0">
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img
+                    src="https://cdn.vox-cdn.com/thumbor/IDuU1a0FYBrTb_X0tt5gCyTeALU=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10164247/BlackPanther596d2f04d1540_2040.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="block-info-2">
+                  <p>
+                    <strong>Coming Soon</strong>
+                    <span>
+                     WAKANDA FOREVER{" "}
+                    </span>
+                  </p>
+                  <ul className="block-social">
+                    <li>
+                      <a
+                        href="/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="col-sm-3 pd-0">
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
@@ -608,7 +657,7 @@ const HomePage = (props) => (
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <section id="schedule" className="schedule pt-60 pb-40">
