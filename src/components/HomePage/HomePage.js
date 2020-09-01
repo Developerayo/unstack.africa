@@ -71,7 +71,7 @@ const HomePage = (props) => (
 
                 <p className="uppercase ">
 
-                  2nd - 3rd October 2020 - Lagos, Nigeria, unStack Africa Virtual Conference.  {" "}
+                  16th - 17th October 2020 - Lagos, Nigeria, unStack Africa Virtual Conference.  {" "}
                 </p>
                 <br />
                 <br />
@@ -161,7 +161,7 @@ const HomePage = (props) => (
                 </svg>
                 <p>
                   <strong>DATE</strong>
-                  <span>2nd - 3rd October 2020</span>
+                  <span>16th - 17th October 2020</span>
                 </p>
               </div>
             </div>
