@@ -1758,7 +1758,7 @@ const HomePage = (props) => (
         </div>
       </section>
 
-      {/* <!--Sponsors--> */}
+      {/* <!--Sponsors-->
       <section className="sponser pt-100 pb-50">
         <div className="container">
           <div className="row">
@@ -2008,7 +2008,7 @@ const HomePage = (props) => (
           </div>
         </div>
       </section>
-      {/* <!--sponser end--> */}
+      {/* <!--sponser end--> */} 
 
       <section className="sponser pt-50 pb-100">
         <div className="container">
@@ -2061,7 +2061,7 @@ const HomePage = (props) => (
           <br />
           <br />
           <br />
-          <img src={unstacklocate} alt="unstack" />
+          <img src={unstacklocate} alt="unstack" style={{width: "520px", marginLeft: "150px"}} />
         </div>
 
         <div className="container block-contact">
@@ -2135,8 +2135,8 @@ const HomePage = (props) => (
                 <h4 className="mb-10">What kind of events do unStack have?</h4>
                 <p>
                   unStack dosen't just host conferences, we also host small
-                  meetups across all our communitires in Nairobi, Ghana, dubai
-                  and so on.
+                  meetups across all our communitires in Nairobi, Mombasa, Rwanda, Ghana, 
+                  and others.
                 </p>
               </div>
             </div>
