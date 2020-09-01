@@ -71,7 +71,7 @@ const HomePage = (props) => (
 
                 <p className="uppercase ">
 
-                  2nd - 3rd October 2020 - Lagos, Nigeria, Virtual React Meetup.  {" "}
+                  2nd - 3rd October 2020 - Lagos, Nigeria, unStack Africa Virtual Conference.  {" "}
                 </p>
                 <br />
                 <br />
@@ -94,11 +94,11 @@ const HomePage = (props) => (
           <div className="row">
             <div className="col-sm-12 mb-50 text-center">
               {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
-              <h1 className="title">Virtual React Meetup</h1>
+              <h1 className="title">unStack Africa Virtual Conference</h1>
               <p className="title-lead mt-20">
-                The Virtual React Meetup hosted by unStack is focused towards
+                The unStack Africa Virtual Conference hosted by unStack is focused towards
                 empowering more developers throughout Africa in React, featuring
-                world class speakers coming onboard to share their insight on
+                world class speakers & core contributors to most used open source projects coming onboard to share their insights on
                 things React.
               </p>
             </div>
@@ -664,520 +664,14 @@ const HomePage = (props) => (
         <div className="container">
           <div className="row">
             <div className="col-sm-12 mb-50 text-center">
-              <h1 className="title"> Schedule</h1>
+              <h1 className="title"> Schedule</h1> <br /><br />
+              <h6>Coming Soon!</h6>
             </div>
           </div>
         </div>
+        </section>
 
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <h3 className="sub-title-0  mb-25">
-                <span className="gradient-text">Main Stage</span>
-              </h3>
-            </div>
-          </div>
-        </div>
-
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-4 ">
-              <ul className="block-tabs">
-                <li className="active">
-                  <svg
-                    id="Layer_1"
-                    enableBackground="new 0 0 512 512"
-                    viewBox="0 0 512 512"
-                    width="512"
-                    style={{ width: "30" }}
-                  >
-                    <g>
-                      &nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                      <path
-                        d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  <strong className="ml-3 ">Day 1</strong>{" "}
-                  <span>- 2nd October 2020</span>
-                  </li>
-                 <li className="">
-                  <svg
-                    id="Layer_1"
-                    enableBackground="new 0 0 512 512"
-                    viewBox="0 0 512 512"
-                    width="512"
-                    style={{ width: "30" }}
-                  >
-                    <g>
-                      &nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                      <path
-                        d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
-                        fill="#fff"
-                      />
-                    </g>
-                  </svg>
-                  <strong className="ml-3 ">Day 2</strong>{" "}
-                  <span>- 3rd October 2020</span>
-                </li>
-                {/* <li className="">
-                  <i className="et-line-calendar"></i>
-                  <strong>Day 3 if possible haha</strong> <span>- 10 july 2020</span>
-                </li>
-                <li className="">
-                  <i className="et-line-calendar"></i>
-                  <strong>Day 4 if possible haha</strong> <span>- 10 july 2020</span>
-                </li> */}
-              </ul>
-            </div>
-            <div className="col-sm-8 ">
-              <ul className="block-tab">
-                <li className="active ">
-                  <div className="block-date">
-                    <svg
-                      id="Layer_1"
-                      enableBackground="new 0 0 512 512"
-                      viewBox="0 0 512 512"
-                      width="512"
-                      style={{ width: "30" }}
-                    >
-                      <g>
-                        &nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                        <path
-                          d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
-                          fill="#fff"
-                        />
-                      </g>
-                    </svg>
-                    <strong className="ml-3 ">Day 1</strong>{" "}
-                    <span>- 2nd October 2020</span>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">10:00 - 10:10</span>
-                    <span className="topic">Attendees OnBoarding</span>
-                    <div className="block-text">
-                      {/* <p>
-                        for description
-                      </p> */}
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="#wrapper"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          ZOOM :)
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">10:10 - 11:20</span>
-                    <span className="topic">Overview</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/developerayo"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Adora Nwodo
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">11:30 - 12:00</span>
-                    <span className="topic">Second Speaker Topic Here</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/developerayo"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Shodipo Ayomide
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">12:00 - 1:00</span>
-                    <span className="topic">Time to Contribute</span>
-                    <div className="block-text">
-                      <p>
-                        This session is all about contributions where everyone
-                        contributes all they have worked on in a single hour and
-                        comes back to the call in 1 hour.
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/developerayo"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Shodipo Ayomide
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">1:00 - 2:00</span>
-                    <span className="topic">Time to Showcase your PR</span>
-                    <div className="block-text">
-                      <p>
-                        PRs would be showcased directly on the website and you
-                        would talk in 5 minutes how you fixed that issue.
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Moderator
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/adora"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Adora
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">2:00 - 2:20</span>
-                    <span className="topic">Third Speaker Topic Here</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/adora"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Adora
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">2:20 - 2:40</span>
-                    <span className="topic">Forth Speaker Topic Here</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/adora"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Adora
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">2:40 - 3:00</span>
-                    <span className="topic">
-                      Networking & Questions to all Speakers
-                    </span>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">3:00</span>
-                    <span className="topic">Screenshots :)</span>
-                  </div>
-                </li>
-
-                {/* <!--Day 2 Hehehe--> */}
-
-                <li>
-                  <div className="block-date">
-                    <svg
-                      id="Layer_1"
-                      enableBackground="new 0 0 512 512"
-                      viewBox="0 0 512 512"
-                      width="512"
-                      style={{ width: "30" }}
-                    >
-                      <g>
-                        &nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                        <path
-                          d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
-                          fill="#fff"
-                        />
-                      </g>
-                    </svg>
-                    <strong className="ml-3 ">Day 2</strong>{" "}
-                    <span>- 3rd October 2020</span>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">10:00 - 10:30</span>
-                    <span className="topic">Attendees OnBoarding</span>
-                    <div className="block-text">
-                      {/* <p>
-                        for description
-                      </p> */}
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="#wrapper"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          ZOOM :)
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">10:30 - 11:00</span>
-                    <span className="topic">First Speaker Topic Here</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/developerayo"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Shodipo Ayomide
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">11:30 - 12:00</span>
-                    <span className="topic">Second Speaker Topic Here</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/developerayo"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Shodipo Ayomide
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">12:00 - 1:00</span>
-                    <span className="topic">Time to Contribute</span>
-                    <div className="block-text">
-                      <p>
-                        This session is all about contributions where everyone
-                        contributes all they have worked on in a single hour and
-                        comes back to the call in 1 hour.
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/developerayo"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Shodipo Ayomide
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">1:00 - 2:00</span>
-                    <span className="topic">Time to Showcase your PR</span>
-                    <div className="block-text">
-                      <p>
-                        PRs would be showcased directly on the website and you
-                        would talk in 5 minutes how you fixed that issue.
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Moderator
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/adora"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Adora
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">2:00 - 2:20</span>
-                    <span className="topic">Third Speaker Topic Here</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/adora"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Adora
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">2:20 - 2:40</span>
-                    <span className="topic">Forth Speaker Topic Here</span>
-                    <div className="block-text">
-                      <p>
-                        Hello, I am a human who landed in space to say hi to the
-                        aliens who love here, when I got here I figured there
-                        wasnt any aliens here and i ran out of fuel in my
-                        rocket, now i'm stuck in space, help, Hahaha, thanks for
-                        coming to my ted talk - Developerayo
-                      </p>
-                      <span className="speaker">
-                        {" "}
-                        <strong style={{ color: "grey" }}>
-                          Speaker
-                        </strong> :{" "}
-                        <a
-                          href="https://twitter.com/adora"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "white", fontWeight: "bold" }}
-                        >
-                          Adora
-                        </a>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">2:40 - 3:00</span>
-                    <span className="topic">
-                      Networking & Questions to all Speakers
-                    </span>
-                  </div>
-                  <div className="block-detail">
-                    <span className="time">3:00</span>
-                    <span className="topic">Screenshots :)</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="counter pt-50 pb-120 overlay parallax">
-        <div className="timeLeft-bg"></div>
-
-        <div className="container" style={{ marginTop: "30px" }}>
-          <div className="row">
-            <div className="col-sm-12  text-center  front-p">
-              <h1 className="time-left-h1">
-                Time left until the summit start{" "}
-              </h1>
-              <p className="time-left-p">
-                10th July 2020, 10:00 AM (GMT +1) - Open-Source Virtual Summit
-                Lagos, Nigeria{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* <!--Speakers section--> */}
       <section id="speakers" className="speakers pt-60 brd-bottom">
         <div className="container">
@@ -2204,32 +1698,32 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery" />
+              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955256/_MG_1992.jpg"} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery" />
+              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955276/Copy_of_FRONSTACK-110_1.jpg"} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery" />
+              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955286/_MG_9621.jpg"} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery" />
+              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955343/_47A1765.jpg"} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery" />
+              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955322/_47A1716_1.jpg"} alt="gallery" />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={replace} alt="gallery" />
+              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955473/_MG_6613_1.jpg"} alt="gallery" />
             </div>
           </div>
         </div>

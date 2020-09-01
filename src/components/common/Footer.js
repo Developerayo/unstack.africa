@@ -97,6 +97,15 @@ const Footer = (props) => (
                   <i className="fa fa-github"></i>
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://join.slack.com/t/unstackdev/shared_invite/zt-9bowaas5-jhDbuts0FEJVKOaNz~1C4g"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-slack"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
