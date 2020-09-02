@@ -12,7 +12,6 @@ import ayomide from "../../assets/img/unstack-img/ayomide.jpg"
 import mike from "../../assets/img/unstack-img/mike.jpeg"
 import princess from "../../assets/img/unstack-img/princess.jpeg"
 
-
 import unstacklocate from "../../assets/img/unstack-locate.svg"
 import event1 from "../../assets/img/event1.jpg"
 import event2 from "../../assets/img/event2.JPG"
@@ -70,8 +69,8 @@ const HomePage = (props) => (
                 </h4>
 
                 <p className="uppercase ">
-
-                  16th - 17th October 2020 - Lagos, Nigeria, unStack Africa Virtual Conference.  {" "}
+                  16th - 17th October 2020 - Lagos, Nigeria, unStack Africa
+                  Virtual Conference.{" "}
                 </p>
                 <br />
                 <br />
@@ -96,10 +95,11 @@ const HomePage = (props) => (
               {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
               <h1 className="title">unStack Africa Virtual Conference</h1>
               <p className="title-lead mt-20">
-                The unStack Africa Virtual Conference hosted by unStack is focused towards
-                empowering more developers throughout Africa in React, featuring
-                world class speakers & core contributors to most used open source projects coming onboard to share their insights on
-                things React.
+                The unStack Africa Virtual Conference hosted by unStack is
+                focused towards empowering more developers throughout Africa in
+                React, featuring world class speakers & core contributors to
+                most used open source projects coming onboard to share their
+                insights on things React.
               </p>
             </div>
           </div>
@@ -323,7 +323,7 @@ const HomePage = (props) => (
         </div>
 
         <div className="block-content row">
-            <div className="col-sm-3 pd-0">
+          <div className="col-sm-3 pd-0">
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
@@ -335,35 +335,21 @@ const HomePage = (props) => (
                 <div className="block-info-2">
                   <p>
                     <strong>Coming Soon</strong>
-                    <span>
-                     WAKANDA FOREVER{" "}
-                    </span>
+                    <span>WAKANDA FOREVER </span>
                   </p>
                   <ul className="block-social">
                     <li>
-                      <a
-                        href="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="/" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-github"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="/" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="/" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
@@ -664,14 +650,14 @@ const HomePage = (props) => (
         <div className="container">
           <div className="row">
             <div className="col-sm-12 mb-50 text-center">
-              <h1 className="title"> Schedule</h1> <br /><br />
+              <h1 className="title"> Schedule</h1> <br />
+              <br />
               <h6>Coming Soon!</h6>
             </div>
           </div>
         </div>
-        </section>
+      </section>
 
-      
       {/* <!--Speakers section--> */}
       <section id="speakers" className="speakers pt-60 brd-bottom">
         <div className="container">
@@ -682,7 +668,7 @@ const HomePage = (props) => (
           </div>
         </div>
 
-        <div className="block-content row">
+        <div className="block-content flex flex-wrap--wrap">
           <div className="col-sm-3 pd-0">
             <div className="block-speaker">
               <div className="block-img overlay soft">
@@ -967,10 +953,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img
-                    src={princess}
-                    alt=""
-                  />
+                  <img src={princess} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1106,10 +1089,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img
-                    src={olumide}
-                    alt=""
-                  />
+                  <img src={olumide} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1153,10 +1133,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img
-                    src={amaka}
-                    alt=""
-                  />
+                  <img src={amaka} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1203,10 +1180,7 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img
-                    src={ayomide}
-                    alt=""
-                  />
+                  <img src={ayomide} alt="" />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1502,7 +1476,7 @@ const HomePage = (props) => (
           </div>
         </div>
       </section>
-      {/* <!--sponser end--> */} 
+      {/* <!--sponser end--> */}
 
       <section className="sponser pt-50 pb-100">
         <div className="container">
@@ -1555,7 +1529,11 @@ const HomePage = (props) => (
           <br />
           <br />
           <br />
-          <img src={unstacklocate} alt="unstack" style={{width: "520px", marginLeft: "150px"}} />
+          <img
+            src={unstacklocate}
+            alt="unstack"
+            style={{ width: "520px", marginLeft: "150px" }}
+          />
         </div>
 
         <div className="container block-contact">
@@ -1629,8 +1607,8 @@ const HomePage = (props) => (
                 <h4 className="mb-10">What kind of events do unStack have?</h4>
                 <p>
                   unStack dosen't just host conferences, we also host small
-                  meetups across all our communitires in Nairobi, Mombasa, Rwanda, Ghana, 
-                  and others.
+                  meetups across all our communitires in Nairobi, Mombasa,
+                  Rwanda, Ghana, and others.
                 </p>
               </div>
             </div>
@@ -1698,32 +1676,62 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955256/_MG_1992.jpg"} alt="gallery" />
+              <img
+                src={
+                  "https://res.cloudinary.com/developerayo/image/upload/v1598955256/_MG_1992.jpg"
+                }
+                alt="gallery"
+              />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955276/Copy_of_FRONSTACK-110_1.jpg"} alt="gallery" />
+              <img
+                src={
+                  "https://res.cloudinary.com/developerayo/image/upload/v1598955276/Copy_of_FRONSTACK-110_1.jpg"
+                }
+                alt="gallery"
+              />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955286/_MG_9621.jpg"} alt="gallery" />
+              <img
+                src={
+                  "https://res.cloudinary.com/developerayo/image/upload/v1598955286/_MG_9621.jpg"
+                }
+                alt="gallery"
+              />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955343/_47A1765.jpg"} alt="gallery" />
+              <img
+                src={
+                  "https://res.cloudinary.com/developerayo/image/upload/v1598955343/_47A1765.jpg"
+                }
+                alt="gallery"
+              />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955322/_47A1716_1.jpg"} alt="gallery" />
+              <img
+                src={
+                  "https://res.cloudinary.com/developerayo/image/upload/v1598955322/_47A1716_1.jpg"
+                }
+                alt="gallery"
+              />
             </div>
           </div>
           <div className="box">
             <div className="boxInner">
-              <img src={"https://res.cloudinary.com/developerayo/image/upload/v1598955473/_MG_6613_1.jpg"} alt="gallery" />
+              <img
+                src={
+                  "https://res.cloudinary.com/developerayo/image/upload/v1598955473/_MG_6613_1.jpg"
+                }
+                alt="gallery"
+              />
             </div>
           </div>
         </div>
