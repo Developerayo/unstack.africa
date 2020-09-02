@@ -679,6 +679,12 @@ p a:after {
 .pd-0 {
   padding: 0 !important;
 }
+.flex {
+  display: flex;
+}
+.flex-wrap--wrap {
+  flex-wrap: wrap;
+}
 a[href^="http://maps.google.com/maps"]
 {
   display: none !important;
