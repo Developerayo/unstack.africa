@@ -448,6 +448,18 @@ span a:after,
 p a:after {
   background-color: #e49205;
 }
+
+section.hero {
+  height: 100vh;
+}
+.hero-text {
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .locate {
+    padding: 70px 0 70px 0 !important;
+  }
 /*End links*/
 /*Misc */
 
@@ -702,3 +714,17 @@ a[href^="https://maps.google.com/maps"]
   background: none !important;
 }
 /*End misc */
+
+/* Media Queries - For Smaller screens */
+@media screen and (max-width: 600px) {
+  .hero-content {
+    margin-top: 40px;
+  }
+  section.hero {
+    height: 70vh;
+  }
+  .hero-text {
+    font-size: 1em !important;
+  }
+  
+}

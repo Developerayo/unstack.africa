@@ -23,7 +23,7 @@ const Header = (props) => (
             </div>
             <ul>
               <li>
-                <a className="scroll" href="/">
+                <a className="scroll mt-5" href="/">
                   Home
                 </a>
               </li>
