@@ -1588,16 +1588,16 @@ const HomePage = (props) => (
                   unStack is an open-source based conference/meetups for every
                   engineer/designer & technical talents focused on hands-on
                   workshops and world-class talks from around the world, we
-                  currently have a community in 7 african countries since our
-                  launch in 2019 and our most rencent one which is outised
-                  africa is "unStack-Dubai"
+                  currently have a community in 7 African countries since our
+                  launch in 2019 and our most rencent one which is outside
+                  Africa is "unStack-Dubai"
                 </p>
               </div>
               <div className="block-faq mb-50">
                 <h4 className="mb-10">What kind of events do unStack have?</h4>
                 <p>
                   unStack dosen't just host conferences, we also host small
-                  meetups across all our communitires in Nairobi, Mombasa,
+                  meetups across all our communities in Nairobi, Mombasa,
                   Rwanda, Ghana, and others.
                 </p>
               </div>
