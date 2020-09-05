@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
-import Speakers from "./Speakers"
+// import Speakers from "./Speakers"
 import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
 import hero from "../../assets/img/hero.png"
@@ -366,9 +366,7 @@ const HomePage = (props) => (
           </div>
         </div>
 
-        <div className="block-content flex flex-wrap--wrap">
-          <Team />
-        </div>
+        <Team />
       </section>
 
       {/* <!--Sponsors-->
@@ -623,7 +621,7 @@ const HomePage = (props) => (
       </section>
       {/* <!--sponser end--> */}
 
-      <section className="sponser pt-50 pb-100">
+      {/* <section className="sponser pt-50 pb-100">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 mb-50 text-center ">
@@ -641,28 +639,28 @@ const HomePage = (props) => (
             <div className="col-sm-12  col-sm-push-2 text-center">
               <div className="col-md-2 col-sm-2 ">
                 <div className="block-sponsor">
-                  {/* <img loading="lazy" src={logo3} alt="" /> */}
+                  <img loading="lazy" src={logo3} alt="" />
                 </div>
               </div>
               <div className="col-md-2 col-sm-2">
                 <div className="block-sponsor">
-                  {/* <img loading="lazy" src={logo1} alt="" /> */}
+                  <img loading="lazy" src={logo1} alt="" />
                 </div>
               </div>
               <div className="col-md-2 col-sm-2">
                 <div className="block-sponsor">
-                  {/* <img loading="lazy" src={logo4} alt="" /> */}
+                  <img loading="lazy" src={logo4} alt="" />
                 </div>
               </div>
               <div className="col-md-2 col-sm-2">
                 <div className="block-sponsor">
-                  {/* <img loading="lazy" src={logo2} alt="" /> */}
+                  <img loading="lazy" src={logo2} alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="location" className="location bg-dark">
         <div className="container">
