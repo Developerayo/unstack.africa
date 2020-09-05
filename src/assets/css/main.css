@@ -1248,7 +1248,7 @@ body.touch .boxInner.touchFocus .titleBox {
     margin-top: 20px;
   }
   .block-ticket {
-    -webkit-transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
   .subscribe-form input[type="text"] {
