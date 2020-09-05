@@ -6,13 +6,8 @@ import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
 import hero from "../../assets/img/hero.png"
 import unstacklocate from "../../assets/img/unstack-locate.svg"
-import event1 from "../../assets/img/event1.jpg"
-import event2 from "../../assets/img/event2.JPG"
-import event3 from "../../assets/img/event3.JPG"
-import event4 from "../../assets/img/event4.JPG"
-import event5 from "../../assets/img/event5.JPG"
-import event6 from "../../assets/img/event6.JPG"
 import Team from "./Team"
+import Gallery from "./Gallery"
 // import replace from "../../assets/img/event1.jpg"
 // import cloudinary from "../../assets/img/cloudinary_sponsor.png"
 // import codesandbox from "../../assets/img/csb.png"
@@ -786,104 +781,7 @@ const HomePage = (props) => (
             </div>
           </div>
         </div>
-        <div className="wrap">
-          <div className="box">
-            <div className="boxInner">
-              <img loading="lazy" src={event1} alt="gallery" />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img loading="lazy" src={event2} alt="gallery" />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img loading="lazy" src={event3} alt="gallery" />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img loading="lazy" src={event4} alt="gallery" />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img loading="lazy" src={event5} alt="gallery" />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img loading="lazy" src={event6} alt="gallery" />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img
-                loading="lazy"
-                src={
-                  "https://res.cloudinary.com/developerayo/image/upload/v1598955256/_MG_1992.jpg"
-                }
-                alt="gallery"
-              />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img
-                loading="lazy"
-                src={
-                  "https://res.cloudinary.com/developerayo/image/upload/v1598955276/Copy_of_FRONSTACK-110_1.jpg"
-                }
-                alt="gallery"
-              />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img
-                loading="lazy"
-                src={
-                  "https://res.cloudinary.com/developerayo/image/upload/v1598955286/_MG_9621.jpg"
-                }
-                alt="gallery"
-              />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img
-                loading="lazy"
-                src={
-                  "https://res.cloudinary.com/developerayo/image/upload/v1598955343/_47A1765.jpg"
-                }
-                alt="gallery"
-              />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img
-                loading="lazy"
-                src={
-                  "https://res.cloudinary.com/developerayo/image/upload/v1598955322/_47A1716_1.jpg"
-                }
-                alt="gallery"
-              />
-            </div>
-          </div>
-          <div className="box">
-            <div className="boxInner">
-              <img
-                loading="lazy"
-                src={
-                  "https://res.cloudinary.com/developerayo/image/upload/v1598955473/_MG_6613_1.jpg"
-                }
-                alt="gallery"
-              />
-            </div>
-          </div>
-        </div>
+        <Gallery />
       </section>
 
       <Footer />
