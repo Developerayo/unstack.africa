@@ -1,7 +1,7 @@
 import React from "react"
 
 const Footer = (props) => (
-  <footer className="pt-120  bg-dark">
+  <footer className=" bg-dark">
     <section className="subsribe text-center ">
       <div className="container">
         <div className="row">
@@ -54,7 +54,7 @@ const Footer = (props) => (
       <div className="container ">
         <div className="row">
           <div className="w-50 mx-auto">
-            <h2 className="sub-title-3 mb-30">About unStack</h2>
+            <h2 className="title mb-30">About unStack</h2>
             <p className="">
               unStack is an open-source based conference/meetups for every
               engineer/designer & technical talents focused on hands-on

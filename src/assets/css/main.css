@@ -59,7 +59,15 @@ section.hero .inner-hero {
   position: fixed;
   top: 0;
   width: 100%;
+  min-height: 60px;
   z-index: 999;
+}
+.header > .container {
+  margin: 10px auto;
+  position: relative;
+}
+.header .nav-container {
+  max-width: 750px;
 }
 .main-slider .slides li {
   height: 900px;
@@ -68,19 +76,21 @@ section.hero .inner-hero {
   font-size: 25px;
   font-weight: 700;
   letter-spacing: -2px;
-  position: relative;
 }
 .header .logo img {
   width: 170px;
+  max-width: unset;
 }
 .mobile-but {
   display: inline-block;
-  height: 24px;
+  height: 38px;
   position: absolute;
   right: 15px;
-  top: -30px;
   z-index: 1000;
   display: none;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 .mobile-but .lines {
   transform: translate(0px, 10px) rotate(0deg);
@@ -115,13 +125,13 @@ section.hero .inner-hero {
 .mobile-but .lines:before {
   background: #ffffff;
 }
-.toggle-mobile-but.active .mobile-but .lines:after {
+.mobile-but.active .lines:after {
   transform: translate(0px, 0px) rotate(45deg);
   -webkit-transform: translate(0px, 0px) rotate(45deg);
   -ms-transform: translate(0px, 0px) rotate(45deg);
   -moz-transform: translate(0px, 0px) rotate(45deg);
 }
-.toggle-mobile-but.active .mobile-but .lines:before {
+.mobile-but.active .lines:before {
   transform: translate(0px, 1px) rotate(-45deg);
   -webkit-transform: translate(0px, 1px) rotate(-45deg);
   -ms-transform: translate(0px, 1px) rotate(-45deg);
@@ -264,7 +274,6 @@ h1.large {
   font-size: 18px;
   margin-left: -3px;
   margin-right: 6px;
-
 }
 .block-social a {
   color: #ffffff !important;
@@ -1290,7 +1299,7 @@ body.touch .boxInner.touchFocus .titleBox {
   margin-left: 17px;
 }
 
-.sponsor-blk{
+.sponsor-blk {
   margin: 10px 0;
 }
 
@@ -1299,7 +1308,6 @@ body.touch .boxInner.touchFocus .titleBox {
   height: auto;
 }
 /*End media queries*/
-
 
 @media only screen and (max-width: 480px) {
   /* Smartphone view: 1 tile */
@@ -1312,7 +1320,6 @@ body.touch .boxInner.touchFocus .titleBox {
   div.sponsors {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-
   }
   .sponsors div {
     width: 60% !important;
@@ -1329,7 +1336,6 @@ body.touch .boxInner.touchFocus .titleBox {
   div.sponsors {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
-
   }
   .sponsors div {
     width: 60% !important;
@@ -1348,4 +1354,9 @@ body.touch .boxInner.touchFocus .titleBox {
     width: 25%;
     padding-bottom: 15%;
   }
+}
+/* Solves issues with row in Safari */
+.row:before,
+.row:after {
+  display: none !important;
 }

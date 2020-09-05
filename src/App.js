@@ -32,7 +32,7 @@ function App() {
     // var navHeight = nav.height();
 
     window.jQuery(mobileBtn).on("click", function () {
-      window.jQuery(".toggle-mobile-but").toggleClass("active")
+      window.jQuery(".mobile-but").toggleClass("active")
       nav.slideToggle()
       window.jQuery(".main-nav li a").addClass("mobile")
       return false
@@ -49,7 +49,7 @@ function App() {
     window.jQuery(".main-nav li a").on("click", function () {
       if (window.jQuery(this).hasClass("mobile")) {
         nav.slideToggle()
-        window.jQuery(".toggle-mobile-but").toggleClass("active")
+        window.jQuery(".mobile-but").toggleClass("active")
       }
     })
 

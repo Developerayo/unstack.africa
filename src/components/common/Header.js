@@ -1,29 +1,23 @@
 import React from "react"
-import  logo from "../../assets/img/logo.png"
+import logo from "../../assets/img/logo.png"
 
 const Header = (props) => (
   <header className="header">
-    <div className="container ">
+    <div className="container">
+      <div className="mobile-but">
+        <div className="lines"></div>
+      </div>
       <div className="row">
-        <div className="col-md-2">
+        <div className="col-md-3">
           <a className="scroll logo" href="#wrapper">
             <img src={logo} alt="" />
           </a>
         </div>
-        <div className="col-md-10 text-right">
+        <div className="col-md-9 nav-container text-right">
           <nav className="main-nav">
-            <div className="toggle-mobile-but">
-              <a
-                href="#hello"
-                onClick={(ev) => ev.preventDefault()}
-                className="mobile-but"
-              >
-                <div className="lines"></div>
-              </a>
-            </div>
             <ul>
               <li>
-                <a className="scroll" href="/">
+                <a className="scroll mt-5" href="/">
                   Home
                 </a>
               </li>
