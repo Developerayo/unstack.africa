@@ -1,9 +1,10 @@
 import React, { Fragment } from "react"
 
+import FAQ from "./FAQ"
 import Team from "./Team"
 import Gallery from "./Gallery"
 import Speakers from "./Speakers"
-import FAQ from "./FAQ"
+import Schedule from "./Schedule"
 import Location from "./Location"
 
 import Header from "../common/Header"
@@ -26,9 +27,6 @@ import hero from "../../assets/img/hero.png"
 
 const HomePage = (props) => (
   <Fragment>
-    {/* remove preloader init fo now */}
-    {/* <Preloader />  */}
-
     <div className="wrapper" id="wrapper">
       <section className="hero overlay">
         {/* <!--Main slider--> */}
@@ -297,17 +295,7 @@ const HomePage = (props) => (
         </div>
       </section>
       <Speakers />
-      <section id="schedule" className="schedule pt-60 pb-40">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 mb-50 text-center">
-              <h1 className="title"> Schedule</h1> <br />
-              <br />
-              <h6>Coming Soon!</h6>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Schedule />
       <Team />
       {/* <!--Sponsors-->
       <section className="sponser pt-100 pb-50">
