@@ -12,6 +12,59 @@ import paystack from "../../assets/img/paystack_sponsor.png"
 import thinkster from "../../assets/img/thinkster_sponsor.png"
 import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
+const sponsorsList = {
+  platinum: [
+    {
+      logo: cloudinary,
+      logoAlt: "cloudinary",
+    },
+  ],
+  silver: [
+    {
+      logo: fleek,
+      logoAlt: "fleek",
+    },
+    {
+      logo: codesandbox,
+      logoAlt: "codeSandBox",
+    },
+    {
+      logo: amp,
+      logoAlt: "AMP",
+    },
+  ],
+  bronze: [
+    {
+      logo: paystack,
+      logoAlt: "paystack",
+    },
+    {
+      logo: hashnode,
+      logoAlt: "hashnode",
+    },
+    {
+      logo: gatsby,
+      logoAlt: "gatsby",
+    },
+    {
+      logo: andela,
+      logoAlt: "andela",
+    },
+    {
+      logo: egghead,
+      logoAlt: "egghead",
+    },
+    {
+      logo: vanhack,
+      logoAlt: "vanhack",
+    },
+    {
+      logo: thinkster,
+      logoAlt: "thinkster",
+    },
+  ],
+}
+
 const Sponsors = () => {
   return (
     <section className="sponser pt-100 pb-50">
@@ -25,265 +78,64 @@ const Sponsors = () => {
             </p>
           </div>
         </div>
-        <div className="sponsors-header" style={{ display: "flex" }}>
-          <svg
-            style={{ color: "#e49205" }}
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fas"
-            data-icon="grip-lines-vertical"
-            className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
-            width="20px"
-            role="img"
-            viewBox="0 0 256 512"
+        {Object.keys(sponsorsList).map((sponsorsKey) => [
+          <div
+            className="sponsors-header"
+            key={sponsorsKey}
+            style={{ display: "flex" }}
           >
-            <path
-              fill="currentColor"
-              d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
-            />
-          </svg>
-          <h2
-            style={{
-              alignSelf: "center",
-              marginLeft: "10px",
-              fontSize: "2em",
-              fontFamily: "sans-serif",
-            }}
-          >
-            Platinum
-          </h2>
-        </div>
-
-        <div className="row mt-30 mb-30 sponsors">
-          <div className="sponsor-blk col-md-4 col-sm-4">
-            <a
-              href="https://cloudinary.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <svg
+              style={{ color: "#e49205" }}
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="grip-lines-vertical"
+              className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
+              width="20px"
+              role="img"
+              viewBox="0 0 256 512"
             >
-              <img
-                loading="lazy"
-                src={cloudinary}
-                alt=""
-                className="move-right"
+              <path
+                fill="currentColor"
+                d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
               />
-            </a>
-          </div>
-        </div>
-
-        <div className="sponsors-header" style={{ display: "flex" }}>
-          <svg
-            style={{ color: "#e49205" }}
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fas"
-            data-icon="grip-lines-vertical"
-            className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
-            width="20px"
-            role="img"
-            viewBox="0 0 256 512"
-          >
-            <path
-              fill="currentColor"
-              d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
-            />
-          </svg>
-          <h2
-            style={{
-              alignSelf: "center",
-              marginLeft: "10px",
-              fontSize: "2em",
-              fontFamily: "sans-serif",
-            }}
-          >
-            Silver
-          </h2>
-        </div>
-        <div className="sponsors row mt-30 mb-30">
-          <div className="sponsor-blk col-xs-1 col-sm-2 mt-2">
-            <a
-              href="https://codesandbox.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            </svg>
+            <h2
+              style={{
+                alignSelf: "center",
+                marginLeft: "10px",
+                fontSize: "2em",
+                fontFamily: "sans-serif",
+              }}
             >
-              <img
-                loading="lazy"
-                src={fleek}
-                alt=""
-                className="move-right"
-                style={{ width: "150px" }}
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-xs-1 col-sm-2 mt-2">
-            <a
-              href="https://fleek.co"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={codesandbox}
-                alt=""
-                className="move-right"
-                style={{ width: "200px" }}
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://egghead.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={amp}
-                alt=""
-                className="move-right"
-                style={{ width: "130px" }}
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className="sponsors-header" style={{ display: "flex" }}>
-          <svg
-            style={{ color: "#e49205" }}
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fas"
-            data-icon="grip-lines-vertical"
-            className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
-            width="20px"
-            role="img"
-            viewBox="0 0 256 512"
-          >
-            <path
-              fill="currentColor"
-              d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
-            />
-          </svg>
-          <h2
-            style={{
-              alignSelf: "center",
-              marginLeft: "10px",
-              fontSize: "2em",
-              fontFamily: "sans-serif",
-            }}
-          >
-            Bronze
-          </h2>
-        </div>
-
-        <div className="sponsors row mt-30">
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://paystack.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={paystack}
-                alt=""
-                className="move-right"
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://hashnode.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={hashnode}
-                alt=""
-                className="move-right"
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://gatsby.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={gatsby}
-                alt=""
-                className="move-right"
-                style={{ width: "125px" }}
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://andela.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={andela}
-                alt=""
-                className="move-right"
-                style={{ width: "110px" }}
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://egghead.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={egghead}
-                alt=""
-                className="move-right"
-                style={{ width: "110px" }}
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://vanhack.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={vanhack}
-                alt=""
-                className="move-right"
-                style={{ width: "80px" }}
-              />
-            </a>
-          </div>
-          <div className="sponsor-blk col-sm-2 mt-2">
-            <a
-              href="https://thinkster.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                loading="lazy"
-                src={thinkster}
-                alt=""
-                className="move-right"
-                style={{ width: "120px" }}
-              />
-            </a>
-          </div>
-        </div>
+              {sponsorsKey}
+            </h2>
+          </div>,
+          <div key={sponsorsKey} className="sponsors row mt-30 mb-30">
+            {sponsorsList[sponsorsKey].map(({ logo, logoAlt }) => {
+              return (
+                <div
+                  key={logoAlt}
+                  className="sponsor-blk col-xs-1 col-sm-2 mt-2"
+                >
+                  <a
+                    href="https://codesandbox.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      loading="lazy"
+                      src={logo}
+                      alt={logoAlt}
+                      className="move-right"
+                    />
+                  </a>
+                </div>
+              )
+            })}
+          </div>,
+        ])}
       </div>
     </section>
   )
