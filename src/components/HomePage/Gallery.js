@@ -35,7 +35,7 @@ const Gallery = () => {
       <div className="wrap">
         {photos.map((photo) => {
           return (
-            <div className="box">
+            <div className="box" key={photo}>
               <div className="boxInner">
                 <img loading="lazy" src={photo} alt="gallery" />
               </div>

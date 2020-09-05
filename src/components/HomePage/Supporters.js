@@ -1,5 +1,24 @@
 import React from "react"
 
+const supporters = [
+  {
+    image: "",
+    imageAlt: "",
+  },
+  {
+    image: "",
+    imageAlt: "",
+  },
+  {
+    image: "",
+    imageAlt: "",
+  },
+  {
+    image: "",
+    imageAlt: "",
+  },
+]
+
 const Supporters = () => {
   return (
     <section className="sponser pt-50 pb-100">
@@ -17,27 +36,16 @@ const Supporters = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-sm-12  col-sm-push-2 text-center">
-            <div className="col-md-2 col-sm-2 ">
-              <div className="block-sponsor">
-                {/* <img loading="lazy" src={logo3} alt="" /> */}
-              </div>
-            </div>
-            <div className="col-md-2 col-sm-2">
-              <div className="block-sponsor">
-                {/* <img loading="lazy" src={logo1} alt="" /> */}
-              </div>
-            </div>
-            <div className="col-md-2 col-sm-2">
-              <div className="block-sponsor">
-                {/* <img loading="lazy" src={logo4} alt="" /> */}
-              </div>
-            </div>
-            <div className="col-md-2 col-sm-2">
-              <div className="block-sponsor">
-                {/* <img loading="lazy" src={logo2} alt="" /> */}
-              </div>
-            </div>
+          <div className="col-sm-12 col-sm-push-2 text-center">
+            {supporters.map(({ image, imageAlt }, index) => {
+              return (
+                <div className="col-md-2 col-sm-2" key={index}>
+                  <div className="block-sponsor">
+                    {/* <img loading="lazy" src={image} alt={imageAlt} /> */}
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>
