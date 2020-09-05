@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
+import Speakers from "./Speakers"
 import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
 import hero from "../../assets/img/hero.png"
@@ -49,12 +50,6 @@ const HomePage = (props) => (
             </li>
           </ul>
         </div>
-        {/* <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br /> */}
         <Header />
 
         <div className="inner-hero fade-out">
@@ -326,7 +321,8 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img loading="lazy"
+                  <img
+                    loading="lazy"
                     src="https://cdn.vox-cdn.com/thumbor/IDuU1a0FYBrTb_X0tt5gCyTeALU=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10164247/BlackPanther596d2f04d1540_2040.jpg"
                     alt=""
                   />
@@ -357,292 +353,7 @@ const HomePage = (props) => (
               </div>
             </div>
           </div>
-          {/* <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img loading="lazy"
-                    src="https://pbs.twimg.com/profile_images/1292888896938729473/tDmJ1K6m_400x400.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Cassidy Williams</strong>
-                    <span>
-                      Principal Developer Experience Engineer, Netlify{" "}
-                    </span>
-                  </p>
-                  <ul className="block-social">
-                    <li>
-                      <a
-                        href="https://github.com/cassidoo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/cassidoo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/cassidoo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img loading="lazy"
-                    src="https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Kent C. Dodds</strong>
-                    <span>Technical Trainer</span>
-                  </p>
-                  <ul className="block-social ">
-                    <li>
-                      <a
-                        href="https://github.com/kentcdodds/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/kentcdodds/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/kentcdodds"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img loading="lazy"
-                    src="https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/2jqu4t6TSlKDcqRFP6zT"
-                    alt=""
-                  />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Max Stoiber</strong>
-                    <span>Staff Software Engineer, Gatsby</span>
-                  </p>
-                  <ul className="block-social ">
-                    <li>
-                      <a
-                        href="https://github.com/mxstbr"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/mxstbr"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/mxstbr/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img loading="lazy"
-                    src="https://pbs.twimg.com/profile_images/1105185322084847623/EPx48HPQ_400x400.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Christian Nwamba</strong>
-                    <span>Senior Cloud Developer Advocate, Microsoft </span>
-                  </p>
-                  <ul className="block-social ">
-                    <li>
-                      <a
-                        href="https://github.com/christiannwamba"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/codebeast"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/christian-nwamba-032b04b2/?originalSubdomain=ng"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img loading="lazy" src={shodipoayomide} alt="" />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Shodipo Ayomide</strong>
-                    <span>
-                      Founder, unStack Africa & Senior Developer Advocate{" "}
-                    </span>
-                  </p>
-                  <ul className="block-social ">
-                    <li>
-                      <a
-                        href="https://github.com/developerayo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/developerayo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://linkedin.com/in/shodipo-ayomide"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img loading="lazy"
-                    src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4"
-                    alt=""
-                  />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Kingdom Orjiewuru </strong>
-                    <span>
-                      Co-Founder unStack Africa & Software Engineer, Aula{" "}
-                    </span>
-                  </p>
-                  <ul className="block-social">
-                    <li>
-                      <a
-                        href="https://github.com/kingisaac95"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/kingisaac95?lang=en"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://ng.linkedin.com/in/kingdomorjiewuru"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> */}
+          {/* <Speakers /> */}
         </div>
       </section>
       <section id="schedule" className="schedule pt-60 pb-40">
@@ -718,7 +429,8 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img loading="lazy"
+                  <img
+                    loading="lazy"
                     src="https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress"
                     alt=""
                   />
@@ -765,7 +477,8 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img loading="lazy"
+                  <img
+                    loading="lazy"
                     src="https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4"
                     alt=""
                   />
@@ -814,7 +527,8 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img loading="lazy"
+                  <img
+                    loading="lazy"
                     src="https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I"
                     alt=""
                   />
@@ -861,7 +575,8 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img loading="lazy"
+                  <img
+                    loading="lazy"
                     src="https://miro.medium.com/fit/c/210/210/2*FjRi6nGxz5ILWZ4_R2wobQ.jpeg"
                     alt=""
                   />
@@ -908,7 +623,11 @@ const HomePage = (props) => (
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
-                  <img loading="lazy" src="https://kofo.dev/images/avatar.jpg" alt="" />
+                  <img
+                    loading="lazy"
+                    src="https://kofo.dev/images/avatar.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="block-info-2">
                   <p>
@@ -1522,16 +1241,18 @@ const HomePage = (props) => (
         <div className="container">
           <div className="row locate">
             <div className="col-sm-12 col-md-6">
-                <img loading="lazy"
-                  src={unstacklocate}
-                  alt="unstack"
-                  style={{ width: "320px" }}
-                />
+              <img
+                loading="lazy"
+                src={unstacklocate}
+                alt="unstack"
+                style={{ width: "320px" }}
+              />
             </div>
             <div className="col-sm-12 col-md-6">
-            
-              <h1 className="title mt-40">Reach out to the developer community </h1>
-              
+              <h1 className="title mt-40">
+                Reach out to the developer community{" "}
+              </h1>
+
               <div className="block-info-3">
                 <p>
                   Africa | Lagos, Nigeria = HQ
@@ -1666,7 +1387,8 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src={
                   "https://res.cloudinary.com/developerayo/image/upload/v1598955256/_MG_1992.jpg"
                 }
@@ -1676,7 +1398,8 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src={
                   "https://res.cloudinary.com/developerayo/image/upload/v1598955276/Copy_of_FRONSTACK-110_1.jpg"
                 }
@@ -1686,7 +1409,8 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src={
                   "https://res.cloudinary.com/developerayo/image/upload/v1598955286/_MG_9621.jpg"
                 }
@@ -1696,7 +1420,8 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src={
                   "https://res.cloudinary.com/developerayo/image/upload/v1598955343/_47A1765.jpg"
                 }
@@ -1706,7 +1431,8 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src={
                   "https://res.cloudinary.com/developerayo/image/upload/v1598955322/_47A1716_1.jpg"
                 }
@@ -1716,7 +1442,8 @@ const HomePage = (props) => (
           </div>
           <div className="box">
             <div className="boxInner">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src={
                   "https://res.cloudinary.com/developerayo/image/upload/v1598955473/_MG_6613_1.jpg"
                 }
