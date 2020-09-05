@@ -8,7 +8,7 @@ import olumide from "../../assets/img/unstack-img/lumie.jpg"
 import amaka from "../../assets/img/unstack-img/chiamaka.jpg"
 import ayomide from "../../assets/img/unstack-img/ayomide.jpg"
 
-const teamList = [
+const teamMembers = [
   {
     name: "Shodipo Ayomide",
     bio: "Founder, unStack Africa & Senior Developer Advocate ",
@@ -137,7 +137,7 @@ const teamList = [
 ]
 
 const Team = () => {
-  return teamList.map(({ name, imageURL, bio, links }) => {
+  return teamMembers.map(({ name, imageURL, bio, links }) => {
     return (
       <div className="col-sm-3 pd-0" key={name}>
         <div className="block-speaker">
