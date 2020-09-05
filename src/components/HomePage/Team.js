@@ -138,44 +138,53 @@ const teamList = [
 
 const Team = () => {
   return (
-    <div className="block-content flex flex-wrap--wrap">
-      {teamList.map(({ name, imageURL, bio, links }) => {
-        return (
-          <div className="col-sm-3 pd-0" key={name}>
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img loading="lazy" src={imageURL} alt="" />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>{name}</strong>
-                    <span>{bio}</span>
-                  </p>
-                  <ul className="block-social">
-                    {Object.keys(links).map((linkKey) => {
-                      const link = links[linkKey]
+    <section id="team" className="speakers pt-60 brd-bottom">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 mb-50 text-center">
+            <h1 className="title">The Team</h1>
+          </div>
+        </div>
+      </div>
+      <div className="block-content flex flex-wrap--wrap">
+        {teamList.map(({ name, imageURL, bio, links }) => {
+          return (
+            <div className="col-sm-3 pd-0" key={name}>
+              <div className="block-speaker">
+                <div className="block-img overlay soft">
+                  <div className="background-img">
+                    <img loading="lazy" src={imageURL} alt="" />
+                  </div>
+                  <div className="block-info-2">
+                    <p>
+                      <strong>{name}</strong>
+                      <span>{bio}</span>
+                    </p>
+                    <ul className="block-social">
+                      {Object.keys(links).map((linkKey) => {
+                        const link = links[linkKey]
 
-                      return (
-                        <li key={linkKey}>
-                          <a
-                            href={link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className={`fa fa-${linkKey}`}></i>
-                          </a>
-                        </li>
-                      )
-                    })}
-                  </ul>
+                        return (
+                          <li key={linkKey}>
+                            <a
+                              href={link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className={`fa fa-${linkKey}`}></i>
+                            </a>
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        )
-      })}
-    </div>
+          )
+        })}
+      </div>
+    </section>
   )
 }
 

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
-// import Speakers from "./Speakers"
+import Speakers from "./Speakers"
 import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
 import hero from "../../assets/img/hero.png"
@@ -293,57 +293,7 @@ const HomePage = (props) => (
           </div>
         </div>
       </section>
-
-      {/* <!--Speakers section--> */}
-      <section id="speakers" className="speakers pt-60 brd-bottom">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 mb-50 text-center">
-              <h1 className="title">Speakers</h1>
-            </div>
-          </div>
-        </div>
-
-        <div className="block-content row">
-          <div className="col-sm-3 pd-0">
-            <div className="block-speaker">
-              <div className="block-img overlay soft">
-                <div className="background-img">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.vox-cdn.com/thumbor/IDuU1a0FYBrTb_X0tt5gCyTeALU=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10164247/BlackPanther596d2f04d1540_2040.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="block-info-2">
-                  <p>
-                    <strong>Coming Soon</strong>
-                    <span>WAKANDA FOREVER </span>
-                  </p>
-                  <ul className="block-social">
-                    <li>
-                      <a href="/" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <Speakers /> */}
-        </div>
-      </section>
+      <Speakers />
       <section id="schedule" className="schedule pt-60 pb-40">
         <div className="container">
           <div className="row">
@@ -355,20 +305,7 @@ const HomePage = (props) => (
           </div>
         </div>
       </section>
-
-      {/* <!--Speakers section--> */}
-      <section id="team" className="speakers pt-60 brd-bottom">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 mb-50 text-center">
-              <h1 className="title">The Team</h1>
-            </div>
-          </div>
-        </div>
-
-        <Team />
-      </section>
-
+      <Team />
       {/* <!--Sponsors-->
       <section className="sponser pt-100 pb-50">
         <div className="container">
@@ -771,17 +708,7 @@ const HomePage = (props) => (
         </div>
       </section>
 
-      <section id="gallery" className="gallery pt-100">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 mb-50 ">
-              <h1 className="title mt-10 text-center"> Feel The Vibes </h1>
-            </div>
-          </div>
-        </div>
-        <Gallery />
-      </section>
-
+      <Gallery />
       <Footer />
     </div>
   </Fragment>

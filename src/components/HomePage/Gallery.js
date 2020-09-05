@@ -24,17 +24,26 @@ const photos = [
 
 const Gallery = () => {
   return (
-    <div className="wrap">
-      {photos.map((photo) => {
-        return (
-          <div className="box">
-            <div className="boxInner">
-              <img loading="lazy" src={photo} alt="gallery" />
-            </div>
+    <section id="gallery" className="gallery pt-100">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 mb-50 ">
+            <h1 className="title mt-10 text-center"> Feel The Vibes </h1>
           </div>
-        )
-      })}
-    </div>
+        </div>
+      </div>
+      <div className="wrap">
+        {photos.map((photo) => {
+          return (
+            <div className="box">
+              <div className="boxInner">
+                <img loading="lazy" src={photo} alt="gallery" />
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    </section>
   )
 }
 

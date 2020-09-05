@@ -71,38 +71,92 @@ const speakers = [
 ]
 
 const Speakers = () => {
-  return speakers.map(({ name, imageURL, bio, links }) => {
-    return (
-      <div className="col-sm-3 pd-0" key={name}>
-        <div className="block-speaker">
-          <div className="block-img overlay soft">
-            <div className="background-img">
-              <img loading="lazy" src={imageURL} alt="" />
-            </div>
-            <div className="block-info-2">
-              <p>
-                <strong>{name}</strong>
-                <span>{bio}</span>
-              </p>
-              <ul className="block-social">
-                {Object.keys(links).map((linkKey) => {
-                  const link = links[linkKey]
-
-                  return (
-                    <li key={linkKey}>
-                      <a href={link} target="_blank" rel="noopener noreferrer">
-                        <i className={`fa fa-${linkKey}`}></i>
-                      </a>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
+  return (
+    <section id="speakers" className="speakers pt-60 brd-bottom">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12 mb-50 text-center">
+            <h1 className="title">Speakers</h1>
           </div>
         </div>
       </div>
-    )
-  })
+
+      <div className="block-content row">
+        <div className="col-sm-3 pd-0">
+          <div className="block-speaker">
+            <div className="block-img overlay soft">
+              <div className="background-img">
+                <img
+                  loading="lazy"
+                  src="https://cdn.vox-cdn.com/thumbor/IDuU1a0FYBrTb_X0tt5gCyTeALU=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10164247/BlackPanther596d2f04d1540_2040.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="block-info-2">
+                <p>
+                  <strong>Coming Soon</strong>
+                  <span>WAKANDA FOREVER </span>
+                </p>
+                <ul className="block-social">
+                  <li>
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* {speakers.map(({ name, imageURL, bio, links }) => {
+          return (
+            <div className="col-sm-3 pd-0" key={name}>
+              <div className="block-speaker">
+                <div className="block-img overlay soft">
+                  <div className="background-img">
+                    <img loading="lazy" src={imageURL} alt="" />
+                  </div>
+                  <div className="block-info-2">
+                    <p>
+                      <strong>{name}</strong>
+                      <span>{bio}</span>
+                    </p>
+                    <ul className="block-social">
+                      {Object.keys(links).map((linkKey) => {
+                        const link = links[linkKey]
+
+                        return (
+                          <li key={linkKey}>
+                            <a
+                              href={link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <i className={`fa fa-${linkKey}`}></i>
+                            </a>
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )
+        })} */}
+      </div>
+    </section>
+  )
 }
 
 export default Speakers
