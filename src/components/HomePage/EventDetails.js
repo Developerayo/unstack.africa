@@ -158,7 +158,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>LOCATION</strong>
-                <span>Zoom</span>
+                <span>Hopin</span>
               </p>
             </div>
           </div>
@@ -206,7 +206,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>SPEAKERS</strong>
-                <span> 4 Rockstar Speakers </span>
+                <span> 15+ Rockstar Speakers </span>
               </p>
             </div>
           </div>
