@@ -75,7 +75,7 @@ const EventDetails = () => {
               </svg>
               <p>
                 <strong>DATE</strong>
-                <span>16th - 17th October 2020</span>
+                <span>6th - 7th November 2020</span>
               </p>
             </div>
           </div>

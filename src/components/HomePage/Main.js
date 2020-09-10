@@ -30,7 +30,7 @@ const Main = () => {
               </h4>
 
               <p className="uppercase my-4">
-                16<sup>th</sup> - 17<sup>th</sup> October 2020 - Lagos, Nigeria,
+                6<sup>th</sup> - 7<sup>th</sup> November 2020 - Lagos, Nigeria,
                 unStack Africa Virtual Conference.{" "}
               </p>
 
