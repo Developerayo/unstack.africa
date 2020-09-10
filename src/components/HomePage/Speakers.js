@@ -3,6 +3,28 @@ import React from "react"
 
 const speakers = [
   {
+    name: "Aniedi Udo-Ogbong",
+    bio: "Program Manager at Google",
+    imageURL:
+      "https://pbs.twimg.com/profile_images/1270049684120354816/RuezR1Es_400x400.jpg",
+    links: {
+      github: "https://github.com/aniediudo",
+      twitter: "https://twitter.com/aniediudo",
+      linkedin: "https://ng.linkedin.com/in/aniediudo",
+    },
+  },
+  {
+    name: "Danny Thompson",
+    bio: "Software Engineer & Podcast host for `Commit your code!",
+    imageURL:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--gNcEFf3v--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/359729/d5de48f7-efc3-4f1c-8566-4d946fc3724d.jpg",
+    links: {
+      github: "https://github.com/dannythompson901",
+      twitter: "https://twitter.com/@DThompsonDev",
+      linkedin: "https://www.linkedin.com/in/dannythompson901",
+    },
+  },
+  {
     name: "Prosper Otemuyiwa",
     bio: "Co-Founder & CTO, Eden Life",
     imageURL:
