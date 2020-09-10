@@ -25,17 +25,6 @@ const speakers = [
     },
   },
   {
-  name: "Tessa Mero",
-  bio: "Developer Advocacte, Cloudinary",
-  imageURL:
-    "https://pbs.twimg.com/profile_images/1256720658798534657/22pbZTRW.jpg",
-  links: {
-    github: "https://github.com/tessamero",
-    twitter: "https://twitter.com/tessamero",
-    linkedin: "https://www.linkedin.com/in/tessamero",
-  },
-},
-  {
     name: "Segun Adebayo",
     bio: "Creator, Chakra UI",
     imageURL:
@@ -47,6 +36,17 @@ const speakers = [
     },
   },
   {
+  name: "Tessa Mero",
+  bio: "Developer Advocacte, Cloudinary",
+  imageURL:
+    "https://pbs.twimg.com/profile_images/1256720658798534657/22pbZTRW.jpg",
+  links: {
+    github: "https://github.com/tessamero",
+    twitter: "https://twitter.com/tessamero",
+    linkedin: "https://www.linkedin.com/in/tessamero",
+  },
+},
+  {
     name: "Domitrius Clark",
     bio: "Advocate Engineer, Cloudinary",
     imageURL:
@@ -54,6 +54,18 @@ const speakers = [
     links: {
       github: "https://github.com/domitriusclark",
       twitter: "https://twitter.com/domitriusclark",
+      linkedin:
+        "https://www.linkedin.com/in/domitriusanthony/",
+    },
+  },
+  {
+    name: "More Coming Soon",
+    bio: "More Coming Soon",
+    imageURL:
+      "",
+    links: {
+      github: "https://github.com/developerayo",
+      twitter: "https://twitter.com/developerayo",
       linkedin:
         "https://www.linkedin.com/in/domitriusanthony/",
     },
