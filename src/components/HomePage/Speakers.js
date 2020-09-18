@@ -13,17 +13,17 @@ const speakers = [
       linkedin: "https://ng.linkedin.com/in/aniediudo",
     },
   },
-  {
-    name: "Danny Thompson",
-    bio: "Software Engineer & Podcast host for `Commit your code!",
-    imageURL:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--gNcEFf3v--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/359729/d5de48f7-efc3-4f1c-8566-4d946fc3724d.jpg",
-    links: {
-      github: "https://github.com/dannythompson901",
-      twitter: "https://twitter.com/@DThompsonDev",
-      linkedin: "https://www.linkedin.com/in/dannythompson901",
-    },
-  },
+  // {
+  //   name: "Danny Thompson",
+  //   bio: "Software Engineer & Podcast host for `Commit your code!",
+  //   imageURL:
+  //     "https://res.cloudinary.com/practicaldev/image/fetch/s--gNcEFf3v--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/359729/d5de48f7-efc3-4f1c-8566-4d946fc3724d.jpg",
+  //   links: {
+  //     github: "https://github.com/dannythompson901",
+  //     twitter: "https://twitter.com/@DThompsonDev",
+  //     linkedin: "https://www.linkedin.com/in/dannythompson901",
+  //   },
+  // },
   {
     name: "Prosper Otemuyiwa",
     bio: "Co-Founder & CTO, Eden Life",
@@ -78,6 +78,18 @@ const speakers = [
       twitter: "https://twitter.com/domitriusclark",
       linkedin:
         "https://www.linkedin.com/in/domitriusanthony/",
+    },
+  },
+  {
+    name: "Bolaji Olajide",
+    bio: "Software Engineer, Pluralsight",
+    imageURL:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQGcbAX3kCx3tg/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=ZtjJsXWGBU3AvadgZSrx1l0O5xMvGU9RWURJu1-elrU",
+    links: {
+      github: "https://github.com/BolajiOlajide",
+      twitter: "https://twitter.com/Bolaji___",
+      linkedin:
+        "https://www.linkedin.com/in/bolaji-olajide-95b08777/",
     },
   },
   {
