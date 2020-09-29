@@ -197,6 +197,18 @@ const speakers = [
         "https://www.linkedin.com/in/oluwatomisinlalude/",
     },
   },
+  {
+    name: "Samuel Snopko",
+    bio: "Head of DevRel, Storyblok",
+    imageURL:
+      "https://cdn.wearewondrous.com/sites/default/files/uploads/2019-02/Samuel-600.jpg?crop=smart&width=1920&height=840&fit=cover&quality=70",
+    links: {
+      github: "https://github.com/samuells",
+      twitter: "https://twitter.com/SamuelSnopko",
+      linkedin:
+        "https://at.linkedin.com/in/samuelsnopko",
+    },
+  },
   
   {
     name: "Shodipo Ayomide",
