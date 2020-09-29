@@ -36,6 +36,29 @@ const speakers = [
     },
   },
   {
+    name: "Nader Dabit",
+    bio: "Senior Developer Advocate, Amazon AWS",
+    imageURL:
+      "https://www.schoolstatus.com/hubfs/Social_Media/nader.jpg",
+    links: {
+      github: "https://github.com/dabit3",
+      twitter: "https://twitter.com/dabit3",
+      linkedin: "https://www.linkedin.com/in/naderdabit",
+    },
+  },
+  {
+    name: "Adora Nenne",
+    bio: "Software Engineer, Microsoft",
+    imageURL:
+      "https://media-exp1.licdn.com/dms/image/C5603AQEKwprAYnZuDg/profile-displayphoto-shrink_800_800/0?e=1606348800&v=beta&t=86dh0jH0Qx8kzYXq_CxvoiINc2SDjHisAglIGSXODUU",
+    links: {
+      github: "https://github.com/AdoraNwodo",
+      twitter: "https://twitter.com/AdoraNwodo",
+      linkedin:
+        "https://www.linkedin.com/in/adoranwodo",
+    },
+  },
+  {
     name: "James Q. Quick",
     bio: "Senior Developer Advocacte, Auth0",
     imageURL:
@@ -68,6 +91,42 @@ const speakers = [
     linkedin: "https://www.linkedin.com/in/tessamero",
   },
 },
+{
+  name: "Knut Melvær",
+  bio: "Head of Developer Relations, Sanity IO",
+  imageURL:
+    "https://css-tricks.com/wp-content/uploads/2018/08/image-8-1-350x350.png",
+  links: {
+    github: "https://github.com/BolajiOlajide",
+    twitter: "https://twitter.com/GantLaborde",
+    linkedin:
+      "https://www.linkedin.com/in/gant-laborde",
+  },
+},
+{
+  name: "Chukwurah Phebian",
+  bio: "Senior FrontEnd Engineer, Okra",
+  imageURL:
+    "https://media-exp1.licdn.com/dms/image/C4D03AQFxY8UjMAozFw/profile-displayphoto-shrink_800_800/0?e=1606953600&v=beta&t=V76Y7xOODgA8g7mx7F31J3euXWSMUqKLmyYBTiTr7U4",
+  links: {
+    github: "https://github.com/ph3bian",
+    twitter: "https://twitter.com/ph3bian",
+    linkedin:
+      "https://www.linkedin.com/in/ph3bian/",
+  },
+},
+{
+  name: "Bolaji Olajide",
+  bio: "Software Engineer, Pluralsight",
+  imageURL:
+    "https://media-exp1.licdn.com/dms/image/C4E03AQGcbAX3kCx3tg/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=ZtjJsXWGBU3AvadgZSrx1l0O5xMvGU9RWURJu1-elrU",
+  links: {
+    github: "https://github.com/BolajiOlajide",
+    twitter: "https://twitter.com/Bolaji___",
+    linkedin:
+      "https://www.linkedin.com/in/bolaji-olajide-95b08777/",
+  },
+},
   {
     name: "Domitrius Clark",
     bio: "Advocate Engineer, Cloudinary",
@@ -81,15 +140,74 @@ const speakers = [
     },
   },
   {
-    name: "Bolaji Olajide",
-    bio: "Software Engineer, Pluralsight",
+    name: "Ademola Adegbuyi",
+    bio: "Senior Software Engineer, PayStack",
     imageURL:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQGcbAX3kCx3tg/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=ZtjJsXWGBU3AvadgZSrx1l0O5xMvGU9RWURJu1-elrU",
+      "https://media-exp1.licdn.com/dms/image/C4D03AQH_g5Zk83p4Gw/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=exOesE-3WyQaAw9o08HU1DNth7cLAk-phYJnCVZPuww",
     links: {
-      github: "https://github.com/BolajiOlajide",
-      twitter: "https://twitter.com/Bolaji___",
+      github: "https://github.com/ooade",
+      twitter: "https://twitter.com/_ooade",
       linkedin:
-        "https://www.linkedin.com/in/bolaji-olajide-95b08777/",
+        "https://ng.linkedin.com/in/ooade",
+    },
+  },
+  {
+    name: "Tejas Kumar",
+    bio: "Senior Software Engineer, G2i",
+    imageURL:
+      "https://avatars1.githubusercontent.com/u/9947422?s=400&u=fb740d34aa56a06482e140c74dbb246937f5fabb&v=4",
+    links: {
+      github: "https://github.com/Tejasq",
+      twitter: "https://twitter.com/TejasKumar_"
+    },
+  },
+  {
+    name: "Gant Laborde",
+    bio: "Chief Technical Officer, Infinity Red",
+    imageURL:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--7946-bAJ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/99490/b1193958-26b5-4f03-a76d-fd1dfc0b400a.jpg",
+    links: {
+      github: "https://github.com/kmelve",
+      twitter: "https://twitter.com/kmelve",
+      linkedin:
+        "https://www.linkedin.com/in/knutmelvaer/",
+    },
+  },
+  {
+    name: "Akintunde Sultan",
+    bio: "DevRel, Grant For The Web",
+    imageURL:
+      "https://res-console.cloudinary.com/developerayo/thumbnails/transform/v1/image/upload//v1601241936/aGFja3N1bHRhbg==/drilldown",
+    links: {
+      twitter: "https://twitter.com/hacksultan",
+      linkedin:
+        "https://www.linkedin.com/in/hacksultan/",
+    },
+  },
+
+  {
+    name: "Oluwatomisin Lalude",
+    bio: "Frontend Developer, eBanqo Inc",
+    imageURL:
+      "https://pbs.twimg.com/profile_images/1305237123612717056/NOMKITr7_400x400.jpg",
+    links: {
+      github: "https://github.com/tomisinlalude",
+      twitter: "https://twitter.com/tomisinlalude",
+      linkedin:
+        "https://www.linkedin.com/in/oluwatomisinlalude/",
+    },
+  },
+  
+  {
+    name: "Shodipo Ayomide",
+    bio: "Co-Founder, unStack Africa",
+    imageURL:
+      "https://miro.medium.com/max/3150/2*EYwoHZXvh3jjwfdrSqKQ5g.jpeg",
+    links: {
+      github: "https://github.com/developerayo",
+      twitter: "https://twitter.com/developerayo",
+      linkedin:
+        "https://www.linkedin.com/in/shodipo-ayomide/",
     },
   },
   {
