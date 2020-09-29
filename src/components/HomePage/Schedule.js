@@ -192,7 +192,7 @@ const Schedule = () => {
 
                           <div className="block-detail">
                           <span className="time">12:00 - 1:00</span>
-                          <span className="topic">Handle Media Uploads with NextJs & Cloudinary</span>
+                          <span className="topic">A Practical Guide to Testing React Applications</span>
                          
                             <span className="speaker">
                               {" "}
