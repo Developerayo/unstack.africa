@@ -16,12 +16,12 @@ const partnersList = [
 
 const Partners = () => {
   return (
-    <section className="sponser pt-50 pb-100">
+    <section className="sponser pt-50 pb-50">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 mb-50 text-center ">
             <h1 className="title">Our Partners</h1>
-            <p className="title-lead mt-10 mb-20">
+            <p className="title-lead mt-10">
               Thank you for partnering with us!
             </p>
           </div>
