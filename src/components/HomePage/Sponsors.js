@@ -38,36 +38,36 @@ const sponsorsList = {
       logoAlt: "github",
     },
   ],
-  bronze: [
-    {
-      logo: paystack,
-      logoAlt: "paystack",
-    },
-    {
-      logo: hashnode,
-      logoAlt: "hashnode",
-    },
-    {
-      logo: gatsby,
-      logoAlt: "gatsby",
-    },
-    {
-      logo: andela,
-      logoAlt: "andela",
-    },
-    {
-      logo: egghead,
-      logoAlt: "egghead",
-    },
-    {
-      logo: vanhack,
-      logoAlt: "vanhack",
-    },
-    {
-      logo: thinkster,
-      logoAlt: "thinkster",
-    },
-  ],
+  // bronze: [
+  //   {
+  //     logo: paystack,
+  //     logoAlt: "paystack",
+  //   },
+  //   {
+  //     logo: hashnode,
+  //     logoAlt: "hashnode",
+  //   },
+  //   {
+  //     logo: gatsby,
+  //     logoAlt: "gatsby",
+  //   },
+  //   {
+  //     logo: andela,
+  //     logoAlt: "andela",
+  //   },
+  //   {
+  //     logo: egghead,
+  //     logoAlt: "egghead",
+  //   },
+  //   {
+  //     logo: vanhack,
+  //     logoAlt: "vanhack",
+  //   },
+  //   {
+  //     logo: thinkster,
+  //     logoAlt: "thinkster",
+  //   },
+  // ],
 }
 
 const Sponsors = () => {
