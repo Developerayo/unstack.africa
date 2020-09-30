@@ -440,7 +440,7 @@ const Schedule = () => {
                         <div className="block-detail">
                           <span className="time">1:00 - 2:00</span>
                           <span className="topic">
-                          Nader Dabit
+                          Next.js on AWS
                           </span>
                          
                             <span className="speaker">

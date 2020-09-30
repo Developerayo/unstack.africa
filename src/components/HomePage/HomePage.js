@@ -9,8 +9,8 @@ import Speakers from "./Speakers"
 import Schedule from "./Schedule"
 import Location from "./Location"
 import Partners from "./Partners"
-// import Sponsors from "./Sponsors"
-// import Supporters from "./Supporters"
+import Sponsors from "./Sponsors"
+import Supporters from "./Supporters"
 import Footer from "../common/Footer"
 import EventDetails from "./EventDetails"
 
@@ -22,8 +22,8 @@ const HomePage = () => (
       <Speakers />
       <Schedule />
       <Team />
-      {/* <Sponsors /> */}
-      {/* <Supporters /> */}
+      <Sponsors />
+      <Supporters />
       <Partners />
       <Location />
       <FAQ />
