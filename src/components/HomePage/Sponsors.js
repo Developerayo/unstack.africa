@@ -11,12 +11,17 @@ import gatsby from "../../assets/img/gatsby.png"
 import paystack from "../../assets/img/paystack_sponsor.png"
 import thinkster from "../../assets/img/thinkster_sponsor.png"
 import hashnode from "../../assets/img/hashnode_sponsor.svg"
+import github from "../../assets/img/github.png"
 
 const sponsorsList = {
   platinum: [
     {
       logo: cloudinary,
       logoAlt: "cloudinary",
+    },
+    {
+      logo: github,
+      logoAlt: "github",
     },
   ],
   silver: [
