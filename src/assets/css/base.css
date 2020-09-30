@@ -726,5 +726,7 @@ a[href^="https://maps.google.com/maps"]
   .hero-text {
     font-size: 1em !important;
   }
-  
+  .abt-unstack {
+    width: 85% !important;
+  }
 }
