@@ -35,14 +35,13 @@ const Main = () => {
               </p>
 
               <a
-                href="https://eventprime.co/e/unstack-conference-2020"
+                href="#Register"
                 className="but scroll"
                 style={{ borderRadius: "5px", fontSize: "20px", fontWeight: 700, padding: "20px 30px" }}
-                target="_blank"
-                rel="noopener noreferrer"
+                
               >
                 {" "}
-                <b>REGISTER HERE</b>
+                <b>REGISTER</b>
               </a>
             </div>
           </div>

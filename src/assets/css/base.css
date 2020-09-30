@@ -730,3 +730,8 @@ a[href^="https://maps.google.com/maps"]
     width: 85% !important;
   }
 }
+
+.partner-center {
+  display: flex;
+  justify-content: center;
+}

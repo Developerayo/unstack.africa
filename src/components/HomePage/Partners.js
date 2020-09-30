@@ -29,17 +29,17 @@ const Partners = () => {
       </div>
 
       <div className="container">
-        <div className="sponsors row mt-30 mb-30">
+        <div className="sponsors row mt-10 mb-10 partner-center">
           {/* <div className="col-md-12"> */}
-            {partnersList.map(({ logo, logoAlt }, index) => {
-              return (
-                <div className="sponsor-blk col-xs-1 col-sm-2 mt-2" key={index}>
-                  <div className="">
-                    <img loading="lazy" src={logo} alt={logoAlt} />
-                  </div>
+          {partnersList.map(({ logo, logoAlt }, index) => {
+            return (
+              <div className="sponsor-blk col-xs-1 col-sm-2 mt-2" key={index}>
+                <div className="">
+                  <img loading="lazy" src={logo} alt={logoAlt} />
                 </div>
-              )
-            })}
+              </div>
+            )
+          })}
           {/* </div> */}
         </div>
       </div>

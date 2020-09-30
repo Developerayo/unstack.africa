@@ -1,11 +1,11 @@
 import React from "react"
 
 import cloudinary from "../../assets/img/cloudinary_sponsor.png"
-import codesandbox from "../../assets/img/csb.png"
+// import codesandbox from "../../assets/img/csb.png"
 import egghead from "../../assets/img/egghead.jpg"
 import andela from "../../assets/img/andela_sponsor.jpg"
-import amp from "../../assets/img/amp.png"
-import fleek from "../../assets/img/fleek.png"
+// import amp from "../../assets/img/amp.png"
+// import fleek from "../../assets/img/fleek.png"
 import vanhack from "../../assets/img/vanhack_sponsor.png"
 import gatsby from "../../assets/img/gatsby.png"
 import paystack from "../../assets/img/paystack_sponsor.png"
@@ -19,23 +19,23 @@ const sponsorsList = {
       logo: cloudinary,
       logoAlt: "cloudinary",
     },
+  ],
+  gold: [
+    // {
+    //   logo: fleek,
+    //   logoAlt: "fleek",
+    // },
+    // {
+    //   logo: codesandbox,
+    //   logoAlt: "codeSandBox",
+    // },
+    // {
+    //   logo: amp,
+    //   logoAlt: "AMP",
+    // },
     {
       logo: github,
       logoAlt: "github",
-    },
-  ],
-  silver: [
-    {
-      logo: fleek,
-      logoAlt: "fleek",
-    },
-    {
-      logo: codesandbox,
-      logoAlt: "codeSandBox",
-    },
-    {
-      logo: amp,
-      logoAlt: "AMP",
     },
   ],
   bronze: [
