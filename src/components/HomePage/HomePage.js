@@ -10,7 +10,7 @@ import Schedule from "./Schedule"
 import Location from "./Location"
 import Partners from "./Partners"
 import Sponsors from "./Sponsors"
-// import Supporters from "./Supporters"
+import Supporters from "./Supporters"
 import Footer from "../common/Footer"
 import EventDetails from "./EventDetails"
 
@@ -23,7 +23,7 @@ const HomePage = () => (
       <Schedule />
       <Team />
       <Sponsors />
-      {/* <Supporters /> */}
+      <Supporters />
       <Partners />
       <Location />
       <FAQ />
