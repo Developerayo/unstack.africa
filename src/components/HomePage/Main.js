@@ -35,10 +35,16 @@ const Main = () => {
               </p>
 
               <a
-                href="#Register"
+                href="https://t.co/3cmzMQWMDa?amp=1"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="but scroll"
-                style={{ borderRadius: "5px", fontSize: "20px", fontWeight: 700, padding: "20px 30px" }}
-                
+                style={{
+                  borderRadius: "5px",
+                  fontSize: "20px",
+                  fontWeight: 700,
+                  padding: "10px 30px",
+                }}
               >
                 {" "}
                 <b>REGISTER</b>
