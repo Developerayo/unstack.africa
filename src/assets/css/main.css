@@ -1360,3 +1360,12 @@ body.touch .boxInner.touchFocus .titleBox {
 .row:after {
   display: none !important;
 }
+.dark-outline {
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

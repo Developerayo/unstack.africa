@@ -155,7 +155,7 @@ const Team = () => {
                   <div className="background-img">
                     <img loading="lazy" src={imageURL} alt="" />
                   </div>
-                  <div className="block-info-2">
+                  <div className="block-info-2 dark-outline">
                     <p>
                       <strong>{name}</strong>
                       <span>{bio}</span>
