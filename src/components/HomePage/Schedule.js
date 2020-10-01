@@ -149,7 +149,7 @@ const Schedule = () => {
                             </span>
                           </div>
                         <div className="block-detail">
-                          <span className="time">11:30 - 12:00</span>
+                          <span className="time">10:35 - 11:10</span>
                           <span className="topic">
                           Declarative Data Fetching in React with GraphQL
                           </span>
