@@ -410,7 +410,7 @@ const Schedule = () => {
                             </span>
                           </div>
                         <div className="block-detail">
-                          <span className="time">11:30 - 12:00</span>
+                          <span className="time">10:35 - 11:05</span>
                           <span className="topic">
                           React Security Implications You Need to Consider
                           </span>
@@ -431,7 +431,7 @@ const Schedule = () => {
                             </span>
                           </div>
                         <div className="block-detail">
-                          <span className="time">12:00 - 1:00</span>
+                          <span className="time">11:05 - 11:40</span>
                           <span className="topic">Building design systems with React and Chakra UI</span>
                          
                             <span className="speaker">
