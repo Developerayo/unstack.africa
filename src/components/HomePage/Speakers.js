@@ -3,8 +3,19 @@ import React from "react"
 
 const speakers = [
   {
+    name: "Amanda Casari",
+    bio: "Engineering Manager OSS at Google",
+    imageURL:
+      "https://avatars.sched.co/5/f0/10589798/avatar.jpg?f98",
+    links: {
+      github: "https://github.com/amcasari",
+      twitter: "https://twitter.com/amcasari",
+      linkedin: "https://www.linkedin.com/in/amcasari",
+    },
+  },
+  {
     name: "Aniedi Udo-Ogbong",
-    bio: "Program Manager at Google",
+    bio: "Program Manager, Google",
     imageURL:
       "https://pbs.twimg.com/profile_images/1270049684120354816/RuezR1Es_400x400.jpg",
     links: {
@@ -47,6 +58,17 @@ const speakers = [
     },
   },
   {
+    name: "James Q. Quick",
+    bio: "Senior Developer Advocacte, Auth0",
+    imageURL:
+      "https://yt3.ggpht.com/a/AATXAJw6goL85GOINrpbAgISieyTKQWx0d8mVLY4Eanb6g=s900-c-k-c0xffffffff-no-rj-mo",
+    links: {
+      github: "https://github.com/jamesqquick",
+      twitter: "https://twitter.com/jamesqquick",
+      linkedin: "https://www.linkedin.com/in/jamesqquick",
+    },
+  },
+  {
     name: "Adora Nenne",
     bio: "Software Engineer, Microsoft",
     imageURL:
@@ -56,17 +78,6 @@ const speakers = [
       twitter: "https://twitter.com/AdoraNwodo",
       linkedin:
         "https://www.linkedin.com/in/adoranwodo",
-    },
-  },
-  {
-    name: "James Q. Quick",
-    bio: "Senior Developer Advocacte, Auth0",
-    imageURL:
-      "https://yt3.ggpht.com/a/AATXAJw6goL85GOINrpbAgISieyTKQWx0d8mVLY4Eanb6g=s900-c-k-c0xffffffff-no-rj-mo",
-    links: {
-      github: "https://github.com/jamesqquick",
-      twitter: "https://twitter.com/jamesqquick",
-      linkedin: "https://www.linkedin.com/in/jamesqquick",
     },
   },
   {
@@ -80,17 +91,6 @@ const speakers = [
       linkedin: "https://www.linkedin.com/in/mxstbr",
     },
   },
-  {
-  name: "Tessa Mero",
-  bio: "Developer Advocacte, Cloudinary",
-  imageURL:
-    "https://pbs.twimg.com/profile_images/1256720658798534657/22pbZTRW.jpg",
-  links: {
-    github: "https://github.com/tessamero",
-    twitter: "https://twitter.com/tessamero",
-    linkedin: "https://www.linkedin.com/in/tessamero",
-  },
-},
 {
   name: "Knut Melvær",
   bio: "Head of Developer Relations, Sanity IO",
@@ -177,24 +177,11 @@ const speakers = [
     name: "Akintunde Sultan",
     bio: "DevRel, Grant For The Web",
     imageURL:
-      "https://res-console.cloudinary.com/developerayo/thumbnails/transform/v1/image/upload//v1601241936/aGFja3N1bHRhbg==/drilldown",
+      "https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fafc609cc-9eed-4045-9a38-b5b4f42ffcd0_1024x768.jpeg",
     links: {
       twitter: "https://twitter.com/hacksultan",
       linkedin:
         "https://www.linkedin.com/in/hacksultan/",
-    },
-  },
-
-  {
-    name: "Oluwatomisin Lalude",
-    bio: "Frontend Developer, eBanqo Inc",
-    imageURL:
-      "https://pbs.twimg.com/profile_images/1305237123612717056/NOMKITr7_400x400.jpg",
-    links: {
-      github: "https://github.com/tomisinlalude",
-      twitter: "https://twitter.com/tomisinlalude",
-      linkedin:
-        "https://www.linkedin.com/in/oluwatomisinlalude/",
     },
   },
   {
@@ -207,6 +194,18 @@ const speakers = [
       twitter: "https://twitter.com/SamuelSnopko",
       linkedin:
         "https://at.linkedin.com/in/samuelsnopko",
+    },
+  },
+  {
+    name: "Oluwatomisin Lalude",
+    bio: "Frontend Developer, eBanqo Inc",
+    imageURL:
+      "https://pbs.twimg.com/profile_images/1305237123612717056/NOMKITr7_400x400.jpg",
+    links: {
+      github: "https://github.com/tomisinlalude",
+      twitter: "https://twitter.com/tomisinlalude",
+      linkedin:
+        "https://www.linkedin.com/in/oluwatomisinlalude/",
     },
   },
   
