@@ -213,7 +213,9 @@ const EventDetails = () => {
           <div className="col-md-3 col-sm-12 mt-20 mb-20">
             <div className="block-info-1">
               <a
-                href="#tickets"
+                href="https://t.co/3cmzMQWMDa?amp=1"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="scroll but"
                 style={{ borderRadius: "5px" }}
               >

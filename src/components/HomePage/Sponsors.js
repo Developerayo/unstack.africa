@@ -1,26 +1,30 @@
 import React from "react"
 
 import cloudinary from "../../assets/img/cloudinary_sponsor.png"
+import github from "../../assets/img/github.png"
 // import codesandbox from "../../assets/img/csb.png"
-import egghead from "../../assets/img/egghead.jpg"
-import andela from "../../assets/img/andela_sponsor.jpg"
+// import egghead from "../../assets/img/egghead.jpg"
+// import andela from "../../assets/img/andela_sponsor.jpg"
 // import amp from "../../assets/img/amp.png"
 // import fleek from "../../assets/img/fleek.png"
-import vanhack from "../../assets/img/vanhack_sponsor.png"
-import gatsby from "../../assets/img/gatsby.png"
-import paystack from "../../assets/img/paystack_sponsor.png"
-import thinkster from "../../assets/img/thinkster_sponsor.png"
-import hashnode from "../../assets/img/hashnode_sponsor.svg"
-import github from "../../assets/img/github.png"
+// import vanhack from "../../assets/img/vanhack_sponsor.png"
+// import gatsby from "../../assets/img/gatsby.png"
+// import paystack from "../../assets/img/paystack_sponsor.png"
+// import thinkster from "../../assets/img/thinkster_sponsor.png"
+// import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
 const sponsorsList = {
   platinum: [
     {
       logo: cloudinary,
       logoAlt: "cloudinary",
-    },
+    }
   ],
   gold: [
+    {
+      logo: github,
+      logoAlt: "github",
+    }
     // {
     //   logo: fleek,
     //   logoAlt: "fleek",
@@ -33,41 +37,37 @@ const sponsorsList = {
     //   logo: amp,
     //   logoAlt: "AMP",
     // },
-    {
-      logo: github,
-      logoAlt: "github",
-    },
-  ],
-  bronze: [
-    {
-      logo: paystack,
-      logoAlt: "paystack",
-    },
-    {
-      logo: hashnode,
-      logoAlt: "hashnode",
-    },
-    {
-      logo: gatsby,
-      logoAlt: "gatsby",
-    },
-    {
-      logo: andela,
-      logoAlt: "andela",
-    },
-    {
-      logo: egghead,
-      logoAlt: "egghead",
-    },
-    {
-      logo: vanhack,
-      logoAlt: "vanhack",
-    },
-    {
-      logo: thinkster,
-      logoAlt: "thinkster",
-    },
-  ],
+  ]
+  // bronze: [
+  //   {
+  //     logo: paystack,
+  //     logoAlt: "paystack",
+  //   },
+  //   {
+  //     logo: hashnode,
+  //     logoAlt: "hashnode",
+  //   },
+  //   {
+  //     logo: gatsby,
+  //     logoAlt: "gatsby",
+  //   },
+  //   {
+  //     logo: andela,
+  //     logoAlt: "andela",
+  //   },
+  //   {
+  //     logo: egghead,
+  //     logoAlt: "egghead",
+  //   },
+  //   {
+  //     logo: vanhack,
+  //     logoAlt: "vanhack",
+  //   },
+  //   {
+  //     logo: thinkster,
+  //     logoAlt: "thinkster",
+  //   },
+  // ],
 }
 
 const Sponsors = () => {

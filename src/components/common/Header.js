@@ -61,6 +61,20 @@ const Header = (props) => (
                   Pictures
                 </a>
               </li>
+              <li>
+                <a
+                  className="but scroll"
+                  style={{
+                    borderRadius: "5px",
+                    padding: "10px",
+                  }}
+                  href="https://t.co/3cmzMQWMDa?amp=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get Tickets
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
