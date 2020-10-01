@@ -10,7 +10,7 @@ const Header = (props) => (
       </div>
       <div className="row">
         <div className="col-md-3">
-          <a className="scroll logo" href="#wrapper">
+          <a className="scroll logo" href="/">
             <img src={logo} alt="" />
           </a>
         </div>
