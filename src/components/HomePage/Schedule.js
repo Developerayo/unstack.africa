@@ -452,7 +452,7 @@ const Schedule = () => {
                           </div>
 
                           <div className="block-detail">
-                          <span className="time">12:00 - 1:00</span>
+                          <span className="time">11:40 - 12:15</span>
                           <span className="topic">React Hooks and Functional Components</span>
                          
                             <span className="speaker">
