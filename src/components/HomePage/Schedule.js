@@ -131,7 +131,7 @@ const Schedule = () => {
                         </div>
                         <div className="block-detail">
                           <span className="time">10:10 - 10:30</span>
-                          <span className="topic">Topic of keynote here <h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
+                          <span className="topic">TBA <h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
                             <span className="speaker">
                               {" "}
                               <strong style={{ color: "grey" }}>
@@ -257,11 +257,30 @@ const Schedule = () => {
                               </a>{" "}
                             </span>
                           </div>
+                          <div className="block-detail">
+                          <span className="time">10:10 - 10:30</span>
+                          <span className="topic">TBA<h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
+                            <span className="speaker">
+                              {" "}
+                              <strong style={{ color: "grey" }}>
+                                Speaker
+                              </strong>{" "}
+                              :{" "}
+                              <a
+                                href="https://twitter.com/aniediudo"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: "white", fontWeight: "bold" }}
+                              >
+                                Aniedi Udo-Ogbong
+                              </a>{" "}
+                            </span>
+                          </div>
      
                         <div className="block-detail">
                           <span className="time">2:20 - 2:40</span>
                           <span className="topic">
-                            Forth Speaker Topic Here
+                          Fast & Furious - Going headless with Nuxt.js
                           </span>
                          
                             <span className="speaker">
@@ -271,12 +290,12 @@ const Schedule = () => {
                               </strong>{" "}
                               :{" "}
                               <a
-                                href="https://twitter.com/adora"
+                                href="https://twitter.com/SamuelSnopko"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ color: "white", fontWeight: "bold" }}
                               >
-                                Adora
+                                Samuel Snopko
                               </a>{" "}
                             </span>
                           </div>
@@ -356,7 +375,7 @@ const Schedule = () => {
                         </div>
                         <div className="block-detail">
                           <span className="time">10:10 - 10:30</span>
-                          <span className="topic">Topic of keynote here <h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
+                          <span className="topic">TBA<h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
                             <span className="speaker">
                               {" "}
                               <strong style={{ color: "grey" }}>
