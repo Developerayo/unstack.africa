@@ -23,7 +23,7 @@ const Header = (props) => (
                 </a>
               </li>
               <li>
-                <a className="scroll" href="#about">
+                <a className="scroll" href="/#about">
                   Event
                 </a>
               </li>
@@ -38,12 +38,12 @@ const Header = (props) => (
                 </a>
               </li> */}
               <li>
-                <a className="scroll" href="#speakers">
+                <a className="scroll" href="/#speakers">
                   Speakers
                 </a>
               </li>
               <li>
-                <a className="scroll" href="#schedule">
+                <a className="scroll" href="/#schedule">
                   Schedule
                 </a>
               </li>
@@ -58,7 +58,7 @@ const Header = (props) => (
                 </a>
               </li>
               <li>
-                <a className="scroll" href="#gallery">
+                <a className="scroll" href="/#gallery">
                   Pictures
                 </a>
               </li>

@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
 } from "react-router-dom"
 // import Instafeed from "instafeed.js";
 import "./assets/css/bootstrap.css"
