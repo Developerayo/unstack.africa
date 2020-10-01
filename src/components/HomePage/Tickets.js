@@ -1,15 +1,20 @@
-import React, { Fragment }  from "react";
+import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
 
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  LinkedinShareButton,
+  WhatsappShareButton,
+} from "react-share"
 
 const Tickets = () => {
   return (
     <Fragment>
       <div className="ticket-body">
         <Header />
-        <section class="ticket-hero mt-70">
-        </section>
+        <section className="ticket-hero mt-70"></section>
         <div className="container">
           <div className="row parent-desc">
             <div className="col-md-8 desc">
@@ -41,6 +46,14 @@ const Tickets = () => {
                     <br />
                     <h1>Location</h1>
                     <p>Zoom Webinar (Online)</p>
+                    <br />
+                    <h1>Share Event</h1>
+                    <div>
+                      <FacebookShareButton />
+                      <TwitterShareButton />
+                      <LinkedinShareButton />
+                      <WhatsappShareButton />
+                    </div>
                   </div>
                 </div>
               </div>
