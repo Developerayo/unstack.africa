@@ -49,7 +49,7 @@ const Tickets = () => {
                     <h1>Location</h1>
                     <p>Zoom Webinar (Online)</p>
                     <br />
-                    <h1>Share Event</h1>
+                    <h1>Share Event</h1> <br />
                     <div>
                       <FacebookShareButton
                         url={"http://unstack.africa/tickets"}
@@ -57,7 +57,7 @@ const Tickets = () => {
                         hashtag="#unstack-conf-2020"
                         className="classes.socialMediaButton"
                       >
-                        <FacebookIcon size={36} />
+                        <FacebookIcon size={36} />&nbsp;&nbsp;
                         </FacebookShareButton>
 
                         <TwitterShareButton
@@ -66,7 +66,7 @@ const Tickets = () => {
                           hashtag="#unstack-conf-2020"
                           className="classes.socialMediaButton"
                         >
-                          <TwitterIcon size={36} />
+                          <TwitterIcon size={36} />&nbsp;&nbsp;
                         </TwitterShareButton>
 
                         <WhatsappShareButton
