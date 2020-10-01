@@ -127,6 +127,18 @@ const speakers = [
       "https://www.linkedin.com/in/bolaji-olajide-95b08777/",
   },
 },
+{
+  name: "Samson Goddy",
+  bio: "Co-Founder, Open Source Community Africa",
+  imageURL:
+    "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
+  links: {
+    github: "https://github.com/samswag",
+    twitter: "https://twitter.com/Samson_Goddy",
+    linkedin:
+    "https://ng.linkedin.com/in/samsongoddy",
+  },
+},
   {
     name: "Domitrius Clark",
     bio: "Advocate Engineer, Cloudinary",
@@ -149,16 +161,6 @@ const speakers = [
       twitter: "https://twitter.com/_ooade",
       linkedin:
         "https://ng.linkedin.com/in/ooade",
-    },
-  },
-  {
-    name: "Tejas Kumar",
-    bio: "Senior Software Engineer, G2i",
-    imageURL:
-      "https://avatars1.githubusercontent.com/u/9947422?s=400&u=fb740d34aa56a06482e140c74dbb246937f5fabb&v=4",
-    links: {
-      github: "https://github.com/Tejasq",
-      twitter: "https://twitter.com/TejasKumar_"
     },
   },
   {

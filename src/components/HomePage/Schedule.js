@@ -300,12 +300,28 @@ const Schedule = () => {
                             </span>
                           </div>
               
-                        <div className="block-detail">
-                          <span className="time">2:40 - 3:00</span>
+                          <div className="block-detail">
+                          <span className="time">2:20 - 2:40</span>
                           <span className="topic">
-                           Shopify Career Fair
+                          TBA
                           </span>
-                        </div>
+                         
+                            <span className="speaker">
+                              {" "}
+                              <strong style={{ color: "grey" }}>
+                                Speaker
+                              </strong>{" "}
+                              :{" "}
+                              <a
+                                href="https://twitter.com/Samson_Goddy"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: "white", fontWeight: "bold" }}
+                              >
+                                Samson Goddy
+                              </a>{" "}
+                            </span>
+                          </div>
                         <div className="block-detail">
                           <span className="time">3:00</span>
                           <span className="topic">Screenshots :)</span>
