@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Link} from "react-router-dom"
 const EventDetails = () => {
   return (
     <section id="about" className="about pt-100 pb-100 brd-bottom">
@@ -212,16 +212,15 @@ const EventDetails = () => {
           </div>
           <div className="col-md-3 col-sm-12 mt-20 mb-20">
             <div className="block-info-1">
-              <a
-                href="https://t.co/3cmzMQWMDa?amp=1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="scroll but"
-                style={{ borderRadius: "5px" }}
+              <Link
+                className="but scroll"
+                style={{
+                  borderRadius: "5px",
+                }}
+                to="/ticket"
               >
-                {" "}
                 Register
-              </a>
+              </Link>
             </div>
           </div>
         </div>

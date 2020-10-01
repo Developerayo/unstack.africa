@@ -284,7 +284,7 @@ const Schedule = () => {
                         <div className="block-detail">
                           <span className="time">2:40 - 3:00</span>
                           <span className="topic">
-                           Shopify Career Fare
+                           Shopify Career Fair
                           </span>
                         </div>
                         <div className="block-detail">

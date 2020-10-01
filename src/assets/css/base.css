@@ -714,7 +714,17 @@ a[href^="https://maps.google.com/maps"]
   background: none !important;
 }
 /*End misc */
-
+@media screen and (max-width: 769px) {
+   .pricing {
+    order: 1;
+  }
+  .desc {
+    order: 2;
+  }
+  .desc-card {
+    margin-top: 15px !important;
+  }
+}
 /* Media Queries - For Smaller screens */
 @media screen and (max-width: 600px) {
   .hero-content {
@@ -729,9 +739,46 @@ a[href^="https://maps.google.com/maps"]
   .abt-unstack {
     width: 85% !important;
   }
+  .pricing {
+    order: 1;
+  }
+  .desc {
+    order: 2;
+  }
+  .desc-card {
+    margin-top: 15px !important;
+  }
 }
 
 .partner-center {
   display: flex;
   justify-content: center;
+}
+.flex-menu {
+  background: #FAFAFA;
+    border: 1px solid #E2E5E7;
+    border-right-width: 0;
+    border-left-width: 0;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+}
+
+.ticket-body {
+  background: #F7F7F7;
+}
+.parent-desc p {
+  color: #000;
+}
+.ticket-body h1 {
+  color: #000;
+  font-weight: 600;
+}
+.amount {
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.parent-desc {
+  display: flex
 }
