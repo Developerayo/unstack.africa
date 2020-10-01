@@ -541,15 +541,31 @@ const Schedule = () => {
                               </a>{" "}
                             </span>
                           </div>
-              
-                        <div className="block-detail">
-                          <span className="time">2:40 - 3:00</span>
+
+                          <div className="block-detail">
+                          <span className="time">2:00 - 2:35</span>
                           <span className="topic">
-                           VanHack Career Fare
+                            TBA
                           </span>
-                        </div>
+                         
+                            <span className="speaker">
+                              {" "}
+                              <strong style={{ color: "grey" }}>
+                                Speaker
+                              </strong>{" "}
+                              :{" "}
+                              <a
+                                href="https://twitter.com/developerayo"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: "white", fontWeight: "bold" }}
+                              >
+                                Shodipo Ayomude
+                              </a>{" "}
+                            </span>
+                          </div>
                         <div className="block-detail">
-                          <span className="time">3:00</span>
+                          <span className="time">2:35</span>
                           <span className="topic">Screenshots :)</span>
                         </div>
                       </li>
