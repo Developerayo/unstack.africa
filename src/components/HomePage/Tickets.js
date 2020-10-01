@@ -8,10 +8,12 @@ const Tickets = () => {
     <Fragment>
       <div className="ticket-body">
         <Header />
+        <section class="ticket-hero mt-70">
+        </section>
         <div className="container">
           <div className="row parent-desc">
             <div className="col-md-8 desc">
-              <div className="mt-100 mb-30 desc-card">
+              <div className="mt-30 mb-30 desc-card">
                 <div className="card">
                   <div className="card-body">
                     <h1>Description</h1>
@@ -44,12 +46,12 @@ const Tickets = () => {
               </div>
             </div>
             <div className="col-md-4 pricing">
-              <div className="mt-100 mb-30">
+              <div className="mt-30 mb-30">
                 <div className="card">
                   <div className="card-header">
                     <div className="amount">
                       <p>Price</p>
-                      <p>₦2000</p>
+                      <p>₦2000 / $5</p>
                     </div>
                   </div>
                   <div className="card-body">

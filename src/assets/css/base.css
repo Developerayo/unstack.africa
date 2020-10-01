@@ -782,3 +782,9 @@ a[href^="https://maps.google.com/maps"]
 .parent-desc {
   display: flex
 }
+.ticket-hero {
+  height: 350px;
+  background-image: url('../img/ticket-hero.PNG');
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
