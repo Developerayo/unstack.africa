@@ -170,7 +170,7 @@ const Schedule = () => {
                             </span>
                           </div>
                         <div className="block-detail">
-                          <span className="time">12:00 - 1:00</span>
+                          <span className="time">11:10 - 11:45</span>
                           <span className="topic">Handle Media Uploads with NextJs & Cloudinary</span>
                          
                             <span className="speaker">
