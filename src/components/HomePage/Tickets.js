@@ -44,7 +44,7 @@ const Tickets = () => {
                     <p>6th - 7th November 2020</p>
                     <br />
                     <h1>Time</h1>
-                    <p>10 AM - 2 PM, Daily</p>
+                    <p>10 AM - 3 PM, Daily</p>
                     <br />
                     <h1>Location</h1>
                     <p>Zoom Webinar (Online)</p>
