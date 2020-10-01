@@ -301,7 +301,7 @@ const Schedule = () => {
                           </div>
               
                           <div className="block-detail">
-                          <span className="time">2:20 - 2:40</span>
+                          <span className="time">2:25 - 3:00</span>
                           <span className="topic">
                           TBA
                           </span>
