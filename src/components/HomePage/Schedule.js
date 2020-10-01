@@ -473,7 +473,7 @@ const Schedule = () => {
                           </div>
 
                         <div className="block-detail">
-                          <span className="time">1:00 - 2:00</span>
+                          <span className="time">12:15 - 12:50</span>
                           <span className="topic">
                           Next.js on AWS
                           </span>
