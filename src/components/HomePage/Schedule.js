@@ -235,7 +235,7 @@ const Schedule = () => {
                           </div>
         
                         <div className="block-detail">
-                          <span className="time">2:00 - 2:20</span>
+                          <span className="time">12:55 - 1:30</span>
                           <span className="topic">
                           State Machines and State Charts
                           </span>
