@@ -69,7 +69,7 @@ const speakers = [
     },
   },
   {
-    name: "Adora Nenne",
+    name: "Adora Nwodo",
     bio: "Software Engineer, Microsoft",
     imageURL:
       "https://media-exp1.licdn.com/dms/image/C5603AQEKwprAYnZuDg/profile-displayphoto-shrink_800_800/0?e=1606348800&v=beta&t=86dh0jH0Qx8kzYXq_CxvoiINc2SDjHisAglIGSXODUU",
@@ -91,54 +91,54 @@ const speakers = [
       linkedin: "https://www.linkedin.com/in/mxstbr",
     },
   },
-{
-  name: "Knut Melvær",
-  bio: "Head of Developer Relations, Sanity IO",
-  imageURL:
-    "https://css-tricks.com/wp-content/uploads/2018/08/image-8-1-350x350.png",
-  links: {
-    github: "https://github.com/BolajiOlajide",
-    twitter: "https://twitter.com/GantLaborde",
-    linkedin:
-      "https://www.linkedin.com/in/gant-laborde",
+  {
+    name: "Knut Melvær",
+    bio: "Head of Developer Relations, Sanity IO",
+    imageURL:
+      "https://css-tricks.com/wp-content/uploads/2018/08/image-8-1-350x350.png",
+    links: {
+      github: "https://github.com/BolajiOlajide",
+      twitter: "https://twitter.com/GantLaborde",
+      linkedin:
+        "https://www.linkedin.com/in/gant-laborde",
+    },
   },
-},
-{
-  name: "Chukwurah Phebian",
-  bio: "Senior FrontEnd Engineer, Okra",
-  imageURL:
-    "https://media-exp1.licdn.com/dms/image/C4D03AQFxY8UjMAozFw/profile-displayphoto-shrink_800_800/0?e=1606953600&v=beta&t=V76Y7xOODgA8g7mx7F31J3euXWSMUqKLmyYBTiTr7U4",
-  links: {
-    github: "https://github.com/ph3bian",
-    twitter: "https://twitter.com/ph3bian",
-    linkedin:
-      "https://www.linkedin.com/in/ph3bian/",
+  {
+    name: "Chukwurah Phebian",
+    bio: "Senior FrontEnd Engineer, Okra",
+    imageURL:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQFxY8UjMAozFw/profile-displayphoto-shrink_800_800/0?e=1606953600&v=beta&t=V76Y7xOODgA8g7mx7F31J3euXWSMUqKLmyYBTiTr7U4",
+    links: {
+      github: "https://github.com/ph3bian",
+      twitter: "https://twitter.com/ph3bian",
+      linkedin:
+        "https://www.linkedin.com/in/ph3bian/",
+    },
   },
-},
-{
-  name: "Bolaji Olajide",
-  bio: "Software Engineer, Pluralsight",
-  imageURL:
-    "https://media-exp1.licdn.com/dms/image/C4E03AQGcbAX3kCx3tg/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=ZtjJsXWGBU3AvadgZSrx1l0O5xMvGU9RWURJu1-elrU",
-  links: {
-    github: "https://github.com/BolajiOlajide",
-    twitter: "https://twitter.com/Bolaji___",
-    linkedin:
-      "https://www.linkedin.com/in/bolaji-olajide-95b08777/",
+  {
+    name: "Bolaji Olajide",
+    bio: "Software Engineer, Pluralsight",
+    imageURL:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQGcbAX3kCx3tg/profile-displayphoto-shrink_800_800/0?e=1605744000&v=beta&t=ZtjJsXWGBU3AvadgZSrx1l0O5xMvGU9RWURJu1-elrU",
+    links: {
+      github: "https://github.com/BolajiOlajide",
+      twitter: "https://twitter.com/Bolaji___",
+      linkedin:
+        "https://www.linkedin.com/in/bolaji-olajide-95b08777/",
+    },
   },
-},
-{
-  name: "Samson Goddy",
-  bio: "Co-Founder, Open Source Community Africa",
-  imageURL:
-    "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
-  links: {
-    github: "https://github.com/samswag",
-    twitter: "https://twitter.com/Samson_Goddy",
-    linkedin:
-    "https://ng.linkedin.com/in/samsongoddy",
+  {
+    name: "Samson Goddy",
+    bio: "Co-Founder, Open Source Community Africa",
+    imageURL:
+      "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
+    links: {
+      github: "https://github.com/samswag",
+      twitter: "https://twitter.com/Samson_Goddy",
+      linkedin:
+        "https://ng.linkedin.com/in/samsongoddy",
+    },
   },
-},
   {
     name: "Domitrius Clark",
     bio: "Advocate Engineer, Cloudinary",
@@ -210,7 +210,7 @@ const speakers = [
         "https://www.linkedin.com/in/oluwatomisinlalude/",
     },
   },
-  
+
   {
     name: "Shodipo Ayomide",
     bio: "Co-Founder, unStack Africa",
@@ -235,27 +235,27 @@ const speakers = [
         "https://www.linkedin.com/in/domitriusanthony/",
     },
   },
-//   {
-//     name: "Shodipo Ayomide",
-//     bio: "Founder, unStack Africa & Senior Developer Advocate",
-//     imageURL: shodipoayomide,
-//     links: {
-//       github: "https://github.com/developerayo",
-//       twitter: "https://twitter.com/developerayo",
-//       linkedin: "https://linkedin.com/in/shodipo-ayomide",
-//     },
-//   },
-//   {
-//     name: "Kingdom Orjiewuru",
-//     bio: "Co-Founder unStack Africa & Software Engineer, Aula",
-//     imageURL:
-//       "https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4",
-//     links: {
-//       github: "https://github.com/kingisaac95",
-//       twitter: "https://twitter.com/kingisaac95?lang=en",
-//       linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
-//     },
-//   },
+  //   {
+  //     name: "Shodipo Ayomide",
+  //     bio: "Founder, unStack Africa & Senior Developer Advocate",
+  //     imageURL: shodipoayomide,
+  //     links: {
+  //       github: "https://github.com/developerayo",
+  //       twitter: "https://twitter.com/developerayo",
+  //       linkedin: "https://linkedin.com/in/shodipo-ayomide",
+  //     },
+  //   },
+  //   {
+  //     name: "Kingdom Orjiewuru",
+  //     bio: "Co-Founder unStack Africa & Software Engineer, Aula",
+  //     imageURL:
+  //       "https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4",
+  //     links: {
+  //       github: "https://github.com/kingisaac95",
+  //       twitter: "https://twitter.com/kingisaac95?lang=en",
+  //       linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
+  //     },
+  //   },
 ]
 
 const Speakers = () => {
@@ -268,42 +268,42 @@ const Speakers = () => {
           </div>
         </div>
       </div>
-       {speakers.map(({ name, imageURL, bio, links }) => {
-          return (
-            <div className="col-sm-3 pd-0" key={name}>
-              <div className="block-speaker">
-                <div className="block-img overlay soft">
-                  <div className="background-img">
-                    <img loading="lazy" src={imageURL} alt="" />
-                  </div>
-                  <div className="block-info-2">
-                    <p>
-                      <strong>{name}</strong>
-                      <span>{bio}</span>
-                    </p>
-                    <ul className="block-social">
-                      {Object.keys(links).map((linkKey) => {
-                        const link = links[linkKey]
+      {speakers.map(({ name, imageURL, bio, links }) => {
+        return (
+          <div className="col-sm-3 pd-0" key={name}>
+            <div className="block-speaker">
+              <div className="block-img overlay soft">
+                <div className="background-img">
+                  <img loading="lazy" src={imageURL} alt="" />
+                </div>
+                <div className="block-info-2 dark-outline">
+                  <p>
+                    <strong>{name}</strong>
+                    <span>{bio}</span>
+                  </p>
+                  <ul className="block-social">
+                    {Object.keys(links).map((linkKey) => {
+                      const link = links[linkKey]
 
-                        return (
-                          <li key={linkKey}>
-                            <a
-                              href={link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <i className={`fa fa-${linkKey}`}></i>
-                            </a>
-                          </li>
-                        )
-                      })}
-                    </ul>
-                  </div>
+                      return (
+                        <li key={linkKey}>
+                          <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className={`fa fa-${linkKey}`}></i>
+                          </a>
+                        </li>
+                      )
+                    })}
+                  </ul>
                 </div>
               </div>
             </div>
-          )
-        })} 
+          </div>
+        )
+      })}
     </section>
   )
 }
