@@ -1,7 +1,9 @@
 import React from "react"
 
-import cloudinary from "../../assets/img/cloudinary_sponsor.png"
+// import cloudinary from "../../assets/img/cloudinary_sponsor.png"
 import github from "../../assets/img/github.png"
+import storyblok from "../../assets/img/story.jpg"
+
 // import codesandbox from "../../assets/img/csb.png"
 // import egghead from "../../assets/img/egghead.jpg"
 // import andela from "../../assets/img/andela_sponsor.jpg"
@@ -15,10 +17,10 @@ import github from "../../assets/img/github.png"
 
 const sponsorsList = {
   platinum: [
-    {
-      logo: cloudinary,
-      logoAlt: "cloudinary",
-    }
+    // {
+    //   logo: cloudinary,
+    //   logoAlt: "cloudinary",
+    // }
   ],
   gold: [
     {
@@ -37,37 +39,13 @@ const sponsorsList = {
     //   logo: amp,
     //   logoAlt: "AMP",
     // },
-  ]
-  // bronze: [
-  //   {
-  //     logo: paystack,
-  //     logoAlt: "paystack",
-  //   },
-  //   {
-  //     logo: hashnode,
-  //     logoAlt: "hashnode",
-  //   },
-  //   {
-  //     logo: gatsby,
-  //     logoAlt: "gatsby",
-  //   },
-  //   {
-  //     logo: andela,
-  //     logoAlt: "andela",
-  //   },
-  //   {
-  //     logo: egghead,
-  //     logoAlt: "egghead",
-  //   },
-  //   {
-  //     logo: vanhack,
-  //     logoAlt: "vanhack",
-  //   },
-  //   {
-  //     logo: thinkster,
-  //     logoAlt: "thinkster",
-  //   },
-  // ],
+  ],
+  bronze: [
+    {
+      logo: storyblok,
+      logoAlt: "storyblog",
+    },
+  ],
 }
 
 const Sponsors = () => {

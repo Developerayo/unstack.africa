@@ -5,8 +5,10 @@ import Footer from "../common/Footer"
 import {
   FacebookShareButton,
   TwitterShareButton,
-  LinkedinShareButton,
   WhatsappShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  WhatsappIcon,
 } from "react-share"
 
 const Tickets = () => {
@@ -49,10 +51,33 @@ const Tickets = () => {
                     <br />
                     <h1>Share Event</h1>
                     <div>
-                      <FacebookShareButton />
-                      <TwitterShareButton />
-                      <LinkedinShareButton />
-                      <WhatsappShareButton />
+                      <FacebookShareButton
+                        url={"http://unstack.africa/tickets"}
+                        quote={"Tictets | unStack Conference 2020"}
+                        hashtag="#unstack-conf-2020"
+                        className="classes.socialMediaButton"
+                      >
+                        <FacebookIcon size={36} />
+                        </FacebookShareButton>
+
+                        <TwitterShareButton
+                          url={"http://unstack.africa/tickets"}
+                          title={"Tictets | unStack Conference 2020"}
+                          hashtag="#unstack-conf-2020"
+                          className="classes.socialMediaButton"
+                        >
+                          <TwitterIcon size={36} />
+                        </TwitterShareButton>
+
+                        <WhatsappShareButton
+                          url={"http://unstack.africa/tickets"}
+                          title={"Tictets | unStack Conference 2020"}
+                          hashtag="#unstack-conf-2020"
+                          separator=":: "
+                          className="classes.socialMediaButton"
+                        >
+                          <WhatsappIcon size={36} />
+                        </WhatsappShareButton>
                     </div>
                   </div>
                 </div>
