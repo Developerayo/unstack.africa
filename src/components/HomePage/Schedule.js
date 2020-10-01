@@ -520,7 +520,7 @@ const Schedule = () => {
                           </div>
      
                         <div className="block-detail">
-                          <span className="time">2:20 - 2:40</span>
+                          <span className="time">1:25 - 2:00</span>
                           <span className="topic">
                             Web Monetization in Africa
                           </span>
