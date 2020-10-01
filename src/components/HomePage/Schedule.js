@@ -278,7 +278,7 @@ const Schedule = () => {
                           </div>
      
                         <div className="block-detail">
-                          <span className="time">2:05 - 2:40</span>
+                          <span className="time">1:50 - 2:25</span>
                           <span className="topic">
                           Fast & Furious - Going headless with Nuxt.js
                           </span>
