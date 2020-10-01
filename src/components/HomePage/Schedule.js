@@ -258,7 +258,7 @@ const Schedule = () => {
                             </span>
                           </div>
                           <div className="block-detail">
-                          <span className="time">1:30 - 2:05</span>
+                          <span className="time">1:30 - 1:50</span>
                           <span className="topic">TBA<h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
                             <span className="speaker">
                               {" "}
@@ -278,7 +278,7 @@ const Schedule = () => {
                           </div>
      
                         <div className="block-detail">
-                          <span className="time">2:20 - 2:40</span>
+                          <span className="time">2:05 - 2:40</span>
                           <span className="topic">
                           Fast & Furious - Going headless with Nuxt.js
                           </span>
