@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 
 import Header from "../common/Header"
 import hero from "../../assets/img/hero.png"
@@ -34,21 +35,15 @@ const Main = () => {
                 unStack Africa Virtual Conference.{" "}
               </p>
 
-              <a
-                href="https://t.co/3cmzMQWMDa?amp=1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="but scroll"
-                style={{
-                  borderRadius: "5px",
-                  fontSize: "20px",
-                  fontWeight: 700,
-                  padding: "10px 30px",
-                }}
-              >
-                {" "}
-                <b>REGISTER</b>
-              </a>
+                <Link
+                  className="but scroll"
+                  style={{
+                    borderRadius: "5px",
+                  }}
+                  to="/ticket"
+                >
+                  Register
+                </Link>
             </div>
           </div>
         </div>
