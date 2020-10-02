@@ -10,6 +10,7 @@ const Schedule = () => {
                 <div className="row">
                   <div className="col-sm-12 mb-50 text-center">
                     <h1 className="title"> Schedule</h1>
+                    <small>Please note: All session times are in West African Time (WAT), GMT+1.</small>
                   </div>
                 </div>
               </div>
