@@ -72,7 +72,7 @@ const speakers = [
     name: "Adora Nwodo",
     bio: "Software Engineer, Microsoft",
     imageURL:
-      "https://media-exp1.licdn.com/dms/image/C5603AQEKwprAYnZuDg/profile-displayphoto-shrink_800_800/0?e=1606348800&v=beta&t=86dh0jH0Qx8kzYXq_CxvoiINc2SDjHisAglIGSXODUU",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress",
     links: {
       github: "https://github.com/AdoraNwodo",
       twitter: "https://twitter.com/AdoraNwodo",

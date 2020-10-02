@@ -2,7 +2,6 @@ import React from "react"
 
 import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
 import princess from "../../assets/img/unstack-img/princess.jpeg"
-import ooade from "../../assets/img/unstack-img/ooade.jpeg"
 import mike from "../../assets/img/unstack-img/mike.jpeg"
 import olumide from "../../assets/img/unstack-img/lumie.jpg"
 import amaka from "../../assets/img/unstack-img/chiamaka.jpg"
@@ -86,7 +85,7 @@ const teamMembers = [
   {
     name: "Ademola Adebuyi",
     bio: "Co-Lead React Organizer & Software Engineer, Paystack ",
-    imageURL: ooade,
+    imageURL: 'https://media-exp1.licdn.com/dms/image/C4D03AQH_g5Zk83p4Gw/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=exOesE-3WyQaAw9o08HU1DNth7cLAk-phYJnCVZPuww',
     links: {
       github: "https://github.com/ooade",
       twitter: "https://twitter.com/_ooade",

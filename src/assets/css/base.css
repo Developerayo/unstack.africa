@@ -157,8 +157,10 @@ img {
 .map img {
   max-width: none;
 }
-a:focus {
+a:focus,
+a:active {
   outline: 0;
+  box-shadow: 0 0 1px 2px #fff;
 }
 iframe {
   width: 100%;
@@ -453,13 +455,13 @@ section.hero {
   height: 100vh;
 }
 .hero-text {
-    font-size: 1.1em;
-    font-weight: 600;
-    line-height: 1.5em;
-  }
-  .locate {
-    padding: 70px 0 70px 0 !important;
-  }
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+.locate {
+  padding: 70px 0 70px 0 !important;
+}
 /*End links*/
 /*Misc */
 
@@ -715,7 +717,7 @@ a[href^="https://maps.google.com/maps"]
 }
 /*End misc */
 @media screen and (max-width: 769px) {
-   .pricing {
+  .pricing {
     order: 1;
   }
   .desc {
@@ -755,17 +757,17 @@ a[href^="https://maps.google.com/maps"]
   justify-content: center;
 }
 .flex-menu {
-  background: #FAFAFA;
-    border: 1px solid #E2E5E7;
-    border-right-width: 0;
-    border-left-width: 0;
-    padding: 0;
-    height: 60px;
-    overflow: hidden;
+  background: #fafafa;
+  border: 1px solid #e2e5e7;
+  border-right-width: 0;
+  border-left-width: 0;
+  padding: 0;
+  height: 60px;
+  overflow: hidden;
 }
 
 .ticket-body {
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 .parent-desc p {
   color: #000;
@@ -780,11 +782,11 @@ a[href^="https://maps.google.com/maps"]
   justify-content: space-between;
 }
 .parent-desc {
-  display: flex
+  display: flex;
 }
 .ticket-hero {
   height: 350px;
-  background-image: url('../img/ticket-hero.PNG');
+  background-image: url("../img/ticket-hero.PNG");
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
 }
