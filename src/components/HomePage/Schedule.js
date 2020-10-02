@@ -303,7 +303,7 @@ const Schedule = () => {
                           <div className="block-detail">
                           <span className="time">2:25 - 3:00</span>
                           <span className="topic">
-                          TBA
+                          Quality over quantity in open-source
                           </span>
                          
                             <span className="speaker">
