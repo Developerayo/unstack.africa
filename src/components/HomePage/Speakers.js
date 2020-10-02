@@ -104,8 +104,20 @@ const speakers = [
     },
   },
   {
+    name: "Samson Goddy",
+    bio: "Co-Founder, Open Source Community Africa",
+    imageURL:
+      "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
+    links: {
+      github: "https://github.com/samswag",
+      twitter: "https://twitter.com/Samson_Goddy",
+      linkedin:
+        "https://ng.linkedin.com/in/samsongoddy",
+    },
+  },
+  {
     name: "Chukwurah Phebian",
-    bio: "Senior FrontEnd Engineer, Okra",
+    bio: "Senior Frontend Engineer, Okra",
     imageURL:
       "https://media-exp1.licdn.com/dms/image/C4D03AQFxY8UjMAozFw/profile-displayphoto-shrink_800_800/0?e=1606953600&v=beta&t=V76Y7xOODgA8g7mx7F31J3euXWSMUqKLmyYBTiTr7U4",
     links: {
@@ -113,6 +125,18 @@ const speakers = [
       twitter: "https://twitter.com/ph3bian",
       linkedin:
         "https://www.linkedin.com/in/ph3bian/",
+    },
+  },
+  {
+    name: "Samuel Snopko",
+    bio: "Head of Developer Relations, Storyblok",
+    imageURL:
+      "https://cdn.wearewondrous.com/sites/default/files/uploads/2019-02/Samuel-600.jpg?crop=smart&width=1920&height=840&fit=cover&quality=70",
+    links: {
+      github: "https://github.com/samuells",
+      twitter: "https://twitter.com/SamuelSnopko",
+      linkedin:
+        "https://at.linkedin.com/in/samuelsnopko",
     },
   },
   {
@@ -125,18 +149,6 @@ const speakers = [
       twitter: "https://twitter.com/Bolaji___",
       linkedin:
         "https://www.linkedin.com/in/bolaji-olajide-95b08777/",
-    },
-  },
-  {
-    name: "Samson Goddy",
-    bio: "Co-Founder, Open Source Community Africa",
-    imageURL:
-      "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
-    links: {
-      github: "https://github.com/samswag",
-      twitter: "https://twitter.com/Samson_Goddy",
-      linkedin:
-        "https://ng.linkedin.com/in/samsongoddy",
     },
   },
   {
@@ -184,18 +196,6 @@ const speakers = [
       twitter: "https://twitter.com/hacksultan",
       linkedin:
         "https://www.linkedin.com/in/hacksultan/",
-    },
-  },
-  {
-    name: "Samuel Snopko",
-    bio: "Head of Developer Relations, Storyblok",
-    imageURL:
-      "https://cdn.wearewondrous.com/sites/default/files/uploads/2019-02/Samuel-600.jpg?crop=smart&width=1920&height=840&fit=cover&quality=70",
-    links: {
-      github: "https://github.com/samuells",
-      twitter: "https://twitter.com/SamuelSnopko",
-      linkedin:
-        "https://at.linkedin.com/in/samuelsnopko",
     },
   },
   {
