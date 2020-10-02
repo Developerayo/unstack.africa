@@ -17,7 +17,7 @@ const speakers = [
     name: "Aniedi Udo-Ogbong",
     bio: "Program Manager, Google",
     imageURL:
-      "https://pbs.twimg.com/profile_images/1270049684120354816/RuezR1Es_400x400.jpg",
+      "https://devfest-dakar.web.app/images/speakers/aniedi.jpg",
     links: {
       github: "https://github.com/aniediudo",
       twitter: "https://twitter.com/aniediudo",
@@ -188,7 +188,7 @@ const speakers = [
   },
   {
     name: "Samuel Snopko",
-    bio: "Head of DevRel, Storyblok",
+    bio: "Head of Developer Relations, Storyblok",
     imageURL:
       "https://cdn.wearewondrous.com/sites/default/files/uploads/2019-02/Samuel-600.jpg?crop=smart&width=1920&height=840&fit=cover&quality=70",
     links: {
