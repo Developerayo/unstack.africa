@@ -560,7 +560,7 @@ const Schedule = () => {
                                 rel="noopener noreferrer"
                                 style={{ color: "white", fontWeight: "bold" }}
                               >
-                                Shodipo Ayomude
+                                Shodipo Ayomide
                               </a>{" "}
                             </span>
                           </div>
