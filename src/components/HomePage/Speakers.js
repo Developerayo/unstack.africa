@@ -93,7 +93,7 @@ const speakers = [
   },
   {
     name: "Knut Melvær",
-    bio: "Head of Developer Relations, Sanity IO",
+    bio: "Head of Developer Relations, Sanity.io",
     imageURL:
       "https://css-tricks.com/wp-content/uploads/2018/08/image-8-1-350x350.png",
     links: {
@@ -175,18 +175,18 @@ const speakers = [
         "https://ng.linkedin.com/in/ooade",
     },
   },
-  {
-    name: "Gant Laborde",
-    bio: "Chief Technical Officer, Infinity Red",
-    imageURL:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--7946-bAJ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/99490/b1193958-26b5-4f03-a76d-fd1dfc0b400a.jpg",
-    links: {
-      github: "https://github.com/kmelve",
-      twitter: "https://twitter.com/kmelve",
-      linkedin:
-        "https://www.linkedin.com/in/knutmelvaer/",
-    },
-  },
+  // {
+  //   name: "Gant Laborde",
+  //   bio: "Chief Technical Officer, Infinity Red",
+  //   imageURL:
+  //     "https://res.cloudinary.com/practicaldev/image/fetch/s--7946-bAJ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/99490/b1193958-26b5-4f03-a76d-fd1dfc0b400a.jpg",
+  //   links: {
+  //     github: "https://github.com/kmelve",
+  //     twitter: "https://twitter.com/kmelve",
+  //     linkedin:
+  //       "https://www.linkedin.com/in/knutmelvaer/",
+  //   },
+  // },
   {
     name: "Akintunde Sultan",
     bio: "DevRel, Grant For The Web",
