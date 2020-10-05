@@ -49,7 +49,7 @@ const Tickets = () => {
                     <p>10 AM - 3 PM, Daily</p>
                     <br />
                     <h1>Location</h1>
-                    <p>Zoom Webinar (Online)</p>
+                    <p>Airmeet Video Conferencing  (Online)</p>
                     <br />
                     <h1>Share Event</h1> <br />
                     <div>

@@ -158,7 +158,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>LOCATION</strong>
-                <span>Zoom Webinar</span>
+                <span>Airmeet Video Conferencing </span>
               </p>
             </div>
           </div>
