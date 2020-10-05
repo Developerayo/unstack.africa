@@ -19,7 +19,7 @@ const HomePage = () => (
     <div className="wrapper" id="wrapper">
       <Main />
       <EventDetails />
-      {/* <Speakers /> */}
+      {/* <Speakers /> */} 
       {/* <Schedule /> */}
       <Team />
       {/* <Sponsors /> */}
