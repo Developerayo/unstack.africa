@@ -132,7 +132,7 @@ const Schedule = () => {
                         </div>
                         <div className="block-detail">
                           <span className="time">10:15 - 10:35</span>
-                          <span className="topic">Open Source Pillars & Tales<h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
+                          <span className="topic">Open Source Pillars & Tales <h6 style={{color: "#E49205", fontWeight:"bold"}}>Keynote</h6></span>
                             <span className="speaker">
                               {" "}
                               <strong style={{ color: "grey" }}>
