@@ -141,7 +141,7 @@ const Team = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
-            <h1 className="title">The Team</h1>
+            <h1 className="title">Meet The Team</h1>
           </div>
         </div>
       </div>
