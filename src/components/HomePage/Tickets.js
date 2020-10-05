@@ -2,7 +2,7 @@ import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
 
-// import speakers from "../../assets/img/speakers.jpg";
+import speakers from "../../assets/img/speakers.jpg";
 
 import {
   FacebookShareButton,
@@ -81,7 +81,7 @@ const Tickets = () => {
                           <WhatsappIcon size={36} />
                         </WhatsappShareButton>
                     </div> <br /><br />
-                    {/* <img loading="eager" src={speakers} alt="" /> */}
+                    <img loading="eager" src={speakers} alt="" />
                   </div>
                 </div>
               </div>
