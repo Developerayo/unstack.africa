@@ -502,7 +502,7 @@ const Schedule = () => {
 
                       <div className="block-detail">
                         <span className="time">12:50 - 1:25</span>
-                        <span className="topic">Knut Melvaer</span>
+                        <span className="topic">Get Started with Sanity.io and Next.js</span>
 
                         <span className="speaker">
                           {" "}
