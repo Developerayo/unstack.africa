@@ -40,7 +40,7 @@ const Main = () => {
                   }}
                   to="/ticket"
                 >
-                  Register
+                  Get Tickets
                 </Link>
             </div>
           </div>

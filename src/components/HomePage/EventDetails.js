@@ -219,7 +219,7 @@ const EventDetails = () => {
                 }}
                 to="/ticeket"
               >
-                Register
+                Get Tickets
               </Link>
             </div>
           </div>
