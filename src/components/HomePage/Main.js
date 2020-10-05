@@ -12,7 +12,7 @@ const Main = () => {
         <ul className="slides">
           <li>
             <div className="background-img">
-              <img loading="lazy" src={hero} alt="" />
+              <img loading="eager" src={hero} alt="" />
             </div>
           </li>
         </ul>
@@ -25,9 +25,7 @@ const Main = () => {
             <div className="col-md-9 mx-auto text-center">
               <h1 className="large mb-10">unStack Africa</h1>
               <h4 className="hero-text mb-10">
-                open-source based conference/meetups for every engineer/designer
-                & technical talents focused on hands-on workshops and
-                world-class talks from around the world.
+                open-source based conference/meetups for every technical talents in Africa & around the globe, focused on hands-on workshops and world-class talks from around the world.
               </h4>
 
               <p className="uppercase my-4">
