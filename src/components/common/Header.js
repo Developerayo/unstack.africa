@@ -47,7 +47,7 @@ const Header = (props) => (
                   Schedule
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="scroll"
                   href="https://blog.unstack.africa"
@@ -56,7 +56,7 @@ const Header = (props) => (
                 >
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a className="scroll" href="/#gallery">
                   Pictures
