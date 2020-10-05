@@ -2,6 +2,8 @@ import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
 
+imgimport speakers from "../../assets/img/speakers.jpg"
+
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -78,7 +80,8 @@ const Tickets = () => {
                         >
                           <WhatsappIcon size={36} />
                         </WhatsappShareButton>
-                    </div>
+                    </div> <br /><br />
+                    <img loading="eager" src={speakers} alt="" />
                   </div>
                 </div>
               </div>
