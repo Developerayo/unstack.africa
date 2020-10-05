@@ -9,11 +9,11 @@ const EventDetails = () => {
             {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
             <h1 className="title">unStack Africa Virtual Conference</h1>
             <p className="title-lead mt-20">
-              The unStack Africa Virtual Conference hosted by unStack is focused
-              towards empowering more developers throughout Africa in React,
+              The unStack Virtual Conference hosted by unStack is focused
+              towards empowering more developers throughout Africa and beyond in JavaScript,
               featuring world class speakers & core contributors to most used
               open source projects coming onboard to share their insights on
-              things React.
+              things JavaScript.
             </p>
           </div>
         </div>
@@ -217,7 +217,7 @@ const EventDetails = () => {
                 style={{
                   borderRadius: "5px",
                 }}
-                to="/ticket"
+                to="/ticeket"
               >
                 Register
               </Link>

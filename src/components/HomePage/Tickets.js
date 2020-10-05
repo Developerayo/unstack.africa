@@ -26,17 +26,17 @@ const Tickets = () => {
                     <h1>Description</h1>
                     <br />
                     <p>
-                      The unStack Africa Conference is the Conf which is a
+                      The unStack Africa Conference is a
                       must-attend conference for anyone building apps for the
                       next billion users and anyone looking to level up their
                       engineering skills with an amazing set of speakers lined
-                      up.
+                      up from great companies supporting the tech ecosystem.
                     </p>
                     <br />
                     <p>
-                      This year unStack Conference is a virtual 2-day event
+                      This year's unStack Conference is a virtual 2-day event
                       where everyone in the African developer community and
-                      ecosystem comes together to learn, connect, and create the
+                      Some Global attendees comes together to learn, connect, and create the
                       future of software.{" "}
                     </p>
                     <br />
