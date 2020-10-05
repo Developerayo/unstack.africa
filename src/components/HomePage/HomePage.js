@@ -8,8 +8,8 @@ import Gallery from "./Gallery"
 import Speakers from "./Speakers"
 import Schedule from "./Schedule"
 import Location from "./Location"
-import Partners from "./Partners"
-import Sponsors from "./Sponsors"
+// import Partners from "./Partners"
+// import Sponsors from "./Sponsors"
 import Supporters from "./Supporters"
 import Footer from "../common/Footer"
 import EventDetails from "./EventDetails"
@@ -22,9 +22,9 @@ const HomePage = () => (
       <Speakers /> 
       <Schedule />
       <Team />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Supporters />
-      <Partners />
+      {/* <Partners /> */}
       <Location />
       <FAQ />
       <Gallery />
