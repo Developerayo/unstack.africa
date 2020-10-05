@@ -223,18 +223,18 @@ const speakers = [
         "https://www.linkedin.com/in/shodipo-ayomide/",
     },
   },
-  {
-    name: "More Coming Soon",
-    bio: "More Coming Soon",
-    imageURL:
-      "",
-    links: {
-      github: "https://github.com/developerayo",
-      twitter: "https://twitter.com/developerayo",
-      linkedin:
-        "https://www.linkedin.com/in/domitriusanthony/",
-    },
-  },
+  // {
+  //   name: "More Coming Soon",
+  //   bio: "More Coming Soon",
+  //   imageURL:
+  //     "",
+  //   links: {
+  //     github: "https://github.com/developerayo",
+  //     twitter: "https://twitter.com/developerayo",
+  //     linkedin:
+  //       "https://www.linkedin.com/in/domitriusanthony/",
+  //   },
+  // },
   //   {
   //     name: "Shodipo Ayomide",
   //     bio: "Founder, unStack Africa & Senior Developer Advocate",
