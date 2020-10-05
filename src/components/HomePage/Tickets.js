@@ -81,7 +81,7 @@ const Tickets = () => {
                           <WhatsappIcon size={36} />
                         </WhatsappShareButton>
                     </div> <br /><br />
-                    <img loading="eager" src={speakers} alt="" />
+                    {/* <img loading="eager" src={speakers} alt="" /> */}
                   </div>
                 </div>
               </div>
