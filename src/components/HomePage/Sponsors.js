@@ -1,66 +1,53 @@
 import React from "react"
 
-import cloudinary from "../../assets/img/cloudinary_sponsor.png"
-import codesandbox from "../../assets/img/csb.png"
-import egghead from "../../assets/img/egghead.jpg"
-import andela from "../../assets/img/andela_sponsor.jpg"
-import amp from "../../assets/img/amp.png"
-import fleek from "../../assets/img/fleek.png"
-import vanhack from "../../assets/img/vanhack_sponsor.png"
-import gatsby from "../../assets/img/gatsby.png"
-import paystack from "../../assets/img/paystack_sponsor.png"
-import thinkster from "../../assets/img/thinkster_sponsor.png"
-import hashnode from "../../assets/img/hashnode_sponsor.svg"
+// import cloudinary from "../../assets/img/cloudinary_sponsor.png"
+import github from "../../assets/img/github.png"
+import storyblok from "../../assets/img/story.jpg"
+
+import airmeet from "../../assets/img/airmeet.jpeg"
+// import egghead from "../../assets/img/egghead.jpg"
+// import andela from "../../assets/img/andela_sponsor.jpg"
+// import amp from "../../assets/img/amp.png"
+// import fleek from "../../assets/img/fleek.png"
+// import vanhack from "../../assets/img/vanhack_sponsor.png"
+// import gatsby from "../../assets/img/gatsby.png"
+// import paystack from "../../assets/img/paystack_sponsor.png"
+// import thinkster from "../../assets/img/thinkster_sponsor.png"
+// import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
 const sponsorsList = {
   platinum: [
-    {
-      logo: cloudinary,
-      logoAlt: "cloudinary",
-    },
+    // {
+    //   logo: cloudinary,
+    //   logoAlt: "cloudinary",
+    // }
   ],
-  silver: [
+  gold: [
     {
-      logo: fleek,
-      logoAlt: "fleek",
-    },
-    {
-      logo: codesandbox,
-      logoAlt: "codeSandBox",
-    },
-    {
-      logo: amp,
-      logoAlt: "AMP",
-    },
+      logo: github,
+      logoAlt: "github",
+    }
+    // {
+    //   logo: fleek,
+    //   logoAlt: "fleek",
+    // },
+    // {
+    //   logo: codesandbox,
+    //   logoAlt: "codeSandBox",
+    // },
+    // {
+    //   logo: amp,
+    //   logoAlt: "AMP",
+    // },
   ],
   bronze: [
     {
-      logo: paystack,
-      logoAlt: "paystack",
+      logo: storyblok,
+      logoAlt: "storyblog",
     },
     {
-      logo: hashnode,
-      logoAlt: "hashnode",
-    },
-    {
-      logo: gatsby,
-      logoAlt: "gatsby",
-    },
-    {
-      logo: andela,
-      logoAlt: "andela",
-    },
-    {
-      logo: egghead,
-      logoAlt: "egghead",
-    },
-    {
-      logo: vanhack,
-      logoAlt: "vanhack",
-    },
-    {
-      logo: thinkster,
-      logoAlt: "thinkster",
+      logo: airmeet,
+      logoAlt: "airmeet",
     },
   ],
 }
@@ -127,7 +114,7 @@ const Sponsors = () => {
                     className="sponsor-blk col-xs-1 col-sm-2 mt-2"
                   >
                     <a
-                      href="https://codesandbox.com"
+                      href="/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

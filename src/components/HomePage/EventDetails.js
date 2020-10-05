@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Link} from "react-router-dom"
 const EventDetails = () => {
   return (
     <section id="about" className="about pt-100 pb-100 brd-bottom">
@@ -9,11 +9,11 @@ const EventDetails = () => {
             {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
             <h1 className="title">unStack Africa Virtual Conference</h1>
             <p className="title-lead mt-20">
-              The unStack Africa Virtual Conference hosted by unStack is focused
-              towards empowering more developers throughout Africa in React,
+              The unStack Virtual Conference hosted by unStack is focused
+              towards empowering more developers throughout Africa and beyond in JavaScript,
               featuring world class speakers & core contributors to most used
               open source projects coming onboard to share their insights on
-              things React.
+              things JavaScript.
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ const EventDetails = () => {
               </svg>
               <p>
                 <strong>DATE</strong>
-                <span>16th - 17th October 2020</span>
+                <span>6th - 7th November 2020</span>
               </p>
             </div>
           </div>
@@ -158,7 +158,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>LOCATION</strong>
-                <span>Zoom</span>
+                <span>Airmeet Video Conferencing </span>
               </p>
             </div>
           </div>
@@ -206,20 +206,21 @@ const EventDetails = () => {
 
               <p>
                 <strong>SPEAKERS</strong>
-                <span> 4 Rockstar Speakers </span>
+                <span> 15+ Rockstar Speakers </span>
               </p>
             </div>
           </div>
           <div className="col-md-3 col-sm-12 mt-20 mb-20">
             <div className="block-info-1">
-              <a
-                href="#tickets"
-                className="scroll but"
-                style={{ borderRadius: "5px" }}
+              <Link
+                className="but scroll"
+                style={{
+                  borderRadius: "5px",
+                }}
+                to="/ticeket"
               >
-                {" "}
-                Register
-              </a>
+                Get Tickets
+              </Link>
             </div>
           </div>
         </div>

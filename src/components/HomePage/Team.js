@@ -2,9 +2,8 @@ import React from "react"
 
 import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
 import princess from "../../assets/img/unstack-img/princess.jpeg"
-import ooade from "../../assets/img/unstack-img/ooade.jpeg"
-import mike from "../../assets/img/unstack-img/mike.jpeg"
-import olumide from "../../assets/img/unstack-img/lumie.jpg"
+
+import olumide from "../../assets/img/unstack-img/Olumide.JPG"
 import amaka from "../../assets/img/unstack-img/chiamaka.jpg"
 import ayomide from "../../assets/img/unstack-img/ayomide.jpg"
 
@@ -86,7 +85,7 @@ const teamMembers = [
   {
     name: "Ademola Adebuyi",
     bio: "Co-Lead React Organizer & Software Engineer, Paystack ",
-    imageURL: ooade,
+    imageURL: 'https://media-exp1.licdn.com/dms/image/C4D03AQH_g5Zk83p4Gw/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=exOesE-3WyQaAw9o08HU1DNth7cLAk-phYJnCVZPuww',
     links: {
       github: "https://github.com/ooade",
       twitter: "https://twitter.com/_ooade",
@@ -96,21 +95,11 @@ const teamMembers = [
   {
     name: "Shodipo Michael",
     bio: "Co-Lead Design & Product Designer",
-    imageURL: mike,
+    imageURL: "https://pbs.twimg.com/profile_images/1266457167969816578/3br9-U1s_400x400.jpg",
     links: {
       github: "https://dribbble.com/designspree",
       twitter: "https://twitter.com/design_spree",
       linkedin: "https://ng.linkedin.com/in/michael-shodipo",
-    },
-  },
-  {
-    name: "Olumide Okedusi",
-    bio: "Community Manger & Software Engineer, Sidmach ",
-    imageURL: olumide,
-    links: {
-      github: "https://github.com/lumie31",
-      twitter: "https://twitter.com/lumie31",
-      linkedin: "https://ng.linkedin.com/in/olumideokedusi",
     },
   },
   {
@@ -122,6 +111,16 @@ const teamMembers = [
       github: "https://github.com/#",
       twitter: "https://twitter.com/amakachii_",
       linkedin: "https://ng.linkedin.com/in/chiamakaokenwa",
+    },
+  },
+  {
+    name: "Olumide Okedusi",
+    bio: "Community Manager & Software Engineer, Sidmach",
+    imageURL: olumide,
+    links: {
+      github: "https://github.com/lumie31",
+      twitter: "https://twitter.com/lumie31",
+      linkedin: "https://ng.linkedin.com/in/olumideokedusi",
     },
   },
   {
@@ -142,7 +141,7 @@ const Team = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
-            <h1 className="title">The Team</h1>
+            <h1 className="title">Meet The Team</h1>
           </div>
         </div>
       </div>
@@ -155,7 +154,7 @@ const Team = () => {
                   <div className="background-img">
                     <img loading="lazy" src={imageURL} alt="" />
                   </div>
-                  <div className="block-info-2">
+                  <div className="block-info-2 dark-outline">
                     <p>
                       <strong>{name}</strong>
                       <span>{bio}</span>

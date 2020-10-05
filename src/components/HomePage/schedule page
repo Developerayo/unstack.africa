@@ -38,7 +38,7 @@
             </g>
           </svg>
           <strong className="ml-3 ">Day 1</strong>{" "}
-          <span>- 2nd October 2020</span>
+          <span>- 2nd November 2020</span>
           </li>
          <li className="">
           <svg
@@ -57,7 +57,7 @@
             </g>
           </svg>
           <strong className="ml-3 ">Day 2</strong>{" "}
-          <span>- 3rd October 2020</span>
+          <span>- 3rd November 2020</span>
         </li>
         {/* <li className="">
           <i className="et-line-calendar"></i>
@@ -89,7 +89,7 @@
               </g>
             </svg>
             <strong className="ml-3 ">Day 1</strong>{" "}
-            <span>- 2nd October 2020</span>
+            <span>- 2nd November 2020</span>
           </div>
           <div className="block-detail">
             <span className="time">10:00 - 10:10</span>
@@ -301,7 +301,7 @@
               </g>
             </svg>
             <strong className="ml-3 ">Day 2</strong>{" "}
-            <span>- 3rd October 2020</span>
+            <span>- 3rd November 2020</span>
           </div>
           <div className="block-detail">
             <span className="time">10:00 - 10:30</span>

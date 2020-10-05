@@ -53,7 +53,7 @@ const Footer = (props) => (
     <section className="top-footer pb-70 mt-70 text-center">
       <div className="container ">
         <div className="row">
-          <div className="w-50 mx-auto">
+          <div className="abt-unstack w-50 mx-auto">
             <h2 className="title mb-30">About unStack</h2>
             <p className="">
               unStack is an open-source based conference/meetups for every
