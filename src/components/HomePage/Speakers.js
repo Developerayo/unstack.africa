@@ -14,7 +14,7 @@ const speakers = [
     },
   },
   {
-    name: "Aniedi Udo-Ogbong",
+    name: "Aniedi Udo-Obong",
     bio: "Program Manager, Google",
     imageURL:
       "https://devfest-dakar.web.app/images/speakers/aniedi.jpg",

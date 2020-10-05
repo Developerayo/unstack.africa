@@ -279,7 +279,7 @@ const Schedule = () => {
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Aniedi Udo-Ogbong
+                            Aniedi Udo-Obong
                           </a>{" "}
                         </span>
                       </div>
