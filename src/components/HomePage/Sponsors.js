@@ -4,6 +4,8 @@ import React from "react"
 import github from "../../assets/img/github.png"
 import storyblok from "../../assets/img/story.jpg"
 
+import camunda from "../../assets/img/camunda.jpg"
+
 import airmeet from "../../assets/img/airmeet.jpeg"
 // import egghead from "../../assets/img/egghead.jpg"
 // import andela from "../../assets/img/andela_sponsor.jpg"
@@ -17,10 +19,10 @@ import airmeet from "../../assets/img/airmeet.jpeg"
 
 const sponsorsList = {
   platinum: [
-    // {
-    //   logo: cloudinary,
-    //   logoAlt: "cloudinary",
-    // }
+    {
+      logo: camunda,
+      logoAlt: "Camunda",
+    }
   ],
   gold: [
     {
