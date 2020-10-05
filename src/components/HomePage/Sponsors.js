@@ -114,7 +114,7 @@ const Sponsors = () => {
                     className="sponsor-blk col-xs-1 col-sm-2 mt-2"
                   >
                     <a
-                      href="https://codesandbox.com"
+                      href="/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
