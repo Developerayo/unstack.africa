@@ -4,7 +4,7 @@ import React from "react"
 import github from "../../assets/img/github.png"
 import storyblok from "../../assets/img/story.jpg"
 
-// import codesandbox from "../../assets/img/csb.png"
+import airmeet from "../../assets/img/airmeet.jpeg"
 // import egghead from "../../assets/img/egghead.jpg"
 // import andela from "../../assets/img/andela_sponsor.jpg"
 // import amp from "../../assets/img/amp.png"
@@ -44,6 +44,10 @@ const sponsorsList = {
     {
       logo: storyblok,
       logoAlt: "storyblog",
+    },
+    {
+      logo: airmeet,
+      logoAlt: "airmeet",
     },
   ],
 }
