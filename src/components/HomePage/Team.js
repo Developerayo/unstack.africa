@@ -2,7 +2,7 @@ import React from "react"
 
 import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
 import princess from "../../assets/img/unstack-img/princess.jpeg"
-import mike from "../../assets/img/unstack-img/mike.jpeg"
+
 import olumide from "../../assets/img/unstack-img/Olumide.JPG"
 import amaka from "../../assets/img/unstack-img/chiamaka.jpg"
 import ayomide from "../../assets/img/unstack-img/ayomide.jpg"
