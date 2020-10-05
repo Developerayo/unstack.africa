@@ -131,7 +131,7 @@ const speakers = [
     name: "Samuel Snopko",
     bio: "Head of Developer Relations, Storyblok",
     imageURL:
-      "https://cdn.wearewondrous.com/sites/default/files/uploads/2019-02/Samuel-600.jpg?crop=smart&width=1920&height=840&fit=cover&quality=70",
+      "https://uc08235002fc23216ef4703b9f88.previews.dropboxusercontent.com/p/thumb/AA9AdTpafxvU1QcDOOVAxsKc814xziN9Eh7hyheYog9oVSHuuSBIE9wjWjTzQrfNzTVT9uN8Hos87Hvny8BnxHEuyh5G7n-p_PIB1MT9zbfMds3-kS3to7mD5h-FXgHgGbh_88zEip-JYGSxfFpErgdDYflQsud0ZWsKXqvAvohTT-LxXDTTMmTArnltAfucTXMg6iSUDzXdVhN-AkvVEBHfJCIrfjC0iDw6RlzSXH2fww177VhxOpUJqWi4gFn932ArtdFZX7o_uBYd1QguCAFZ2Qaqnzrw3Ge1IQVK5GPPsWF4w_Pd0-fpO52MNVNDsy_oi6I9X54an4PTAN0U5rxGarO9V_j3XOv4xNUXQ1KNFJQiPZKOa2WXEXqmHIv8D40kJhMu1-xwGBTuw5b8wVZ9/p.jpeg?size=2048x1536&size_mode=3",
     links: {
       github: "https://github.com/samuells",
       twitter: "https://twitter.com/SamuelSnopko",
