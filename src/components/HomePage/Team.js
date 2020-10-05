@@ -95,21 +95,11 @@ const teamMembers = [
   {
     name: "Shodipo Michael",
     bio: "Co-Lead Design & Product Designer",
-    imageURL: mike,
+    imageURL: "https://pbs.twimg.com/profile_images/1266457167969816578/3br9-U1s_400x400.jpg",
     links: {
       github: "https://dribbble.com/designspree",
       twitter: "https://twitter.com/design_spree",
       linkedin: "https://ng.linkedin.com/in/michael-shodipo",
-    },
-  },
-  {
-    name: "Olumide Okedusi",
-    bio: "Community Manager & Software Engineer, Sidmach",
-    imageURL: olumide,
-    links: {
-      github: "https://github.com/lumie31",
-      twitter: "https://twitter.com/lumie31",
-      linkedin: "https://ng.linkedin.com/in/olumideokedusi",
     },
   },
   {
@@ -121,6 +111,16 @@ const teamMembers = [
       github: "https://github.com/#",
       twitter: "https://twitter.com/amakachii_",
       linkedin: "https://ng.linkedin.com/in/chiamakaokenwa",
+    },
+  },
+  {
+    name: "Olumide Okedusi",
+    bio: "Community Manager & Software Engineer, Sidmach",
+    imageURL: olumide,
+    links: {
+      github: "https://github.com/lumie31",
+      twitter: "https://twitter.com/lumie31",
+      linkedin: "https://ng.linkedin.com/in/olumideokedusi",
     },
   },
   {
