@@ -22,7 +22,7 @@ const Partners = () => {
           <div className="col-sm-12 mb-50 text-center ">
             <h1 className="title">Our Partners</h1>
             <p className="title-lead mt-10">
-              Thank you for partnering with us!
+            Corporate Social Responsibility (CSR) Support
             </p>
           </div>
         </div>
