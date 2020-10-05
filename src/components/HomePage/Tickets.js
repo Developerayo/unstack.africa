@@ -2,7 +2,7 @@ import React, { Fragment } from "react"
 import Header from "../common/Header"
 import Footer from "../common/Footer"
 
-import speakers from "../../assets/img/speakers.jpg";
+// import speakers from "../../assets/img/speakers.jpg";
 
 import {
   FacebookShareButton,
