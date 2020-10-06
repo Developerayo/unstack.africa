@@ -712,6 +712,15 @@ a[href^="https://maps.google.com/maps"]
 .gm-style-cc {
   display: none;
 }
+.center {
+  text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-upper {
+  text-transform: uppercase;
+}
 .gmnoprint div {
   background: none !important;
 }
