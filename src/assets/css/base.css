@@ -712,7 +712,7 @@ a[href^="https://maps.google.com/maps"]
 .gm-style-cc {
   display: none;
 }
-.center {
+.text-center {
   text-align: center;
 }
 .text-bold {

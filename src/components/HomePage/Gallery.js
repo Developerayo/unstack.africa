@@ -29,7 +29,7 @@ const Gallery = () => {
         <div className="row">
           <div className="col-sm-12 mb-50">
             <h1 className="title mt-10 text-center"> Feel The Vibes </h1>
-            <div className="center mt-10">From the African ecosystem</div>
+            <div className="text-center mt-10">From the African ecosystem</div>
           </div>
         </div>
       </div>
