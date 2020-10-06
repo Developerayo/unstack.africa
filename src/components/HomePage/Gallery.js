@@ -34,7 +34,7 @@ const Gallery = () => {
         </div>
       </div>
       <div className="wrap">
-        {photos.map((photo, index) => {
+        {photos.map((photo) => {
           return (
             <div className="box" key={photo}>
               <div className="boxInner">
