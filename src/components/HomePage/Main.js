@@ -19,7 +19,7 @@ const Main = () => {
       </div>
       <Header />
 
-      <div className="inner-hero fade-out">
+      <div id="content" className="inner-hero fade-out">
         <div className="container hero-content">
           <div className="row">
             <div className="col-md-9 mx-auto text-center">

@@ -799,3 +799,24 @@ a[href^="https://maps.google.com/maps"]
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
 }
+
+a[data-skip-content] {
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  position: absolute;
+  z-index: 1000;
+  clip: rect(0 0 0 0);
+}
+
+a[data-skip-content]:focus {
+  color: #fff;
+  padding: 20px 15px;
+  height: auto;
+  width: auto;
+  clip: auto;
+  top: 5px;
+  left: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.9);
+}

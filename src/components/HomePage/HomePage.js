@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import "../../../node_modules/font-awesome/css/font-awesome.min.css"
 
 import FAQ from "./FAQ"
@@ -15,21 +15,20 @@ import Footer from "../common/Footer"
 import EventDetails from "./EventDetails"
 
 const HomePage = () => (
-  <Fragment>
-    <div className="wrapper" id="wrapper">
-      <Main />
-      <EventDetails />
-      <Speakers /> 
-      <Schedule />
-      <Team />
-      {/* <Sponsors /> */}
-      <Supporters />
-      {/* <Partners /> */}
-      <Location />
-      <FAQ />
-      <Gallery />
-      <Footer />
-    </div>
-  </Fragment>
+  <div className="wrapper" id="wrapper">
+    <a href="#content" data-skip-content> Skip to content </a>
+    <Main />
+    <EventDetails />
+    <Speakers />
+    <Schedule />
+    <Team />
+    {/* <Sponsors /> */}
+    <Supporters />
+    {/* <Partners /> */}
+    <Location />
+    <FAQ />
+    <Gallery />
+    <Footer />
+  </div>
 )
 export default HomePage
