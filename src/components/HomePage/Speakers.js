@@ -131,7 +131,7 @@ const speakers = [
     name: "Samuel Snopko",
     bio: "Head of Developer Relations, Storyblok",
     imageURL:
-      "https://uc08235002fc23216ef4703b9f88.previews.dropboxusercontent.com/p/thumb/AA9AdTpafxvU1QcDOOVAxsKc814xziN9Eh7hyheYog9oVSHuuSBIE9wjWjTzQrfNzTVT9uN8Hos87Hvny8BnxHEuyh5G7n-p_PIB1MT9zbfMds3-kS3to7mD5h-FXgHgGbh_88zEip-JYGSxfFpErgdDYflQsud0ZWsKXqvAvohTT-LxXDTTMmTArnltAfucTXMg6iSUDzXdVhN-AkvVEBHfJCIrfjC0iDw6RlzSXH2fww177VhxOpUJqWi4gFn932ArtdFZX7o_uBYd1QguCAFZ2Qaqnzrw3Ge1IQVK5GPPsWF4w_Pd0-fpO52MNVNDsy_oi6I9X54an4PTAN0U5rxGarO9V_j3XOv4xNUXQ1KNFJQiPZKOa2WXEXqmHIv8D40kJhMu1-xwGBTuw5b8wVZ9/p.jpeg?size=2048x1536&size_mode=3",
+      "https://uc8ebd011bc01984777279f68942.previews.dropboxusercontent.com/p/thumb/AA-IXPS3g4vqryXXluLdRZFn-5Y5MqnPnUfHBP-tynoHtVFNBnnpUeyKR3jOgPtwlrDF0vreHkBWUvjAeQ4D4HbqYMYhygaVnODr7o5l-4xdeneMd-qhcnI28eiWPwMZdJ5xt0ufvWHIe3B9hk8AwfRHuFWQulWO7o-tb4te6rh8cXWmKak9prpZbo-RpKpssVZKUFbxqP-frdyxC93kn_gUnwJiiPhCdxhg7OOgaJyyzrxtb1DSqPkQz0dgW7pB7Vocwjqihg4-nTo6-3dpAQKdXk9HrDqqqC8Pk5WpHYBaidsiPG3Bw9kDn_a4exeB64e6FOTMcE40X1GsNpD7OYtx_vAoptN5bHRsV_7fnCole2Rn_p1lS4ZU8v5ZYg0h-kT12iScKqEoG959THxFRRYs/p.jpeg?size=2048x1536&size_mode=3",
     links: {
       github: "https://github.com/samuells",
       twitter: "https://twitter.com/SamuelSnopko",
