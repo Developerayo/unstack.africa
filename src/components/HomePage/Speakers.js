@@ -290,6 +290,7 @@ const Speakers = () => {
                           <a
                             href={link}
                             target="_blank"
+                            aria-label={linkKey}
                             rel="noopener noreferrer"
                           >
                             <i className={`fa fa-${linkKey}`}></i>

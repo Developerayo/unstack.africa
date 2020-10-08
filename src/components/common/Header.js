@@ -9,10 +9,10 @@ const Header = (props) => (
         <div className="lines"></div>
       </div>
       <div className="row">
-        <div className="col-md-3">
-          <a className="scroll logo" href="/">
-            <img src={logo} alt="" />
-          </a>
+        <div className="col-md-3 flex">
+          <Link className="scroll logo" to="/">
+            <img src={logo} alt="Unstack" />
+          </Link>
         </div>
         <div className="col-md-9 nav-container text-right">
           <nav className="main-nav">

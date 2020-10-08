@@ -712,6 +712,15 @@ a[href^="https://maps.google.com/maps"]
 .gm-style-cc {
   display: none;
 }
+.text-center {
+  text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-upper {
+  text-transform: uppercase;
+}
 .gmnoprint div {
   background: none !important;
 }
@@ -789,4 +798,25 @@ a[href^="https://maps.google.com/maps"]
   background-image: url("../img/ticket-hero.PNG");
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
+}
+
+a[data-skip-content] {
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  position: absolute;
+  z-index: 1000;
+  clip: rect(0 0 0 0);
+}
+
+a[data-skip-content]:focus {
+  color: #fff;
+  padding: 20px 15px;
+  height: auto;
+  width: auto;
+  clip: auto;
+  top: 5px;
+  left: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.9);
 }
