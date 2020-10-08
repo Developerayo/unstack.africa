@@ -27,9 +27,9 @@ const Gallery = () => {
     <section id="gallery" className="gallery pt-100">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 mb-50 ">
-            <h1 className="title mt-10 text-center"> Feel The Vibes </h1> <br />
-            <center><span>From the African ecosystem</span></center>
+          <div className="col-sm-12 mb-50">
+            <h1 className="title mt-10 text-center"> Feel The Vibes </h1>
+            <div className="text-center mt-10">From the African ecosystem</div>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Gallery = () => {
           return (
             <div className="box" key={photo}>
               <div className="boxInner">
-                <img loading="lazy" src={photo} alt="gallery" />
+                <img loading="lazy" src={photo} alt="" />
               </div>
             </div>
           )

@@ -31,11 +31,11 @@ const Footer = (props) => (
                         </span>
                       </div>
                     </form>
-                  </div> 
+                  </div>
                 </div>
               </div>
             </div>*/}
-          </div> 
+          </div>
         </div>
       </div>
     </section>
@@ -65,6 +65,7 @@ const Footer = (props) => (
                 <a
                   href="https://web.facebook.com/groups/unstackafrica/"
                   target="_blank"
+                  aria-label="facebook"
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-facebook"></i>
@@ -74,6 +75,7 @@ const Footer = (props) => (
                 <a
                   href="https://twitter.com/unstackafrica"
                   target="_blank"
+                  aria-label="twitter"
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-twitter"></i>
@@ -83,6 +85,7 @@ const Footer = (props) => (
                 <a
                   href="https://www.youtube.com/channel/UCt_RhSqO7_lTAdeXBt4X2pg"
                   target="_blank"
+                  aria-label="youtube"
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-youtube"></i>
@@ -92,6 +95,7 @@ const Footer = (props) => (
                 <a
                   href="https://github.com/unstackofficial"
                   target="_blank"
+                  aria-label="github"
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-github"></i>
@@ -101,6 +105,7 @@ const Footer = (props) => (
                 <a
                   href="https://join.slack.com/t/unstackdev/shared_invite/zt-9bowaas5-jhDbuts0FEJVKOaNz~1C4g"
                   target="_blank"
+                  aria-label="slack"
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-slack"></i>
