@@ -521,7 +521,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">12:50 - 1:25</span>
+                        <span className="time">1:25 - 2:00</span>
                         <span className="topic">The Top 5 JS Lessons from Answering StackOverflow Questions</span>
 
                         <span className="speaker">
@@ -541,7 +541,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">12:50 - 1:25</span>
+                        <span className="time">2:00 - 2:35</span>
                         <span className="topic">Building Confidence & Shipping faster with Automated CI/CD</span>
 
                         <span className="speaker">
@@ -561,7 +561,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">1:25 - 2:00</span>
+                        <span className="time">2:35 - 2:45</span>
                         <span className="topic">
                           Web Monetization in Africa
                         </span>
@@ -583,7 +583,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">2:35</span>
+                        <span className="time">3:00</span>
                         <span className="topic">End & Screenshots</span>
                       </div>
                     </li>
