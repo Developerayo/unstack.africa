@@ -131,7 +131,7 @@ const speakers = [
     name: "Samuel Snopko",
     bio: "Head of Developer Relations, Storyblok",
     imageURL:
-      "https://uc8ebd011bc01984777279f68942.previews.dropboxusercontent.com/p/thumb/AA-IXPS3g4vqryXXluLdRZFn-5Y5MqnPnUfHBP-tynoHtVFNBnnpUeyKR3jOgPtwlrDF0vreHkBWUvjAeQ4D4HbqYMYhygaVnODr7o5l-4xdeneMd-qhcnI28eiWPwMZdJ5xt0ufvWHIe3B9hk8AwfRHuFWQulWO7o-tb4te6rh8cXWmKak9prpZbo-RpKpssVZKUFbxqP-frdyxC93kn_gUnwJiiPhCdxhg7OOgaJyyzrxtb1DSqPkQz0dgW7pB7Vocwjqihg4-nTo6-3dpAQKdXk9HrDqqqC8Pk5WpHYBaidsiPG3Bw9kDn_a4exeB64e6FOTMcE40X1GsNpD7OYtx_vAoptN5bHRsV_7fnCole2Rn_p1lS4ZU8v5ZYg0h-kT12iScKqEoG959THxFRRYs/p.jpeg?size=2048x1536&size_mode=3",
+      "https://serving.photos.photobox.com/12431602abd8e08d943c28fb77d6dec9696ef1acc75e28182808a1b59596fd9a077876b4.jpg",
     links: {
       github: "https://github.com/samuells",
       twitter: "https://twitter.com/SamuelSnopko",
@@ -179,7 +179,7 @@ const speakers = [
     name: "Josh Wulf",
     bio: "Developer Advocate, Camunda",
     imageURL:
-      "https://miro.medium.com/max/3150/2*EYwoHZXvh3jjwfdrSqKQ5g.jpeg",
+      "https://miro.medium.com/max/3150/1*xfAFWYI7YC3C8YN3JJNZ4Q.jpeg",
     links: {
       github: "https://github.com/jwulf",
       twitter: "https://twitter.com/sitapati",
