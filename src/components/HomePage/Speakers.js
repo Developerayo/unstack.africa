@@ -175,6 +175,18 @@ const speakers = [
         "https://ng.linkedin.com/in/ooade",
     },
   },
+  {
+    name: "Josh Wulf",
+    bio: "Developer Advocate, Camunda",
+    imageURL:
+      "https://miro.medium.com/max/3150/2*EYwoHZXvh3jjwfdrSqKQ5g.jpeg",
+    links: {
+      github: "https://github.com/jwulf",
+      twitter: "https://twitter.com/sitapati",
+      linkedin:
+        "https://www.linkedin.com/in/sitapati/",
+    },
+  },
   // {
   //   name: "Gant Laborde",
   //   bio: "Chief Technical Officer, Infinity Red",
@@ -210,7 +222,17 @@ const speakers = [
         "https://www.linkedin.com/in/oluwatomisinlalude/",
     },
   },
-
+      {
+      name: "Kingdom Orjiewuru",
+      bio: "Software Engineer, Aula",
+      imageURL:
+        "https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4",
+      links: {
+        github: "https://github.com/kingisaac95",
+        twitter: "https://twitter.com/kingisaac95",
+        linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
+      },
+    },
   {
     name: "Shodipo Ayomide",
     bio: "Co-Founder, unStack Africa",
@@ -243,17 +265,6 @@ const speakers = [
   //       github: "https://github.com/developerayo",
   //       twitter: "https://twitter.com/developerayo",
   //       linkedin: "https://linkedin.com/in/shodipo-ayomide",
-  //     },
-  //   },
-  //   {
-  //     name: "Kingdom Orjiewuru",
-  //     bio: "Co-Founder unStack Africa & Software Engineer, Aula",
-  //     imageURL:
-  //       "https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4",
-  //     links: {
-  //       github: "https://github.com/kingisaac95",
-  //       twitter: "https://twitter.com/kingisaac95?lang=en",
-  //       linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
   //     },
   //   },
 ]

@@ -329,7 +329,7 @@ const Schedule = () => {
                       </div>
                       <div className="block-detail">
                         <span className="time">3:00</span>
-                        <span className="topic">Screenshots :)</span>
+                        <span className="topic">End & Screenshots</span>
                       </div>
                     </li>
 
@@ -521,6 +521,46 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
+                        <span className="time">12:50 - 1:25</span>
+                        <span className="topic">The Top 5 JS Lessons from Answering StackOverflow Questions</span>
+
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/sitapati"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Josh Wulf
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                      <div className="block-detail">
+                        <span className="time">12:50 - 1:25</span>
+                        <span className="topic">Building Confidence & Shipping faster with Automated CI/CD</span>
+
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/kingisaac95"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Kingdom Orjiewuru
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                      <div className="block-detail">
                         <span className="time">1:25 - 2:00</span>
                         <span className="topic">
                           Web Monetization in Africa
@@ -543,27 +583,8 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">2:00 - 2:35</span>
-                        <span className="topic">TBA</span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/developerayo"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Shodipo Ayomide
-                          </a>{" "}
-                        </span>
-                      </div>
-                      <div className="block-detail">
                         <span className="time">2:35</span>
-                        <span className="topic">Screenshots :)</span>
+                        <span className="topic">End & Screenshots</span>
                       </div>
                     </li>
                   </ul>
