@@ -217,7 +217,7 @@ const EventDetails = () => {
                 style={{
                   borderRadius: "5px",
                 }}
-                to="/ticeket"
+                to="/ticekets"
               >
                 Get Tickets
               </Link>
