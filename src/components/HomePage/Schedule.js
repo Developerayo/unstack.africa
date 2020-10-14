@@ -416,23 +416,23 @@ const Schedule = () => {
                           </a>{" "}
                         </span>
                       </div>
+
                       <div className="block-detail">
                         <span className="time">10:35 - 11:05</span>
-                        <span className="topic">
-                          React Security Implications You Need to Consider
-                        </span>
+                        <span className="topic">Building Confidence & Shipping faster with Automated CI/CD</span>
+
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
                             Speaker
                           </strong> :{" "}
                           <a
-                            href="https://twitter.com/jamesqquick"
+                            href="https://twitter.com/kingisaac95"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            James Q Quick
+                            Kingdom Orjiewuru
                           </a>{" "}
                         </span>
                       </div>
@@ -522,20 +522,21 @@ const Schedule = () => {
 
                       <div className="block-detail">
                         <span className="time">1:25 - 2:00</span>
-                        <span className="topic">Building Confidence & Shipping faster with Automated CI/CD</span>
-
+                        <span className="topic">
+                          React Security Implications You Need to Consider
+                        </span>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
                             Speaker
                           </strong> :{" "}
                           <a
-                            href="https://twitter.com/kingisaac95"
+                            href="https://twitter.com/jamesqquick"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Kingdom Orjiewuru
+                            James Q Quick
                           </a>{" "}
                         </span>
                       </div>
