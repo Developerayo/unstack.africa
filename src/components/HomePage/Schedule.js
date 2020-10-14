@@ -396,7 +396,7 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">10:15 - 10:35</span>
                         <span className="topic">
-                          Mystery Topic
+                        Evolving the Open Source Ecosystem
                           <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             Keynote
                           </h6>
