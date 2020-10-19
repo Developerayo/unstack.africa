@@ -25,23 +25,37 @@ const Main = () => {
             <div className="col-md-9 mx-auto text-center">
               <h1 className="large mb-10">unStack Africa</h1>
               <p className="hero-text text-bold text-upper mb-10">
-                open-source based conference/meetups for every technical talents in Africa & around the globe, focused on hands-on workshops and world-class talks from around the world.
+                open-source based conference/meetups for every technical talents
+                in Africa & around the globe, focused on hands-on workshops and
+                world-class talks from around the world.
               </p>
 
               <p className="uppercase my-4">
-                6<sup>th</sup> - 7<sup>th</sup> November 2020 - Online<br />
+                6<sup>th</sup> - 7<sup>th</sup> November 2020 - Online
+                <br />
                 unStack Africa Virtual Conference.{" "}
               </p>
+              <a
+                className="but scroll"
+                style={{
+                  borderRadius: "5px",
+                }}
+                href="https://eventprime.co/e/unstack-conference-2020"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register
+              </a>
 
-                <Link
-                  className="but scroll"
-                  style={{
-                    borderRadius: "5px",
-                  }}
-                  to="/ticket"
-                >
-                  Get Tickets
-                </Link>
+              {/* <Link
+                className="but scroll"
+                style={{
+                  borderRadius: "5px",
+                }}
+                to="/ticket"
+              >
+                Register
+              </Link> */}
             </div>
           </div>
         </div>

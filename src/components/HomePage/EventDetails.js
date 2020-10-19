@@ -10,10 +10,10 @@ const EventDetails = () => {
             <h1 className="title">unStack Africa Virtual Conference</h1>
             <p className="title-lead mt-20">
               The unStack Virtual Conference hosted by unStack is focused
-              towards empowering more developers throughout Africa and beyond in JavaScript,
-              featuring world class speakers & core contributors to most used
-              open source projects coming onboard to share their insights on
-              things JavaScript.
+              towards empowering more developers throughout Africa and beyond in
+              JavaScript, featuring world class speakers & core contributors to
+              most used open source projects coming onboard to share their
+              insights on things JavaScript.
             </p>
           </div>
         </div>
@@ -212,15 +212,26 @@ const EventDetails = () => {
           </div>
           <div className="col-md-3 col-sm-12 mt-20 mb-20">
             <div className="block-info-1">
-              <Link
+              {/* <Link
                 className="but scroll"
                 style={{
                   borderRadius: "5px",
                 }}
                 to="/tickets"
               >
-                Get Tickets
-              </Link>
+                Register
+              </Link> */}
+              <a
+                className="but scroll"
+                style={{
+                  borderRadius: "5px",
+                }}
+                href="https://eventprime.co/e/unstack-conference-2020"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register
+              </a>
             </div>
           </div>
         </div>
