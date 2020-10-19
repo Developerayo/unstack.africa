@@ -62,18 +62,30 @@ const Header = (props) => (
                   Pictures
                 </a>
               </li>
-                <li>
-                  <Link
-                    className="but scroll"
-                    style={{
-                      borderRadius: "5px",
-                      padding: "10px",
-                    }}
-                    to="/ticket"
-                  >
-                    Get Tickets
-                  </Link>
-                </li>
+              <li>
+                <a
+                  className="but scroll"
+                  style={{
+                    borderRadius: "5px",
+                    padding: "10px",
+                  }}
+                  href="https://eventprime.co/e/unstack-conference-2020"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Register
+                </a>
+                {/* <Link
+                  className="but scroll"
+                  style={{
+                    borderRadius: "5px",
+                    padding: "10px",
+                  }}
+                  to="/ticket"
+                >
+                  Register
+                </Link> */}
+              </li>
             </ul>
           </nav>
         </div>
