@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "react-router-dom"
+// import {Link} from "react-router-dom"
 const EventDetails = () => {
   return (
     <section id="about" className="about pt-100 pb-100 brd-bottom">
