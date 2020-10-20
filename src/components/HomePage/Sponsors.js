@@ -22,13 +22,15 @@ const sponsorsList = {
     {
       logo: camunda,
       logoAlt: "Camunda",
-    }
+      url: "https://camunda.com/",
+    },
   ],
   gold: [
     {
       logo: github,
       logoAlt: "github",
-    }
+      url: "https://github.com/",
+    },
     // {
     //   logo: fleek,
     //   logoAlt: "fleek",
@@ -46,10 +48,12 @@ const sponsorsList = {
     {
       logo: storyblok,
       logoAlt: "storyblog",
+      url: "https://www.storyblok.com/",
     },
     {
       logo: airmeet,
       logoAlt: "airmeet",
+      url: "https://www.airmeet.com/",
     },
   ],
 }
@@ -109,14 +113,14 @@ const Sponsors = () => {
               key={`${sponsorsKey}-body`}
               className="sponsors row mt-30 mb-30"
             >
-              {sponsors.map(({ logo, logoAlt }) => {
+              {sponsors.map(({ logo, logoAlt, url }) => {
                 return (
                   <div
                     key={logoAlt}
                     className="sponsor-blk col-xs-1 col-sm-2 mt-2"
                   >
                     <a
-                      href="/"
+                      href={url}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
