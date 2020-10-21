@@ -214,7 +214,7 @@ const speakers = [
     name: "Oluwatomisin Lalude",
     bio: "Frontend Developer, eBanqo Inc",
     imageURL:
-      "https://pbs.twimg.com/profile_images/1305237123612717056/NOMKITr7_400x400.jpg",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQE9GpupfvixQg/profile-displayphoto-shrink_800_800/0?e=1608768000&v=beta&t=xKWyDkM9VrKqVlfKLmUwBLCWRJWDxg_8gRsQMZFgmdg",
     links: {
       github: "https://github.com/tomisinlalude",
       twitter: "https://twitter.com/tomisinlalude",
