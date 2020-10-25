@@ -7,6 +7,8 @@ import storyblok from "../../assets/img/story.jpg"
 import camunda from "../../assets/img/camunda.jpg"
 
 import airmeet from "../../assets/img/airmeet.jpeg"
+import opinionatedreact from "../../assets/img/opinionatedreact.png"
+import slack from "../../assets/img/slack-logo.png"
 // import egghead from "../../assets/img/egghead.jpg"
 // import andela from "../../assets/img/andela_sponsor.jpg"
 // import amp from "../../assets/img/amp.png"
@@ -54,6 +56,16 @@ const sponsorsList = {
       logo: airmeet,
       logoAlt: "airmeet",
       url: "https://www.airmeet.com/",
+    },
+    {
+      logo: opinionatedreact,
+      logoAlt: "opinionatedreact",
+      url: "https://opinionatedreact.com/",
+    },
+    {
+      logo: slack,
+      logoAlt: "slack",
+      url: "https://slack.com/",
     },
   ],
 }
