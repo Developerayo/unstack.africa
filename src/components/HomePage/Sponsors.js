@@ -9,6 +9,7 @@ import camunda from "../../assets/img/camunda.jpg"
 import airmeet from "../../assets/img/airmeet.jpeg"
 import opinionatedreact from "../../assets/img/opinionatedreact.png"
 import slack from "../../assets/img/slack-logo.png"
+import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
 // import egghead from "../../assets/img/egghead.jpg"
 // import andela from "../../assets/img/andela_sponsor.jpg"
 // import amp from "../../assets/img/amp.png"
@@ -67,6 +68,11 @@ const sponsorsList = {
       logoAlt: "slack",
       url: "https://slack.com/",
     },
+    {
+      logo: webdevforeveryone,
+      logoAlt: "webdevforeveryone",
+      url: "https://webdevelopmentforeveryone.com/",
+    }
   ],
 }
 
