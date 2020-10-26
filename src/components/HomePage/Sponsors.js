@@ -49,14 +49,14 @@ const sponsorsList = {
   ],
   bronze: [
     {
+      logo: slack,
+      logoAlt: "slack",
+      url: "https://slack.com/",
+    },
+    {
       logo: storyblok,
       logoAlt: "storyblog",
       url: "https://www.storyblok.com/",
-    },
-    {
-      logo: airmeet,
-      logoAlt: "airmeet",
-      url: "https://www.airmeet.com/",
     },
     {
       logo: opinionatedreact,
@@ -64,15 +64,15 @@ const sponsorsList = {
       url: "https://opinionatedreact.com/",
     },
     {
-      logo: slack,
-      logoAlt: "slack",
-      url: "https://slack.com/",
-    },
-    {
       logo: webdevforeveryone,
       logoAlt: "webdevforeveryone",
       url: "https://webdevelopmentforeveryone.com/",
-    }
+    },
+    {
+      logo: airmeet,
+      logoAlt: "airmeet",
+      url: "https://www.airmeet.com/",
+    },
   ],
 }
 
