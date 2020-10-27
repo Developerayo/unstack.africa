@@ -67,7 +67,7 @@ const sponsorsList = {
       height: "100px",
     },
     {
-      logo: opinionatedreact,
+      logo: guidetoreact,
       logoAlt: "opinionatedreact",
       url: "https://opinionatedreact.com/",
       width: "100px",
@@ -88,7 +88,7 @@ const sponsorsList = {
       height: "100px",
     },
   ],
-};
+}
 
 
 const Sponsors = () => {
