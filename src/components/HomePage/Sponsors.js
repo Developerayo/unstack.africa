@@ -7,7 +7,7 @@ import storyblok from "../../assets/img/story.jpg"
 import camunda from "../../assets/img/camunda.jpg"
 
 import airmeet from "../../assets/img/airmeet.jpeg"
-import opinionatedreact from "../../assets/img/opinionatedreact.png"
+import guidetoreact from "../../assets/img/guidetoreact.png"
 import slack from "../../assets/img/slack-logo.png"
 import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
 // import egghead from "../../assets/img/egghead.jpg"
@@ -26,6 +26,8 @@ const sponsorsList = {
       logo: camunda,
       logoAlt: "Camunda",
       url: "https://camunda.com/",
+      width: "",
+      height: "80px",
     },
   ],
   gold: [
@@ -33,6 +35,8 @@ const sponsorsList = {
       logo: github,
       logoAlt: "github",
       url: "https://github.com/",
+      width: "",
+      height: "",
     },
     // {
     //   logo: fleek,
@@ -52,27 +56,37 @@ const sponsorsList = {
       logo: storyblok,
       logoAlt: "storyblog",
       url: "https://www.storyblok.com/",
+      width: "100px",
+      height: "100px",
     },
     {
       logo: airmeet,
       logoAlt: "airmeet",
       url: "https://www.airmeet.com/",
+      width: "100px",
+      height: "100px",
     },
     {
-      logo: opinionatedreact,
+      logo: guidetoreact,
       logoAlt: "opinionatedreact",
       url: "https://opinionatedreact.com/",
+      width: "100px",
+      height: "100px",
     },
     {
       logo: slack,
       logoAlt: "slack",
       url: "https://slack.com/",
+      width: "",
+      height: "",
     },
     {
       logo: webdevforeveryone,
       logoAlt: "webdevforeveryone",
       url: "https://webdevelopmentforeveryone.com/",
-    }
+      width: "130px",
+      height: "50px",
+    },
   ],
 }
 
@@ -131,11 +145,11 @@ const Sponsors = () => {
               key={`${sponsorsKey}-body`}
               className="sponsors row mt-30 mb-30"
             >
-              {sponsors.map(({ logo, logoAlt, url }) => {
+              {sponsors.map(({ logo, logoAlt, url, width, height }) => {
                 return (
                   <div
                     key={logoAlt}
-                    className="sponsor-blk col-xs-1 col-sm-2 mt-2"
+                    className="sponsor-blk mr-4 mt-2"
                   >
                     <a
                       href={url}
@@ -147,6 +161,7 @@ const Sponsors = () => {
                         src={logo}
                         alt={logoAlt}
                         className="move-right"
+                        style={{ width: `${width}`, height:`${height}`  }}
                       />
                     </a>
                   </div>

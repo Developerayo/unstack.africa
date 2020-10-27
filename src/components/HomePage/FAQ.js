@@ -21,7 +21,7 @@ const FAQ = () => {
                 engineer/designer & technical talents focused on hands-on
                 workshops and world-class talks from around the world, we
                 currently have a community in 7 African countries since our
-                launch in 2019 and our most rencent one which is outside Africa
+                launch in 2019 and our most recent one which is outside Africa
                 is "unStack-Dubai"
               </p>
             </div>
