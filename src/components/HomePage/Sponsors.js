@@ -53,32 +53,25 @@ const sponsorsList = {
   ],
   bronze: [
     {
-      logo: storyblok,
-      logoAlt: "storyblog",
-      url: "https://www.storyblok.com/",
-      width: "100px",
-      height: "100px",
-    },
-    {
-      logo: airmeet,
-      logoAlt: "airmeet",
-      url: "https://www.airmeet.com/",
-      width: "100px",
-      height: "100px",
-    },
-    {
-      logo: guidetoreact,
-      logoAlt: "opinionatedreact",
-      url: "https://opinionatedreact.com/",
-      width: "100px",
-      height: "100px",
-    },
-    {
       logo: slack,
       logoAlt: "slack",
       url: "https://slack.com/",
       width: "",
       height: "",
+    },
+    {
+      logo: storyblok,
+      logoAlt: "storyblok",
+      url: "https://www.storyblok.com/",
+      width: "100px",
+      height: "100px",
+    },
+    {
+      logo: opinionatedreact,
+      logoAlt: "opinionatedreact",
+      url: "https://opinionatedreact.com/",
+      width: "100px",
+      height: "100px",
     },
     {
       logo: webdevforeveryone,
@@ -87,8 +80,16 @@ const sponsorsList = {
       width: "130px",
       height: "50px",
     },
+    {
+      logo: airmeet,
+      logoAlt: "airmeet",
+      url: "https://www.airmeet.com/",
+      width: "100px",
+      height: "100px",
+    },
   ],
-}
+};
+
 
 const Sponsors = () => {
   const sponsorsKeys = Object.keys(sponsorsList)
