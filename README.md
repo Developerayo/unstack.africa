@@ -1,6 +1,6 @@
 ### unStack Africa Virtual Conference.  
 
-![unStack Africa](./rithm-school-company-logo.png)
+![unStack Africa](./src/assets/img/logo.png)
 
 This repository contains information about [unStack Africa](https://unstack.africa/) which is an Open Source Conference or  technical meetups for the tech talent across the globe. 
 
@@ -19,13 +19,13 @@ You can register for the conference here [Register](https://eventprime.co/e/unst
 2. You'll be redirected to :
 ```bash
 
-https://github.com/your-username/Developerayo/unstack.africa
+https://github.com/your-username/unstack.africa
 
 ```
 3. Clone it the repository
  ``` bash
 
- git clone https://github.com/Developerayo/unstack.africa.git
+ git clone https://github.com/your-username/unstack.africa.git
  
    ```
 4. Install the project dependencies
