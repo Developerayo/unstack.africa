@@ -37,8 +37,8 @@ or
 yarn add
 
 ```
-4. Open in the text editor of your choice
-5. Create New Branch
+5. Open in the text editor of your choice
+6. Create New Branch
 
 ```bash 
 
@@ -47,13 +47,13 @@ yarn add
    git checkout new-branch
 
 ```
-1. Make your edits locally
+7. Make your edits locally
 ```bash
 
    git add -A
 
    ```
-1. Commit the changes
+7. Commit the changes
 ```bash
 
    git commit -m "Fixed documentation typos"
