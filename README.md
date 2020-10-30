@@ -1,12 +1,12 @@
 ### unStack Africa Virtual Conference.  
 
-![unStack Africa](./src/assets/img/logo.png)
+![unStack Africa](https://github.com/unStackOfficial/unStack-logo-assets/blob/master/Group%205.png)
 
 This repository contains information about [unStack Africa](https://unstack.africa/) which is an Open Source Conference or  technical meetups for the tech talent across the globe. 
 
 The **unStack Virtual Conference** hosted by unStack is focused towards empowering more developers throughout Africa and beyond in JavaScript, featuring world class speakers & core contributors to most used open source projects coming onboard to share their insights on things JavaScript.
 
-You can register for the conference here [Register](https://eventprime.co/e/unstack-conference-2020). 
+You can register for the conference here [Register](https://unstack.africa/). 
 
 
 #### Installation Guidelines
@@ -16,19 +16,19 @@ You can register for the conference here [Register](https://eventprime.co/e/unst
    https://github.com/Developerayo/unstack.africa
 
 ```
-2. You'll be redirected to :
+2. You'll be redirected to:
 ```bash
 
 https://github.com/your-username/unstack.africa
 
 ```
-3. Clone it the repository
+3. Clone it the repository:
  ``` bash
 
  git clone https://github.com/your-username/unstack.africa.git
  
    ```
-4. Install the project dependencies
+4. Install the project dependencies:
 ```bash 
 npm i 
 
@@ -42,7 +42,7 @@ yarn add
 
 ```bash 
 
-   cd repository
+   cd unstack-africa
    git branch new-branch
    git checkout new-branch
 
@@ -53,15 +53,15 @@ yarn add
    git add -A
 
    ```
-7. Commit the changes
+7. Commit the changes:
 ```bash
 
-   git commit -m "Fixed documentation typos"
+   git commit -m "Commit Message Here"
 
    ```
-1. Submit a pull request
+8. Submit a pull request:
 ```bash
 
-   git push --set-upstream origin new-branch
+   git push --set-upstream origin new-branch-name
 
 ```
