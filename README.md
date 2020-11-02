@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### unStack Africa Virtual Conference.  
 
-## Available Scripts
+![unStack Africa](https://github.com/unStackOfficial/unStack-logo-assets/blob/master/Group%205.png)
 
-In the project directory, you can run:
+This repository contains information about [unStack Africa](https://unstack.africa/) which is an Open Source Conference or  technical meetups for the tech talent across the globe. 
 
-### `yarn start`
+The **unStack Virtual Conference** hosted by unStack is focused towards empowering more developers throughout Africa and beyond in JavaScript, featuring world class speakers & core contributors to most used open source projects coming onboard to share their insights on things JavaScript.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can register for the conference here [Register](https://unstack.africa/). 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+#### Installation Guidelines
+1. Fork this repo. Please be sure to use the current _master_ branch as your starting point.
+```bash
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   https://github.com/Developerayo/unstack.africa
 
-### `yarn build`
+```
+2. You'll be redirected to:
+```bash
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://github.com/your-username/unstack.africa
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+3. Clone it the repository:
+ ``` bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ git clone https://github.com/your-username/unstack.africa.git
+ 
+   ```
+4. Install the project dependencies:
+```bash 
+npm i 
 
-### `yarn eject`
+or 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+yarn add
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+5. Open in the text editor of your choice
+6. Create New Branch
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   cd unstack-africa
+   git branch new-branch
+   git checkout new-branch
 
-## Learn More
+```
+7. Make your edits locally
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   git add -A
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```
+7. Commit the changes:
+```bash
 
-### Code Splitting
+   git commit -m "Commit Message Here"
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+   ```
+8. Submit a pull request:
+```bash
 
-### Analyzing the Bundle Size
+   git push --set-upstream origin new-branch-name
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
