@@ -39,7 +39,7 @@ const speakers = [
     name: "Prosper Otemuyiwa",
     bio: "Co-Founder & CTO, Eden Life",
     imageURL:
-      "https://miro.medium.com/max/500/1*tv9pIQPhwumDnYBfCoapYg.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Prosper_Otemuyiwa_portrait.jpg",
     links: {
       github: "https://github.com/unicodeveloper",
       twitter: "https://twitter.com/unicodeveloper",
@@ -179,7 +179,7 @@ const speakers = [
     name: "Josh Wulf",
     bio: "Developer Advocate, Camunda",
     imageURL:
-      "https://miro.medium.com/max/3150/1*xfAFWYI7YC3C8YN3JJNZ4Q.jpeg",
+      "https://i.ytimg.com/vi/fRocQcYPjNA/maxresdefault.jpg",
     links: {
       github: "https://github.com/jwulf",
       twitter: "https://twitter.com/sitapati",
@@ -237,7 +237,7 @@ const speakers = [
     name: "Shodipo Ayomide",
     bio: "Co-Founder, unStack Africa",
     imageURL:
-      "https://miro.medium.com/max/3150/2*EYwoHZXvh3jjwfdrSqKQ5g.jpeg",
+      "https://avatars3.githubusercontent.com/u/20538832?s=460&u=a9d22f07681039d46198e916cc6e5db5d59d4af1&v=4",
     links: {
       github: "https://github.com/developerayo",
       twitter: "https://twitter.com/developerayo",
