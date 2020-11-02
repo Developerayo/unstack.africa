@@ -5,6 +5,7 @@ import github from "../../assets/img/github.png"
 import storyblok from "../../assets/img/story.jpg"
 
 import camunda from "../../assets/img/camunda.jpg"
+import pluralsight from "../../assets/img/pluralsight.png"
 
 import airmeet from "../../assets/img/airmeet.jpeg"
 import guidetoreact from "../../assets/img/guidetoreact.png"
@@ -44,6 +45,13 @@ const sponsors = [
     height: "",
   },
   {
+    logo: pluralsight,
+    logoAlt: "pluralsight",
+    url: "https://pluralsight.com/",
+    width: "180px",
+    height: "",
+  },
+  {
     logo: storyblok,
     logoAlt: "storyblok",
     url: "https://www.storyblok.com/",
@@ -68,8 +76,8 @@ const sponsors = [
     logo: airmeet,
     logoAlt: "airmeet",
     url: "https://www.airmeet.com/",
-    width: "40px",
-    height: "40px",
+    width: "60px",
+    height: "60px",
   },
 ]
 
