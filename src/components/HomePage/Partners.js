@@ -6,12 +6,14 @@ import shecodeafrica from "../../assets/img/partners/shecodeafrica.jpg"
 const partnersList = [
   {
     logo: devcareers,
-    logoAlt: "devcareerslogo"
+    logoAlt: "devcareerslogo",
+    width: "120px",
   },
   {
     logo: shecodeafrica,
-    logoAlt: "shecodeafricalogo"
-  }
+    logoAlt: "shecodeafricalogo",
+    width: "120px",
+  },
 ]
 
 const Partners = () => {
@@ -22,7 +24,7 @@ const Partners = () => {
           <div className="col-sm-12 mb-50 text-center ">
             <h1 className="title">Our Partners</h1>
             <p className="title-lead mt-10">
-            Corporate Social Responsibility (CSR) Support
+              Corporate Social Responsibility (CSR) Support
             </p>
           </div>
         </div>
@@ -31,11 +33,16 @@ const Partners = () => {
       <div className="container">
         <div className="sponsors row mt-10 mb-10 partner-center">
           {/* <div className="col-md-12"> */}
-          {partnersList.map(({ logo, logoAlt }, index) => {
+          {partnersList.map(({ logo, logoAlt, width, height  }, index) => {
             return (
               <div className="sponsor-blk col-xs-1 col-sm-2 mt-2" key={index}>
                 <div className="">
-                  <img loading="lazy" src={logo} alt={logoAlt} />
+                  <img
+                    loading="lazy"
+                    src={logo}
+                    alt={logoAlt}
+                    style={{ width: `${width}`, height: `${height}` }}
+                  />
                 </div>
               </div>
             )
