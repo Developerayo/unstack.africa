@@ -10,7 +10,7 @@ You can register for the conference here [Register](https://unstack.africa/).
 
 
 #### Installation Guidelines
-1. Fork this repo. Please be sure to use the current _master_ branch as your starting point.
+1. Fork this repo. Please be sure to use the current _master_ branch as your starting point:
 ```bash
 
    https://github.com/Developerayo/unstack.africa
@@ -38,7 +38,7 @@ yarn add
 
 ```
 5. Open in the text editor of your choice
-6. Create New Branch
+6. Create New Branch:
 
 ```bash 
 
@@ -47,7 +47,7 @@ yarn add
    git checkout new-branch
 
 ```
-7. Make your edits locally
+7. Make your edits locally:
 ```bash
 
    git add -A
