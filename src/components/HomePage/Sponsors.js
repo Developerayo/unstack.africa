@@ -7,7 +7,7 @@ import storyblok from "../../assets/img/story.jpg"
 import camunda from "../../assets/img/camunda.jpg"
 
 import airmeet from "../../assets/img/airmeet.jpeg"
-import opinionatedreact from "../../assets/img/opinionatedreact.png"
+import guidetoreact from "../../assets/img/guidetoreact.png"
 import slack from "../../assets/img/slack-logo.png"
 import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
 // import egghead from "../../assets/img/egghead.jpg"
@@ -20,141 +20,165 @@ import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
 // import thinkster from "../../assets/img/thinkster_sponsor.png"
 // import hashnode from "../../assets/img/hashnode_sponsor.svg"
 
-const sponsorsList = {
-  platinum: [
-    {
-      logo: camunda,
-      logoAlt: "Camunda",
-      url: "https://camunda.com/",
-    },
-  ],
-  gold: [
-    {
-      logo: github,
-      logoAlt: "github",
-      url: "https://github.com/",
-    },
-    // {
-    //   logo: fleek,
-    //   logoAlt: "fleek",
-    // },
-    // {
-    //   logo: codesandbox,
-    //   logoAlt: "codeSandBox",
-    // },
-    // {
-    //   logo: amp,
-    //   logoAlt: "AMP",
-    // },
-  ],
-  bronze: [
-    {
-      logo: slack,
-      logoAlt: "slack",
-      url: "https://slack.com/",
-    },
-    {
-      logo: storyblok,
-      logoAlt: "storyblog",
-      url: "https://www.storyblok.com/",
-    },
-    {
-      logo: opinionatedreact,
-      logoAlt: "opinionatedreact",
-      url: "https://opinionatedreact.com/",
-    },
-    {
-      logo: webdevforeveryone,
-      logoAlt: "webdevforeveryone",
-      url: "https://webdevelopmentforeveryone.com/",
-    },
-    {
-      logo: airmeet,
-      logoAlt: "airmeet",
-      url: "https://www.airmeet.com/",
-    },
-  ],
-}
+
+const sponsors = [
+  {
+    logo: camunda,
+    logoAlt: "Camunda",
+    url: "https://camunda.com/",
+    width: "120px",
+    height: "44px",
+  },
+  {
+    logo: github,
+    logoAlt: "github",
+    url: "https://github.com/",
+    width: "120px",
+    height: "",
+  },
+  {
+    logo: slack,
+    logoAlt: "slack",
+    url: "https://slack.com/",
+    width: "120px",
+    height: "",
+  },
+  {
+    logo: storyblok,
+    logoAlt: "storyblok",
+    url: "https://www.storyblok.com/",
+    width: "40px",
+    height: "40px",
+  },
+  {
+    logo: guidetoreact,
+    logoAlt: "opinionatedreact",
+    url: "https://opinionatedreact.com/",
+    width: "50px",
+    height: "50px",
+  },
+  {
+    logo: webdevforeveryone,
+    logoAlt: "webdevforeveryone",
+    url: "https://webdevelopmentforeveryone.com/",
+    width: "60px",
+    height: "30px",
+  },
+  {
+    logo: airmeet,
+    logoAlt: "airmeet",
+    url: "https://www.airmeet.com/",
+    width: "40px",
+    height: "40px",
+  },
+]
+
+// const sponsorsList = {
+
+//   platinum: [
+//     {
+//       logo: camunda,
+//       logoAlt: "Camunda",
+//       url: "https://camunda.com/",
+//       width: "120px",
+//       // height: "80px",
+//     },
+//   ],
+//   gold: [
+//     {
+//       logo: github,
+//       logoAlt: "github",
+//       url: "https://github.com/",
+//       width: "120px",
+//       height: "",
+//     },
+//     // {
+//     //   logo: fleek,
+//     //   logoAlt: "fleek",
+//     // },
+//     // {
+//     //   logo: codesandbox,
+//     //   logoAlt: "codeSandBox",
+//     // },
+//     // {
+//     //   logo: amp,
+//     //   logoAlt: "AMP",
+//     // },
+//   ],
+//   bronze: [
+//     {
+//       logo: slack,
+//       logoAlt: "slack",
+//       url: "https://slack.com/",
+//       width: "120px",
+//       height: "",
+//     },
+//     {
+//       logo: storyblok,
+//       logoAlt: "storyblok",
+//       url: "https://www.storyblok.com/",
+//       width: "50px",
+//       height: "50px",
+//     },
+//     {
+//       logo: guidetoreact,
+//       logoAlt: "opinionatedreact",
+//       url: "https://opinionatedreact.com/",
+//       width: "50px",
+//       height: "50px",
+//     },
+//     {
+//       logo: webdevforeveryone,
+//       logoAlt: "webdevforeveryone",
+//       url: "https://webdevelopmentforeveryone.com/",
+//       width: "100px",
+//       height: "50px",
+//     },
+//     {
+//       logo: airmeet,
+//       logoAlt: "airmeet",
+//       url: "https://www.airmeet.com/",
+//       width: "50px",
+//       height: "50px",
+//     },
+//   ],
+// }
+
 
 const Sponsors = () => {
-  const sponsorsKeys = Object.keys(sponsorsList)
+   const keys = sponsors.map(spon => spon.logo)
   return (
     <section className="sponser pt-100 pb-50">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 mb-50 text-center ">
-            <h1 className="title">Proud Sponsors</h1>
-            <p className="title-lead mt-10 mb-20">
+            <h1 className="title">Thank you to our sponsors</h1>
+            {/* <p className="title-lead mt-10 mb-20">
               Our event is possible from generous support from these great
               companies!
-            </p>
+            </p> */}
           </div>
         </div>
-        {sponsorsKeys.map((sponsorsKey) => {
-          const sponsors = sponsorsList[sponsorsKey]
-
-          return [
             <div
-              className="sponsors-header"
-              key={`${sponsorsKey}-header`}
-              style={{ display: "flex" }}
+              key={`${keys}-body`}
+              className="sponsors row mt-30 mb-30 divvv"
             >
-              <svg
-                style={{ color: "#e49205" }}
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fas"
-                data-icon="grip-lines-vertical"
-                className="svg-inline--fa fa-grip-lines-vertical fa-w-8"
-                width="20px"
-                role="img"
-                viewBox="0 0 256 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M96 496V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16zm128 0V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v480c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16z"
-                />
-              </svg>
-              <h2
-                style={{
-                  alignSelf: "center",
-                  marginLeft: "10px",
-                  fontSize: "2em",
-                  fontFamily: "sans-serif",
-                }}
-              >
-                {sponsorsKey}
-              </h2>
-            </div>,
-            <div
-              key={`${sponsorsKey}-body`}
-              className="sponsors row mt-30 mb-30"
-            >
-              {sponsors.map(({ logo, logoAlt, url }) => {
+              {sponsors.map(({ logo, logoAlt, url, width, height }) => {
                 return (
-                  <div
-                    key={logoAlt}
-                    className="sponsor-blk col-xs-1 col-sm-2 mt-2"
-                  >
-                    <a
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                  <div key={logoAlt} className="sponsor-blk mr-4 mt-2">
+                    <a href={url} target="_blank" rel="noopener noreferrer">
                       <img
                         loading="lazy"
                         src={logo}
                         alt={logoAlt}
                         className="move-right"
+                        style={{ width: `${width}`, height: `${height}` }}
                       />
                     </a>
                   </div>
                 )
               })}
-            </div>,
-          ]
-        })}
+            </div>
       </div>
     </section>
   )
