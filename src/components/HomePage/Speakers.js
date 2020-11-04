@@ -165,7 +165,7 @@ const speakers = [
   },
   {
     name: "Ademola Adegbuyi",
-    bio: "Software Engineer, PayStack",
+    bio: "Software Engineer, Paystack",
     imageURL:
       "https://media-exp1.licdn.com/dms/image/C4D03AQH_g5Zk83p4Gw/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=exOesE-3WyQaAw9o08HU1DNth7cLAk-phYJnCVZPuww",
     links: {
