@@ -263,7 +263,7 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">1:30 - 1:50</span>
                         <span className="topic">
-                          A Changing Landscape
+                          Global Accessibility: The Future is Open 
                           <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             Keynote
                           </h6>
@@ -274,12 +274,12 @@ const Schedule = () => {
                             Speaker
                           </strong> :{" "}
                           <a
-                            href="https://twitter.com/aniediudo"
+                            href="https://twitter.com/developerayo"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Aniedi Udo-Obong
+                            Shodipo Ayomide
                           </a>{" "}
                         </span>
                       </div>
