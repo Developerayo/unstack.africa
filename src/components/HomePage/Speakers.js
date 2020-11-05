@@ -234,6 +234,16 @@ const speakers = [
       },
     },
   {
+  name: "Mark Chandler",
+  bio: "User Experience Developer, VNDLY",
+  imageURL:
+    "https://pbs.twimg.com/profile_images/1182143272594132992/jGnAUoF6_400x400.jpg",
+  links: {
+    github: "https://github.com/grow_love",
+    twitter: "https://twitter.com/grow_love",
+  },
+},
+  {
     name: "Shodipo Ayomide",
     bio: "Co-Founder, unStack Africa",
     imageURL:

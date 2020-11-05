@@ -579,7 +579,7 @@ const Schedule = () => {
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Segun Adebayo
+                            Segun Adebayo & Mark Chandler
                           </a>{" "}
                         </span>
                       </div>
