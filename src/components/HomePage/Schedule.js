@@ -565,7 +565,7 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">2:40 - 3:30</span>
                         <span className="topic">
-                        Segun Adebayo // Chakra UI v1.0 Online Announcement & Demo
+                        Segun Adebayo // Chakra UI v1.0 Online Announcement & Demo 
                         </span>
 
                         <span className="speaker">
