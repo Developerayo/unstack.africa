@@ -266,7 +266,7 @@ const Schedule = () => {
                           Global Accessibility: The Future is Open 
                           <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             Keynote
-                          </h6>
+                          </h6> 
                         </span>
                         <span className="speaker">
                           {" "}
@@ -562,7 +562,28 @@ const Schedule = () => {
                           </a>{" "}
                         </span>
                       </div>
+                      <div className="block-detail">
+                        <span className="time">2:40 - 3:30</span>
+                        <span className="topic">
+                        Segun Adebayo // Chakra UI v1.0 Online Announcement & Demo
+                        </span>
 
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/thesegunadebayo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Segun Adebayo
+                          </a>{" "}
+                        </span>
+                      </div>
+                      
                       <div className="block-detail">
                         <span className="time">3:00</span>
                         <span className="topic">End & Screenshots</span>
