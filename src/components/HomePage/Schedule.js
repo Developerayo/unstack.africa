@@ -585,7 +585,7 @@ const Schedule = () => {
                       </div>
                       
                       <div className="block-detail">
-                        <span className="time">3:00</span>
+                        <span className="time">4:00</span>
                         <span className="topic">End & Screenshots</span>
                       </div>
                     </li>
