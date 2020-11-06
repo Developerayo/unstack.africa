@@ -212,25 +212,16 @@ const EventDetails = () => {
           </div>
           <div className="col-md-3 col-sm-12 mt-20 mb-20">
             <div className="block-info-1">
-              {/* <Link
-                className="but scroll"
-                style={{
-                  borderRadius: "5px",
-                }}
-                to="/tickets"
-              >
-                Register
-              </Link> */}
               <a
                 className="but scroll"
                 style={{
                   borderRadius: "5px",
                 }}
-                href="https://eventprime.co/e/unstack-conference-2020"
+                href="https://www.airmeet.com/event/47b35460-0a6d-11eb-9aa2-db9f70964def"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Register
+                Live stream
               </a>
             </div>
           </div>

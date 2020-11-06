@@ -69,22 +69,12 @@ const Header = (props) => (
                     borderRadius: "5px",
                     padding: "10px",
                   }}
-                  href="https://eventprime.co/e/unstack-conference-2020"
+                  href="https://www.airmeet.com/event/47b35460-0a6d-11eb-9aa2-db9f70964def"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Register
+                  Live stream
                 </a>
-                {/* <Link
-                  className="but scroll"
-                  style={{
-                    borderRadius: "5px",
-                    padding: "10px",
-                  }}
-                  to="/ticket"
-                >
-                  Register
-                </Link> */}
               </li>
             </ul>
           </nav>
