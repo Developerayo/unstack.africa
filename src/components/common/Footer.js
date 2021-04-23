@@ -120,7 +120,7 @@ const Footer = (props) => (
       <div className="container ">
         <div className="row">
           <div className="col-md-6 mx-auto text-center">
-            <p> &copy; 2019 - 2020 unStack Africa.</p>
+            <p> &copy; 2019 - {new Date().getFullYear()} unStack Africa.</p>
           </div>
         </div>
       </div>
