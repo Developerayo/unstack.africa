@@ -73,7 +73,7 @@ const Header = (props) => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live stream
+                  Register
                 </a>
               </li>
             </ul>
