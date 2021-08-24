@@ -7,13 +7,11 @@ const EventDetails = () => {
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
             {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
-            <h1 className="title">unStack Africa Virtual Conference</h1>
+            <h1 className="title">unStack Africa Hybrid Conference</h1>
             <p className="title-lead mt-20">
-              The unStack Virtual Conference hosted by unStack is focused
-              towards empowering more developers throughout Africa and beyond in
-              JavaScript, featuring world class speakers & core contributors to
-              most used open source projects coming onboard to share their
-              insights on things JavaScript.
+              The unStack Africa Hybrid Conference hosted by unStack is focused
+              towards empowering more developers & designers throughout Africa and beyond, featuring world class speakers & core contributors to
+              most used open source projects coming onboard.
             </p>
           </div>
         </div>
@@ -75,7 +73,7 @@ const EventDetails = () => {
               </svg>
               <p>
                 <strong>DATE</strong>
-                <span>6th - 7th November 2020</span>
+                <span>6th November 2021</span>
               </p>
             </div>
           </div>
@@ -206,7 +204,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>SPEAKERS</strong>
-                <span> 15+ Rockstar Speakers </span>
+                <span> 10+ Rockstar Speakers </span>
               </p>
             </div>
           </div>
@@ -221,7 +219,7 @@ const EventDetails = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Live stream
+                Register
               </a>
             </div>
           </div>
