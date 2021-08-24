@@ -31,9 +31,9 @@ const Main = () => {
               </p>
 
               <p className="uppercase my-4">
-                6<sup>th</sup> - 7<sup>th</sup> November 2020 - Online
+                6<sup>th</sup> November 2021 - In-Person & Virtual
                 <br />
-                unStack Africa Virtual Conference.{" "}
+                Venue: The Ikeja City Mall (200m<sup>2</sup> screen){" "}
               </p>
               <a
                 className="but scroll"
@@ -44,7 +44,7 @@ const Main = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Live stream
+                Register
               </a>
             </div>
           </div>
