@@ -156,7 +156,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>LOCATION</strong>
-                <span>Airmeet Video Conferencing </span>
+                <span>The Ikeja City Mall, Lagos, Nigeria </span>
               </p>
             </div>
           </div>
