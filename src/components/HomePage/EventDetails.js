@@ -7,11 +7,10 @@ const EventDetails = () => {
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
             {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
-            <h1 className="title">unStack Africa Hybrid Conference</h1>
+            <h1 className="title">unStack Africa Conference 3.0</h1>
             <p className="title-lead mt-20">
-              The unStack Africa Hybrid Conference hosted by unStack is focused
-              towards empowering more developers & designers throughout Africa and beyond, featuring world class speakers & core contributors to
-              most used open source projects coming onboard.
+              The unStack Conference 3.0 is focusing towards frontend, backend & design topics for the 3.0 conference empowering more developers & designers throughout Africa and beyond, featuring world class speakers & core contributors to
+              most used open source projects.
             </p>
           </div>
         </div>

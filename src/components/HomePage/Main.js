@@ -33,7 +33,7 @@ const Main = () => {
               <p className="uppercase my-4">
                 6<sup>th</sup> November 2021 - In-Person & Virtual
                 <br />
-                Venue: The Ikeja City Mall (200m<sup>2</sup> screen){" "}
+                Venue: The Ikeja City Mall, Lagos, Nigeria{" "}
               </p>
               <a
                 className="but scroll"
