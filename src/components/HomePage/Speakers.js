@@ -285,11 +285,12 @@ const Speakers = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
-            <h1 className="title">Speakers</h1>
+            <h1 className="title">Speakers</h1><br />
+            <h1 className="title">COMING SOON</h1>
           </div>
         </div>
       </div>
-      {speakers.map(({ name, imageURL, bio, links }) => {
+      {/* {speakers.map(({ name, imageURL, bio, links }) => {
         return (
           <div className="col-sm-3 pd-0" key={name}>
             <div className="block-speaker">
@@ -325,7 +326,7 @@ const Speakers = () => {
             </div>
           </div>
         )
-      })}
+      })} */}
     </section>
   )
 }

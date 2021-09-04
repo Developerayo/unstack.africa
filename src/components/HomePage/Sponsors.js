@@ -3,11 +3,13 @@ import React from "react"
 // import cloudinary from "../../assets/img/cloudinary_sponsor.png"
 import github from "../../assets/img/github.png"
 import storyblok from "../../assets/img/story.jpg"
+import cloudinary from "../../assets/img/cloudinary.png"
 
 import camunda from "../../assets/img/camunda.jpg"
 import pluralsight from "../../assets/img/pluralsight.png"
 
 import airmeet from "../../assets/img/airmeet.jpeg"
+import apollo from "../../assets/img/apollo.png"
 import guidetoreact from "../../assets/img/guidetoreact.png"
 import slack from "../../assets/img/slack-logo.png"
 import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
@@ -24,61 +26,47 @@ import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
 
 const sponsors = [
   {
-    logo: camunda,
-    logoAlt: "Camunda",
-    url: "https://camunda.com/",
-    width: "150px",
+    logo: apollo,
+    logoAlt: "apollo",
+    url: "https://www.apollographql.com",
+    width: "200px",
     height: "60px",
   },
   {
-    logo: github,
-    logoAlt: "github",
-    url: "https://github.com/",
-    width: "150px",
-    height: "",
+    logo: cloudinary,
+    logoAlt: "cloudinary",
+    url: "https://cloudinary.com/",
+    width: "190px",
+    height: "55px",
   },
-  {
-    logo: slack,
-    logoAlt: "slack",
-    url: "https://slack.com/",
-    width: "150px",
-    height: "",
-  },
-  {
-    logo: pluralsight,
-    logoAlt: "pluralsight",
-    url: "https://pluralsight.com/",
-    width: "180px",
-    height: "",
-  },
-  {
-    logo: storyblok,
-    logoAlt: "storyblok",
-    url: "https://www.storyblok.com/",
-    width: "60px",
-    height: "60px",
-  },
-  {
-    logo: guidetoreact,
-    logoAlt: "opinionatedreact",
-    url: "https://opinionatedreact.com/",
-    width: "80px",
-    height: "80px",
-  },
-  {
-    logo: webdevforeveryone,
-    logoAlt: "webdevforeveryone",
-    url: "https://webdevelopmentforeveryone.com/",
-    width: "80px",
-    height: "40px",
-  },
-  {
-    logo: airmeet,
-    logoAlt: "airmeet",
-    url: "https://www.airmeet.com/",
-    width: "60px",
-    height: "60px",
-  },
+  // {
+  //   logo: storyblok,
+  //   logoAlt: "storyblok",
+  //   url: "https://www.storyblok.com/",
+  //   width: "60px",
+  //   height: "60px",
+  // },
+  // {
+  //   logo: guidetoreact,
+  //   logoAlt: "opinionatedreact",
+  //   url: "https://opinionatedreact.com/",
+  //   width: "80px",
+  //   height: "80px",
+  // },
+  // {
+  //   logo: webdevforeveryone,
+  //   logoAlt: "webdevforeveryone",
+  //   url: "https://webdevelopmentforeveryone.com/",
+  //   width: "80px",
+  //   height: "40px",
+  // },
+  // {
+  //   logo: airmeet,
+  //   logoAlt: "airmeet",
+  //   url: "https://www.airmeet.com/",
+  //   width: "60px",
+  //   height: "60px",
+  // },
 ]
 
 // const sponsorsList = {
@@ -160,7 +148,7 @@ const Sponsors = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 mb-50 text-center ">
-            <h1 className="title">Thank you to our sponsors</h1>
+            <h1 className="title">Our Sponsors</h1>
             {/* <p className="title-lead mt-10 mb-20">
               Our event is possible from generous support from these great
               companies!
