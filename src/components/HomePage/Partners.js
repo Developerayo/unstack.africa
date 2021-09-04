@@ -1,7 +1,7 @@
 import React from "react"
 
-import devcareers from "../../assets/img/partners/devcareers-black-background.png"
-import shecodeafrica from "../../assets/img/partners/shecodeafrica.jpg"
+// import devcareers from "../../assets/img/partners/devcareers-black-background.png"
+// import shecodeafrica from "../../assets/img/partners/shecodeafrica.jpg"
 
 const partnersList = [
   // {
