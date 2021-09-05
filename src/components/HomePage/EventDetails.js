@@ -213,11 +213,11 @@ const EventDetails = () => {
                 style={{
                   borderRadius: "5px",
                 }}
-                href="https://www.airmeet.com/event/47b35460-0a6d-11eb-9aa2-db9f70964def"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Register
+                Coming Soon
               </a>
             </div>
           </div>
