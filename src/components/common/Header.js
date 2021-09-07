@@ -69,7 +69,7 @@ const Header = (props) => (
                     borderRadius: "5px",
                     padding: "10px",
                   }}
-                  href=""
+                  href="."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

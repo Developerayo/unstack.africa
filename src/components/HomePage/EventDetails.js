@@ -213,7 +213,7 @@ const EventDetails = () => {
                 style={{
                   borderRadius: "5px",
                 }}
-                href="#"
+                href="."
                 target="_blank"
                 rel="noopener noreferrer"
               >
