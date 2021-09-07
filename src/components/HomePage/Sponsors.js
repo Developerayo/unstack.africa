@@ -36,8 +36,8 @@ const sponsors = [
     logo: cloudinary,
     logoAlt: "cloudinary",
     url: "https://cloudinary.com/",
-    width: "190px",
-    height: "50px",
+    width: "200px",
+    height: "56px",
   },
   // {
   //   logo: storyblok,
