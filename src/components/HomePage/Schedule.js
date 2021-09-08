@@ -9,16 +9,17 @@ const Schedule = () => {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 mb-50 text-center">
-                  <h1 className="title"> Schedule</h1>
-                  <small>
+                  <h1 className="title"> Schedule </h1><br />
+                  <h1 className="title">COMING SOON</h1>
+                  {/* <small>
                     Please note: All session times are in West African Time
                     (WAT), GMT+1.
-                  </small>
+                  </small> */}
                 </div>
               </div>
             </div>
 
-            <div className="container">
+            {/* <div className="container">
               <div className="row">
                 <div className="col-sm-12">
                   <h3 className="sub-title-0  mb-25">
@@ -333,8 +334,6 @@ const Schedule = () => {
                       </div>
                     </li>
 
-                    {/* <!--Day 2 Hehehe--> */}
-
                     <li>
                       <div className="block-date">
                         <svg
@@ -592,7 +591,7 @@ const Schedule = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
       </div>

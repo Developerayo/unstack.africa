@@ -1,34 +1,34 @@
 import React from "react"
 
-import devcareers from "../../assets/img/partners/devcareers-black-background.png"
-import shecodeafrica from "../../assets/img/partners/shecodeafrica.jpg"
+// import devcareers from "../../assets/img/partners/devcareers-black-background.png"
+// import shecodeafrica from "../../assets/img/partners/shecodeafrica.jpg"
 
 const partnersList = [
-  {
-    logo: devcareers,
-    logoAlt: "devcareerslogo",
-    width: "120px",
-  },
-  {
-    logo: shecodeafrica,
-    logoAlt: "shecodeafricalogo",
-    width: "120px",
-  },
+  // {
+  //   logo: devcareers,
+  //   logoAlt: "devcareerslogo",
+  //   width: "120px",
+  // },
+  // {
+  //   logo: shecodeafrica,
+  //   logoAlt: "shecodeafricalogo",
+  //   width: "120px",
+  // },
 ]
 
 const Partners = () => {
   return (
-    <section className="sponser pt-50 pb-50">
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-12 mb-50 text-center ">
-            <h1 className="title">Our Partners</h1>
-            <p className="title-lead mt-10">
-              Corporate Social Responsibility (CSR) Support
-            </p>
-          </div>
-        </div>
-      </div>
+    // <section className="sponser pt-50 pb-50">
+    //   <div className="container">
+    //     <div className="row">
+    //       <div className="col-sm-12 mb-50 text-center ">
+    //         <h1 className="title">Our Partners</h1>
+    //         <p className="title-lead mt-10">
+    //           Corporate Social Responsibility (CSR) Support
+    //         </p>
+    //       </div>
+    //     </div>
+    //   </div>
 
       <div className="container">
         <div className="sponsors row mt-10 mb-10 partner-center">
@@ -50,7 +50,7 @@ const Partners = () => {
           {/* </div> */}
         </div>
       </div>
-    </section>
+    // </section>
   )
 }
 

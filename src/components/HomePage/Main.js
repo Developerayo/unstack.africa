@@ -31,20 +31,20 @@ const Main = () => {
               </p>
 
               <p className="uppercase my-4">
-                6<sup>th</sup> - 7<sup>th</sup> November 2020 - Online
+                6<sup>th</sup> November 2021 - In-Person & Virtual
                 <br />
-                unStack Africa Virtual Conference.{" "}
+                Venue: The Ikeja City Mall, Lagos, Nigeria{" "}
               </p>
               <a
                 className="but scroll"
                 style={{
                   borderRadius: "5px",
                 }}
-                href="https://www.airmeet.com/event/47b35460-0a6d-11eb-9aa2-db9f70964def"
+                href="."
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Live stream
+                Coming Soon
               </a>
             </div>
           </div>

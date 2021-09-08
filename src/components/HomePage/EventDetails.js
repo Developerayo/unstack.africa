@@ -7,13 +7,9 @@ const EventDetails = () => {
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
             {/* <div className="col-sm-8 col-sm-offset-2 mb-50 text-center"> */}
-            <h1 className="title">unStack Africa Virtual Conference</h1>
+            <h1 className="title">unStack Conference 3.0</h1>
             <p className="title-lead mt-20">
-              The unStack Virtual Conference hosted by unStack is focused
-              towards empowering more developers throughout Africa and beyond in
-              JavaScript, featuring world class speakers & core contributors to
-              most used open source projects coming onboard to share their
-              insights on things JavaScript.
+            The unStack Conference 3.0 is focusing on frontend, backend & design topics for the 3.0 conference empowering more developers & designers throughout Africa and beyond, featuring world-class speakers & core contributors to the most-used open source projects.
             </p>
           </div>
         </div>
@@ -75,7 +71,7 @@ const EventDetails = () => {
               </svg>
               <p>
                 <strong>DATE</strong>
-                <span>6th - 7th November 2020</span>
+                <span>6th November 2021</span>
               </p>
             </div>
           </div>
@@ -158,7 +154,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>LOCATION</strong>
-                <span>Airmeet Video Conferencing </span>
+                <span>The Ikeja City Mall, Lagos, Nigeria </span>
               </p>
             </div>
           </div>
@@ -206,7 +202,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>SPEAKERS</strong>
-                <span> 15+ Rockstar Speakers </span>
+                <span> 10+ Rockstar Speakers </span>
               </p>
             </div>
           </div>
@@ -217,11 +213,11 @@ const EventDetails = () => {
                 style={{
                   borderRadius: "5px",
                 }}
-                href="https://www.airmeet.com/event/47b35460-0a6d-11eb-9aa2-db9f70964def"
+                href="."
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Live stream
+                Coming Soon
               </a>
             </div>
           </div>

@@ -1,7 +1,11 @@
 import React from "react"
 
-import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
-import princess from "../../assets/img/unstack-img/princess.jpeg"
+import shodipoayomide from "../../assets/img/speakers/shodipoayomide.PNG"
+import kofo from "../../assets/img/speakers/kofo.jpeg"
+import ademola from "../../assets/img/speakers/ademola.jpeg"
+import michael from "../../assets/img/speakers/michael.jpeg"
+// import princess from "../../assets/img/unstack-img/princess.jpeg"
+import kingdom from "../../assets/img/speakers/kingdom.png"
 
 import olumide from "../../assets/img/unstack-img/Olumide.JPG"
 import amaka from "../../assets/img/unstack-img/chiamaka.jpg"
@@ -10,7 +14,7 @@ import ayomide from "../../assets/img/unstack-img/ayomide.jpg"
 const teamMembers = [
   {
     name: "Shodipo Ayomide",
-    bio: "Founder, unStack Africa & Senior Developer Advocate ",
+    bio: "Founder, unStack Africa & Dev. Relations Manager at Stack Overflow ",
     imageURL: shodipoayomide,
     links: {
       github: "https://github.com/developerayo",
@@ -20,7 +24,7 @@ const teamMembers = [
   },
   {
     name: "Adora Nwodo",
-    bio: "Co-Founder, Software Engineer, Microsoft",
+    bio: "Co-Founder at unStack, Software Engineer, Microsoft",
     imageURL:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress",
     links: {
@@ -31,26 +35,25 @@ const teamMembers = [
   },
   {
     name: "Kingdom Orjiewuru ",
-    bio: "Co-Founder unStack Africa & Software Engineer, Aula ",
-    imageURL:
-      "https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4",
+    bio: "Co-Founder at unStack & Senior Software Engineer, Lounge HQ ",
+    imageURL: kingdom,
     links: {
       github: "https://github.com/kingisaac95",
       twitter: "https://twitter.com/kingisaac95?lang=en",
       linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
     },
   },
-  {
-    name: "Emmanuel Odianosen",
-    bio: "Co-Founder & Blockchain Software Engineer ",
-    imageURL:
-      "https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I",
-    links: {
-      github: "https://github.com/emmaodia",
-      twitter: "https://twitter.com/iam_odiaa",
-      linkedin: "https://ng.linkedin.com/in/emmaodia",
-    },
-  },
+  // {
+  //   name: "Emmanuel Odianosen",
+  //   bio: "Co-Founder & Blockchain Software Engineer ",
+  //   imageURL:
+  //     "https://media-exp1.licdn.com/dms/image/C4D03AQHdeW4urJG-oA/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=tndVQnfaNQhNXHUgSAYKRgdiS-oUuT69Ifp89F0NG7I",
+  //   links: {
+  //     github: "https://github.com/emmaodia",
+  //     twitter: "https://twitter.com/iam_odiaa",
+  //     linkedin: "https://ng.linkedin.com/in/emmaodia",
+  //   },
+  // },
   {
     name: "Marvin Ogah",
     bio: "Co-Founder & lead Designer ",
@@ -65,41 +68,31 @@ const teamMembers = [
   {
     name: "Kofo Okeshola",
     bio: "Lead Go Organizer, Systems Engineer, Brankas",
-    imageURL: "https://kofo.dev/images/avatar.jpg",
+    imageURL: kofo,
     links: {
       github: "https://github.com/kofoworola",
       twitter: "https://twitter.com/yoruba_dev?lang=en",
       linkedin: "https://ng.linkedin.com/in/kofo-okesola-ab3774128",
     },
   },
-  {
-    name: "Princess Oluebube",
-    bio: "Co-Lead React Organizer & Software Engineer, Powertofly",
-    imageURL: princess,
-    links: {
-      github: "https://github.com/Princesso",
-      twitter: "https://twitter.com/PrincesOluebube",
-      linkedin: "https://ng.linkedin.com/in/egbunaoluebubeprincess",
-    },
-  },
+  // {
+  //   name: "Princess Oluebube",
+  //   bio: "Co-Lead React Organizer & Software Engineer, Powertofly",
+  //   imageURL: princess,
+  //   links: {
+  //     github: "https://github.com/Princesso",
+  //     twitter: "https://twitter.com/PrincesOluebube",
+  //     linkedin: "https://ng.linkedin.com/in/egbunaoluebubeprincess",
+  //   },
+  // },
   {
     name: "Ademola Adebuyi",
-    bio: "Co-Lead React Organizer & Software Engineer, Paystack ",
-    imageURL: 'https://media-exp1.licdn.com/dms/image/C4D03AQH_g5Zk83p4Gw/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=exOesE-3WyQaAw9o08HU1DNth7cLAk-phYJnCVZPuww',
+    bio: "Co-Lead React Organizer & Senior Software Engineer, Paystack ",
+    imageURL: ademola,
     links: {
       github: "https://github.com/ooade",
       twitter: "https://twitter.com/_ooade",
       linkedin: "https://ng.linkedin.com/in/ooade",
-    },
-  },
-  {
-    name: "Shodipo Michael",
-    bio: "Co-Lead Design & Product Designer",
-    imageURL: "https://pbs.twimg.com/profile_images/1266457167969816578/3br9-U1s_400x400.jpg",
-    links: {
-      github: "https://dribbble.com/designspree",
-      twitter: "https://twitter.com/design_spree",
-      linkedin: "https://ng.linkedin.com/in/michael-shodipo",
     },
   },
   {
@@ -111,6 +104,16 @@ const teamMembers = [
       github: "https://github.com/#",
       twitter: "https://twitter.com/amakachii_",
       linkedin: "https://ng.linkedin.com/in/chiamakaokenwa",
+    },
+  },
+  {
+    name: "Shodipo Michael",
+    bio: "Co-Lead Design & Product Designer",
+    imageURL: michael,
+    links: {
+      github: "https://dribbble.com/designspree",
+      twitter: "https://twitter.com/design_spree",
+      linkedin: "https://ng.linkedin.com/in/michael-shodipo",
     },
   },
   {

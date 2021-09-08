@@ -21,8 +21,8 @@ const HomePage = () => (
     <EventDetails />
     <Speakers />
     <Schedule />
-    <Team />
     <Sponsors />
+    <Team />
     {/* <Supporters /> */}
     <Partners />
     <Location />

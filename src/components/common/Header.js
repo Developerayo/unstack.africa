@@ -47,7 +47,7 @@ const Header = (props) => (
                   Schedule
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="scroll"
                   href="https://blog.unstack.africa"
@@ -56,7 +56,7 @@ const Header = (props) => (
                 >
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a className="scroll" href="/#gallery">
                   Pictures
@@ -69,11 +69,11 @@ const Header = (props) => (
                     borderRadius: "5px",
                     padding: "10px",
                   }}
-                  href="https://www.airmeet.com/event/47b35460-0a6d-11eb-9aa2-db9f70964def"
+                  href="."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live stream
+                  Coming soon
                 </a>
               </li>
             </ul>
