@@ -1,7 +1,7 @@
 import React from "react"
 
 // import cloudinary from "../../assets/img/cloudinary_sponsor.png"
-// import github from "../../assets/img/github.png"
+import github from "../../assets/img/github.png"
 // import storyblok from "../../assets/img/story.jpg"
 import cloudinary from "../../assets/img/cloudinary.png"
 
@@ -31,6 +31,13 @@ const sponsors = [
     url: "https://www.apollographql.com",
     width: "200px",
     height: "60px",
+  },
+  {
+          logo: github,
+          logoAlt: "github",
+          url: "https://github.com/",
+          width: "165px",
+          height: "",
   },
   {
     logo: cloudinary,
@@ -79,7 +86,7 @@ const sponsors = [
 //       width: "150px",
 //       // height: "80px",
 //     },
-//   ],
+//   ], 
 //   gold: [
 //     {
 //       logo: github,
