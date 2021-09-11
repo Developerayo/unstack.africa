@@ -262,7 +262,6 @@ const Speakers = () => {
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
             <h1 className="title">Speakers</h1><br />
-            <h1 className="title">COMING SOON</h1>
           </div>
         </div>
       </div>
