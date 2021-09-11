@@ -1,5 +1,5 @@
 import React from "react"
-import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
+// import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
 import kingdom from "../../assets/img/speakers/kingdom.png"
 
 const speakers = [
