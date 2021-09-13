@@ -4,7 +4,8 @@ import kingdom from "../../assets/img/speakers/kingdom.png"
 
 const speakers = [
   {
-    name: "Mat Velloso ", 
+    name: "Mat Velloso", 
+    keynote: "KEYNOTE",
     bio: "Technical Advisor to the CEO of Microsoft",
     imageURL:
       "https://pbs.twimg.com/profile_images/1369394566210666498/DABNNey7_400x400.jpg",
@@ -16,6 +17,7 @@ const speakers = [
   },
   {
     name: "Prosper Otemuyiwa",
+    keynote: "LARAVEL",
     bio: "Co-Founder & CTO, Eden Life",
     imageURL:
       "https://upload.wikimedia.org/wikipedia/commons/b/bf/Prosper_Otemuyiwa_portrait.jpg",
@@ -27,6 +29,7 @@ const speakers = [
   },
   {
     name: "Adora Nwodo",
+    keynote: "AZURE",
     bio: "Software Engineer, Microsoft",
     imageURL:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress",
@@ -39,6 +42,7 @@ const speakers = [
   },
   {
     name: "Samuel Snopko",
+    keynote: "VUEJS",
     bio: "Head of Developer Relations, Storyblok",
     imageURL:
       "https://serving.photos.photobox.com/12431602abd8e08d943c28fb77d6dec9696ef1acc75e28182808a1b59596fd9a077876b4.jpg",
@@ -51,6 +55,7 @@ const speakers = [
   },
   {
     name: "Samson Goddy",
+    keynote: "OPEN SOURCE",
     bio: "Director of Community at SourceGraph",
     imageURL:
       "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
@@ -63,6 +68,7 @@ const speakers = [
   },
   {
     name: "Kingdom Orjiewuru",
+    keynote: "GRAPHQL",
     bio: "Co-Founder at unStack & Senior Software Engineer, Lounge HQ",
     imageURL: kingdom,
     links: {
@@ -247,6 +253,7 @@ const speakers = [
 //   },
     {
       name: "More Speakers Coming Soon",
+      keynote: "",
       bio: "",
       imageURL: "https://img.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg?size=338&ext=jpg",
       links: {
@@ -265,9 +272,10 @@ const Speakers = () => {
           </div>
         </div>
       </div>
-      {speakers.map(({ name, imageURL, bio, links }) => {
+      {speakers.map(({ name, keynote, imageURL, bio, links }) => {
         return (
           <div className="col-sm-3 pd-0" key={name}>
+          <div className="" key={keynote}>
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
@@ -275,7 +283,8 @@ const Speakers = () => {
                 </div>
                 <div className="block-info-2 dark-outline">
                   <p>
-                    <strong>{name}</strong>
+                    <strong>{name}</strong>&nbsp;
+                    <strong><div style={{backgroundColor: "#E39205", width: "80px", paddingLeft: "7px", paddingRight: "7px", borderRadius: "3px", display: "inline"}}>{keynote}</div></strong>
                     <span>{bio}</span>
                   </p>
                   <ul className="block-social">
@@ -297,6 +306,7 @@ const Speakers = () => {
                     })}
                   </ul>
                 </div>
+              </div>
               </div>
             </div>
           </div>
