@@ -77,17 +77,18 @@ const speakers = [
       linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
     },
   },
-//   {
-//     name: "Nader Dabit",
-//     bio: "Senior Developer Advocate, Amazon AWS",
-//     imageURL:
-//       "https://www.schoolstatus.com/hubfs/Social_Media/nader.jpg",
-//     links: {
-//       github: "https://github.com/dabit3",
-//       twitter: "https://twitter.com/dabit3",
-//       linkedin: "https://www.linkedin.com/in/naderdabit",
-//     },
-//   },
+  {
+    name: "Jude Dike",
+    keynote: "Trading Engines",
+    bio: "Founder, GetEquity",
+    imageURL:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQFgK3zekdvudA/profile-displayphoto-shrink_800_800/0/1597915309550?e=1637193600&v=beta&t=qP2s3mC6NhiVKgPo0GitgjgHHtTQMKrBIQk_8fmc47s",
+    links: {
+      github: "https://github.com/dumebi",
+      twitter: "https://twitter.com/bigbrutha_",
+      linkedin: "https://www.linkedin.com/in/dikejudein/",
+    },
+  },
 //   {
 //     name: "James Q. Quick",
 //     bio: "Senior Developer Advocacte, Auth0",
