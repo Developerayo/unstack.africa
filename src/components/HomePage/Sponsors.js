@@ -3,7 +3,7 @@ import React from "react"
 // import cloudinary from "../../assets/img/cloudinary_sponsor.png"
 import github from "../../assets/img/github.png"
 // import storyblok from "../../assets/img/story.jpg"
-import cloudinary from "../../assets/img/cloudinary.png"
+import cloudinary from "../../assets/img/cloudinary.svg"
 
 // import camunda from "../../assets/img/camunda.jpg"
 // import pluralsight from "../../assets/img/pluralsight.png"
@@ -43,8 +43,8 @@ const sponsors = [
     logo: cloudinary,
     logoAlt: "cloudinary",
     url: "https://cloudinary.com/",
-    width: "200px",
-    height: "56px",
+    width: "220px",
+    height: "60px",
   },
   // {
   //   logo: storyblok,
