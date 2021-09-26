@@ -16,6 +16,7 @@
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
+  box-sizing: border-box;
 }
 * {
   margin: 0;
@@ -428,6 +429,7 @@ input[type="submit"] textarea,
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+  border-radius: 25px;
 }
 a.link {
   position: relative;
