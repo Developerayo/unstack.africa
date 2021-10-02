@@ -10,16 +10,15 @@ const Schedule = () => {
               <div className="row">
                 <div className="col-sm-12 mb-50 text-center">
                   <h1 className="title"> Schedule </h1><br />
-                  <h1 className="title">COMING SOON</h1>
-                  {/* <small>
+                  <small>
                     Please note: All session times are in West African Time
                     (WAT), GMT+1.
-                  </small> */}
+                  </small>
                 </div>
               </div>
             </div>
 
-            {/* <div className="container">
+            <div className="container">
               <div className="row">
                 <div className="col-sm-12">
                   <h3 className="sub-title-0  mb-25">
@@ -50,9 +49,9 @@ const Schedule = () => {
                         </g>
                       </svg>
                       <strong className="ml-3 ">Day 1</strong>{" "}
-                      <span>- 6th November 2020</span>
+                      <span>- 6th November 2021</span>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                       <svg
                         id="Layer_1"
                         enableBackground="new 0 0 512 512"
@@ -70,7 +69,7 @@ const Schedule = () => {
                       </svg>
                       <strong className="ml-3 ">Day 2</strong>{" "}
                       <span>- 7th November 2020</span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="col-sm-8 ">
@@ -96,8 +95,8 @@ const Schedule = () => {
                         <span>- 6th November 2020</span>
                       </div>
                       <div className="block-detail">
-                        <span className="time">10:00 - 10:10</span>
-                        <span className="topic">Welcome to unStack Africa</span>
+                        <span className="time">10:00 - 10:15</span>
+                        <span className="topic">Welcome to The unStack Africa Conference 3.0</span>
 
                         <span className="speaker">
                           {" "}
@@ -115,7 +114,7 @@ const Schedule = () => {
                         </span>
                       </div>
                       <div className="block-detail">
-                        <span className="time">10:10 - 10:15</span>
+                        <span className="time">10:15 - 10:20</span>
                         <span className="topic">Commencement</span>
 
                         <span className="speaker">
@@ -334,7 +333,7 @@ const Schedule = () => {
                       </div>
                     </li>
 
-                    <li>
+                    {/* <li>
                       <div className="block-date">
                         <svg
                           id="Layer_1"
@@ -587,11 +586,11 @@ const Schedule = () => {
                         <span className="time">4:00</span>
                         <span className="topic">End & Screenshots</span>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
-            </div> */}
+            </div>
           </section>
         </div>
       </div>
