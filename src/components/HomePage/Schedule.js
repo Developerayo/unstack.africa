@@ -91,7 +91,7 @@ const Schedule = () => {
                           </g>
                         </svg>
                         <strong className="ml-3 ">Day 1</strong>{" "}
-                        <span>- 6th November 2020</span>
+                        <span>- 6th November 2021</span>
                       </div>
 
 
@@ -362,7 +362,7 @@ const Schedule = () => {
                         <div className="block-detail">
                         <span className="time">2:35 - 3:00</span>
                         <span className="topic">
-                          The Community As A Service Model (CaaS) Model
+                          The CaaS Model: Why Collaboration is a Win-Win For All
                         </span>
                         <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             Keynote
