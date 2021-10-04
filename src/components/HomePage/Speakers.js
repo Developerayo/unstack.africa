@@ -74,7 +74,7 @@ const speakers = [
       "https://media-exp1.licdn.com/dms/image/C4E03AQEebuUcQnEsFQ/profile-displayphoto-shrink_800_800/0/1585346461026?e=1638403200&v=beta&t=SHJn7m879ogqnyV0KZRoUs1NbLZmXaC2DZOggjAMk8s",
     links: {
       github: "https://github.com",
-      twitter: "https://twitter.com/Samson_Goddy",
+      twitter: "https://twitter.com/",
       linkedin:
         "https://www.linkedin.com/in/priscila-heller/",
     },

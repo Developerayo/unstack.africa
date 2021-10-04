@@ -87,13 +87,14 @@ const Schedule = () => {
                             &nbsp;&nbsp;&nbsp;&nbsp;{" "}
                             <path
                               d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
-                              fill="#fff"
-                            />
+                              fill="#fff"/>
                           </g>
                         </svg>
                         <strong className="ml-3 ">Day 1</strong>{" "}
                         <span>- 6th November 2020</span>
                       </div>
+
+
                       <div className="block-detail">
                         <span className="time">10:00 - 10:15</span>
                         <span className="topic">Welcome to The unStack Africa Conference 3.0</span>
@@ -113,6 +114,7 @@ const Schedule = () => {
                           </a>
                         </span>
                       </div>
+
                       <div className="block-detail">
                         <span className="time">10:15 - 10:20</span>
                         <span className="topic">Commencement</span>
@@ -132,13 +134,35 @@ const Schedule = () => {
                           </a>
                         </span>
                       </div>
+
                       <div className="block-detail">
-                        <span className="time">10:15 - 10:35</span>
+                        <span className="time">10:20 - 10:45</span>
                         <span className="topic">
-                          Open Source Pillars & Tales{" "}
+                          How culture changes everything in Engineering Teams{" "}
                           <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             Keynote
                           </h6>
+                        </span>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/matvelloso"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Mat Velloso
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                      <div className="block-detail">
+                        <span className="time">10:45 - 11:20</span>
+                        <span className="topic">
+                         CodeSearch with Laravel & SourceGraph
                         </span>
                         <span className="speaker">
                           {" "}
@@ -151,34 +175,15 @@ const Schedule = () => {
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Prosper Otemuyiwa
+                            Prosper Otemyuywa
                           </a>{" "}
                         </span>
                       </div>
+
                       <div className="block-detail">
-                        <span className="time">10:35 - 11:10</span>
+                        <span className="time">11:20 - 11:55</span>
                         <span className="topic">
-                          Declarative Data Fetching in React with GraphQL
-                        </span>
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/Bolaji___"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Bolaji Olajide
-                          </a>{" "}
-                        </span>
-                      </div>
-                      <div className="block-detail">
-                        <span className="time">11:10 - 11:45</span>
-                        <span className="topic">
-                          Handle Media Uploads with NextJs & Cloudinary
+                          The Mechanics of Trading Engines/Automated Markets.
                         </span>
 
                         <span className="speaker">
@@ -187,107 +192,20 @@ const Schedule = () => {
                             Speaker
                           </strong> :{" "}
                           <a
-                            href="https://twitter.com/domitriusclark"
+                            href="https://twitter.com/bigbrutha_"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Domitrius Clark
+                            Jude Dike
                           </a>{" "}
                         </span>
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">11:45 - 12:20</span>
+                        <span className="time">11:55 - 12:30</span>
                         <span className="topic">
-                          A Practical Guide to Testing React Applications
-                        </span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/ph3bian"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Chukwurah Phebian
-                          </a>{" "}
-                        </span>
-                      </div>
-
-                      <div className="block-detail">
-                        <span className="time">12:20 - 12:55</span>
-                        <span className="topic">The Top 5 JS Lessons from Answering StackOverflow Questions</span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/sitapati"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Josh Wulf
-                          </a>{" "}
-                        </span>
-                      </div>
-
-                      <div className="block-detail">
-                        <span className="time">12:55 - 1:30</span>
-                        <span className="topic">
-                          State Machines and State Charts
-                        </span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/_ooade"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Ademola Adegbuyi
-                          </a>{" "}
-                        </span>
-                      </div>
-                      <div className="block-detail">
-                        <span className="time">1:30 - 1:50</span>
-                        <span className="topic">
-                          Global Accessibility: The Future is Open 
-                          <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
-                            Keynote
-                          </h6> 
-                        </span>
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/developerayo"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Shodipo Ayomide
-                          </a>{" "}
-                        </span>
-                      </div>
-
-                      <div className="block-detail">
-                        <span className="time">1:50 - 2:25</span>
-                        <span className="topic">
-                          Fast & Furious - Going headless with Nuxt.js
+                          Strategies for Creating Reusable Components with VueJS
                         </span>
 
                         <span className="speaker">
@@ -307,11 +225,30 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">2:25 - 3:00</span>
-                        <span className="topic">
-                          Quality over quantity in open-source
-                        </span>
+                        <span className="time">12:30 - 12:55</span>
+                        <span className="topic">TBD</span>
 
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Pricila Heller
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                      <div className="block-detail">
+                        <span className="time">12:55 - 1:25</span>
+                        <span className="topic">
+                          TBD
+                        </span>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -327,11 +264,83 @@ const Schedule = () => {
                           </a>{" "}
                         </span>
                       </div>
+                      
                       <div className="block-detail">
-                        <span className="time">3:00</span>
-                        <span className="topic">End & Screenshots</span>
+                        <span className="time">1:25 - 1:35</span>
+                        <span className="topic">Networking & Coffee Break</span>
+                      </div> 
+
+
+                      <div className="block-detail">
+                        <span className="time">1:35 - 2:05</span>
+                        <span className="topic">
+                          Sponsors Session 
+                        </span>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/developerayo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Shodipo Ayomide
+                          </a>{" "}
+                        </span>
                       </div>
-                    </li>
+
+                      
+
+                      <div className="block-detail">
+                        <span className="time">2:35 - 4:05</span>
+                        <span className="topic">
+                          TBD
+                        </span>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/kingisaac95"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Kingdom Orjiewuru
+                          </a>{" "}
+                        </span>
+                        </div>
+
+                      <div className="block-detail">
+                        <span className="time">4:05 - 4:25</span>
+                        <span className="topic">
+                          Makking HTTP Calls in a Vue App Using Axios
+                        </span>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/ifeoma__N"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Ifeoma Nwosu
+                          </a>{" "}
+                        </span>
+                      </div>
+                      
+                      <div className="block-detail">
+                        <span className="time">4:25 - 4:30</span>
+                        <span className="topic">End & Pictures</span>
+                      </div>
+                    
 
                     {/* <li>
                       <div className="block-date">
@@ -585,11 +594,11 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">4:00</span>
                         <span className="topic">End & Screenshots</span>
-                      </div>
-                    </li> */}
-                  </ul>
+                      </div> */}
+                    </li> 
+                  </ul> 
                 </div>
-              </div>
+              </div> 
             </div>
           </section>
         </div>
