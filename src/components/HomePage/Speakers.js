@@ -1,6 +1,6 @@
 import React from "react"
 // import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
-import kingdom from "../../assets/img/speakers/kingdom.png"
+import kingdom from "../../assets/img/speakers/kingdom.jpeg"
 
 const speakers = [
   {
@@ -13,6 +13,18 @@ const speakers = [
       github: "https://github.com/matvelloso",
       twitter: "https://twitter.com/matvelloso",
       linkedin: "https://www.linkedin.com/in/matvelloso/",
+    },
+  },
+  {
+    name: "Aniedi Udo-Obong",
+    keynote: "KEYNOTE",
+    bio: "Program Manager, Google ",
+    imageURL:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/events/CALEB%20JOHNSON_86.jpg",
+    links: {
+      github: "https://github.com/aniediudo",
+      twitter: "https://twitter.com/aniediudo",
+      linkedin: "https://www.linkedin.com/in/aniediudo",
     },
   },
   {
@@ -92,6 +104,18 @@ const speakers = [
     },
   },
   {
+    name: "Ifeoma Nwosu",
+    keynote: "VUEJS",
+    bio: "Frontend Engineer & Chapter Lead, VueVixensNG",
+    imageURL:
+      "https://avatars.githubusercontent.com/u/31158530?v=4",
+    links: {
+      github: "https://github.com/",
+      twitter: "https://twitter.com/ifeoma__N",
+      linkedin: "https://www.linkedin.com/in/",
+    },
+  },
+  {
     name: "Jude Dike",
     keynote: "Trading Engines",
     bio: "Founder, GetEquity",
@@ -103,6 +127,8 @@ const speakers = [
       linkedin: "https://www.linkedin.com/in/dikejudein/",
     },
   },
+
+
 //   {
 //     name: "James Q. Quick",
 //     bio: "Senior Developer Advocacte, Auth0",
@@ -266,15 +292,6 @@ const speakers = [
 //         "https://www.linkedin.com/in/domitriusanthony/",
 //     },
 //   },
-    {
-      name: "More Speakers Coming Soon",
-      keynote: "",
-      bio: "",
-      imageURL: "https://img.freepik.com/free-vector/coming-soon-message-illuminated-with-light-projector_1284-3622.jpg?size=338&ext=jpg",
-      links: {
-
-      },
-    },
 ]
 
 const Speakers = () => {

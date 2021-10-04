@@ -160,9 +160,9 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">10:45 - 11:20</span>
+                        <span className="time">10:45 - 11:15</span>
                         <span className="topic">
-                         CodeSearch with Laravel & SourceGraph
+                         Code Search with Laravel & SourceGraph
                         </span>
                         <span className="speaker">
                           {" "}
@@ -181,7 +181,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">11:20 - 11:55</span>
+                        <span className="time">11:15 - 11:45</span>
                         <span className="topic">
                           The Mechanics of Trading Engines/Automated Markets.
                         </span>
@@ -203,7 +203,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">11:55 - 12:30</span>
+                        <span className="time">11:45 - 12:15</span>
                         <span className="topic">
                           Strategies for Creating Reusable Components with VueJS
                         </span>
@@ -225,7 +225,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">12:30 - 12:55</span>
+                        <span className="time">12:15 - 12:45</span>
                         <span className="topic">TBD</span>
 
                         <span className="speaker">
@@ -245,7 +245,7 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">12:55 - 1:25</span>
+                        <span className="time">12:45 - 1:10</span>
                         <span className="topic">
                           TBD
                         </span>
@@ -266,13 +266,13 @@ const Schedule = () => {
                       </div>
                       
                       <div className="block-detail">
-                        <span className="time">1:25 - 1:35</span>
+                        <span className="time">1:10 - 1:20</span>
                         <span className="topic">Networking & Coffee Break</span>
                       </div> 
 
 
                       <div className="block-detail">
-                        <span className="time">1:35 - 2:05</span>
+                        <span className="time">1:20 - 1:35</span>
                         <span className="topic">
                           Sponsors Session 
                         </span>
@@ -282,12 +282,12 @@ const Schedule = () => {
                             Speaker
                           </strong> :{" "}
                           <a
-                            href="https://twitter.com/developerayo"
+                            href="https://twitter.com/AdoraNwodo"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Shodipo Ayomide
+                            Adora Nwodo
                           </a>{" "}
                         </span>
                       </div>
@@ -295,7 +295,7 @@ const Schedule = () => {
                       
 
                       <div className="block-detail">
-                        <span className="time">2:35 - 4:05</span>
+                        <span className="time">1:35 - 2:05</span>
                         <span className="topic">
                           TBD
                         </span>
@@ -315,10 +315,10 @@ const Schedule = () => {
                         </span>
                         </div>
 
-                      <div className="block-detail">
-                        <span className="time">4:05 - 4:25</span>
+                      <div className="block-detail"> 
+                        <span className="time">2:05 - 2:35</span>
                         <span className="topic">
-                          Makking HTTP Calls in a Vue App Using Axios
+                          Making HTTP Calls in a Vue App Using Axios
                         </span>
                         <span className="speaker">
                           {" "}
@@ -335,9 +335,33 @@ const Schedule = () => {
                           </a>{" "}
                         </span>
                       </div>
+
+                        <div className="block-detail">
+                        <span className="time">2:35 - 3:00</span>
+                        <span className="topic">
+                          TBD
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            Keynote
+                          </h6>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/aniediudo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Aniedi Udo-Obong
+                          </a>{" "}
+                        </span>
+                      </div>
                       
                       <div className="block-detail">
-                        <span className="time">4:25 - 4:30</span>
+                        <span className="time">3:00 - 3:30</span>
                         <span className="topic">End & Pictures</span>
                       </div>
                     
