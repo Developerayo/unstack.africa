@@ -98,7 +98,9 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">10:00 - 10:15</span>
                         <span className="topic">Welcome to The unStack Africa Conference 3.0</span>
-
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            WELCOME 
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -118,6 +120,9 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">10:15 - 10:20</span>
                         <span className="topic">Commencement</span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            OVERVIEW
+                          </h6>
 
                         <span className="speaker">
                           {" "}
@@ -164,6 +169,9 @@ const Schedule = () => {
                         <span className="topic">
                          Code Search with Laravel & SourceGraph
                         </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            LARAVEL
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -185,7 +193,9 @@ const Schedule = () => {
                         <span className="topic">
                           The Mechanics of Trading Engines/Automated Markets.
                         </span>
-
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            TRADING ENGINES
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -207,7 +217,9 @@ const Schedule = () => {
                         <span className="topic">
                           Strategies for Creating Reusable Components with VueJS
                         </span>
-
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            VUEJS
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -227,7 +239,9 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">12:15 - 12:45</span>
                         <span className="topic">TBD</span>
-
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            GITHUB ACTIONS
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -249,6 +263,9 @@ const Schedule = () => {
                         <span className="topic">
                           TBD
                         </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            OPEN SOURCE
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -299,6 +316,9 @@ const Schedule = () => {
                         <span className="topic">
                           TBD
                         </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            GRAPHQL
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -320,6 +340,9 @@ const Schedule = () => {
                         <span className="topic">
                           Making HTTP Calls in a Vue App Using Axios
                         </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            VUEJS
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -339,7 +362,7 @@ const Schedule = () => {
                         <div className="block-detail">
                         <span className="time">2:35 - 3:00</span>
                         <span className="topic">
-                          TBD
+                          The Community As A Service Model (CaaS) Model
                         </span>
                         <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             Keynote
