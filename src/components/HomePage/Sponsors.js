@@ -6,7 +6,7 @@ import github from "../../assets/img/github.png"
 import cloudinary from "../../assets/img/cloudinary.svg"
 
 // import camunda from "../../assets/img/camunda.jpg"
-// import pluralsight from "../../assets/img/pluralsight.png"
+import google from "../../assets/img/speakers/google.webp"
 
 // import airmeet from "../../assets/img/airmeet.jpeg"
 import apollo from "../../assets/img/apollo.png"
@@ -45,6 +45,13 @@ const sponsors = [
     url: "https://cloudinary.com/",
     width: "220px",
     height: "60px",
+  },
+  {
+    logo: google,
+    logoAlt: "google",
+    url: "https://google.com/",
+    width: "220px",
+    height: "75px",
   },
   // {
   //   logo: storyblok,
