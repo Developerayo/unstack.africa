@@ -1,6 +1,8 @@
 import React from "react"
 // import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
 import kingdom from "../../assets/img/speakers/kingdom.jpeg"
+import mat from "../../assets/img/speakers/mat.jpeg"
+import ifeoma from "../../assets/img/speakers/ifeoma.jpeg"
 
 const speakers = [
   {
@@ -8,7 +10,7 @@ const speakers = [
     keynote: "KEYNOTE",
     bio: "Technical Advisor to the CEO of Microsoft",
     imageURL:
-      "https://pbs.twimg.com/profile_images/1369394566210666498/DABNNey7_400x400.jpg",
+      mat,
     links: {
       github: "https://github.com/matvelloso",
       twitter: "https://twitter.com/matvelloso",
@@ -108,7 +110,7 @@ const speakers = [
     keynote: "VUEJS",
     bio: "Frontend Engineer & Chapter Lead, VueVixensNG",
     imageURL:
-      "https://pbs.twimg.com/profile_images/1440644833853337604/FqZYPqMp_400x400.jpg",
+      ifeoma,
     links: {
       github: "https://github.com/",
       twitter: "https://twitter.com/ifeoma__N",
