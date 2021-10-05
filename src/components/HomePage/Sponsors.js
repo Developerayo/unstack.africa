@@ -10,6 +10,7 @@ import google from "../../assets/img/speakers/google.webp"
 
 // import airmeet from "../../assets/img/airmeet.jpeg"
 import apollo from "../../assets/img/apollo.png"
+import frain from "../../assets/img/frain.png"
 // import guidetoreact from "../../assets/img/guidetoreact.png"
 // import slack from "../../assets/img/slack-logo.png"
 // import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
@@ -47,19 +48,19 @@ const sponsors = [
     height: "60px",
   },
   {
+    logo: frain,
+    logoAlt: "storyblok",
+    url: "https://frain.dev/",
+    width: "120px",
+    height: "60px",
+  },
+  {
     logo: google,
     logoAlt: "google",
     url: "https://google.com/",
     width: "220px",
     height: "75px",
   },
-  // {
-  //   logo: storyblok,
-  //   logoAlt: "storyblok",
-  //   url: "https://www.storyblok.com/",
-  //   width: "60px",
-  //   height: "60px",
-  // },
   // {
   //   logo: guidetoreact,
   //   logoAlt: "opinionatedreact",
