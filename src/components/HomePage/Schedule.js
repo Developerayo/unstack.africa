@@ -359,8 +359,32 @@ const Schedule = () => {
                         </span>
                       </div>
 
+                      <div className="block-detail"> 
+                        <span className="time">2:35 - 2:55</span>
+                        <span className="topic">
+                        Introducing Convoy
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            CLOUD
+                          </h6>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/ifeoma__N"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Subomi Oluwalana
+                          </a>{" "}
+                        </span>
+                      </div>
+
                         <div className="block-detail">
-                        <span className="time">2:35 - 3:00</span>
+                        <span className="time">2:55 - 3:30</span>
                         <span className="topic">
                           The CaaS Model: Why Collaboration is a Win-Win For All
                         </span>
@@ -384,7 +408,7 @@ const Schedule = () => {
                       </div>
                       
                       <div className="block-detail">
-                        <span className="time">3:00 - 3:30</span>
+                        <span className="time">3:30 - 3:30</span>
                         <span className="topic">End & Pictures</span>
                       </div>
                     

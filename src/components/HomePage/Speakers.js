@@ -3,6 +3,7 @@ import React from "react"
 import kingdom from "../../assets/img/speakers/kingdom.jpeg"
 import mat from "../../assets/img/speakers/mat.jpeg"
 import ifeoma from "../../assets/img/speakers/ifeoma.jpeg"
+import su from "../../assets/img/speakers/su.JPG"
 
 const speakers = [
   {
@@ -119,7 +120,7 @@ const speakers = [
   },
   {
     name: "Jude Dike",
-    keynote: "Trading Engines",
+    keynote: "TRADING ENGINES",
     bio: "Founder, GetEquity",
     imageURL:
       "https://media-exp1.licdn.com/dms/image/C4D03AQFgK3zekdvudA/profile-displayphoto-shrink_800_800/0/1597915309550?e=1637193600&v=beta&t=qP2s3mC6NhiVKgPo0GitgjgHHtTQMKrBIQk_8fmc47s",
@@ -127,6 +128,18 @@ const speakers = [
       github: "https://github.com/dumebi",
       twitter: "https://twitter.com/bigbrutha_",
       linkedin: "https://www.linkedin.com/in/dikejudein/",
+    },
+  },
+  {
+    name: "Subomi Oluwalana",
+    keynote: "CLOUD",
+    bio: "Co-Founder, Frain Technologies",
+    imageURL:
+     su,
+    links: {
+      github: "https://github.com/Subomi",
+      twitter: "https://twitter.com/subomioluwalana",
+      linkedin: "https://www.linkedin.com/in/subomi-oluwalana-one/",
     },
   },
 
