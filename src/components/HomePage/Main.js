@@ -33,18 +33,18 @@ const Main = () => {
               <p className="uppercase my-4">
                 6<sup>th</sup> November 2021 - In-Person & Virtual
                 <br />
-                Venue: The Ikeja City Mall, Lagos, Nigeria{" "}
+                Venue: Silverbird Cinema, Ikeja City Mall, Lagos, Nigeria{" "}
               </p>
               <a
                 className="but scroll"
                 style={{
                   borderRadius: "5px",
                 }}
-                href="."
+                href="https://eventprime.co/e/unstack-africa-conference-2021"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Coming Soon
+                Register
               </a>
             </div>
           </div>
