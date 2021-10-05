@@ -108,7 +108,7 @@ const speakers = [
     keynote: "VUEJS",
     bio: "Frontend Engineer & Chapter Lead, VueVixensNG",
     imageURL:
-      "https://avatars.githubusercontent.com/u/31158530?v=4",
+      "https://pbs.twimg.com/profile_images/1440644833853337604/FqZYPqMp_400x400.jpg",
     links: {
       github: "https://github.com/",
       twitter: "https://twitter.com/ifeoma__N",

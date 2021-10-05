@@ -253,7 +253,7 @@ const Schedule = () => {
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Pricila Heller
+                            Priscila Heller
                           </a>{" "}
                         </span>
                       </div>
@@ -314,10 +314,10 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">1:35 - 2:05</span>
                         <span className="topic">
-                          TBD
+                          Bridging The The Backend Gap With Firebase
                         </span>
                         <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
-                            GRAPHQL
+                            FIREBASE
                           </h6>
                         <span className="speaker">
                           {" "}
