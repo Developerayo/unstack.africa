@@ -10,16 +10,15 @@ const Schedule = () => {
               <div className="row">
                 <div className="col-sm-12 mb-50 text-center">
                   <h1 className="title"> Schedule </h1><br />
-                  <h1 className="title">COMING SOON</h1>
-                  {/* <small>
+                  <small>
                     Please note: All session times are in West African Time
                     (WAT), GMT+1.
-                  </small> */}
+                  </small>
                 </div>
               </div>
             </div>
 
-            {/* <div className="container">
+            <div className="container">
               <div className="row">
                 <div className="col-sm-12">
                   <h3 className="sub-title-0  mb-25">
@@ -50,9 +49,9 @@ const Schedule = () => {
                         </g>
                       </svg>
                       <strong className="ml-3 ">Day 1</strong>{" "}
-                      <span>- 6th November 2020</span>
+                      <span>- 6th November 2021</span>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                       <svg
                         id="Layer_1"
                         enableBackground="new 0 0 512 512"
@@ -70,7 +69,7 @@ const Schedule = () => {
                       </svg>
                       <strong className="ml-3 ">Day 2</strong>{" "}
                       <span>- 7th November 2020</span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="col-sm-8 ">
@@ -88,17 +87,20 @@ const Schedule = () => {
                             &nbsp;&nbsp;&nbsp;&nbsp;{" "}
                             <path
                               d="m446 40h-46v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-224v-24c0-8.836-7.163-16-16-16s-16 7.164-16 16v24h-46c-36.393 0-66 29.607-66 66v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66v-340c0-36.393-29.607-66-66-66zm-380 32h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16v-16h46c18.748 0 34 15.252 34 34v38h-448v-38c0-18.748 15.252-34 34-34zm380 408h-380c-18.748 0-34-15.252-34-34v-270h448v270c0 18.748-15.252 34-34 34z"
-                              fill="#fff"
-                            />
+                              fill="#fff"/>
                           </g>
                         </svg>
                         <strong className="ml-3 ">Day 1</strong>{" "}
-                        <span>- 6th November 2020</span>
+                        <span>- 6th November 2021</span>
                       </div>
-                      <div className="block-detail">
-                        <span className="time">10:00 - 10:10</span>
-                        <span className="topic">Welcome to unStack Africa</span>
 
+
+                      <div className="block-detail">
+                        <span className="time">10:00 - 10:15</span>
+                        <span className="topic">Welcome to The unStack Africa Conference 3.0</span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            WELCOME 
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -114,9 +116,13 @@ const Schedule = () => {
                           </a>
                         </span>
                       </div>
+
                       <div className="block-detail">
-                        <span className="time">10:10 - 10:15</span>
+                        <span className="time">10:15 - 10:20</span>
                         <span className="topic">Commencement</span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            OVERVIEW
+                          </h6>
 
                         <span className="speaker">
                           {" "}
@@ -133,14 +139,39 @@ const Schedule = () => {
                           </a>
                         </span>
                       </div>
+
                       <div className="block-detail">
-                        <span className="time">10:15 - 10:35</span>
+                        <span className="time">10:20 - 10:45</span>
                         <span className="topic">
-                          Open Source Pillars & Tales{" "}
+                          How culture changes everything in Engineering Teams{" "}
                           <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             Keynote
                           </h6>
                         </span>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/matvelloso"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Mat Velloso
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                      <div className="block-detail">
+                        <span className="time">10:45 - 11:15</span>
+                        <span className="topic">
+                         Code Search with Laravel & SourceGraph
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            LARAVEL
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -152,145 +183,43 @@ const Schedule = () => {
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Prosper Otemuyiwa
+                            Prosper Otemyuywa
                           </a>{" "}
                         </span>
                       </div>
+
                       <div className="block-detail">
-                        <span className="time">10:35 - 11:10</span>
+                        <span className="time">11:15 - 11:45</span>
                         <span className="topic">
-                          Declarative Data Fetching in React with GraphQL
+                          The Mechanics of Trading Engines/Automated Markets.
                         </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            TRADING ENGINES
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
                             Speaker
                           </strong> :{" "}
                           <a
-                            href="https://twitter.com/Bolaji___"
+                            href="https://twitter.com/bigbrutha_"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "white", fontWeight: "bold" }}
                           >
-                            Bolaji Olajide
+                            Jude Dike
                           </a>{" "}
                         </span>
                       </div>
+
                       <div className="block-detail">
-                        <span className="time">11:10 - 11:45</span>
+                        <span className="time">11:45 - 12:15</span>
                         <span className="topic">
-                          Handle Media Uploads with NextJs & Cloudinary
+                          Strategies for Creating Reusable Components with VueJS
                         </span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/domitriusclark"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Domitrius Clark
-                          </a>{" "}
-                        </span>
-                      </div>
-
-                      <div className="block-detail">
-                        <span className="time">11:45 - 12:20</span>
-                        <span className="topic">
-                          A Practical Guide to Testing React Applications
-                        </span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/ph3bian"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Chukwurah Phebian
-                          </a>{" "}
-                        </span>
-                      </div>
-
-                      <div className="block-detail">
-                        <span className="time">12:20 - 12:55</span>
-                        <span className="topic">The Top 5 JS Lessons from Answering StackOverflow Questions</span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/sitapati"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Josh Wulf
-                          </a>{" "}
-                        </span>
-                      </div>
-
-                      <div className="block-detail">
-                        <span className="time">12:55 - 1:30</span>
-                        <span className="topic">
-                          State Machines and State Charts
-                        </span>
-
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/_ooade"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Ademola Adegbuyi
-                          </a>{" "}
-                        </span>
-                      </div>
-                      <div className="block-detail">
-                        <span className="time">1:30 - 1:50</span>
-                        <span className="topic">
-                          Global Accessibility: The Future is Open 
-                          <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
-                            Keynote
-                          </h6> 
-                        </span>
-                        <span className="speaker">
-                          {" "}
-                          <strong style={{ color: "grey" }}>
-                            Speaker
-                          </strong> :{" "}
-                          <a
-                            href="https://twitter.com/developerayo"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "white", fontWeight: "bold" }}
-                          >
-                            Shodipo Ayomide
-                          </a>{" "}
-                        </span>
-                      </div>
-
-                      <div className="block-detail">
-                        <span className="time">1:50 - 2:25</span>
-                        <span className="topic">
-                          Fast & Furious - Going headless with Nuxt.js
-                        </span>
-
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            VUEJS
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -308,11 +237,35 @@ const Schedule = () => {
                       </div>
 
                       <div className="block-detail">
-                        <span className="time">2:25 - 3:00</span>
-                        <span className="topic">
-                          Quality over quantity in open-source
+                        <span className="time">12:15 - 12:45</span>
+                        <span className="topic">Automating Workflows with GitHub Actions</span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            GITHUB ACTIONS
+                          </h6>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Priscila Heller
+                          </a>{" "}
                         </span>
+                      </div>
 
+                      <div className="block-detail">
+                        <span className="time">12:45 - 1:10</span>
+                        <span className="topic">
+                          Growing in Open Source
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            OPEN SOURCE
+                          </h6>
                         <span className="speaker">
                           {" "}
                           <strong style={{ color: "grey" }}>
@@ -328,13 +281,139 @@ const Schedule = () => {
                           </a>{" "}
                         </span>
                       </div>
+                      
                       <div className="block-detail">
-                        <span className="time">3:00</span>
-                        <span className="topic">End & Screenshots</span>
-                      </div>
-                    </li>
+                        <span className="time">1:10 - 1:20</span>
+                        <span className="topic">Networking & Coffee Break</span>
+                      </div> 
 
-                    <li>
+
+                      <div className="block-detail">
+                        <span className="time">1:20 - 1:35</span>
+                        <span className="topic">
+                          Sponsors Session 
+                        </span>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/AdoraNwodo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Adora Nwodo
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                      
+
+                      <div className="block-detail">
+                        <span className="time">1:35 - 2:05</span>
+                        <span className="topic">
+                          Bridging The The Backend Gap With Firebase
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            FIREBASE
+                          </h6>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/kingisaac95"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Kingdom Orjiewuru
+                          </a>{" "}
+                        </span>
+                        </div>
+
+                      <div className="block-detail"> 
+                        <span className="time">2:05 - 2:35</span>
+                        <span className="topic">
+                          Making HTTP Calls in a Vue App Using Axios
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            VUEJS
+                          </h6>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/ifeoma__N"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Ifeoma Nwosu
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                      <div className="block-detail"> 
+                        <span className="time">2:35 - 2:55</span>
+                        <span className="topic">
+                        Introducing Convoy: A Fast and Secure Webhooks Service
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            CLOUD
+                          </h6>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/ifeoma__N"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Subomi Oluwalana
+                          </a>{" "}
+                        </span>
+                      </div>
+
+                        <div className="block-detail">
+                        <span className="time">2:55 - 3:30</span>
+                        <span className="topic">
+                          The CaaS Model: Why Collaboration is a Win-Win For All
+                        </span>
+                        <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
+                            Keynote
+                          </h6>
+                        <span className="speaker">
+                          {" "}
+                          <strong style={{ color: "grey" }}>
+                            Speaker
+                          </strong> :{" "}
+                          <a
+                            href="https://twitter.com/aniediudo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", fontWeight: "bold" }}
+                          >
+                            Aniedi Udo-Obong
+                          </a>{" "}
+                        </span>
+                      </div>
+                      
+                      <div className="block-detail">
+                        <span className="time">3:30 - 3:30</span>
+                        <span className="topic">End & Pictures</span>
+                      </div>
+                    
+
+                    {/* <li>
                       <div className="block-date">
                         <svg
                           id="Layer_1"
@@ -586,12 +665,12 @@ const Schedule = () => {
                       <div className="block-detail">
                         <span className="time">4:00</span>
                         <span className="topic">End & Screenshots</span>
-                      </div>
-                    </li>
-                  </ul>
+                      </div> */}
+                    </li> 
+                  </ul> 
                 </div>
-              </div>
-            </div> */}
+              </div> 
+            </div>
           </section>
         </div>
       </div>

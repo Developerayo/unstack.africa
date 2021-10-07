@@ -1,62 +1,150 @@
 import React from "react"
 // import shodipoayomide from "../../assets/img/speakers/shodipoayomide.JPG"
+import kingdom from "../../assets/img/speakers/kingdom.jpeg"
+import mat from "../../assets/img/speakers/mat.jpeg"
+import ifeoma from "../../assets/img/speakers/ifeoma.jpeg"
+import su from "../../assets/img/speakers/su.JPG"
+import pric from "../../assets/img/speakers/pric.jpg"
 
-// const speaker = [
-//   {
-//     name: "Amanda Casari",
-//     bio: "Engineering Manager OSS at Google",
-//     imageURL:
-//       "https://avatars.sched.co/5/f0/10589798/avatar.jpg?f98",
-//     links: {
-//       github: "https://github.com/amcasari",
-//       twitter: "https://twitter.com/amcasari",
-//       linkedin: "https://www.linkedin.com/in/amcasari",
-//     },
-//   },
-//   {
-//     name: "Aniedi Udo-Obong",
-//     bio: "Program Manager, Google",
-//     imageURL:
-//       "https://devfest-dakar.web.app/images/speakers/aniedi.jpg",
-//     links: {
-//       github: "https://github.com/aniediudo",
-//       twitter: "https://twitter.com/aniediudo",
-//       linkedin: "https://ng.linkedin.com/in/aniediudo",
-//     },
-//   },
-//   // {
-//   //   name: "Danny Thompson",
-//   //   bio: "Software Engineer & Podcast host for `Commit your code!",
-//   //   imageURL:
-//   //     "https://res.cloudinary.com/practicaldev/image/fetch/s--gNcEFf3v--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/359729/d5de48f7-efc3-4f1c-8566-4d946fc3724d.jpg",
-//   //   links: {
-//   //     github: "https://github.com/dannythompson901",
-//   //     twitter: "https://twitter.com/@DThompsonDev",
-//   //     linkedin: "https://www.linkedin.com/in/dannythompson901",
-//   //   },
-//   // },
-//   {
-//     name: "Prosper Otemuyiwa",
-//     bio: "Co-Founder & CTO, Eden Life",
-//     imageURL:
-//       "https://upload.wikimedia.org/wikipedia/commons/b/bf/Prosper_Otemuyiwa_portrait.jpg",
-//     links: {
-//       github: "https://github.com/unicodeveloper",
-//       twitter: "https://twitter.com/unicodeveloper",
-//       linkedin: "https://ng.linkedin.com/in/prosperotemuyiwa",
-//     },
-//   },
-//   {
-//     name: "Nader Dabit",
-//     bio: "Senior Developer Advocate, Amazon AWS",
-//     imageURL:
-//       "https://www.schoolstatus.com/hubfs/Social_Media/nader.jpg",
-//     links: {
-//       github: "https://github.com/dabit3",
-//       twitter: "https://twitter.com/dabit3",
-//       linkedin: "https://www.linkedin.com/in/naderdabit",
-//     },
-//   },
+const speakers = [
+  {
+    name: "Mat Velloso", 
+    keynote: "KEYNOTE",
+    bio: "Technical Advisor to the CEO of Microsoft",
+    imageURL:
+      mat,
+    links: {
+      github: "https://github.com/matvelloso",
+      twitter: "https://twitter.com/matvelloso",
+      linkedin: "https://www.linkedin.com/in/matvelloso/",
+    },
+  },
+  {
+    name: "Aniedi Udo-Obong",
+    keynote: "KEYNOTE",
+    bio: "Program Manager, Google ",
+    imageURL:
+      "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/events/CALEB%20JOHNSON_86.jpg",
+    links: {
+      github: "https://github.com/aniediudo",
+      twitter: "https://twitter.com/aniediudo",
+      linkedin: "https://www.linkedin.com/in/aniediudo",
+    },
+  },
+  {
+    name: "Prosper Otemuyiwa",
+    keynote: "LARAVEL",
+    bio: "Co-Founder & CTO, Eden Life",
+    imageURL:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Prosper_Otemuyiwa_portrait.jpg",
+    links: {
+      github: "https://github.com/unicodeveloper",
+      twitter: "https://twitter.com/unicodeveloper",
+      linkedin: "https://ng.linkedin.com/in/prosperotemuyiwa",
+    },
+  },
+  {
+    name: "Adora Nwodo",
+    keynote: "AZURE",
+    bio: "Software Engineer, Microsoft",
+    imageURL:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress",
+    links: {
+      github: "https://github.com/AdoraNwodo",
+      twitter: "https://twitter.com/AdoraNwodo",
+      linkedin:
+        "https://www.linkedin.com/in/adoranwodo",
+    },
+  },
+  {
+    name: "Samuel Snopko",
+    keynote: "VUEJS",
+    bio: "Head of Developer Relations, Storyblok",
+    imageURL:
+      "https://serving.photos.photobox.com/12431602abd8e08d943c28fb77d6dec9696ef1acc75e28182808a1b59596fd9a077876b4.jpg",
+    links: {
+      github: "https://github.com/samuells",
+      twitter: "https://twitter.com/SamuelSnopko",
+      linkedin:
+        "https://inkedin.com/in/samuelsnopko",
+    },
+  },
+  {
+    name: "Samson Goddy",
+    keynote: "OPEN SOURCE",
+    bio: "Director of Community at SourceGraph",
+    imageURL:
+      "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
+    links: {
+      github: "https://github.com/samswag",
+      twitter: "https://twitter.com/Samson_Goddy",
+      linkedin:
+        "https://ng.linkedin.com/in/samsongoddy",
+    },
+  },
+  {
+    name: "Priscila Heller",
+    keynote: "GITHUB ACTIONS",
+    bio: "Senior Manager, Premium Support at GitHub",
+    imageURL:
+      pric,
+    links: {
+      github: "https://github.com",
+      twitter: "https://twitter.com/",
+      linkedin:
+        "https://www.linkedin.com/in/priscila-heller/",
+    },
+  },
+
+  {
+    name: "Kingdom Orjiewuru",
+    keynote: "GRAPHQL",
+    bio: "Co-Founder at unStack & Senior Software Engineer, Lounge HQ",
+    imageURL: kingdom,
+    links: {
+      github: "https://github.com/kingisaac95",
+      twitter: "https://twitter.com/kingisaac95",
+      linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
+    },
+  },
+  {
+    name: "Ifeoma Nwosu",
+    keynote: "VUEJS",
+    bio: "Frontend Engineer & Chapter Lead, VueVixensNG",
+    imageURL:
+      ifeoma,
+    links: {
+      github: "https://github.com/",
+      twitter: "https://twitter.com/ifeoma__N",
+      linkedin: "https://www.linkedin.com/in/",
+    },
+  },
+  {
+    name: "Jude Dike",
+    keynote: "TRADING ENGINES",
+    bio: "Founder, GetEquity",
+    imageURL:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQFgK3zekdvudA/profile-displayphoto-shrink_800_800/0/1597915309550?e=1637193600&v=beta&t=qP2s3mC6NhiVKgPo0GitgjgHHtTQMKrBIQk_8fmc47s",
+    links: {
+      github: "https://github.com/dumebi",
+      twitter: "https://twitter.com/bigbrutha_",
+      linkedin: "https://www.linkedin.com/in/dikejudein/",
+    },
+  },
+  {
+    name: "Subomi Oluwalana",
+    keynote: "CLOUD",
+    bio: "Co-Founder, Frain Technologies",
+    imageURL:
+     su,
+    links: {
+      github: "https://github.com/Subomi",
+      twitter: "https://twitter.com/subomioluwalana",
+      linkedin: "https://www.linkedin.com/in/subomi-oluwalana-one/",
+    },
+  },
+
+
 //   {
 //     name: "James Q. Quick",
 //     bio: "Senior Developer Advocacte, Auth0",
@@ -66,18 +154,6 @@ import React from "react"
 //       github: "https://github.com/jamesqquick",
 //       twitter: "https://twitter.com/jamesqquick",
 //       linkedin: "https://www.linkedin.com/in/jamesqquick",
-//     },
-//   },
-//   {
-//     name: "Adora Nwodo",
-//     bio: "Software Engineer, Microsoft",
-//     imageURL:
-//       "https://cdn.hashnode.com/res/hashnode/image/upload/v1573460393072/-F1dY-wHG.jpeg?auto=compress",
-//     links: {
-//       github: "https://github.com/AdoraNwodo",
-//       twitter: "https://twitter.com/AdoraNwodo",
-//       linkedin:
-//         "https://www.linkedin.com/in/adoranwodo",
 //     },
 //   },
 //   {
@@ -104,18 +180,6 @@ import React from "react"
 //     },
 //   },
 //   {
-//     name: "Samson Goddy",
-//     bio: "Co-Founder, Open Source Community Africa",
-//     imageURL:
-//       "https://github.com/images/modules/site/readme/samson-goddy/Samson%20Low%20Res%20Social%202.jpg",
-//     links: {
-//       github: "https://github.com/samswag",
-//       twitter: "https://twitter.com/Samson_Goddy",
-//       linkedin:
-//         "https://ng.linkedin.com/in/samsongoddy",
-//     },
-//   },
-//   {
 //     name: "Chukwurah Phebian",
 //     bio: "Senior Frontend Engineer, Okra",
 //     imageURL:
@@ -125,18 +189,6 @@ import React from "react"
 //       twitter: "https://twitter.com/ph3bian",
 //       linkedin:
 //         "https://www.linkedin.com/in/ph3bian/",
-//     },
-//   },
-//   {
-//     name: "Samuel Snopko",
-//     bio: "Head of Developer Relations, Storyblok",
-//     imageURL:
-//       "https://serving.photos.photobox.com/12431602abd8e08d943c28fb77d6dec9696ef1acc75e28182808a1b59596fd9a077876b4.jpg",
-//     links: {
-//       github: "https://github.com/samuells",
-//       twitter: "https://twitter.com/SamuelSnopko",
-//       linkedin:
-//         "https://at.linkedin.com/in/samuelsnopko",
 //     },
 //   },
 //   {
@@ -187,18 +239,18 @@ import React from "react"
 //         "https://www.linkedin.com/in/sitapati/",
 //     },
 //   },
-//   // {
-//   //   name: "Gant Laborde",
-//   //   bio: "Chief Technical Officer, Infinity Red",
-//   //   imageURL:
-//   //     "https://res.cloudinary.com/practicaldev/image/fetch/s--7946-bAJ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/99490/b1193958-26b5-4f03-a76d-fd1dfc0b400a.jpg",
-//   //   links: {
-//   //     github: "https://github.com/kmelve",
-//   //     twitter: "https://twitter.com/kmelve",
-//   //     linkedin:
-//   //       "https://www.linkedin.com/in/knutmelvaer/",
-//   //   },
-//   // },
+//   {
+//     name: "Gant Laborde",
+//     bio: "Chief Technical Officer, Infinity Red",
+//     imageURL:
+//       "https://res.cloudinary.com/practicaldev/image/fetch/s--7946-bAJ--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/99490/b1193958-26b5-4f03-a76d-fd1dfc0b400a.jpg",
+//     links: {
+//       github: "https://github.com/kmelve",
+//       twitter: "https://twitter.com/kmelve",
+//       linkedin:
+//         "https://www.linkedin.com/in/knutmelvaer/",
+//     },
+//   },
 //   {
 //     name: "Akintunde Sultan",
 //     bio: "DevRel, Grant For The Web",
@@ -222,17 +274,6 @@ import React from "react"
 //         "https://www.linkedin.com/in/oluwatomisinlalude/",
 //     },
 //   },
-//       {
-//       name: "Kingdom Orjiewuru",
-//       bio: "Software Engineer, Aula",
-//       imageURL:
-//         "https://avatars2.githubusercontent.com/u/26261917?s=400&u=6a307e226cd2aef7f38968644047a8e80e336a4f&v=4",
-//       links: {
-//         github: "https://github.com/kingisaac95",
-//         twitter: "https://twitter.com/kingisaac95",
-//         linkedin: "https://ng.linkedin.com/in/kingdomorjiewuru",
-//       },
-//     },
 //   {
 //   name: "Mark Chandler",
 //   bio: "User Experience Developer, VNDLY",
@@ -255,29 +296,19 @@ import React from "react"
 //         "https://www.linkedin.com/in/shodipo-ayomide/",
 //     },
 //   },
-//   // {
-//   //   name: "More Coming Soon",
-//   //   bio: "More Coming Soon",
-//   //   imageURL:
-//   //     "",
-//   //   links: {
-//   //     github: "https://github.com/developerayo",
-//   //     twitter: "https://twitter.com/developerayo",
-//   //     linkedin:
-//   //       "https://www.linkedin.com/in/domitriusanthony/",
-//   //   },
-//   // },
-//   //   {
-//   //     name: "Shodipo Ayomide",
-//   //     bio: "Founder, unStack Africa & Senior Developer Advocate",
-//   //     imageURL: shodipoayomide,
-//   //     links: {
-//   //       github: "https://github.com/developerayo",
-//   //       twitter: "https://twitter.com/developerayo",
-//   //       linkedin: "https://linkedin.com/in/shodipo-ayomide",
-//   //     },
-//   //   },
-// ]
+//   {
+//     name: "More Coming Soon",
+//     bio: "More Coming Soon",
+//     imageURL:
+//       "",
+//     links: {
+//       github: "https://github.com/developerayo",
+//       twitter: "https://twitter.com/developerayo",
+//       linkedin:
+//         "https://www.linkedin.com/in/domitriusanthony/",
+//     },
+//   },
+]
 
 const Speakers = () => {
   return (
@@ -286,13 +317,13 @@ const Speakers = () => {
         <div className="row">
           <div className="col-sm-12 mb-50 text-center">
             <h1 className="title">Speakers</h1><br />
-            <h1 className="title">COMING SOON</h1>
           </div>
         </div>
       </div>
-      {/* {speakers.map(({ name, imageURL, bio, links }) => {
+      {speakers.map(({ name, keynote, imageURL, bio, links }) => {
         return (
           <div className="col-sm-3 pd-0" key={name}>
+          <div className="" key={keynote}>
             <div className="block-speaker">
               <div className="block-img overlay soft">
                 <div className="background-img">
@@ -300,7 +331,8 @@ const Speakers = () => {
                 </div>
                 <div className="block-info-2 dark-outline">
                   <p>
-                    <strong>{name}</strong>
+                    <strong>{name}</strong>&nbsp;
+                    <strong><div style={{backgroundColor: "#E39205", width: "80px", paddingLeft: "7px", paddingRight: "7px", borderRadius: "3px", display: "inline"}}>{keynote}</div></strong>
                     <span>{bio}</span>
                   </p>
                   <ul className="block-social">
@@ -323,10 +355,11 @@ const Speakers = () => {
                   </ul>
                 </div>
               </div>
+              </div>
             </div>
           </div>
         )
-      })} */}
+      })}
     </section>
   )
 }

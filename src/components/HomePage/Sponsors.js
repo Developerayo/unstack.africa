@@ -1,15 +1,16 @@
 import React from "react"
 
 // import cloudinary from "../../assets/img/cloudinary_sponsor.png"
-// import github from "../../assets/img/github.png"
+import github from "../../assets/img/github.png"
 // import storyblok from "../../assets/img/story.jpg"
-import cloudinary from "../../assets/img/cloudinary.png"
+import cloudinary from "../../assets/img/cloudinary.svg"
 
 // import camunda from "../../assets/img/camunda.jpg"
-// import pluralsight from "../../assets/img/pluralsight.png"
+import google from "../../assets/img/speakers/google.webp"
 
 // import airmeet from "../../assets/img/airmeet.jpeg"
 import apollo from "../../assets/img/apollo.png"
+import frain from "../../assets/img/frain.png"
 // import guidetoreact from "../../assets/img/guidetoreact.png"
 // import slack from "../../assets/img/slack-logo.png"
 // import webdevforeveryone from "../../assets/img/webdevforeveryone.jpg"
@@ -33,19 +34,33 @@ const sponsors = [
     height: "60px",
   },
   {
+          logo: github,
+          logoAlt: "github",
+          url: "https://github.com/",
+          width: "165px",
+          height: "",
+  },
+  {
     logo: cloudinary,
     logoAlt: "cloudinary",
     url: "https://cloudinary.com/",
-    width: "200px",
-    height: "56px",
+    width: "220px",
+    height: "60px",
   },
-  // {
-  //   logo: storyblok,
-  //   logoAlt: "storyblok",
-  //   url: "https://www.storyblok.com/",
-  //   width: "60px",
-  //   height: "60px",
-  // },
+  {
+    logo: frain,
+    logoAlt: "storyblok",
+    url: "https://frain.dev/",
+    width: "120px",
+    height: "60px",
+  },
+  {
+    logo: google,
+    logoAlt: "google",
+    url: "https://google.com/",
+    width: "220px",
+    height: "75px",
+  },
   // {
   //   logo: guidetoreact,
   //   logoAlt: "opinionatedreact",
@@ -79,7 +94,7 @@ const sponsors = [
 //       width: "150px",
 //       // height: "80px",
 //     },
-//   ],
+//   ], 
 //   gold: [
 //     {
 //       logo: github,

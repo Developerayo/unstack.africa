@@ -69,11 +69,11 @@ const Header = (props) => (
                     borderRadius: "5px",
                     padding: "10px",
                   }}
-                  href="."
+                  href="https://eventprime.co/e/unstack-africa-conference-2021"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Coming soon
+                  Register
                 </a>
               </li>
             </ul>

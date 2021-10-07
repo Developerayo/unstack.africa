@@ -154,7 +154,7 @@ const EventDetails = () => {
 
               <p>
                 <strong>LOCATION</strong>
-                <span>The Ikeja City Mall, Lagos, Nigeria </span>
+                <span>Silverbird Cinema, Ikeja City Mall, Lagos, Nigeria </span>
               </p>
             </div>
           </div>
@@ -213,11 +213,11 @@ const EventDetails = () => {
                 style={{
                   borderRadius: "5px",
                 }}
-                href="."
+                href="https://eventprime.co/e/unstack-africa-conference-2021"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Coming Soon
+                Register
               </a>
             </div>
           </div>
