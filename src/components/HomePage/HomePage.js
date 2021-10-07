@@ -19,9 +19,9 @@ const HomePage = () => (
     <a href="#content" data-skip-content> Skip to content </a>
     <Main />
     <EventDetails />
-    <Speakers />
-    <Schedule />
-    <Sponsors />
+    {/* <Speakers /> */}
+    {/* <Schedule />
+    <Sponsors /> */}
     <Team />
     {/* <Supporters /> */}
     <Partners />
