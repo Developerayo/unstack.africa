@@ -238,7 +238,7 @@ const Schedule = () => {
 
                       <div className="block-detail">
                         <span className="time">12:15 - 12:45</span>
-                        <span className="topic">TBD</span>
+                        <span className="topic">Automating Workflows with GitHub Actions</span>
                         <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             GITHUB ACTIONS
                           </h6>
@@ -362,7 +362,7 @@ const Schedule = () => {
                       <div className="block-detail"> 
                         <span className="time">2:35 - 2:55</span>
                         <span className="topic">
-                        Introducing Convoy
+                        Introducing Convoy: A Fast and Secure Webhooks Service
                         </span>
                         <h6 style={{ color: "#E49205", fontWeight: "bold" }}>
                             CLOUD

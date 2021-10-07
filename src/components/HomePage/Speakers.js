@@ -4,6 +4,7 @@ import kingdom from "../../assets/img/speakers/kingdom.jpeg"
 import mat from "../../assets/img/speakers/mat.jpeg"
 import ifeoma from "../../assets/img/speakers/ifeoma.jpeg"
 import su from "../../assets/img/speakers/su.JPG"
+import pric from "../../assets/img/speakers/pric.jpg"
 
 const speakers = [
   {
@@ -86,7 +87,7 @@ const speakers = [
     keynote: "GITHUB ACTIONS",
     bio: "Senior Manager, Premium Support at GitHub",
     imageURL:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQEebuUcQnEsFQ/profile-displayphoto-shrink_800_800/0/1585346461026?e=1638403200&v=beta&t=SHJn7m879ogqnyV0KZRoUs1NbLZmXaC2DZOggjAMk8s",
+      pric,
     links: {
       github: "https://github.com",
       twitter: "https://twitter.com/",
