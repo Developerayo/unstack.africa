@@ -20,7 +20,7 @@ const HomePage = () => (
     <Main />
     <EventDetails />
     <Speakers />
-    <Schedule />
+    {/* <Schedule /> */}
     {/* <Sponsors /> */}
     <Team />
     {/* <Supporters /> */}
