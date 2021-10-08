@@ -5,7 +5,7 @@ import FAQ from "./FAQ"
 import Team from "./Team"
 import Main from "./Main"
 import Gallery from "./Gallery"
-// import Speakers from "./Speakers"
+import Speakers from "./Speakers"
 // import Schedule from "./Schedule"
 import Location from "./Location"
 import Partners from "./Partners"
@@ -19,9 +19,9 @@ const HomePage = () => (
     <a href="#content" data-skip-content> Skip to content </a>
     <Main />
     <EventDetails />
-    {/* <Speakers /> */}
-    {/* <Schedule />
-    <Sponsors /> */}
+    <Speakers />
+    {/* <Schedule /> */}
+    {/* <Sponsors /> */}
     <Team />
     {/* <Supporters /> */}
     <Partners />
