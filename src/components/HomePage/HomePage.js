@@ -6,7 +6,7 @@ import Team from "./Team"
 import Main from "./Main"
 import Gallery from "./Gallery"
 import Speakers from "./Speakers"
-// import Schedule from "./Schedule"
+import Schedule from "./Schedule"
 import Location from "./Location"
 import Partners from "./Partners"
 // import Sponsors from "./Sponsors"
@@ -20,7 +20,7 @@ const HomePage = () => (
     <Main />
     <EventDetails />
     <Speakers />
-    {/* <Schedule /> */}
+    <Schedule />
     {/* <Sponsors /> */}
     <Team />
     {/* <Supporters /> */}
